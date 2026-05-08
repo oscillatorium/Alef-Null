@@ -1,23 +1,8 @@
-#the mod name as displayed in-game
 displayName: "Alef-Null"
-
-#the internal name of your mod
 name: "Alef-Null"
-
-#your name
 author: "Кселирит"
-
-#the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
-
-#the mod description as seen in the mod dialog
+main: "alefnull.AlefNullMod"
 description: "я смогу сделать этот мод (возможно)"
-
-#the mod version
-version: 0.01
-
-#the minimum game build required to run this mod
-minGameVersion: 154
-
-#this is a java mod
+version: "0.01"
+minGameVersion: "154"
 java: true
