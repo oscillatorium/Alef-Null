@@ -1,9 +1,8 @@
 displayName: "Alef-Null"
 name: "Alef-Null"
 author: "Кселирит"
-main: "example.ExampleJavaMod"
-description: "я смогу сделать этот мод (возможно)"
+description: "Тест без Java"
 version: "0.01"
 minGameVersion: "154"
-java: true
+java: false
 repo: "oscillatorium/Alef-Null"
