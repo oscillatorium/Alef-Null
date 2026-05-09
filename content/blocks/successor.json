@@ -1,16 +1,23 @@
 {
   "type": "Drill",
   "name": "Сукцессор",
-  "description": "Добывает положительные единицы из руды",
   "size": 1,
   "rotate": true,
   "hasShadow": true,
   "tier": 1,
   "drillTime": 240,
   "itemCapacity": 10,
-  "requirements": [
-    "one/12"
-  ],
+  "requirements": ["one/12"],
   "category": "production",
-  "research": "one"
+  "research": "one",
+  "rotateSpeed": 2.5,
+  
+  "updateEffect": {
+    "type": "Fx",
+    "effect": "vapor",
+    "color": "44ff44",
+    "size": 3,
+    "x": 12,
+    "y": 0
+  }
 }
