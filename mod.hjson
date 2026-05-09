@@ -6,3 +6,4 @@ description: "я смогу сделать этот мод (возможно)"
 version: "0.01"
 minGameVersion: "154"
 java: true
+repo: "oscillatorium/Alef-Null"
