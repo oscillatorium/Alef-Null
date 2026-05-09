@@ -1,7 +1,7 @@
 displayName: "Alef-Null"
 name: "Alef-Null"
 author: "Кселирит"
-main: "alefnull.AlefNullMod"
+main: "example.ExampleJavaMod"
 description: "я смогу сделать этот мод (возможно)"
 version: "0.01"
 minGameVersion: "154"
