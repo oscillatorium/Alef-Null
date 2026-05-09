@@ -1,4 +1,4 @@
-name: Build Mod
+name: Build JSON Mod
 
 on:
   push:
@@ -13,5 +13,5 @@ jobs:
       - name: Upload mod
         uses: actions/upload-artifact@v4
         with:
-          name: Alef-Null-mod
+          name: Alef-Null
           path: ./
