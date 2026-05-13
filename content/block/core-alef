@@ -1,0 +1,18 @@
+{
+  "type": "CoreBlock",
+  "name": "Ядро: Аксиома",
+  "description": "Фундаментальная истина математической вселенной. Отправная точка любой теории чисел.",
+  "size": 3,
+  "health": 3000,
+  "armor": 5,
+  "itemCapacity": 1000,
+  "unitCapacity": 500,
+  "unitType": "unit-core-natural",
+  "outputsPower": true,
+  "powerProduction": 500.0,
+  "requirements": [
+    "one/500"
+  ],
+  "category": "effect",
+  "alwaysUnlocked": true
+}
