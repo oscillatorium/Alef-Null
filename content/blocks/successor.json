@@ -2,10 +2,11 @@
   "type": "Drill",
   "name": "Сукцессор",
   "description": "Добывает единицы из руды. Потребляет вычислительную мощность.",
+  "details": "Сукцессор — функция, возвращающая следующее число: S(n) = n + 1. Этот бур добывает положительные единицы из руды, работая на вычислительной мощности ядра. При работе излучает зелёное пламя — символ положительной энергии.",
   "size": 2,
   "health": 300,
   "tier": 1,
-  "drillTime": 6,
+  "drillTime": 60,
   "itemCapacity": 10,
   "hasPower": true,
   "consumes": {
@@ -18,25 +19,19 @@
   "research": "one",
   "hasShadow": true,
   "region": "successor",
-
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
-      {
-        "type": "DrawDefault"
-      },
+      {"type": "DrawDefault"},
       {
         "type": "DrawFlame",
         "flameRadius": 3.0,
         "flameRadiusIn": 1.5,
         "color": "44ff44",
-        "colorFrom": "ffff88",
-        "x": 0,
-        "y": 0
+        "colorFrom": "ffff88"
       }
     ]
   },
-
   "updateEffect": {
     "type": "Fx",
     "effect": "smelt",
@@ -45,7 +40,6 @@
     "x": 0,
     "y": 0
   },
-
   "drillEffect": {
     "type": "Fx",
     "effect": "spark",
