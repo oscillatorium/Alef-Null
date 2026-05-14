@@ -8,17 +8,19 @@
   "tier": 1,
   "drillTime": 60,
   "itemCapacity": 10,
-  
   "consumes": {
     "power": 0.166667
   },
-  
   "requirements": [
     "one/25"
   ],
   "category": "production",
-  "research": "one",
-  
+  "research": {
+    "parent": "one",
+    "requirements": [
+      "one/100"
+    ]
+  },
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -33,7 +35,6 @@
       }
     ]
   },
-  
   "updateEffect": "smelt",
   "updateEffectChance": 0.05,
   "drillEffect": "mine"
