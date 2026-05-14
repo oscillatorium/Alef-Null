@@ -1,12 +1,12 @@
 {
   "type": "Conveyor",
-  "name": "моно- конвейер",
-  "description": "Перевозит математические ресурсы.",
+  "name": "моно-конвейер",
+  "description": "Это конвейер (вот это поворот!). Перевезит ресурсы.",
   "health": 100,
   "speed": 0.04,
   "displayedSpeed": 8,
   "requirements": [
-    "one/2"
+    "one/1"
   ],
   "category": "distribution",
   "research": "one",
