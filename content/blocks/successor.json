@@ -8,42 +8,33 @@
   "tier": 1,
   "drillTime": 60,
   "itemCapacity": 10,
-  "hasPower": true,
+  
   "consumes": {
-    "power": 0.166
+    "power": 0.166667
   },
+  
   "requirements": [
     "one/25"
   ],
   "category": "production",
   "research": "one",
-  "hasShadow": true,
-  "region": "successor",
+  
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
-      {"type": "DrawDefault"},
       {
-        "type": "DrawFlame",
-        "flameRadius": 3.0,
-        "flameRadiusIn": 1.5,
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawCrucibleFlame",
         "color": "44ff44",
-        "colorFrom": "ffff88"
+        "alpha": 0.85,
+        "intensity": 1.2
       }
     ]
   },
-  "updateEffect": {
-    "type": "Fx",
-    "effect": "smelt",
-    "color": "44ff44",
-    "size": 3,
-    "x": 0,
-    "y": 0
-  },
-  "drillEffect": {
-    "type": "Fx",
-    "effect": "spark",
-    "color": "88ff88",
-    "size": 2
-  }
+  
+  "updateEffect": "smelt",
+  "updateEffectChance": 0.05,
+  "drillEffect": "mine"
 }
