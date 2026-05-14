@@ -8,6 +8,7 @@
   "tier": 1,
   "drillTime": 60,
   "itemCapacity": 10,
+  "hasPower": true,
   "consumes": {
     "power": 0.166667
   },
@@ -35,7 +36,7 @@
       }
     ]
   },
-  "updateEffect": "smelt",
+  "updateEffect": "vapor",
   "updateEffectChance": 0.05,
   "drillEffect": "mine"
 }
