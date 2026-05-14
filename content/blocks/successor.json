@@ -9,7 +9,7 @@
   "itemCapacity": 10,
   "hasPower": true,
   "consumes": {
-    "power": 10.0
+    "power": 0.166
   },
   "requirements": [
     "one/25"
