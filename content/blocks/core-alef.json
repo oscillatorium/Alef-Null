@@ -7,11 +7,10 @@
   "armor": 5,
   "itemCapacity": 1000,
   "unitCapacity": 500,
-  "unitType": "alpha",
   "outputsPower": true,
   "hasPower": true,
   "connectedPower": true,
-  "powerProduction": 8.333,
+  "powerProduction": 500.0,
   "requirements": [
     "one/500"
   ],
