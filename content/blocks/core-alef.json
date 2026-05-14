@@ -12,7 +12,7 @@
   "hasPower": true,
   "connectedPower": true,
   "consumesPower": true,
-  "powerProduction": 1000.0,
+  "powerProduction": 8.333,
   "requirements": [
     "one/500"
   ],
