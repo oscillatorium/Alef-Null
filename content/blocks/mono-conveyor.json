@@ -1,14 +1,17 @@
 {
   "type": "Conveyor",
-  "name": "моно-конвейер",
-  "description": "Это конвейер (вот это поворот!). Перевезит ресурсы.",
+  "name": "Моно-конвейер",
+  "description": "Это конвейер (вот это поворот!). Перевозит ресурсы.",
   "health": 100,
-  "speed": 0.04,
-  "displayedSpeed": 8,
+  "speed": 0.053,
   "requirements": [
     "one/1"
   ],
   "category": "distribution",
-  "research": "one",
-  "hasShadow": true
+  "research": {
+    "parent": "one",
+    "requirements": [
+      "one/50"
+    ]
+  }
 }
