@@ -17,7 +17,8 @@
   "category": "production",
   "research": "one",
   "hasShadow": true,
-  
+  "region": "successor",
+
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -30,13 +31,12 @@
         "flameRadiusIn": 1.5,
         "color": "44ff44",
         "colorFrom": "ffff88",
-        "suffix": "-flame",
         "x": 0,
         "y": 0
       }
     ]
   },
-  
+
   "updateEffect": {
     "type": "Fx",
     "effect": "smelt",
@@ -45,7 +45,7 @@
     "x": 0,
     "y": 0
   },
-  
+
   "drillEffect": {
     "type": "Fx",
     "effect": "spark",
