@@ -18,3 +18,10 @@ requirements: [
 
 category: effect
 alwaysUnlocked: true
+
+research: {
+  parent: core-shard
+  requirements: [
+    one/1000
+  ]
+}
