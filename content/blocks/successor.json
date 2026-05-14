@@ -5,7 +5,7 @@
   "size": 2,
   "health": 300,
   "tier": 1,
-  "drillTime": 60,
+  "drillTime": 6,
   "itemCapacity": 10,
   "hasPower": true,
   "consumes": {
