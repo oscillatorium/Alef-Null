@@ -1,6 +1,6 @@
 {
   "type": "CoreBlock",
-  "name": "Ядро: Аксиома",
+  "name": "Ядро: «Аксиома»",
   "description": "Базовое ядро первого множества - натуральное N. Отправная точка любой теории чисел.",
   "size": 3,
   "health": 3000,
@@ -9,7 +9,10 @@
   "unitCapacity": 500,
   "unitType": "alpha",
   "outputsPower": true,
-  "powerProduction": 500.0,
+  "hasPower": true,
+  "connectedPower": true,
+  "consumesPower": true,
+  "powerProduction": 1000.0,
   "requirements": [
     "one/500"
   ],
