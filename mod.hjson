@@ -5,4 +5,5 @@ description: "Этот мод добавляет ни шиша,ни гроша, 
 version: 0.06
 minGameVersion: 146
 java: false
+hidden: true
 repo: "oscillatorium/Alef-Null"
