@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,7 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+        with:
+          ref: tapok
+
       - name: Create mod folder
         run: |
           mkdir Alef-Null
@@ -21,7 +24,7 @@ jobs:
       
       - name: Archive mod
         run: zip -r Alef-Null.zip Alef-Null
-      
+
       - name: Upload to release
         uses: softprops/action-gh-release@v2
         with:
