@@ -1,9 +1,9 @@
 displayName: "Alef-Null"
 name: "Alef-Null"
 author: "Кселирит"
-description: "Этот мод добавляет ни шиша,ни гроша, ни бомжа, так как находится в тестировании"
-version: 0.06
+description: "Этот мод добавляет ни шиша, ни гроша, ни бомжа, так как находится в тестировании"
+version: 0.07
 minGameVersion: 146
 java: false
-hidden: true
+hidden: false
 repo: "oscillatorium/Alef-Null"
