@@ -1,0 +1,30 @@
+{
+  "type": "Drill",
+  "name": "Сукцессор",
+  "description": "Добывает единицы из руды. Потребляет вычислительную мощность.",
+  "details": "Сукцессор — функция, возвращающая следующее число: S(n) = n + 1.",
+  "size": 2,
+  "health": 300,
+  "tier": 1,
+  "drillTime": 614,
+  "itemCapacity": 10,
+  "hasPower": true,
+  "consumes": {
+    "power": 0.166667
+  },
+  "requirements": [
+    "one/25"
+  ],
+  "category": "production",
+  "research": {
+    "parent": "one",
+    "requirements": [
+      "one/100"
+    ]
+  },
+  "region": "successor-base",
+  "rotatorRegion": "successor-rotator",
+  "topRegion": "successor-top",
+  "rotateSpeed": 2.0,
+  "drillEffect": "mine"
+}
