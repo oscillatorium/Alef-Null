@@ -1,8 +1,13 @@
 displayName: "Alef-Null"
 name: "Alef-Null"
 author: "Кселирит"
-description: "Этот мод добавляет ни шиша, ни гроша, ни бомжа, так как находится в тестировании"
-version: 0.07
+subtitle: "этот мод много должен, но на деле ни шиша"
+description: """
+Этот мод добавляет ни шиша, ни гроша, ни бомжа, так как находится в тестировании.
+
+[accent[]]Особая благодарность:[[]] chmonya (за пример мода и вдохновение)
+"""
+version: 0.09
 minGameVersion: 146
 java: false
 hidden: false
