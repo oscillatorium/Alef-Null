@@ -1,0 +1,30 @@
+{
+  "type": "Conveyor",
+  "name": "Моно-конвейер",
+  "description": "базовый конвейер.",
+  "health": 90,
+  "itemCapacity": 1,
+  "displayedSpeed": 5,
+  "speed": 0.03636,
+  "requirements": [
+    {
+      "item": "one",
+      "amount": 1
+    }
+  ],
+  "category": "distribution",
+  "research": "one",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "name": "mono-conveyor-top",
+        "rotate": true
+      }
+    ]
+  }
+}
