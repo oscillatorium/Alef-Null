@@ -2,13 +2,9 @@ displayName: "Alef-Null"
 name: "Alef-Null"
 author: "Кселирит"
 subtitle: "этот мод много должен, но на деле ни шиша"
-description: """
-Этот мод добавляет ни шиша, ни гроша, ни бомжа, так как находится в тестировании.
-
-[accent[]]Особая благодарность:[[]] chmonya (за пример мода и вдохновение)
-"""
+description: "тапок не тот, кто тапок, а тот, кто достоин быть тапком"
 version: 0.09
 minGameVersion: 146
 java: false
-hidden: true
+hidden: false
 repo: "oscillatorium/Alef-Null"
