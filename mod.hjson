@@ -3,7 +3,7 @@ name: "Alef-Null"
 author: "Кселирит"
 subtitle: "этот мод много должен, но на деле ни шиша"
 description: "тапок не тот, кто тапок, а тот, кто достоин быть тапком"
-version: 0.09
+version: 0.10
 minGameVersion: 146
 java: false
 hidden: false
