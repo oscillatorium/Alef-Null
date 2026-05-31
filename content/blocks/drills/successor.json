@@ -25,6 +25,6 @@
   "region": "successor-base",
   "rotatorRegion": "successor-rotator",
   "topRegion": "successor-top",
-  "rotateSpeed": 2.0,
+  "rotateSpeed": 1.0,
   "drillEffect": "mine"
 }
