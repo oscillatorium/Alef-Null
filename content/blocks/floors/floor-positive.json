@@ -3,7 +3,7 @@
   "name": "floor-positive",
   "displayName": "Положительный пол",
   "description": "Поверхность, пропитанная положительной энергией.",
-  "variants": 0,
+  "variants": 1,
   "isLiquid": false,
   "cacheLayer": "normal"
 }
