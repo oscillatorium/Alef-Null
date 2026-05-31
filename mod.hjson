@@ -10,5 +10,5 @@ description: """
 version: 0.09
 minGameVersion: 146
 java: false
-hidden: false
+hidden: true
 repo: "oscillatorium/Alef-Null"
