@@ -1,0 +1,8 @@
+{
+  "type": "Floor",
+  "name": "Положительный пол",
+  "description": "Поверхность, пропитанная положительной энергией.",
+  "variants": 0,
+  "isLiquid": false,
+  "cacheLayer": "normal"
+}
