@@ -1,0 +1,13 @@
+{
+  "type": "PowerNode",
+  "name": "Числовой узел",
+  "description": "Передаёт вычислительную мощность между блоками.",
+  "size": 1,
+  "maxNodes": 6,
+  "laserRange": 10,
+  "requirements": [
+    { "item": "one", "amount": 5 }
+  ],
+  "category": "power",
+  "research": "core-n"
+}
