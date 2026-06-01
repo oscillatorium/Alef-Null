@@ -1,9 +1,9 @@
 displayName: "Alef-Null"
 name: "Alef-Null"
 author: "Кселирит"
-subtitle: "этот мод много должен, но на деле ни шиша"
+subtitle: "Мод на добавление наук"
 description: "тапок не тот, кто тапок, а тот, кто достоин быть тапком"
-version: 0.10
+version: 0.11
 minGameVersion: 146
 java: false
 hidden: false
