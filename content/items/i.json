@@ -5,7 +5,7 @@
   "type": "material",
   "color": "00ffff",
   "flammability": 0,
-  "radioactivity": 0.5,
+  "radioactivity": 1.0,
   "explosiveness": 0,
   "cost": 1,
   "hardness": 0,
