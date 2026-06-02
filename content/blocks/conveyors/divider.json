@@ -1,0 +1,9 @@
+{
+  "type": "Router",
+  "name": "Делитель",
+  "description": "Делит один входной поток на три выходных.",
+  "details": "Живая легенда"
+  "requirements": [{ "item": "one", "amount": 3 }],
+  "category": "distribution",
+  "research": "one"
+}
