@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Ноль",
+  "description": "Математический вакуум.",
+  "details": "Ноль – полное отсутствие числа. Не умножать! Не делить на него!",
+  "color": "88888f",
+  "hardness": 0,
+  "cost": 1,
+  "flammability": 0,
+  "radioactivity": 0.2,
+  "explosiveness": 0
+}
