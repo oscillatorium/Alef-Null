@@ -1,3 +1,1 @@
-Events.on(ClientLoadEvent, () => {
-    print("Alef-Null: scripts loaded");
-});
+print("Alef-Null: script loaded");
