@@ -13,7 +13,7 @@
   "powerProduction": 8.333333,
   "outputLiquid": {
     "liquid": "null",
-    "amount": 5
+    "amount": 0.08333
   },
   "consumes": {
     "items": {
