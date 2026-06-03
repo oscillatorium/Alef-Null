@@ -2,7 +2,7 @@ displayName: "Alef-Null"
 name: "Alef-Null"
 author: "Кселирит"
 subtitle: "Мод на добавление наук"
-description: "тапок не тот, кто тапок, а тот, кто достоин быть тапком"
+description: "Этот мод должен добавлять планету с математикой в качестве блоков, но мод пока в тестировании\n[accent[]]special thanks to: chmonya (за пример мода и советы)[[]]"
 version: 0.11
 minGameVersion: 146
 java: false
