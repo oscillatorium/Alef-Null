@@ -1,5 +1,7 @@
 const CORE_NAME = "core-n";
-const POWER_PER_TICK = 500 / 60;
+const POWER_AMOUNT = 500;
+
+let generator = null;
 
 Events.on(ClientLoadEvent, () => {
     print("scripts activated");
@@ -10,7 +12,11 @@ Events.run(Trigger.update, () => {
     for (let i = 0; i < cores.size; i++) {
         let coreBuild = cores.get(i);
         if (coreBuild && coreBuild.block.name === CORE_NAME) {
-            coreBuild.items.add(Items.power, POWER_PER_TICK);
+            if (!generator) {
+                generator = new PowerGraph();
+            }
+            generator.add(POWER_AMOUNT / 60);
+            coreBuild.power.graph = generator;
         }
     }
 });
