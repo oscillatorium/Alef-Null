@@ -1,0 +1,32 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Генератор распада",
+  "description": "Расщепляет единицы на энергию. Выводит ноль в качестве побочного продукта.",
+  "size": 3,
+  "health": 800,
+  "itemCapacity": 20,
+  "hasPower": true,
+  "outputsPower": true,
+  "powerProduction": 8.333333,
+  "consumes": {
+    "items": {
+      "items": [
+        { "item": "one", "amount": 5 }
+      ]
+    }
+  },
+  "itemDuration": 60,
+  "outputItems": [
+    { "item": "zero", "amount": 5 }
+  ],
+  "requirements": [
+    { "item": "one", "amount": 500 }
+  ],
+  "category": "power",
+  "research": {
+    "parent": "core-n",
+    "requirements": [
+      { "item": "one", "amount": 200 }
+    ]
+  }
+}
