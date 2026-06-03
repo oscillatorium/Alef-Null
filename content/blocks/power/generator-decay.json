@@ -1,7 +1,7 @@
 {
-  "type": "ConsumeGenerator",
-  "name": "Генератор распада",
-  "description": "Расщепляет единицы на энергию. Выводит ноль в качестве побочного продукта.",
+  "type": "GenericCrafter",
+  "name": "Генератор распада материи",
+  "description": "Расщепляет единицы на энергию и ноль.",
   "size": 3,
   "health": 800,
   "itemCapacity": 20,
@@ -15,10 +15,10 @@
       ]
     }
   },
-  "itemDuration": 60,
   "outputItems": [
     { "item": "zero", "amount": 5 }
   ],
+  "craftTime": 60,
   "requirements": [
     { "item": "one", "amount": 500 }
   ],
@@ -26,7 +26,7 @@
   "research": {
     "parent": "core-n",
     "requirements": [
-      { "item": "one", "amount": 200 }
+      { "item": "one", "amount": 500 }
     ]
   }
 }
