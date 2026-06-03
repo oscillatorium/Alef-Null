@@ -1,7 +1,7 @@
 {
   "type": "ConsumeGenerator",
   "name": "Генератор распада материи",
-  "description": "Расщепляет единицы и энергию в жидкий ноль.",
+  "description": "Расщепляет единицы на энергию и жидкий ноль.",
   "size": 3,
   "health": 800,
   "itemCapacity": 20,
@@ -10,9 +10,9 @@
   "outputsPower": true,
   "hasLiquids": true,
   "outputsLiquid": true,
-  "powerProduction": 1.666667,
+  "powerProduction": 8.333333,
   "outputLiquid": {
-    "liquid": "zero-liquid",
+    "liquid": "null",
     "amount": 5
   },
   "consumes": {
@@ -20,8 +20,7 @@
       "items": [
         { "item": "one", "amount": 5 }
       ]
-    },
-    "power": 8.333333
+    }
   },
   "itemDuration": 60,
   "requirements": [
