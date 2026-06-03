@@ -1,0 +1,15 @@
+{
+  "type": "Liquid",
+  "name": "нуль",
+  "description": "Конденсированная пустота. Температура абсолютного нуля.",
+  "details": "Костыль для генератора распада, так как тип генератора не может производить предметы, а жидкости может.",
+  "color": "ffffff",
+  "barColor": "ffffff",
+  "gasColor": "ffffff",
+  "lightColor": "ffffff00",
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "heatCapacity": 0.1,
+  "viscosity": 0.2,
+  "temperature": 0.0
+}
