@@ -48,14 +48,4 @@ const GeneratorDecay = {
 
 };
 
-module.exports = GeneratorDecay;        if (this.tickers[id] < this.ticksPerItem) return;
-        this.tickers[id] = 0;
-
-        building.offload(this.zeroItem);
-      });
-    });
-  }
-
-};
-
 module.exports = GeneratorDecay;
