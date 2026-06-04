@@ -2,6 +2,7 @@
   "type": "duct",
   "name": "Моно-конвейер",
   "description": "Базовый конвейер из единицы",
+  "details": "моно (μόνος) – слово из Древнегреческого языка, которое переводится как «один», «единственный». Широко используется в химии, математике и других науках",
   "size": 1,
   "health": 90,
   "speed": 12,
@@ -9,5 +10,10 @@
     {"item": "one", "amount": 1}
   ],
   "category": "distribution",
-  "research": "one"
+  "research": {
+    "parent": "one",
+    "requirements": [
+      {"item": "one", "amount": 10}
+    ]
+  }
 }
