@@ -1,13 +1,13 @@
 {
   "type": "ConsumeGenerator",
   "name": "Генератор распада",
-  "description": "Расщепляет единицы на энергию.\n[coral]Побочный продукт:[] 5x [orange]Ноль[] в секунду.",
+  "description": "Расщепляет единицы на энергию.\n\nПобочный продукт: 5x Ноль в секунду.",
   "size": 3,
   "health": 100,
   "itemCapacity": 20,
   "hasPower": true,
   "outputsPower": true,
-  "powerProduction": 8.333333334,
+  "powerProduction": 8.333334,
   "consumes": {
     "items": {
       "items": [
