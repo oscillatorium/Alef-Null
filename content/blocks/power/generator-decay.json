@@ -3,7 +3,7 @@
   "name": "Генератор распада",
   "description": "Расщепляет единицы на энергию и жидкий ноль.",
   "size": 3,
-  "health": 800,
+  "health": 100,
   "itemCapacity": 20,
   "liquidCapacity": 60,
   "hasPower": true,
@@ -22,10 +22,15 @@
       ]
     }
   },
-  "itemDuration": 60,
+  "itemDuration": 50,
   "requirements": [
-    { "item": "one", "amount": 500 }
+    { "item": "one", "amount": 750 }
   ],
   "category": "power",
-  "research": "core-n"
+  "research": {
+    "parent": "core-n",
+    "requirements": [
+      { "item": "one", "amount": 100 }
+    ]
+  }
 }
