@@ -22,7 +22,6 @@ const GeneratorDecay = {
         const count = building.items.get(this.zeroItem);
         const capacity = building.block.itemCapacity;
 
-        //я умни, я научился выводить предметы
         const canDump = building.dump(this.zeroItem);
 
         if (count >= capacity && !canDump) {
@@ -33,8 +32,23 @@ const GeneratorDecay = {
 
         building.enabled = true;
 
+        if (building.efficiency <= 0) {
+          this.tickers[id] = 0;
+          return;
+        }
+
         this.tickers[id] = (this.tickers[id] || 0) + 1;
         if (this.tickers[id] < this.ticksPerItem) return;
+        this.tickers[id] = 0;
+
+        building.offload(this.zeroItem);
+      });
+    });
+  }
+
+};
+
+module.exports = GeneratorDecay;        if (this.tickers[id] < this.ticksPerItem) return;
         this.tickers[id] = 0;
 
         building.offload(this.zeroItem);
