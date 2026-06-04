@@ -1,0 +1,10 @@
+{
+  "type": "Junction",
+  "name": "Пересечение",
+  "description": "A ∩ B — зона общих элементов. Два потока предметов занимают одно пространство, оставаясь различными.",
+  "requirements": [
+    { "item": "one", "amount": 2 }
+  ],
+  "category": "distribution",
+  "research": "one"
+}
