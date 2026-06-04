@@ -15,7 +15,7 @@
       ]
     }
   },
-  "itemDuration": 50,
+  "itemDuration": 60,
   "requirements": [
     { "item": "one", "amount": 750 }
   ],
