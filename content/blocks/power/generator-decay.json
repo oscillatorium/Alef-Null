@@ -10,10 +10,10 @@
   "outputsPower": true,
   "hasLiquids": true,
   "outputsLiquid": true,
-  "powerProduction": 8.333333,
+  "powerProduction": 8.3333333333,
   "outputLiquid": {
     "liquid": "null",
-    "amount": 0.08333
+    "amount": 0.0833333333
   },
   "consumes": {
     "items": {
