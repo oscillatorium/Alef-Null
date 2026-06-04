@@ -1,7 +1,7 @@
 {
   "type": "ConsumeGenerator",
   "name": "Генератор распада",
-  "description": "Расщепляет единицы на энергию и жидкий ноль.",
+  "description": "Расщепляет единицы на энергию и жидкий ноль.\n[coral]Побочный продукт:[] 5x [orange]Ноль[].",
   "size": 3,
   "health": 100,
   "itemCapacity": 20,
