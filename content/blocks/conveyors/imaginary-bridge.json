@@ -1,0 +1,20 @@
+{
+  "type": "PhaseConveyor",
+  "name": "Мнимый мост",
+  "description": "Телепортирует предметы в мнимую плоскость и обратно на числовую прямую.",
+  "details": "Домножение на i отправляет предмет в иное измерение. Деление на i возвращает его в нужную точку.",
+  "size": 1,
+  "health": 80,
+  "requirements": [
+    { "item": "one", "amount": 5 },
+    { "item": "i", "amount": 10 }
+  ],
+  "category": "distribution",
+  "research": "one",
+  "range": 10,
+  "itemCapacity": 5,
+  "hasPower": true,
+  "consumes": {
+    "power": 0.083333
+  }
+}
