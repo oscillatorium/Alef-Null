@@ -2,8 +2,8 @@
   "type": "Router",
   "name": "Делитель",
   "description": "Делит один входной поток на три выходных.",
-  "details": "Живая легенда"
+  "details": "Деление — это арифметическое действие, обратное умножению. Оно показывает, на сколько равных частей нужно разделить целое."
   "requirements": [{ "item": "one", "amount": 3 }],
   "category": "distribution",
-  "research": "one"
+  "research": "mono-conveyor"
 }
