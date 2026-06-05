@@ -3,7 +3,9 @@
   "sector": 0,
   "name": "Субитизация",
   "description": "Способность мгновенно определять количество плейсхолдеров без счёта.",
+  "difficulty": 1,
   "generator": "subitization",
+  "captureWave": 0,
   "alwaysUnlocked": true,
   "addStartingItems": true
 }
