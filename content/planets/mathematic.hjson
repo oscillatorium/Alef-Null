@@ -21,8 +21,4 @@
   drawOrbit: true
   bloom: false
   updateLighting: true
-  mesh: {
-    type: "SunMesh"
-    radius: 1.2
-  }
 }
