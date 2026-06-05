@@ -21,7 +21,7 @@
   ],
   "category": "power",
   "research": {
-    "parent": "core-n",
+    "parent": "math-node",
     "requirements": [
       { "item": "one", "amount": 100 }
     ]
