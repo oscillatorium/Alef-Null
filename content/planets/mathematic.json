@@ -1,10 +1,10 @@
 {
   "type": "Planet",
   "name": "mathematic",
-  "localizedName": "Алеф",
-  "description": "Планета, где числа обретают форму.",
+  "localizedName": "Математика",
+  "description": "Место, где числа обретают форму.",
   "parent": "sun",
-  "radius": 1.0,
+  "radius": 1.2,
   "generator": "none",
   "sectorSize": 1,
   "accessible": true,
@@ -13,10 +13,24 @@
   "allowLaunchToNumbered": false,
   "allowSectorInvasion": false,
   "allowWaveSimulation": false,
-  "hiddenItems": [
-    "copper", "lead", "coal", "titanium", "thorium",
-    "silicon", "plastanium", "phase-fabric", "surge-alloy",
-    "spore-pod", "blast-compound", "pyratite", "metaglass", "graphite",
-    "beryllium", "tungsten", "oxide", "carbide"
-  ]
+  "defaultCore": "core-n",
+  "itemWhitelist": [
+    "one",
+    "zero",
+    "anti-one",
+    "i"
+  ],
+  "iconColor": "44ff44",
+  "orbitRadius": 12,
+  "hasAtmosphere": true,
+  "atmosphereRadIn": 0.4,
+  "atmosphereRadOut": 1.1,
+  "atmosphereColor": "55ff55",
+  "drawOrbit": true,
+  "bloom": false,
+  "updateLighting": true,
+  "mesh": {
+    "type": "SunMesh",
+    "radius": 1.2
+  }
 }
