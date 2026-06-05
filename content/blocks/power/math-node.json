@@ -11,7 +11,7 @@
   ],
   "category": "power",
   "research": {
-    "parent": "generator-decay",
+    "parent": "successor",
     "requirements": [
       { "item": "one", "amount": 50 }
     ]
