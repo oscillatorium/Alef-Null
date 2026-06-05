@@ -2,7 +2,6 @@
   "name": "Отрицательная единица",
   "description": "Отрицательный математический ресурс",
   "details": "Является количеством моих I-Q при создании этого мода.",
-  "type": "material",
   "color": "ff0000",
   "flammability": 0,
   "radioactivity": 0.5,
