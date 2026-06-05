@@ -19,7 +19,7 @@
   "research": {
     "parent": "one",
     "requirements": [
-      "one/100"
+      "one/5"
     ]
   },
   "region": "successor-base",
