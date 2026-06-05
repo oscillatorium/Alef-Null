@@ -1,1 +1,9 @@
-
+{
+  "planet": "mathematic",
+  "sector": 0,
+  "name": "Субитизация",
+  "description": "Способность мгновенно определять количество плейсхолдеров без счёта.",
+  "generator": "subitization",
+  "alwaysUnlocked": true,
+  "addStartingItems": true
+}
