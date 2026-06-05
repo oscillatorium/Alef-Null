@@ -10,7 +10,7 @@
   "itemCapacity": 5,
   "hasPower": true,
   "consumes": {
-    "power": 0.166667
+    "power": 0.1666667
   },
   "requirements": [
     "one/25"
@@ -22,8 +22,8 @@
       "one/5"
     ]
   },
-  "region": "successor-base",
-  "rotatorRegion": "successor-rotator",
-  "topRegion": "successor-top",
+  "region": "drills/successor/successor-base",
+  "rotatorRegion": "drills/successor/successor-rotator",
+  "topRegion": "drills/successor/successor-top",
   "rotateSpeed": 1.0
 }
