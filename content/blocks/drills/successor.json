@@ -21,9 +21,5 @@
     "requirements": [
       "one/5"
     ]
-  },
-  "region": "drills/successor/successor-base",
-  "rotatorRegion": "drills/successor/successor-rotator",
-  "topRegion": "drills/successor/successor-top",
-  "rotateSpeed": 1.0
+  }
 }
