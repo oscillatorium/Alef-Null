@@ -1,7 +1,7 @@
 {
-  "planet": "alef-planet",
+  "planet": "mathematic",
   "sector": 0,
-  "name": "Долина Алеф",
-  "description": "Место, где рождаются числа.",
-  "generator": "start"
+  "name": "субитизация",
+  "description": "Место, где Плейсхолдер.",
+  "generator": "subitization"
 }
