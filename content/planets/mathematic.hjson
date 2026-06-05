@@ -1,0 +1,27 @@
+{
+  name: "mathematic"
+  localizedName: "Математика"
+  description: "Место, где числа обретают форму."
+  parent: "sun"
+  radius: 1.0
+  generator: "none"
+  sectorSize: 1
+  accessible: true
+  alwaysUnlocked: true
+  startSector: 0
+  allowLaunchToNumbered: false
+  allowSectorInvasion: false
+  defaultCore: "core-n"
+  iconColor: "44ff44"
+  orbitRadius: 12
+  hasAtmosphere: true
+  atmosphereRadIn: 0.4
+  atmosphereRadOut: 1.01
+  atmosphereColor: "80FFFF80"
+  drawOrbit: true
+  bloom: false
+  updateLighting: true
+  mesh: {
+    type: "SunMesh"
+    radius: 1.2
+  }
