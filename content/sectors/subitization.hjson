@@ -1,0 +1,22 @@
+{ 
+  "planet": "mathematic", 
+  "sector": 0, 
+  "difficulty": 1, 
+  "description": "First Sector", 
+  "alwaysUnlocked": true, 
+  "addStartingItems": true, 
+  "overrideLaunchDefaults":true, 
+  "noLighting":false, 
+  "startWaveTimeMultiplayer":1, 
+  "SectorComplete": false, 
+  research: { 
+parent: core-n 
+objectives: [ 
+    { 
+      type: SectorComplete 
+      preset: groundZero 
+    } 
+  ] 
+} 
+
+} 
