@@ -1,22 +1,15 @@
-{ 
-  "planet": "mathematic", 
-  "sector": 0, 
-  "difficulty": 1, 
-  "description": "First Sector", 
-  "alwaysUnlocked": true, 
-  "addStartingItems": true, 
-  "overrideLaunchDefaults":true, 
-  "noLighting": true, 
-  "startWaveTimeMultiplayer":1, 
-  "SectorComplete": false, 
-  research: { 
-parent: core-n 
-objectives: [ 
-    { 
-      type: SectorComplete 
-      preset: groundZero 
-    } 
-  ] 
-} 
-
-} 
+{
+  planet: "mathematic"
+  sector: 0
+  name: "Субитизация"
+  description: "Способность мгновенно определять количество плейсхолдеров без счёта."
+  difficulty: 1
+  captureWave: 0
+  alwaysUnlocked: true
+  addStartingItems: true
+  overrideLaunchDefaults: true
+  noLighting: true
+  research: {
+    parent: "core-n"
+  }
+}
