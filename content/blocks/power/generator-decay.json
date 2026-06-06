@@ -11,11 +11,11 @@
   "consumes": {
     "items": {
       "items": [
-        { "item": "one", "amount": 5 }
+        { "item": "one", "amount": 0.075 }
       ]
     }
   },
-  "itemDuration": 60,
+  "itemDuration": 1,
   "requirements": [
     { "item": "one", "amount": 750 }
   ],
