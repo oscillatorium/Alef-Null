@@ -1,6 +1,6 @@
 const GeneratorDecay = {
 
-  ticksPerItem: 12,
+  ticksPerItem: 120,
   tickers: {},
 
   init() {
