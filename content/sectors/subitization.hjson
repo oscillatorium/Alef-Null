@@ -6,7 +6,7 @@
   "alwaysUnlocked": true, 
   "addStartingItems": true, 
   "overrideLaunchDefaults":true, 
-  "noLighting":false, 
+  "noLighting": true, 
   "startWaveTimeMultiplayer":1, 
   "SectorComplete": false, 
   research: { 
