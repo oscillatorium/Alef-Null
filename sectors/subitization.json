@@ -5,7 +5,7 @@
   "description": "Способность мгновенно определять количество плейсхолдеров без счёта.",
   "difficulty": 1,
   "generator": "subitization",
-  "captureWave": 0,
+  "captureWave": 5,
   "alwaysUnlocked": true,
   "addStartingItems": true
 }
