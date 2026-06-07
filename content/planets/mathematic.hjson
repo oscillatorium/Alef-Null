@@ -21,4 +21,20 @@
   drawOrbit: true
   bloom: false
   updateLighting: true
+  mesh: {
+    type: "NoiseMesh"
+    seed: 86424
+    divisions: 5
+    radius: 1.0
+    color1: "44ff44"
+    color2: "ff4444"
+    colorOct: 4
+    colorPersistence: 0.5
+    colorScale: 0.5
+    colorThreshold: 0.5
+    octaves: 4
+    persistence: 1
+    scale: 0.75
+    mag: 1.2
+  }
 }
