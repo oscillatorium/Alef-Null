@@ -23,7 +23,6 @@
         "width": 4,
         "hitEffect": "hitLancer",
         "shootEffect": "shootBig",
-        "smokeEffect": "shootSmoke",
         "frontColor": "77ff77"
       },
       {
@@ -34,7 +33,6 @@
         "width": 4,
         "hitEffect": "hitLancer",
         "shootEffect": "shootBig",
-        "smokeEffect": "shootSmoke",
         "frontColor": "88ff88"
       },
       {
@@ -45,7 +43,6 @@
         "width": 4,
         "hitEffect": "hitLancer",
         "shootEffect": "shootBig",
-        "smokeEffect": "shootSmoke",
         "frontColor": "99ff99"
       },
       {
@@ -56,7 +53,6 @@
         "width": 4,
         "hitEffect": "hitLancer",
         "shootEffect": "shootBig",
-        "smokeEffect": "shootSmoke",
         "frontColor": "aaffaa"
       },
       {
@@ -67,7 +63,6 @@
         "width": 4,
         "hitEffect": "hitLancer",
         "shootEffect": "shootBig",
-        "smokeEffect": "shootSmoke",
         "frontColor": "bbffbb"
       },
       {
@@ -78,7 +73,6 @@
         "width": 4,
         "hitEffect": "hitLancer",
         "shootEffect": "shootBig",
-        "smokeEffect": "shootSmoke",
         "frontColor": "ccffcc"
       },
       {
@@ -89,7 +83,6 @@
         "width": 4,
         "hitEffect": "hitLancer",
         "shootEffect": "shootBig",
-        "smokeEffect": "shootSmoke",
         "frontColor": "ddffdd"
       },
       {
@@ -100,7 +93,6 @@
         "width": 4,
         "hitEffect": "hitLancer",
         "shootEffect": "shootBig",
-        "smokeEffect": "shootSmoke",
         "frontColor": "eeffee"
       },
       {
@@ -111,7 +103,6 @@
         "width": 4,
         "hitEffect": "hitLancer",
         "shootEffect": "shootBig",
-        "smokeEffect": "shootSmoke",
         "frontColor": "ffffff"
       }
     ]
