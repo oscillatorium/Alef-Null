@@ -1,31 +1,43 @@
-const TURRET_NAME = "exponential-progressor";
 const DAMAGE_SEQUENCE = [2, 4, 8, 16, 32, 64, 128, 256, 512];
 let shotIndex = 0;
 
-let turret = null;
-let oneItem = null;
+let originalFindAmmo = null;
 
 Events.on(ContentInitEvent, () => {
-    turret = Vars.content.getByName(ContentType.block, TURRET_NAME);
-    oneItem = Vars.content.getByName(ContentType.item, "one");
-    if (!turret || !oneItem) {
-        print("Turret or item not found");
+    let turret = Vars.content.getByName(ContentType.block, "exponential-progressor");
+    if (!turret) {
+        print("Турель не найдена");
         return;
     }
-});
-
-Events.on(Trigger.shoot, (unit, shoot, x, y, aimX, aimY) => {
-    if (!turret) return;
-    if (unit.type != turret) return;
     
-    let damage = DAMAGE_SEQUENCE[shotIndex % DAMAGE_SEQUENCE.length];
+    // тям тятя тям тям тям
+    originalFindAmmo = turret.findAmmo;
     
-    let bulletType = turret.ammoTypes.get(oneItem);
-    if (!bulletType) return;
+    // Переопределяем определение определения, которое определяет боеприпас
+    turret.findAmmo = function(build) {
+        let items = build.items;
+        if (items.total() == 0) {
+            this.ammoType = null;
+            this.ammoItem = null;
+            return;
+        }
+        
+        let item = Vars.content.getByName(ContentType.item, "one");
+        if (items.has(item)) {
+            let bulletType = Vars.content.getByName(ContentType.bullet, "basic-bullet");
+            let damage = DAMAGE_SEQUENCE[shotIndex % DAMAGE_SEQUENCE.length];
+            
+            // Создаём копию снаряда с нужным уровнем дибилизма
+            this.ammoType = bulletType.copy();
+            this.ammoType.damage = damage;
+            this.ammoItem = item;
+            shotIndex++;
+            return;
+        }
+        
+        this.ammoType = null;
+        this.ammoItem = null;
+    };
     
-    if (typeof bulletType.damage !== 'undefined') {
-        bulletType.damage = damage;
-    }
-    
-    shotIndex++;
+    print("Экспоненциальный прогрессор активирован");
 });
