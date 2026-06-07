@@ -5,7 +5,7 @@
   parent: "sun"
   radius: 1.0
   generator: "none"
-  sectorSize: 2
+  sectorSize: 0.5
   accessible: true
   alwaysUnlocked: true
   startSector: 0
@@ -15,9 +15,9 @@
   iconColor: "44ff44"
   orbitRadius: 12
   hasAtmosphere: true
-  atmosphereRadIn: 1.0
-  atmosphereRadOut: 1.01
-  atmosphereColor: "00FFFF08"
+  atmosphereRadIn: 1.1
+  atmosphereRadOut: 1.1
+  atmosphereColor: "00FFFF20"
   drawOrbit: true
   bloom: false
   updateLighting: true
