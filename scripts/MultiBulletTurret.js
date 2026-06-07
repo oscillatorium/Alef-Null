@@ -1,66 +1,37 @@
+const TURRET_NAME = "exponential-progressor";
+const DAMAGE_SEQUENCE = [2, 4, 8, 16, 32, 64, 128, 256, 512];
+let shotIndex = 0;
+
+let turret = null;
+
 Events.on(ContentInitEvent, () => {
-    let turret = Vars.content.getByName(ContentType.block, "exponential-progressor");
+    turret = Vars.content.getByName(ContentType.block, TURRET_NAME);
     if (!turret) {
-        print("exponential-progressor not found");
+        print("Turret not found: " + TURRET_NAME);
         return;
     }
     
-    let originalFindAmmo = turret.findAmmo;
+    let originalBullet = turret.ammoTypes.get(Vars.content.getByName(ContentType.item, "one"));
     
-    turret.findAmmo = function(build) {
-        let items = build.items;
-        let entries = turret.ammoTypes.entries();
-        let prevType = turret.ammoType;
-        let prevItem = turret.ammoItem;
-        
-        if (items.total() == 0) {
-            turret.ammoType = null;
-            turret.ammoItem = null;
-            return;
-        }
-        
-        let found = false;
-        let start = false;
-        let firstItem = null;
-        let firstType = null;
-        
-        for (let entry of entries) {
-            let item = entry.key;
-            let type = entry.value;
-            
-            if (!firstItem) {
-                firstItem = item;
-                firstType = type;
-            }
-            
-            if (start && items.has(item) && type != prevType) {
-                turret.ammoType = type;
-                turret.ammoItem = item;
-                found = true;
-                break;
-            }
-            
-            if (item == prevItem) {
-                start = true;
-            }
-        }
-        
-        if (!found && firstItem && items.has(firstItem)) {
-            turret.ammoType = firstType;
-            turret.ammoItem = firstItem;
-            found = true;
-        }
-        
-        if (!found) {
-            if (prevType && items.has(prevItem)) {
-                turret.ammoType = prevType;
-                turret.ammoItem = prevItem;
-            } else {
-                turret.ammoType = null;
-                turret.ammoItem = null;
-            }
-        }
-    };
+    turret.ammoTypes.put(Vars.content.getByName(ContentType.item, "one"), {
+        type: "BasicBulletType",
+        damage: 1,
+        speed: 6,
+        lifetime: 34,
+        hitEffect: Fx.hitLancer,
+        shootEffect: Fx.shootBig,
+        frontColor: Color.valueOf("77ff77")
+    });
+});
+
+Events.on(Trigger.shoot, (unit, shoot, x, y, aimX, aimY) => {
+    if (!turret) return;
+    if (unit.type != turret) return;
     
-    print("exponential-progressor modified");
+    let damage = DAMAGE_SEQUENCE[shotIndex % DAMAGE_SEQUENCE.length];
+    let bullet = unit.ammo;
+    
+    bullet.damage = damage;
+    
+    shotIndex++;
 });
