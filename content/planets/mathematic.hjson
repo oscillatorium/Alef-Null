@@ -26,8 +26,8 @@
     seed: 86424
     divisions: 5
     radius: 1.0
-    color1: "44ff44"
-    color2: "ff4444"
+    color1: "00ff00"
+    color2: "ff0000"
     colorOct: 4
     colorPersistence: 0.5
     colorScale: 0.5
