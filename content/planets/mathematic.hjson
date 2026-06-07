@@ -17,7 +17,7 @@
   hasAtmosphere: true
   atmosphereRadIn: 0.4
   atmosphereRadOut: 1.01
-  atmosphereColor: "80FFFF80"
+  atmosphereColor: "00FFFF10"
   drawOrbit: true
   bloom: false
   updateLighting: true
