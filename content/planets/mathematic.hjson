@@ -16,7 +16,7 @@
   orbitRadius: 12
   hasAtmosphere: true
   atmosphereRadIn: 1.1
-  atmosphereRadOut: 1.1
+  atmosphereRadOut: 1.2
   atmosphereColor: "00FFFF20"
   drawOrbit: true
   bloom: false
