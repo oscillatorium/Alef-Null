@@ -13,89 +13,20 @@
   "ammoUseMultiplier": 2,
   "ammoPerShot": 2,
   "itemCapacity": 10,
+  "shoot": {
+    "type": "ShootAlternate"
+  },
   "ammoTypes": {
     "one": [
-      {
-        "type": "BasicBulletType",
-        "damage": 2,
-        "speed": 6,
-        "lifetime": 60,
-        "hitEffect": "hitLancer",
-        "shootEffect": "shootBig",
-        "frontColor": "77ff77"
-      },
-      {
-        "type": "BasicBulletType",
-        "damage": 4,
-        "speed": 6,
-        "lifetime": 60,
-        "hitEffect": "hitLancer",
-        "shootEffect": "shootBig",
-        "frontColor": "88ff88"
-      },
-      {
-        "type": "BasicBulletType",
-        "damage": 8,
-        "speed": 6,
-        "lifetime": 60,
-        "hitEffect": "hitLancer",
-        "shootEffect": "shootBig",
-        "frontColor": "99ff99"
-      },
-      {
-        "type": "BasicBulletType",
-        "damage": 16,
-        "speed": 6,
-        "lifetime": 60,
-        "hitEffect": "hitLancer",
-        "shootEffect": "shootBig",
-        "frontColor": "aaffaa"
-      },
-      {
-        "type": "BasicBulletType",
-        "damage": 32,
-        "speed": 6,
-        "lifetime": 60,
-        "hitEffect": "hitLancer",
-        "shootEffect": "shootBig",
-        "frontColor": "bbffbb"
-      },
-      {
-        "type": "BasicBulletType",
-        "damage": 64,
-        "speed": 6,
-        "lifetime": 60,
-        "hitEffect": "hitLancer",
-        "shootEffect": "shootBig",
-        "frontColor": "ccffcc"
-      },
-      {
-        "type": "BasicBulletType",
-        "damage": 128,
-        "speed": 6,
-        "lifetime": 60,
-        "hitEffect": "hitLancer",
-        "shootEffect": "shootBig",
-        "frontColor": "ddffdd"
-      },
-      {
-        "type": "BasicBulletType",
-        "damage": 256,
-        "speed": 6,
-        "lifetime": 60,
-        "hitEffect": "hitLancer",
-        "shootEffect": "shootBig",
-        "frontColor": "eeffee"
-      },
-      {
-        "type": "BasicBulletType",
-        "damage": 512,
-        "speed": 6,
-        "lifetime": 60,
-        "hitEffect": "hitLancer",
-        "shootEffect": "shootBig",
-        "frontColor": "ffffff"
-      }
+      {"type": "BasicBulletType","damage": 2,"speed": 6,"lifetime": 60,"hitEffect": "hitLancer","shootEffect": "shootBig","frontColor": "77ff77"},
+      {"type": "BasicBulletType","damage": 4,"speed": 6,"lifetime": 60,"hitEffect": "hitLancer","shootEffect": "shootBig","frontColor": "88ff88"},
+      {"type": "BasicBulletType","damage": 8,"speed": 6,"lifetime": 60,"hitEffect": "hitLancer","shootEffect": "shootBig","frontColor": "99ff99"},
+      {"type": "BasicBulletType","damage": 16,"speed": 6,"lifetime": 60,"hitEffect": "hitLancer","shootEffect": "shootBig","frontColor": "aaffaa"},
+      {"type": "BasicBulletType","damage": 32,"speed": 6,"lifetime": 60,"hitEffect": "hitLancer","shootEffect": "shootBig","frontColor": "bbffbb"},
+      {"type": "BasicBulletType","damage": 64,"speed": 6,"lifetime": 60,"hitEffect": "hitLancer","shootEffect": "shootBig","frontColor": "ccffcc"},
+      {"type": "BasicBulletType","damage": 128,"speed": 6,"lifetime": 60,"hitEffect": "hitLancer","shootEffect": "shootBig","frontColor": "ddffdd"},
+      {"type": "BasicBulletType","damage": 256,"speed": 6,"lifetime": 60,"hitEffect": "hitLancer","shootEffect": "shootBig","frontColor": "eeffee"},
+      {"type": "BasicBulletType","damage": 512,"speed": 6,"lifetime": 60,"hitEffect": "hitLancer","shootEffect": "shootBig","frontColor": "ffffff"}
     ]
   },
   "requirements": [
