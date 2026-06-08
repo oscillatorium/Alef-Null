@@ -1,0 +1,22 @@
+{
+  "type": "ShieldedWall",
+  "name": "Математический щит",
+  "description": "Создаёт энергетический щит, поглощающий урон. Требует вычислительную мощность.",
+  "health": 1000,
+  "size": 2,
+  "shieldHealth": 500,
+  "shieldRegen": 1,
+  "cooldown": 1200,
+  "powerUse": 0.0833334,
+  "requirements": [
+    { "item": "one", "amount": 32 },
+    { "item": "zero", "amount": 8 }
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "exponential-progressor",
+    "requirements": [
+      { "item": "one", "amount": 150 }
+    ]
+  }
+}
