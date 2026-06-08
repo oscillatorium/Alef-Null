@@ -6,7 +6,7 @@
   "size": 3,
   "health": 800,
   "range": 200,
-  "reloadTime": 20,
+  "reloadTime": 42,
   "shootCone": 20,
   "targetAir": true,
   "targetGround": true,
