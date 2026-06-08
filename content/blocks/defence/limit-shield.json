@@ -1,11 +1,14 @@
 {
-  "type": "ShieldWall",
-  "name": "Математический щит",
-  "size": 2,
+  "type": "ShieldedWall",
+  "name": "Щит предела",
+  "description": "Защищает строения, создавая силовой щит. Проводит вычислительную мощность.",
+  "details": "Предел здоровья щита - 500",
   "health": 1000,
+  "size": 2,
   "shieldHealth": 500,
   "regenSpeed": 1,
   "breakCooldown": 1200,
+  "conductivePower": true,
   "consumes": {
     "power": 0.083333
   },
