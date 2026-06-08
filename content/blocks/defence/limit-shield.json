@@ -1,14 +1,14 @@
 {
   "type": "ShieldWall",
-  "name": "Щит предела",
-  "description": "Создаёт энергетический щит, стремящийся к максимальному значению.",
-  "details": "Щит восстанавливается с постоянной скоростью, стремясь к своему максимуму (500). Как функция, приближающаяся к пределу, но никогда не превышающая его.",
-  "health": 1000,
+  "name": "Математический щит",
   "size": 2,
+  "health": 1000,
   "shieldHealth": 500,
   "regenSpeed": 1,
   "breakCooldown": 1200,
-  "powerUse": 0.083333,
+  "consumes": {
+    "power": 0.083333
+  },
   "requirements": [
     { "item": "one", "amount": 32 },
     { "item": "zero", "amount": 8 }
@@ -17,7 +17,7 @@
   "research": {
     "parent": "exponential-progressor",
     "requirements": [
-      { "item": "one", "amount": 167 }
+      { "item": "one", "amount": 150 }
     ]
   }
 }
