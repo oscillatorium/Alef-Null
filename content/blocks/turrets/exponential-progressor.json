@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Экспоненциальный прогрессор",
-  "description": "Базовая турель на основе Σ. Каждый выстрел в 2 раза больше предыдущего.",
+  "description": "Базовая турель на основе экспоненциальной прогрессии двойки. Каждый выстрел в 2 раза больше предыдущего (ограничение в 512 урона).",
   "details": "2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 512",
   "size": 3,
   "health": 800,
@@ -13,10 +13,10 @@
   "itemCapacity": 10,
   "ammoTypes": {
     "one": {
-      "type": "BasicBulletType",
+      "type": "RailBulletType",
       "damage": 1,
-      "speed": 6,
-      "lifetime": 34,
+      "length": 160,
+      "width": 10,
       "hitEffect": "hitLancer",
       "shootEffect": "shootBig",
       "frontColor": "77ff77"
