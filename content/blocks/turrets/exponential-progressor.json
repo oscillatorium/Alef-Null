@@ -6,12 +6,10 @@
   "size": 3,
   "health": 800,
   "range": 200,
-  "reloadTime": 42,
+  "reload": 30,
   "shootCone": 20,
   "targetAir": true,
   "targetGround": true,
-  "ammoUseMultiplier": 2,
-  "ammoPerShot": 2,
   "itemCapacity": 10,
   "ammoTypes": {
     "one": {
