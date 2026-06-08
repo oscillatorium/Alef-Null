@@ -3,7 +3,7 @@ name: "Alef-Null"
 author: "Кселирит"
 subtitle: "Мод на добавление наук"
 description: "Этот мод должен добавлять планету с математикой в качестве блоков, но мод пока в тестировании\n[accent[]]special thanks to: chmonya (за пример мода и советы)[[]]"
-version: 1.00
+version: 1.01
 minGameVersion: 146
 java: false
 hidden: false
