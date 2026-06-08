@@ -3,9 +3,9 @@
   "name": "Щит предела",
   "description": "Защищает строения, создавая силовой щит. Проводит вычислительную мощность.",
   "details": "Предел здоровья щита - 500",
-  "health": 1000,
+  "health": 500,
   "size": 2,
-  "shieldHealth": 500,
+  "shieldHealth": 1000,
   "regenSpeed": 1,
   "breakCooldown": 1200,
   "conductivePower": true,
@@ -13,8 +13,7 @@
     "power": 0.083333
   },
   "requirements": [
-    { "item": "one", "amount": 32 },
-    { "item": "zero", "amount": 8 }
+    { "item": "one", "amount": 15 }
   ],
   "category": "defense",
   "research": {
