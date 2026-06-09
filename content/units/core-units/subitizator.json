@@ -1,17 +1,17 @@
 {
   "type": "flying",
   "name": "Субитизатор",
-  "description": "Рабочий юнит. Добывает ресурсы и лечит союзные постройки.",
+  "description": "Рабочий юнит. Добывает ресурсы и лечит союзные постройки самонаводящимися снарядами.",
   "flying": true,
   "speed": 2.4,
   "health": 250,
   "hitSize": 8,
   "armor": 0,
   "mineTier": 1,
-  "mineSpeed": 1.5,
-  "buildSpeed": 1.2,
+  "mineSpeed": 1.0,
+  "buildSpeed": 1.0,
   "itemCapacity": 20,
-  "rotateSpeed": 100,
+  "rotateSpeed": 20,
   "weapons": [
     {
       "type": "Weapon",
@@ -29,15 +29,16 @@
         "healAmount": 25,
         "healEffect": "heal",
         "hitEffect": "heal",
-        "collidesTiles": true,
-        "targetBuildings": true,
         "speed": 4,
         "lifetime": 60,
         "shootEffect": "shootHeal",
+        "collidesTeam": true,
+        "collides": true,
         "frontColor": "44ff44",
         "backColor": "44ff44",
-        "homingPower": 0.1,
-        "homingRange": 80
+        "homingPower": 0.15,
+        "homingRange": 90,
+        "homingDelay": 10
       }
     }
   ],
