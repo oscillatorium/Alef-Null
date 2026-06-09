@@ -2,13 +2,6 @@
 
 Математический мод для Mindustry. Добавляет единицы как ресурсы. Первый шаг к математике.
 
-## Что добавляет сейчас (v0.11)
-
-- Ресурс: Единица (1) - зелёная монетка (вообще ничего не делает)
-- ядро: аксиома - просто ядро, у которого нету юнита ядра
-- бур: сукцессор
-- перемещение: конвейер и маршрутизатор
-
 ## Синдром обозначения версий
 
 - 0.02-0.99: нет планеты
@@ -39,13 +32,6 @@
 # Alef-Null (en)
 
 A mathematical mod for Mindustry. Adds numbers as resources. The first step into mathematics.
-
-## Current content (v0.11)
-
-- Resource: Unit (1) — green coin (does absolutely nothing yet)
-- Core: Axiom — just a core with no core unit
-- Drill: Successor
-- Logistics: Conveyor and Router
 
 ## Version number syndrome
 
