@@ -1,4 +1,5 @@
 //большое спасибо Chmonya за код
+//паровозик сильнее
 const ExponentialProgressor = {
   pattern: [2, 4, 8, 16, 32, 64, 128, 256, 512],
   cooldownTicks: 120,
@@ -55,6 +56,9 @@ const ExponentialProgressor = {
         if (this.cooldowns[id] > 0) {
           building.enabled = false;
           this.cooldowns[id]--;
+          if (this.cooldowns[id] === 0) {
+            this.applyBulletStats(0);
+          }
           this.prevReload[id] = building.reloadCounter;
           return;
         }
@@ -74,6 +78,7 @@ const ExponentialProgressor = {
             this.cooldowns[id] = this.cooldownTicks;
           } else {
             this.indices[id] = next;
+            this.applyBulletStats(next);
           }
         }
 
