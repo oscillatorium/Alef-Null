@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "name": "Субитизатор",
-  "description": "Рабочий юнит ядра. Добывает ресурсы и чинит постройки.",
+  "description": "Рабочий юнит ядра. Добывает ресурсы и чинит постройки рядом.",
   "flying": true,
   "speed": 2.4,
   "health": 250,
@@ -11,23 +11,14 @@
   "mineSpeed": 1.5,
   "buildSpeed": 1.2,
   "itemCapacity": 20,
-  "weapons": [
+  "rotateSpeed": 100,
+  "abilities": [
     {
-      "type": "RepairBeamWeapon",
-      "mirror": false,
-      "x": 0,
-      "y": 0,
-      "repairSpeed": 30,
-      "length": 100,
-      "coat": 50,
-      "beamEffect": "greenBeam",
-      "colors": ["44ff44", "88ff88"],
-      "bullet": {
-        "type": "BasicBulletType",
-        "damage": 0,
-        "lifetime": 1,
-        "speed": 0.01
-      }
+      "type": "RepairFieldAbility",
+      "amount": 30,
+      "range": 60,
+      "color": "44ff44",
+      "reload": 60
     }
   ],
   "research": "core-n"
