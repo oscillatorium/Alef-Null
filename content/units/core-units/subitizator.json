@@ -16,6 +16,7 @@
       "type": "RepairFieldAbility",
       "amount": 30,
       "range": 60,
+      "reload": 60,
       "color": "44ff44"
     }
   ],
