@@ -2,7 +2,6 @@
   "type": "flying",
   "name": "Субитизатор",
   "description": "Рабочий юнит ядра. Добывает ресурсы и чинит постройки.",
-  "constructor": "@UnitEntity::create",
   "flying": true,
   "speed": 1.2,
   "health": 250,
