@@ -22,5 +22,15 @@
       "beamEffect": "greenBeam",
       "colors": ["44ff44", "88ff88"]
     }
-  ]
+  ],
+  "engineColor": "44ff44",
+  "engineColorInner": "88ff88",
+  "engines": [
+    {
+      "x": -3,
+      "y": 0,
+      "radius": 2
+    }
+  ],
+  "research": "core-n"
 }
