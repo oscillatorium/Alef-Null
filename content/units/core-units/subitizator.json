@@ -29,16 +29,15 @@
         "healPercent": 15,
         "healEffect": "heal",
         "hitEffect": "heal",
-        "speed": 5,
-        "lifetime": 60,
+        "speed": 2.5,
+        "lifetime": 80,
         "shootEffect": "shootHeal",
         "frontColor": "44ff44",
-        "backColor": "88ff88",
-        "homingPower": 0.2,
-        "homingRange": 80,
-        "homingDelay": 5,
-        "splashDamage": 0,
-        "splashDamageRadius": 0
+        "backColor": "44ff44",
+        "trailColor": "44ff44",
+        "homingPower": 0.15,
+        "homingRange": 90,
+        "homingDelay": 10
       }
     }
   ],
