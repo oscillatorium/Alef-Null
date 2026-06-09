@@ -1,6 +1,6 @@
 const GeneratorDecay = {
 
-  ticksPerItem: 120,
+  ticksPerItem: 60,
   tickers: {},
 
   init() {
@@ -13,7 +13,7 @@ const GeneratorDecay = {
 
   registerTick() {
     Events.run(Trigger.update, () => {
-      if (!Vars.state.isGame()) return;
+      if (!Vars.state.isGame() || Vars.state.isPaused()) return; //СѓР±РёСЂР°РµРј 100% Р·Р°РїР»Р°РЅРёСЂРѕРІР°РЅРЅСѓСЋ С„СѓРЅРєС†РёСЋ РІС‹РІ С‹
 
       Groups.build.each(building => {
         if (building.block !== this.generator) return;
