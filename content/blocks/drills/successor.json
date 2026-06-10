@@ -21,5 +21,6 @@
     "requirements": [
       "one/5"
     ]
-  }
+  },
+  "drillEffect": "none"
 }
