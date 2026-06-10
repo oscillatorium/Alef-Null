@@ -1,11 +1,9 @@
 {
-  "type": "StatusEffect",
   "name": "Положительная энергия",
-  "description": "Усиливает защиту и атаку юнитов.",
+  "description": "Усиливает союзников и восстанавливает здоровье.",
   "color": "44ff44",
-  "healthMultiplier": 1.333,
-  "armorMultiplier": 1.2,
-  "opposites": [
-    "negative-energy"
-  ]
+  "damage": -1.6666666667,
+  "healthMultiplier": 1.25,
+  "speedMultiplier": 1.2,
+  "opposites": ["negative-energy"]
 }
