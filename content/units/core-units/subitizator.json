@@ -62,15 +62,15 @@
       "autoTarget": false,
       "continuous": true,
       "rotate": false,
-      "reload": 30,
+      "reload": 1,
       "beamWidth": 0.8,
       "widthSinMag": 0.10,
-      "repairSpeed": 60,
+      "repairSpeed": 1,
       "fractionRepairSpeed": 0.04,
       "healColor": "44ff44",
       "laserColor": "44ff44",
       "bullet": {
-        "maxRange": 70
+        "maxRange": 64
       }
     }
   ],
