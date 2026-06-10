@@ -21,7 +21,7 @@
       "reload": 60,
       "affectEnemies": false,
       "affectAllies": true,
-      "effect": "positive-energy"
+      "effect": "none"
     }
   ],
   "weapons": [
