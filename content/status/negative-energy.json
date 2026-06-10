@@ -1,10 +1,9 @@
 {
   "type": "StatusEffect",
   "name": "Отрицательная энергия",
-  "description": "Ослабляет юнитов.",
+  "description": "Ослабляет защиту юнитов.",
   "color": "ff4444",
-  "regenMultiplier": 0.7,
-  "damageMultiplier": 0.7,
+  "healthMultiplier": 0.7,
   "armorMultiplier": 0.7,
   "opposites": [
     "positive-energy"
