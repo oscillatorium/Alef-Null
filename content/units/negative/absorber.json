@@ -1,0 +1,21 @@
+{
+  "type": "tank",
+  "name": "Абсорбер",
+  "description": "Наносит урон при столкновении и взрывается при смерти.",
+  "defaultController": "ai",
+  "flying": false,
+  "speed": 2.5,
+  "health": 250,
+  "hitSize": 7,
+  "armor": 0,
+  "collisionDamage": 1,
+  "deathExplosion": {
+    "type": "ExplosionBulletType",
+    "splashDamage": 300,
+    "splashDamageRadius": 24,
+    "status": "negative-energy",
+    "statusDuration": 180,
+    "frontColor": "ff4444"
+  },
+  "targetFlags": ["turret", "wall", "generator"]
+}
