@@ -26,7 +26,7 @@
     {
       "type": "Weapon",
       "mirror": false,
-      "x": 0,
+      "x": 6,
       "y": 0,
       "reload": 30,
       "targetGround": true,
