@@ -21,7 +21,6 @@
       "reload": 60,
       "affectEnemies": false,
       "affectAllies": true,
-      "effect": "greenBeam"
     }
   ],
   "weapons": [
