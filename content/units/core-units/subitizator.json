@@ -21,6 +21,24 @@
       "radius": 2.5
     }
   ],
+  "parts": [
+    {
+      "type": "ShapePart",
+      "progress": "warmup",
+      "weaponIndex": 1,
+      "sides": 5,
+      "color": "44ff44",
+      "hollow": true,
+      "layer": 110,
+      "radius": 0,
+      "radiusTo": 5.5,
+      "stroke": 0,
+      "strokeTo": 1.5,
+      "rotateSpeed": 1.5,
+      "x": 0,
+      "y": 5
+    }
+  ],
   "abilities": [
     {
       "type": "RepairFieldAbility",
@@ -33,31 +51,27 @@
   ],
   "weapons": [
     {
-      "type": "Weapon",
+      "type": "RepairBeamWeapon",
       "mirror": false,
       "x": 0,
       "y": 5,
-      "reload": 30,
-      "targetGround": true,
+      "shootY": 0,
+      "shootSound": "none",
       "targetBuildings": true,
-      "targetHealing": true,
-      "shootCone": 360,
+      "targetUnits": false,
+      "controllable": true,
+      "autoTarget": false,
       "continuous": true,
-      "aimChangeSpeed": 0.5,
+      "rotate": false,
+      "reload": 30,
+      "beamWidth": 0.8,
+      "widthSinMag": 0.10,
+      "repairSpeed": 60,
+      "fractionRepairSpeed": 0.04,
+      "healColor": "44ff44",
+      "laserColor": "44ff44",
       "bullet": {
-        "type": "PointLaserBulletType",
-        "damage": 0,
-        "healAmount": 25,
-        "healEffect": "heal",
-        "hitEffect": "heal",
-        "lifetime": 30,
-        "shootEffect": "shootHeal",
-        "frontColor": "44ff44",
-        "backColor": "44ff44",
-        "pierce": false,
-        "length": 90,
-        "width": 8,
-        "hitSize": 8
+        "maxRange": 70
       }
     }
   ],
