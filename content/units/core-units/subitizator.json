@@ -16,9 +16,9 @@
     {
       "type": "StatusFieldAbility",
       "status": "positive-energy",
-      "duration": 60,
-      "range": 80,
-      "reload": 60,
+      "duration": 360,
+      "range": 100,
+      "reload": 360,
       "affectEnemies": false,
       "affectAllies": true,
       "effect": "positive-energy"
