@@ -19,7 +19,6 @@
       "reload": 30,
       "range": 80,
       "healEffect": "heal",
-      "activeEffect": "heal",
       "parentizeEffects": true
     }
   ],
