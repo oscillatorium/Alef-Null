@@ -19,7 +19,7 @@
       "reload": 60,
       "range": 80,
       "healEffect": "heal",
-      "activeEffect": "greenBeam",
+      "activeEffect": "heal",
       "parentizeEffects": true
     }
   ],
