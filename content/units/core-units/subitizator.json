@@ -12,6 +12,15 @@
   "buildSpeed": 1.0,
   "itemCapacity": 20,
   "rotateSpeed": 20,
+  "engineColor": "44ff44",
+  "engineColorInner": "88ff88",
+  "engines": [
+    {
+      "x": 0,
+      "y": -4,
+      "radius": 2.5
+    }
+  ],
   "abilities": [
     {
       "type": "RepairFieldAbility",
@@ -26,8 +35,8 @@
     {
       "type": "Weapon",
       "mirror": false,
-      "x": 6,
-      "y": 0,
+      "x": 0,
+      "y": 6,
       "reload": 30,
       "targetGround": true,
       "targetBuildings": true,
