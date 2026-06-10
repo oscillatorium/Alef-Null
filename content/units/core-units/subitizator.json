@@ -24,7 +24,6 @@
   "parts": [
     {
       "type": "ShapePart",
-      "progress": "always",
       "weaponIndex": 0,
       "sides": 4,
       "color": "44ff44",
