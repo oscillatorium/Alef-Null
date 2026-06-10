@@ -17,5 +17,5 @@
     "statusDuration": 180,
     "frontColor": "ff4444"
   },
-  "targetFlags": ["turret", "wall", "generator"]
+  "targetFlags": ["turret", "generator"]
 }
