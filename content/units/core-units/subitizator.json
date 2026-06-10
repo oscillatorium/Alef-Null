@@ -25,7 +25,7 @@
     {
       "type": "ShapePart",
       "progress": "warmup",
-      "weaponIndex": 1,
+      "weaponIndex": 0,
       "sides": 5,
       "color": "44ff44",
       "hollow": true,
