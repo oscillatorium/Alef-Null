@@ -11,7 +11,7 @@
   "mineSpeed": 4.0,
   "buildSpeed": 1.0,
   "itemCapacity": 20,
-  "rotateSpeed": 20,
+  "rotateSpeed": 10,
   "engineColor": "44ff44",
   "engineColorInner": "ffffff",
   "engines": [
@@ -26,15 +26,15 @@
       "type": "ShapePart",
       "progress": "warmup",
       "weaponIndex": 0,
-      "sides": 6,
+      "sides": 3,
       "color": "44ff44",
       "hollow": true,
       "layer": 110,
       "radius": 0,
-      "radiusTo": 16,
+      "radiusTo": 14,
       "stroke": 0,
       "strokeTo": 1.5,
-      "rotateSpeed": 1.5,
+      "rotateSpeed": 0.0,
       "x": 0,
       "y": 0
     }
