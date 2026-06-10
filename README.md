@@ -6,6 +6,8 @@
 
 - 0.02-0.99: нет планеты
 - 1.00-1.99: есть планета
+- 2.00-2.99: и ещё планета
+- и так далее, пока идеи не закончатся 
 
 ## Важно
 
@@ -37,6 +39,8 @@ A mathematical mod for Mindustry. Adds numbers as resources. The first step into
 
 - 0.02–0.99: no planet
 - 1.00–1.99: planet included
+- 2.00-1.99: and one more
+- and so on until I run out of ideas
 
 ## Important
 
