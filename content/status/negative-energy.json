@@ -1,11 +1,8 @@
 {
-  "type": "StatusEffect",
   "name": "Отрицательная энергия",
-  "description": "Ослабляет защиту юнитов.",
+  "description": "Ослабляет врагов и наносит периодический урон.",
   "color": "ff4444",
-  "healthMultiplier": 0.769,
-  "armorMultiplier": 0.7,
-  "opposites": [
-    "positive-energy"
-  ]
+  "damage": 1.6666666667,
+  "healthMultiplier": 0.75,
+  "opposites": ["positive-energy"]
 }
