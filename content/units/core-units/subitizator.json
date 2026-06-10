@@ -42,22 +42,22 @@
       "targetBuildings": true,
       "targetHealing": true,
       "shootCone": 360,
+      "continuous": true,
+      "aimChangeSpeed": 0.5,
       "bullet": {
-        "type": "BasicBulletType",
+        "type": "PointLaserBulletType",
         "damage": 0,
         "healAmount": 25,
         "healEffect": "heal",
         "hitEffect": "heal",
-        "speed": 4,
-        "lifetime": 60,
+        "lifetime": 30,
         "shootEffect": "shootHeal",
-        "collidesTeam": true,
-        "collides": true,
         "frontColor": "44ff44",
         "backColor": "44ff44",
-        "homingPower": 0.15,
-        "homingRange": 90,
-        "homingDelay": 10
+        "pierce": false,
+        "length": 90,
+        "width": 8,
+        "hitSize": 8
       }
     }
   ],
