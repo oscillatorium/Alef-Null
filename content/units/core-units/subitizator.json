@@ -30,11 +30,11 @@
       "color": "44ff44",
       "hollow": true,
       "layer": 110,
-      "radius": 0,
+      "radius": 1,
       "radiusTo": 14,
       "stroke": 0,
       "strokeTo": 1.5,
-      "rotateSpeed": 0.0,
+      "rotateSpeed": 3.0,
       "x": 0,
       "y": 0
     }
