@@ -1,20 +1,22 @@
 {
   "type": "tank",
   "name": "Абсорбер",
-  "description": "Наносит урон при столкновении и взрывается при смерти.",
+  "description": "Взрывается при смерти, нанося урон врагам.",
   "flying": false,
-  "speed": 1.0,
+  "speed": 1.2,
   "health": 250,
-  "hitSize": 7,
-  "armor": 0,
-  "rotateSpeed": 7,
-  "collisionDamage": 1,
+  "hitSize": 8,
+  "armor": 3,
+  "rotateSpeed": 5,
   "deathBullet": {
     "type": "ExplosionBulletType",
+    "damage": 300,
     "splashDamage": 300,
     "splashDamageRadius": 24,
     "status": "negative-energy",
     "statusDuration": 180
   },
+  "deathExplosionEffect": "bigExplosion",
+  "deathSound": "explosion",
   "targetFlags": ["turret", "generator"]
 }
