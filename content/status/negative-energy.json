@@ -3,7 +3,7 @@
   "name": "Отрицательная энергия",
   "description": "Ослабляет защиту юнитов.",
   "color": "ff4444",
-  "healthMultiplier": 0.7,
+  "healthMultiplier": 0.769,
   "armorMultiplier": 0.7,
   "opposites": [
     "positive-energy"
