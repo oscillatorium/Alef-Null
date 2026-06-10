@@ -8,7 +8,7 @@
   "hitSize": 6,
   "armor": 0,
   "mineTier": 1,
-  "mineSpeed": 1.0,
+  "mineSpeed": 4.0,
   "buildSpeed": 1.0,
   "itemCapacity": 20,
   "rotateSpeed": 20,
