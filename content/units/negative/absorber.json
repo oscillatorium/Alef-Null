@@ -2,6 +2,7 @@
   "type": "crawler",
   "name": "Абсорбер",
   "description": "Взрывается при смерти, нанося урон врагам.",
+  "constructor": "UnitEntity::create",
   "flying": false,
   "speed": 1.5,
   "health": 250,
@@ -15,10 +16,10 @@
       "bullet": {
         "type": "ExplosionBulletType",
         "damage": 0,
-        "splashDamage": 200,
+        "splashDamage": 300,
         "splashDamageRadius": 24,
         "status": "negative-energy",
-        "statusDuration": 180
+        "statusDuration": 120
       }
     }
   ],
