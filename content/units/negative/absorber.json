@@ -7,16 +7,16 @@
   "speed": 1.2,
   "health": 250,
   "hitSize": 8,
-  "armor": 3,
+  "armor": 0,
   "rotateSpeed": 5,
-  "legCount": 6,
+  "legCount": 3,
   "legLength": 8,
-  "legSpeed": 0.23,
-  "legForwardScl": 0.56,
-  "legMoveSpace": 0.9,
+  "legSpeed": 0.2,
+  "legForwardScl": 0.5,
+  "legMoveSpace": 1.2,
   "legExtension": -2.5,
   "hovering": false,
-  "stepSound": "walkerStepTiny",
+  "stepSound": "none",
   "weapons": [
     {
       "shootOnDeath": true,
@@ -24,10 +24,10 @@
       "bullet": {
         "type": "ExplosionBulletType",
         "damage": 0,
-        "splashDamage": 300,
+        "splashDamage": 100,
         "splashDamageRadius": 24,
         "status": "negative-energy",
-        "statusDuration": 180
+        "statusDuration": 240
       }
     }
   ],
