@@ -15,7 +15,7 @@
   "legSpeed": 0.2,
   "legForwardScl": 0.5,
   "legMoveSpace": 1.2,
-  "legExtension": -2.5,
+  "legExtension": -0.5,
   "hovering": false,
   "stepSound": "none",
   "weapons": [
