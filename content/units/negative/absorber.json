@@ -9,11 +9,12 @@
   "hitSize": 8,
   "armor": 0,
   "rotateSpeed": 5,
-  "legCount": 3,
-  "legLength": 8,
+  "outlineColor": "490000",
+  "legCount": 5,
+  "legLength": 9,
   "legSpeed": 0.2,
   "legForwardScl": 0.5,
-  "legMoveSpace": 1.2,
+  "legMoveSpace": 1.8,
   "legExtension": -2.5,
   "hovering": false,
   "stepSound": "none",
@@ -24,10 +25,10 @@
       "bullet": {
         "type": "ExplosionBulletType",
         "damage": 0,
-        "splashDamage": 100,
+        "splashDamage": 50,
         "splashDamageRadius": 24,
         "status": "negative-energy",
-        "statusDuration": 240
+        "statusDuration": 120
       }
     }
   ],
