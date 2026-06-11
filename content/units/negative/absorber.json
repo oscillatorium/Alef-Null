@@ -1,22 +1,26 @@
 {
-  "type": "tank",
+  "type": "crawler",
   "name": "Абсорбер",
   "description": "Взрывается при смерти, нанося урон врагам.",
   "flying": false,
-  "speed": 1.2,
+  "speed": 1.5,
   "health": 250,
   "hitSize": 8,
-  "armor": 3,
+  "armor": 0,
   "rotateSpeed": 5,
-  "deathBullet": {
-    "type": "ExplosionBulletType",
-    "damage": 300,
-    "splashDamage": 300,
-    "splashDamageRadius": 24,
-    "status": "negative-energy",
-    "statusDuration": 180
-  },
-  "deathExplosionEffect": "bigExplosion",
-  "deathSound": "explosion",
+  "weapons": [
+    {
+      "shootOnDeath": true,
+      "shootCone": 360,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "damage": 0,
+        "splashDamage": 200,
+        "splashDamageRadius": 24,
+        "status": "negative-energy",
+        "statusDuration": 180
+      }
+    }
+  ],
   "targetFlags": ["turret", "generator"]
 }
