@@ -25,17 +25,32 @@
     {
       "type": "ShapePart",
       "weaponIndex": 0,
-      "sides": 4,
+      "sides": 3,
       "color": "00ff00",
       "hollow": true,
       "layer": 100,
-      "radius": 1,
-      "radiusTo": 18,
+      "radius": 0,
+      "radiusTo": 2,
       "stroke": 0,
-      "strokeTo": 2.0,
-      "rotateSpeed": 3.0,
-      "x": 0,
-      "y": 0
+      "strokeTo": 0.5,
+      "rotateSpeed": 2.0,
+      "x": 5,
+      "y": 6
+    },
+    {
+      "type": "ShapePart",
+      "weaponIndex": 1,
+      "sides": 3,
+      "color": "00ff00",
+      "hollow": true,
+      "layer": 100,
+      "radius": 0,
+      "radiusTo": 2,
+      "stroke": 0,
+      "strokeTo": 0.5,
+      "rotateSpeed": 2.0,
+      "x": -5,
+      "y": 6
     }
   ],
   "abilities": [
@@ -51,9 +66,9 @@
   "weapons": [
     {
       "type": "RepairBeamWeapon",
-      "mirror": true,
-      "x": 2,
-      "y": 5,
+      "mirror": false,
+      "x": 5,
+      "y": 6,
       "shootY": 0,
       "shootSound": "none",
       "targetBuildings": true,
@@ -65,8 +80,32 @@
       "reload": 30,
       "beamWidth": 0.8,
       "widthSinMag": 0.10,
-      "repairSpeed": 30,
-      "fractionRepairSpeed": 0.04,
+      "repairSpeed": 15,
+      "fractionRepairSpeed": 0.02,
+      "healColor": "44ff44",
+      "laserColor": "44ff44",
+      "bullet": {
+        "maxRange": 64
+      }
+    },
+    {
+      "type": "RepairBeamWeapon",
+      "mirror": false,
+      "x": -5,
+      "y": 6,
+      "shootY": 0,
+      "shootSound": "none",
+      "targetBuildings": true,
+      "targetUnits": false,
+      "controllable": true,
+      "autoTarget": false,
+      "continuous": true,
+      "rotate": false,
+      "reload": 30,
+      "beamWidth": 0.8,
+      "widthSinMag": 0.10,
+      "repairSpeed": 15,
+      "fractionRepairSpeed": 0.02,
       "healColor": "44ff44",
       "laserColor": "44ff44",
       "bullet": {
