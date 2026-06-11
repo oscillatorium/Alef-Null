@@ -2,12 +2,21 @@
   "type": "legs",
   "name": "Абсорбер",
   "description": "Взрывается при смерти, нанося урон врагам.",
+  "details": "бомбардило крокодило (не хамсин)",
   "flying": false,
-  "speed": 1.5,
+  "speed": 1.2,
   "health": 250,
   "hitSize": 8,
-  "armor": 0,
+  "armor": 3,
   "rotateSpeed": 5,
+  "legCount": 6,
+  "legLength": 8,
+  "legSpeed": 0.23,
+  "legForwardScl": 0.56,
+  "legMoveSpace": 0.9,
+  "legExtension": -2.5,
+  "hovering": false,
+  "stepSound": "walkerStepTiny",
   "weapons": [
     {
       "shootOnDeath": true,
@@ -18,7 +27,7 @@
         "splashDamage": 300,
         "splashDamageRadius": 24,
         "status": "negative-energy",
-        "statusDuration": 120
+        "statusDuration": 180
       }
     }
   ],
