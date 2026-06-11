@@ -14,7 +14,7 @@
   "legLength": 9,
   "legSpeed": 0.2,
   "legForwardScl": 0.5,
-  "legMoveSpace": 1.8,
+  "legMoveSpace": 1.4,
   "legExtension": -2.5,
   "hovering": false,
   "stepSound": "none",
