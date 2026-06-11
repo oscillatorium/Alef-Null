@@ -19,7 +19,7 @@
         "splashDamage": 300,
         "splashDamageRadius": 24,
         "status": "negative-energy",
-        "statusDuration": 120
+        "statusDuration": 180
       }
     }
   ],
