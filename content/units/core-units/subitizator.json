@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "name": "Субитизатор",
-  "description": "Рабочий юнит. Добывает ресурсы и автоматически чинит повреждённые постройки.",
+  "description": "Рабочий юнит. Добывает ресурсы, автоматически чинит повреждённые постройки и восстанавливает здоровье союзников рядом.",
   "flying": true,
   "speed": 3.0,
   "health": 250,
@@ -51,6 +51,16 @@
       "rotateSpeed": 2.0,
       "x": -7,
       "y": 6.5
+    }
+  ],
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "amount": 15,
+      "reload": 30,
+      "range": 80,
+      "healEffect": "heal",
+      "parentizeEffects": true
     }
   ],
   "weapons": [
