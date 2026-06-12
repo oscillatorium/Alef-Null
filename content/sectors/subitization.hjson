@@ -2,9 +2,9 @@
   planet: "mathematic"
   sector: 0
   name: "Субитизация"
-  description: "Способность мгновенно определять количество плейсхолдеров без счёта."
+  description: "Начало математического развития."
   difficulty: 1
-  captureWave: 2
+  captureWave: 10
   alwaysUnlocked: true
   addStartingItems: true
   overrideLaunchDefaults: true
