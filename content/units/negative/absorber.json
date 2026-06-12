@@ -27,7 +27,7 @@
         "type": "ExplosionBulletType",
         "damage": 0,
         "splashDamage": 50,
-        "splashDamageRadius": 24,
+        "splashDamageRadius": 40,
         "status": "negative-energy",
         "statusDuration": 120
       }
