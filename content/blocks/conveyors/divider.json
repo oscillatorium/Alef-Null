@@ -4,6 +4,7 @@
   "description": "Делит один входной поток на три выходных.",
   "details": "Деление — это арифметическое действие, обратное умножению. Оно показывает, на сколько равных частей нужно разделить целое.",
   "requirements": [{ "item": "one", "amount": 3 }],
+  "health": "30",
   "category": "distribution",
   "research": "mono-conveyor"
 }
