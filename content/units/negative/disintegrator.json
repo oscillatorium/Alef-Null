@@ -1,12 +1,12 @@
 {
   "type": "legs",
   "name": "Дезинтегратор",
-  "description": "Средний плейсхолдер. Излучает энергию плейсхолдеров на врагов, оснащён сдвоенными плейсхолдерами, стреляющими по очереди.",
+  "description": "Средний плейсхолдер. Оснащён сдвоенными плейсхолдерами, стреляющими по очереди.",
   "flying": false,
   "speed": 1.0,
-  "health": 800,
+  "health": 1000,
   "armor": 2,
-  "hitSize": 10,
+  "hitSize": 12,
   "rotateSpeed": 4,
   "outlineColor": "490000",
   "legCount": 6,
@@ -19,17 +19,6 @@
   "legExtension": -1,
   "hovering": false,
   "stepSound": "none",
-  "abilities": [
-    {
-      "type": "StatusFieldAbility",
-      "effect": "negative-energy",
-      "duration": 30,
-      "range": 60,
-      "reload": 90,
-      "affectEnemies": true,
-      "affectAllies": false
-    }
-  ],
   "weapons": [
     {
       "name": "лазерный дезинтегратор",
@@ -39,15 +28,15 @@
       "alternate": true,
       "rotate": true,
       "shootCone": 30,
-      "reload": 60,
+      "reload": 30,
       "shootSound": "laser",
       "bullet": {
         "type": "LaserBulletType",
         "damage": 30,
         "length": 120,
-        "width": 6,
+        "width": 10,
         "status": "negative-energy",
-        "statusDuration": 20,
+        "statusDuration": 15,
         "colors": ["ff4444", "ff8888", "ffcccc"]
       }
     }
