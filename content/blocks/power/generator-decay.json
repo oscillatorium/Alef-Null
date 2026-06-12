@@ -3,7 +3,7 @@
   "name": "Генератор распада",
   "description": "Расщепляет единицы на энергию.\n\nПобочный продукт: Ноль×1 в секунду.",
   "size": 3,
-  "health": 100,
+  "health": 800,
   "itemCapacity": 20,
   "hasPower": true,
   "outputsPower": true,
