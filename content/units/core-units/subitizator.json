@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "name": "Субитизатор",
-  "description": "Рабочий юнит. Добывает ресурсы и автоматически чинит повреждённые постройки.",
+  "description": "Рабочий юнит. Добывает ресурсы, автоматически лечит союзные постройки и восстанавливает здоровье союзников рядом.",
   "flying": true,
   "speed": 3.0,
   "health": 250,
@@ -27,12 +27,12 @@
       "weaponIndex": 0,
       "sides": 3,
       "color": "44ff44",
-      "hollow": true,
+      "hollow": false,
       "layer": 110,
       "radius": 0,
-      "radiusTo": 4,
+      "radiusTo": 7.0,
       "stroke": 0,
-      "strokeTo": 1.0,
+      "strokeTo": 1.5,
       "rotateSpeed": 2.0,
       "x": 7,
       "y": 6
@@ -42,15 +42,25 @@
       "weaponIndex": 0,
       "sides": 3,
       "color": "44ff44",
-      "hollow": true,
+      "hollow": false,
       "layer": 110,
       "radius": 0,
-      "radiusTo": 4,
+      "radiusTo": 7.0,
       "stroke": 0,
-      "strokeTo": 1.0,
+      "strokeTo": 1.5,
       "rotateSpeed": 2.0,
       "x": -7,
       "y": 6
+    }
+  ],
+  "abilities": [
+    {
+      "type": "RepairFieldAbility",
+      "amount": 15,
+      "reload": 30,
+      "range": 80,
+      "healEffect": "heal",
+      "parentizeEffects": true
     }
   ],
   "weapons": [
@@ -59,10 +69,11 @@
       "mirror": true,
       "x": 7,
       "y": 6,
+      "shootY": 0,
+      "shootSound": "none",
       "rotate": true,
       "shootCone": 360,
-      "shootSound": "none",
-      "controllable": false,
+      "controllable": true,
       "autoTarget": true,
       "targetBuildings": true,
       "targetUnits": false,
