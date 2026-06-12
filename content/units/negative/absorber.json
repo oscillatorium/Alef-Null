@@ -4,7 +4,7 @@
   "description": "Взрывается при смерти, нанося урон врагам.",
   "flying": false,
   "speed": 1.2,
-  "health": 250,
+  "health": 300,
   "hitSize": 8,
   "armor": 0,
   "rotateSpeed": 5,
@@ -26,7 +26,7 @@
       "bullet": {
         "type": "ExplosionBulletType",
         "damage": 0,
-        "splashDamage": 50,
+        "splashDamage": 300,
         "splashDamageRadius": 40,
         "status": "negative-energy",
         "statusDuration": 120
