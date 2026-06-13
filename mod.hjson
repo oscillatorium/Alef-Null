@@ -1,7 +1,7 @@
-displayName: "Alef-Null"
+displayName: "[[]#80ff80]Alef-Null[[]]"
 name: "Alef-Null"
 author: "Кселирит"
-subtitle: "[[]#00ff00]Мод на добавление наук[[]]"
+subtitle: "[[]#80ff80]Мод на добавление наук[[]]"
 description: "Этот мод должен добавлять планету с математикой в качестве блоков, но мод пока в тестировании\n[accent[]]Крутые вывы: chmonya (джава скрипт)[[]]"
 version: 1.02
 minGameVersion: 146
