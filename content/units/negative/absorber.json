@@ -12,7 +12,7 @@
   "legCount": 6,
   "legGroupSize": 3,
   "legPairOffset": 0.5,
-  "legLength": 8,
+  "legLength": 6,
   "legSpeed": 0.2,
   "legForwardScl": 0.5,
   "legMoveSpace": 1.2,
