@@ -33,10 +33,8 @@
       "bullet": {
         "type": "LaserBulletType",
         "damage": 25,
-        "length": 120,
-        "width": 25,
-        "pierce": true,
-        "pierceCap": 1,
+        "length": 80,
+        "width": 20,
         "status": "negative-energy",
         "statusDuration": 15,
         "colors": ["ff4444", "ff8888", "ffcccc"]
