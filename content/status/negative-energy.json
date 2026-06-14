@@ -3,6 +3,6 @@
   "description": "Ослабляет врагов и наносит периодический урон.",
   "color": "ff4444",
   "damage": 1.6666666667,
-  "healthMultiplier": 0.75,
+  "healthMultiplier": 0.9090909091,
   "opposites": ["positive-energy"]
 }
