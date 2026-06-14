@@ -5,7 +5,7 @@
   "flying": false,
   "speed": 1.2,
   "health": 300,
-  "hitSize": 8,
+  "hitSize": 5,
   "armor": 0,
   "rotateSpeed": 5,
   "outlineColor": "490000",
