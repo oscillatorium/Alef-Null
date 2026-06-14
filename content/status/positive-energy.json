@@ -3,7 +3,7 @@
   "description": "Усиливает союзников и восстанавливает здоровье.",
   "color": "44ff44",
   "damage": -1.6666666667,
-  "healthMultiplier": 1.25,
+  "healthMultiplier": 1.9090909091,
   "speedMultiplier": 1.2,
   "opposites": ["negative-energy"]
 }
