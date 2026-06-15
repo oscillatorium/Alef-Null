@@ -24,10 +24,10 @@
       "bullet": {
         "type": "ExplosionBulletType",
         "damage": 0,
-        "splashDamage": 300,
-        "splashDamageRadius": 40,
+        "splashDamage": 150,
+        "splashDamageRadius": 24,
         "status": "negative-energy",
-        "statusDuration": 120
+        "statusDuration": 150
       }
     }
   ],
