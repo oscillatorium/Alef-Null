@@ -23,7 +23,7 @@
 
 ## связь
 
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=blue)](https://discord.gg/99CxfHYtFh)
+[Это Дискорд](https://discord.gg/99CxfHYtFh) (I don't speak English)
 
 ## Автор
 
