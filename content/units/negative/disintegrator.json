@@ -35,7 +35,7 @@
         "length": 80,
         "width": 20,
         "status": "negative-energy",
-        "statusDuration": 15,
+        "statusDuration": 30,
         "colors": ["ff4444", "ff8888", "ffcccc"]
       }
     }
