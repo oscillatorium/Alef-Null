@@ -12,8 +12,8 @@
   "alwaysUnlocked": true,
   "research": {
     "root": true,
-    "planet": "mathematic",
-    "name": "Граф Исследования Математики",
+    "planet": "arithmetic",
+    "name": "Граф Исследования Арифметики",
     "icon": "core-n"
   }
 }
