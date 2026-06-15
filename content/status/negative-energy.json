@@ -1,6 +1,4 @@
 {
-  "name": "Отрицательная энергия",
-  "description": "Наносит урон.",
   "color": "ff4444",
   "damage": 2,
   "opposites": ["positive-energy"]
