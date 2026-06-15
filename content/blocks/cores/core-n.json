@@ -1,10 +1,7 @@
 {
   "type": "CoreBlock",
-  "name": "Ядро: «Аксиома»",
-  "description": "Первая итерация ядра.",
-  "details": "N обозначает принадлежность к первому множеству чисел – натуральные.",
   "size": 3,
-  "health": 3000,
+  "health": 1000,
   "armor": 5,
   "itemCapacity": 1000,
   "unitType": "subitizator",
