@@ -1,8 +1,7 @@
 {
   "name": "Отрицательная энергия",
-  "description": "Ослабляет врагов и наносит периодический урон.",
+  "description": "Наносит урон.",
   "color": "ff4444",
-  "damage": 1.6666666667,
-  "healthMultiplier": 0.9090909091,
+  "damage": 2,
   "opposites": ["positive-energy"]
 }
