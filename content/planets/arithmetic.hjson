@@ -1,7 +1,7 @@
 {
-  name: "mathematic"
-  localizedName: "Математика"
-  description: "Место, где числа обретают форму."
+  name: "arithmetic"
+  localizedName: "Арифметика"
+  description: "Раздел математики, изучающий простейшие действия с числами."
   parent: "sun"
   radius: 1.0
   generator: "none"
@@ -14,10 +14,7 @@
   defaultCore: "core-n"
   iconColor: "44ff44"
   orbitRadius: 12
-  hasAtmosphere: true
-  atmosphereRadIn: 1.1
-  atmosphereRadOut: 1.2
-  atmosphereColor: "00FFFF20"
+  hasAtmosphere: false
   drawOrbit: true
   bloom: false
   updateLighting: true
