@@ -1,6 +1,4 @@
 {
-  "name": "Делительная энергия",
-  "description": "Дробит здоровье врага пополам на время действия.",
-  "color": "44ff44",
-  "healthMultiplier": 0.5
+  "color": "ff4444",
+  "healthMultiplier": 0.75
 }
