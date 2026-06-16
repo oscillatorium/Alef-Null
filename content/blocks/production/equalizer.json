@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "health": 200,
+  "size": 2,
+  "hasItems": true,
+  "hasPower": true,
+  "hasLiquids": false,
+  "craftTime": 60,
+  "craftEffect": "none",
+  "updateEffect": "none",
+  "itemCapacity": 10,
+  "consumes": {
+    "power": 0.4166666666666667,
+    "items": [
+      "one/1",
+      "anti-one/1"
+    ]
+  },
+  "requirements": [
+    "one/25",
+    "anti-one/25",
+    "zero/10"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "successor",
+    "requirements": [
+      "one/100",
+      "anti-one/100",
+      "zero/40"
+    ]
+  },
+  "outputItem": "zero/1"
+}
