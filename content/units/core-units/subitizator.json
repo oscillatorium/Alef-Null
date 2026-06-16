@@ -68,7 +68,7 @@
       "mirror": true,
       "x": 7,
       "y": 6,
-      "rotate": true,
+      "rotate": false,
       "shootCone": 45,
       "shootSound": "none",
       "controllable": true,
