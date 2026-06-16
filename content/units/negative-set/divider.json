@@ -19,7 +19,7 @@
   "stepSound": "none",
   "weapons": [
     {
-      "name": "disintegrator-laser",
+      "name": "divider-laser",
       "x": 5,
       "y": 0,
       "mirror": true,
