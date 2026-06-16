@@ -3,5 +3,10 @@
   "requirements": [{ "item": "one", "amount": 3 }],
   "health": 30,
   "category": "distribution",
-  "research": "mono-conveyor"
+  "research": {
+    "parent": "mono-conveyor",
+    "requirements": [
+      { "item": "one", "amount": 30 }
+    ]
+  }
 }
