@@ -10,6 +10,7 @@
   "buildSpeed": 1.0,
   "itemCapacity": 20,
   "rotateSpeed": 10,
+  "outlineColor": "005000",
   "engineColor": "44ff44",
   "engineColorInner": "ffffff",
   "engines": [
