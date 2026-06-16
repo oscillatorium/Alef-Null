@@ -25,15 +25,15 @@
       "mirror": true,
       "alternate": true,
       "rotate": true,
-      "rotationLimit": 45,
-      "shootCone": 10,
+      "rotationLimit": 40,
+      "shootCone": 5,
       "reload": 30,
       "shootSound": "laser",
       "bullet": {
         "type": "LaserBulletType",
         "damage": 25,
         "length": 80,
-        "width": 20,
+        "width": 10,
         "status": "negative-energy",
         "statusDuration": 30,
         "colors": ["ff4444", "ff8888", "ffcccc"]
