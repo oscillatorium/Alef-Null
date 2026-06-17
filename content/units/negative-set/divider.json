@@ -40,8 +40,8 @@
       "mirror": false,
       "alternate": false,
       "rotate": false,
-      "shootCone": 45,
-      "inaccuracy": 45,
+      "shootCone": 30,
+      "inaccuracy": 30,
       "reload": 30,
       "shootSound": "laser",
       "shoot": {
@@ -51,8 +51,8 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 5,
-        "speed": 5.3333333333,
+        "damage": 2,
+        "speed": 4,
         "lifetime": 30,
         "width": 6,
         "height": 8,
@@ -108,7 +108,7 @@
         "type": "LaserBulletType",
         "damage": 20,
         "length": 80,
-        "width": 12,
+        "width": 16,
         "status": "negative-energy",
         "statusDuration": 30,
         "colors": ["ff4444", "ff8888", "ffcccc"]
