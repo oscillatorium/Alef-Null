@@ -1,10 +1,9 @@
 {
   "type": "legs",
-  "flying": false,
   "speed": 1.2,
   "health": 300,
-  "hitSize": 8,
   "armor": 0,
+  "hitSize": 8,
   "rotateSpeed": 5,
   "outlineColor": "500000",
   "legCount": 6,
@@ -16,7 +15,6 @@
   "legMoveSpace": 1.2,
   "legExtension": 0,
   "hovering": false,
-  "stepSound": "none",
   "weapons": [
     {
       "shootOnDeath": true,
@@ -24,10 +22,24 @@
       "bullet": {
         "type": "ExplosionBulletType",
         "damage": 0,
-        "splashDamage": 150,
-        "splashDamageRadius": 24,
+        "splashDamage": 300,
+        "splashDamageRadius": 28,
         "status": "negative-energy",
-        "statusDuration": 150
+        "statusDuration": 150,
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "particles": 40,
+          "lifetime": 35,
+          "cone": 360,
+          "sizeFrom": 6,
+          "sizeTo": 0,
+          "colorFrom": "ff4444",
+          "colorTo": "ff444400",
+          "length": 30,
+          "baseRotation": 0,
+          "interp": "pow2Out",
+          "sizeInterp": "pow2In"
+        }
       }
     }
   ],
