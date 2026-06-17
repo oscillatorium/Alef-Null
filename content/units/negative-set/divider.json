@@ -31,9 +31,9 @@
       "shootSound": "laser",
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 25,
+        "damage": 50,
         "length": 80,
-        "width": 10,
+        "width": 12,
         "status": "fission-energy",
         "statusDuration": 30,
         "colors": ["ff4444", "ff8888", "ffcccc"]
