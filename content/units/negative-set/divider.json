@@ -46,12 +46,71 @@
       "shootSound": "laser",
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 35,
+        "damage": 25,
         "length": 80,
         "width": 12,
+        "status": "negative-energy",
+        "statusDuration": 15,
+        "colors": ["ff4444", "ff8888", "ffcccc"]
+      }
+    },
+    {
+      "name": "fission-spray",
+      "x": 0,
+      "y": -6,
+      "mirror": false,
+      "alternate": false,
+      "rotate": true,
+      "rotationLimit": 360,
+      "shootCone": 360,
+      "reload": 45,
+      "shootSound": "laser",
+      "shoot": {
+        "shots": 6,
+        "shotDelay": 2,
+        "firstShotDelay": 0
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 0,
+        "speed": 3.5,
+        "lifetime": 40,
+        "width": 6,
+        "height": 8,
+        "frontColor": "ff4444",
+        "backColor": "aa2222",
+        "trailColor": "ff4444",
+        "trailLength": 6,
+        "trailWidth": 1.5,
+        "homingPower": 0.12,
+        "homingRange": 60,
+        "homingDelay": 2,
+        "collidesAir": true,
+        "collidesGround": true,
+        "collidesTeam": false,
         "status": "fission-energy",
         "statusDuration": 30,
-        "colors": ["ff4444", "ff8888", "ffcccc"]
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "particles": 6,
+          "lifetime": 20,
+          "cone": 360,
+          "sizeFrom": 2,
+          "sizeTo": 0,
+          "colorFrom": "ff4444",
+          "colorTo": "ff444400"
+        },
+        "shootEffect": {
+          "type": "ParticleEffect",
+          "particles": 3,
+          "lifetime": 15,
+          "cone": 15,
+          "sizeFrom": 1,
+          "sizeTo": 0,
+          "colorFrom": "ff8888",
+          "colorTo": "ff444400"
+        },
+        "despawnEffect": "none"
       }
     }
   ],
