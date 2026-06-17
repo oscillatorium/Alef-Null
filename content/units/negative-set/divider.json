@@ -57,13 +57,13 @@
     {
       "name": "fission-spray",
       "x": 0,
-      "y": 6.5,
+      "y": -6,
       "mirror": false,
       "alternate": false,
-      "rotate": true,
+      "rotate": false,
       "rotationLimit": 360,
       "shootCone": 45,
-      "reload": 60,
+      "reload": 30,
       "shootSound": "laser",
       "shoot": {
         "shots": 5,
