@@ -102,7 +102,7 @@
       "rotate": true,
       "rotationLimit": 40,
       "shootCone": 5,
-      "range": 80,
+      "range": 160,
       "reload": 30,
       "shootSound": "laser",
       "bullet": {
