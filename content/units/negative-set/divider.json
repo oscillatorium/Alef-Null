@@ -42,7 +42,7 @@
       "rotate": false,
       "shootCone": 45,
       "inaccuracy": 45,
-      "reload": 45,
+      "reload": 30,
       "shootSound": "laser",
       "shoot": {
         "shots": 5,
@@ -69,7 +69,7 @@
         "collidesTeam": false,
         "status": "fission-energy",
         "statusDuration": 30,
-        "lifesteal": 0.5,
+        "lifesteal": 1.0,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
@@ -102,11 +102,11 @@
       "rotate": true,
       "rotationLimit": 40,
       "shootCone": 5,
-      "reload": 45,
+      "reload": 30,
       "shootSound": "laser",
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 15,
+        "damage": 20,
         "length": 80,
         "width": 12,
         "status": "negative-energy",
