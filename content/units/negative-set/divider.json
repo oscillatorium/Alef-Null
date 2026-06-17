@@ -60,10 +60,11 @@
       "y": -6,
       "mirror": false,
       "alternate": false,
-      "rotate": false,
+      "rotate": true,
       "rotationLimit": 360,
       "shootCone": 45,
-      "reload": 30,
+      "inaccuracy": 45,
+      "reload": 60,
       "shootSound": "laser",
       "shoot": {
         "shots": 5,
