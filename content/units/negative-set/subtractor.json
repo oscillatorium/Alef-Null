@@ -29,13 +29,13 @@
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 40,
-          "lifetime": 35,
+          "lifetime": 60,
           "cone": 360,
           "sizeFrom": 6,
           "sizeTo": 0,
-          "colorFrom": "ff4444",
-          "colorTo": "ff444400",
-          "length": 30,
+          "colorFrom": "ff0000",
+          "colorTo": "ff000000",
+          "length": 28,
           "baseRotation": 0,
           "interp": "pow2Out",
           "sizeInterp": "pow2In"
