@@ -1,6 +1,5 @@
 {
   "type": "legs",
-  "flying": false,
   "speed": 0.8,
   "health": 850,
   "armor": 5,
@@ -9,20 +8,20 @@
   "outlineColor": "500000",
   "parts": [
     {
-    "type": "ShapePart",
-    "weaponIndex": 0,
-    "sides": 6,
-    "color": "ff4444",
-    "hollow": true,
-    "layer": 100,
-    "radius": 0,
-    "radiusTo": 4,
-    "stroke": 0,
-    "strokeTo": 1.5,
-    "rotateSpeed": 2.0,
-    "x": 0,
-    "y": 6,
-    },
+      "type": "ShapePart",
+      "weaponIndex": 0,
+      "sides": 6,
+      "color": "ff4444",
+      "hollow": true,
+      "layer": 100,
+      "radius": 0,
+      "radiusTo": 4,
+      "stroke": 0,
+      "strokeTo": 1.5,
+      "rotateSpeed": 2.0,
+      "x": 0,
+      "y": -6
+    }
   ],
   "legCount": 6,
   "legGroupSize": 3,
@@ -33,7 +32,6 @@
   "legMoveSpace": 1.5,
   "legExtension": 0,
   "hovering": false,
-  "stepSound": "none",
   "weapons": [
     {
       "name": "divider-laser",
