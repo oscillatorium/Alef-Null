@@ -51,7 +51,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 5,
+        "damage": 7,
         "speed": 4,
         "lifetime": 30,
         "width": 6,
@@ -105,7 +105,7 @@
       "shootSound": "laser",
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 20,
+        "damage": 10,
         "length": 80,
         "width": 16,
         "status": "negative-energy",
