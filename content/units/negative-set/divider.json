@@ -46,12 +46,12 @@
       "shootSound": "laser",
       "shoot": {
         "shots": 5,
-        "shotDelay": 2,
+        "shotDelay": 5,
         "firstShotDelay": 0
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 2,
+        "damage": 5,
         "speed": 4,
         "lifetime": 30,
         "width": 6,
@@ -69,7 +69,6 @@
         "collidesTeam": false,
         "status": "fission-energy",
         "statusDuration": 30,
-        "lifesteal": 1.0,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
