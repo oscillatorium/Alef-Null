@@ -1,0 +1,51 @@
+{
+  "size": 2,
+  "type": "Turret",
+  "range": 120,
+  "reload": 20,
+  "shootSound": "missile",
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "one": {
+      "type": "MissileBulletType",
+      "damage": 10,
+      "speed": 4,
+      "lifetime": 40,
+      "hitEffect": "hit",
+      "shootEffect": "shoot",
+      "sprite": "bullet-one",
+      "width": 6,
+      "height": 8,
+      "frontColor": "80ff80",
+      "backColor": "40aa40",
+      "homingPower": 0.5,
+      "homingRange": 5
+    }
+  },
+  "weapons": [
+    {
+      "name": "left",
+      "x": -8,
+      "y": 2,
+      "rotation": -30,
+      "shootCone": 0,
+      "autoTarget": false,
+      "alternate": false
+    },
+    {
+      "name": "right",
+      "x": 8,
+      "y": 2,
+      "rotation": 30,
+      "shootCone": 0,
+      "autoTarget": false,
+      "alternate": false
+    }
+  ],
+  "requirements": [
+    "one/50"
+  ],
+  "category": "turret",
+  "research": "successor"
+}
