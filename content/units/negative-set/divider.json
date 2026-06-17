@@ -34,28 +34,6 @@
   "hovering": false,
   "weapons": [
     {
-      "name": "divider-laser",
-      "x": 5,
-      "y": 0,
-      "mirror": true,
-      "alternate": true,
-      "rotate": true,
-      "rotationLimit": 40,
-      "shootCone": 5,
-      "range": 80,
-      "reload": 30,
-      "shootSound": "laser",
-      "bullet": {
-        "type": "LaserBulletType",
-        "damage": 35,
-        "length": 80,
-        "width": 12,
-        "status": "negative-energy",
-        "statusDuration": 30,
-        "colors": ["ff4444", "ff8888", "ffcccc"]
-      }
-    },
-    {
       "name": "fission-spray",
       "x": 0,
       "y": -7,
@@ -74,7 +52,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 5,
         "speed": 5.3333333333,
         "lifetime": 30,
         "width": 6,
@@ -113,6 +91,28 @@
           "colorTo": "ff444400"
         },
         "despawnEffect": "none"
+      }
+    },
+    {
+      "name": "divider-laser",
+      "x": 5,
+      "y": 0,
+      "mirror": true,
+      "alternate": true,
+      "rotate": true,
+      "rotationLimit": 40,
+      "shootCone": 5,
+      "range": 80,
+      "reload": 30,
+      "shootSound": "laser",
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 35,
+        "length": 80,
+        "width": 12,
+        "status": "negative-energy",
+        "statusDuration": 30,
+        "colors": ["ff4444", "ff8888", "ffcccc"]
       }
     }
   ],
