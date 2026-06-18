@@ -47,7 +47,7 @@
       "shootSound": "laser",
       "shoot": {
         "shots": 5,
-        "shotDelay": 5,
+        "shotDelay": 15,
         "firstShotDelay": 0
       },
       "bullet": {
