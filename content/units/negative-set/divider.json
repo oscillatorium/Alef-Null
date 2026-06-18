@@ -32,6 +32,7 @@
   "legMoveSpace": 1.5,
   "legExtension": 0,
   "hovering": false,
+  "itemCapacity": 10,
   "weapons": [
     {
       "name": "fission-spray",
