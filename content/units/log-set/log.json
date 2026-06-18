@@ -21,7 +21,7 @@
       "radius": 3.0,
       "radiusTo": 5.0,
       "rotateSpeed": 1.5,
-      "x": -8,
+      "x": -10,
       "y": 0
     },
     {
@@ -36,25 +36,25 @@
       "radius": 3.0,
       "radiusTo": 5.0,
       "rotateSpeed": 1.5,
-      "x": 8,
+      "x": 10,
       "y": 0
     }
   ],
   "weapons": [
     {
       "name": "log-spray",
-      "x": -8,
+      "x": -10,
       "y": 0,
       "mirror": true,
       "alternate": false,
       "rotate": true,
       "rotationLimit": 45,
-      "shootCone": 45,
+      "shootCone": 180,
       "inaccuracy": 45,
       "reload": 30,
       "shootSound": "laser",
       "shoot": {
-        "shots": 10,
+        "shots": 5,
         "shotDelay": 2,
         "firstShotDelay": 0
       },
