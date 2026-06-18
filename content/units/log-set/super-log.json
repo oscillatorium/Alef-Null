@@ -17,20 +17,20 @@
       "sides": 4,
       "layer": 110,
       "color": "44ffdd",
-      "stroke": 1.0,
+      "stroke": 2.0,
       "strokeTo": 2.0,
       "radius": 3.0,
       "radiusTo": 5.0,
       "rotateSpeed": 1.5,
       "x": 0,
-      "y": 5
+      "y": 7
     }
   ]
   "weapons": [
     {
       "name": "superlog-launcher",
       "x": 0,
-      "y": 5,
+      "y": 6,
       "mirror": false,
       "reload": 120,
       "shootSound": "missile",
