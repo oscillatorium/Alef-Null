@@ -6,6 +6,7 @@
   "hitSize": 12,
   "rotateSpeed": 3,
   "outlineColor": "004040",
+  "naval": true,
   "parts": [
     {
       "type": "ShapePart",
@@ -38,13 +39,6 @@
     }
   ],
   "hovering": true,
-  "abilities": [
-    {
-      "type": "FloatAbility",
-      "speed": 0.02,
-      "amplitude": 1.0
-    }
-  ],
   "weapons": [
     {
       "name": "log-spray",
