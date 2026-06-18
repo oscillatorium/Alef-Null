@@ -3,7 +3,7 @@
   "speed": 0.5,
   "health": 12000,
   "armor": 15,
-  "hitSize": 26,
+  "hitSize": 16,
   "rotateSpeed": 1.2,
   "outlineColor": "004040",
   "trailLength": 40,
