@@ -38,32 +38,6 @@
       "rotateSpeed": 1.5,
       "x": 8,
       "y": 0
-    },
-    {
-      "type": "ShapePart",
-      "hollow": false,
-      "circle": false,
-      "sides": 4,
-      "layer": 105,
-      "color": "88ffdd44",
-      "radius": 1.5,
-      "radiusTo": 3.0,
-      "rotateSpeed": -2.0,
-      "x": -8,
-      "y": 0
-    },
-    {
-      "type": "ShapePart",
-      "hollow": false,
-      "circle": false,
-      "sides": 4,
-      "layer": 105,
-      "color": "88ffdd44",
-      "radius": 1.5,
-      "radiusTo": 3.0,
-      "rotateSpeed": -2.0,
-      "x": 8,
-      "y": 0
     }
   ],
   "weapons": [
@@ -75,8 +49,8 @@
       "alternate": false,
       "rotate": true,
       "rotationLimit": 45,
-      "shootCone": 90,
-      "inaccuracy": 90,
+      "shootCone": 45,
+      "inaccuracy": 45,
       "reload": 30,
       "shootSound": "laser",
       "shoot": {
@@ -87,16 +61,16 @@
       "bullet": {
         "type": "BasicBulletType",
         "damage": 15,
-        "speed": 5.0,
+        "speed": 3.0,
         "lifetime": 60,
-        "width": 6,
+        "width": 5,
         "height": 8,
         "frontColor": "44ffdd",
         "backColor": "00ccaa",
         "trailColor": "44ffdd",
         "trailLength": 6,
         "trailWidth": 2,
-        "homingPower": 0.15,
+        "homingPower": 0.1,
         "homingRange": 120,
         "homingDelay": 20,
         "collidesAir": true,
