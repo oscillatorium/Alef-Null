@@ -47,7 +47,7 @@
       "shootSound": "laser",
       "shoot": {
         "shots": 5,
-        "shotDelay": 15,
+        "shotDelay": 5,
         "firstShotDelay": 0
       },
       "bullet": {
@@ -64,7 +64,7 @@
         "trailWidth": 2,
         "homingPower": 0.1,
         "homingRange": 10,
-        "homingDelay": 2,
+        "homingDelay": 15,
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
