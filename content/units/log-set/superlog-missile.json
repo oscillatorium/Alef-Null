@@ -15,12 +15,12 @@
   "hitSize": 1.5,
   "flying": true,
   "missileAccelTime": 5,
-  "lifetime": 45,
+  "lifetime": 480,
   "rotateSpeed": 2.5,
   "fogRadius": 8,
   "maxRange": 30,
   "health": 120,
-  "speed": 8.0,
+  "speed": 4.0,
   "armor": 0,
   "homingDelay": 3,
   "deathExplosionEffect": "none",
@@ -43,7 +43,7 @@
       "strokeTo": 2.0,
       "radius": 4.0,
       "radiusTo": 6.0,
-      "rotateSpeed": 1.5
+      "rotateSpeed": 2.5
     },
     {
       "type": "ShapePart",
@@ -52,7 +52,7 @@
       "sides": 4,
       "layer": 105,
       "color": "88ffdd44",
-      "radius": 1.5,
+      "radius": 2.0,
       "radiusTo": 3.5,
       "rotateSpeed": -2.5
     }
