@@ -14,13 +14,13 @@
       "x": 0,
       "y": 0,
       "mirror": false,
-      "reload": 12,
+      "reload": 120,
       "shootSound": "missile",
       "shootCone": 360,
       "shoot": {
-        "shots": 5,
-        "shotDelay": 12,
-        "firstShotDelay": 30
+        "shots": 3,
+        "shotDelay": 10,
+        "firstShotDelay": 0
       },
       "shootEffect": {
         "type": "ParticleEffect",
