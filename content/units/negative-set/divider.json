@@ -106,7 +106,7 @@
       "shootSound": "laser",
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 10,
+        "damage": 5,
         "length": 80,
         "width": 16,
         "status": "negative-energy",
