@@ -23,7 +23,6 @@
   "parts": [
     {
       "type": "ShapePart",
-      "weaponIndex": 0,
       "sides": 3,
       "color": "44ff44",
       "hollow": true,
@@ -38,7 +37,6 @@
     },
     {
       "type": "ShapePart",
-      "weaponIndex": 0,
       "sides": 3,
       "color": "44ff44",
       "hollow": true,
