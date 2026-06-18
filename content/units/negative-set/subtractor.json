@@ -15,6 +15,7 @@
   "legMoveSpace": 1.2,
   "legExtension": 0,
   "hovering": false,
+  "itemCapacity": 5,
   "weapons": [
     {
       "shootOnDeath": true,
