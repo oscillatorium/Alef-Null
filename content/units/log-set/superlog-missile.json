@@ -1,0 +1,111 @@
+{
+  "type": "missile",
+  "template": "MissileUnitType",
+  "controller": "MissileAI",
+  "playerControllable": false,
+  "allowedInPayloads": false,
+  "outlineColor": "004040",
+  "outlineRadius": 2,
+  "createScorch": true,
+  "createWreck": false,
+  "lowAltitude": true,
+  "useUnitCap": false,
+  "drawCell": false,
+  "physics": false,
+  "hitSize": 1.5,
+  "flying": true,
+  "missileAccelTime": 5,
+  "lifetime": 45,
+  "rotateSpeed": 2.5,
+  "fogRadius": 8,
+  "maxRange": 30,
+  "health": 120,
+  "speed": 8.0,
+  "armor": 0,
+  "homingDelay": 3,
+  "deathExplosionEffect": "none",
+  "trailColor": "44ffdd",
+  "trailLength": 10,
+  "trailWidth": 2.0,
+  "engineColor": "44ffdd",
+  "engineSize": 2.0,
+  "engineOffset": 3.0,
+  "engineLayer": 100,
+  "parts": [
+    {
+      "type": "ShapePart",
+      "hollow": true,
+      "circle": false,
+      "sides": 4,
+      "layer": 110,
+      "color": "44ffdd",
+      "stroke": 2.0,
+      "strokeTo": 2.0,
+      "radius": 4.0,
+      "radiusTo": 6.0,
+      "rotateSpeed": 1.5
+    },
+    {
+      "type": "ShapePart",
+      "hollow": false,
+      "circle": false,
+      "sides": 4,
+      "layer": 105,
+      "color": "88ffdd44",
+      "radius": 1.5,
+      "radiusTo": 3.5,
+      "rotateSpeed": -2.5
+    }
+  ],
+  "weapons": [
+    {
+      "shootOnDeath": true,
+      "shootCone": 360,
+      "mirror": false,
+      "shake": 4.0,
+      "x": 0,
+      "y": 0,
+      "reload": 1,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "collidesAir": false,
+        "despawnShake": 3.0,
+        "maxRange": 15,
+        "buildingDamageMultiplier": 1.2,
+        "splashDamageRadius": 32,
+        "splashDamage": 250,
+        "hitSound": "explosion",
+        "shootEffect": {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "lifetime": 25,
+          "cone": 360,
+          "sizeFrom": 5,
+          "sizeTo": 0,
+          "colorFrom": "44ffdd",
+          "colorTo": "44ffdd00"
+        },
+        "hitEffect": {
+          "type": "ParticleEffect",
+          "particles": 15,
+          "lifetime": 30,
+          "cone": 360,
+          "sizeFrom": 7,
+          "sizeTo": 0,
+          "colorFrom": "44ffdd",
+          "colorTo": "44ffdd00"
+        },
+        "despawnEffect": {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "lifetime": 25,
+          "cone": 360,
+          "sizeFrom": 5,
+          "sizeTo": 0,
+          "colorFrom": "44ffdd",
+          "colorTo": "44ffdd00"
+        }
+      }
+    }
+  ]
+}
