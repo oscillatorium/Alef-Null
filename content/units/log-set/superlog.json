@@ -1,0 +1,46 @@
+{
+  "type": "naval",
+  "speed": 0.5,
+  "health": 12000,
+  "armor": 15,
+  "hitSize": 35,
+  "rotateSpeed": 1.2,
+  "outlineColor": "004040",
+  "trailLength": 40,
+  "hovering": true,
+  "weapons": [
+    {
+      "name": "superlog-launcher",
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "reload": 180,
+      "shootSound": "missile",
+      "shootCone": 15,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 10,
+        "firstShotDelay": 30
+      },
+      "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 12,
+        "lifetime": 20,
+        "cone": 30,
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "colorFrom": "44ffdd",
+        "colorTo": "44ffdd00",
+        "length": 25
+      },
+      "bullet": {
+        "type": "BulletType",
+        "spawnUnit": "superlog-missile",
+        "keepVelocity": false,
+        "collidesAir": false,
+        "speed": 0,
+        "smokeEffect": "none"
+      }
+    }
+  ]
+}
