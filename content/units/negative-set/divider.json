@@ -63,7 +63,7 @@
         "trailLength": 6,
         "trailWidth": 2,
         "homingPower": 0.1,
-        "homingRange": 64,
+        "homingRange": 10,
         "homingDelay": 2,
         "collidesAir": true,
         "collidesGround": true,
