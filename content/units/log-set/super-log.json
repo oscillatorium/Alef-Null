@@ -8,6 +8,24 @@
   "outlineColor": "004040",
   "trailLength": 40,
   "hovering": true,
+  "parts": [
+    {
+      "type": "ShapePart",
+      "weaponIndex": 0,
+      "hollow": true,
+      "circle": false,
+      "sides": 4,
+      "layer": 110,
+      "color": "44ffdd",
+      "stroke": 1.0,
+      "strokeTo": 2.0,
+      "radius": 3.0,
+      "radiusTo": 5.0,
+      "rotateSpeed": 1.5,
+      "x": 0,
+      "y": 5
+    }
+  ]
   "weapons": [
     {
       "name": "superlog-launcher",
