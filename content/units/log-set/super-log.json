@@ -23,14 +23,14 @@
       "radiusTo": 5.0,
       "rotateSpeed": 1.5,
       "x": 0,
-      "y": 7
+      "y": 9
     }
   ]
   "weapons": [
     {
       "name": "superlog-launcher",
       "x": 0,
-      "y": 6,
+      "y": 8,
       "mirror": false,
       "reload": 120,
       "shootSound": "missile",
