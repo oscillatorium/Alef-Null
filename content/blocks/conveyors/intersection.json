@@ -1,7 +1,7 @@
 {
   "type": "Junction",
   "health": 20,
-  "speed": 10.0,
+  "speed": 10.9090909090909090909,
   "capacity": 1,
   "requirements": [
     { "item": "one", "amount": 2 }
