@@ -6,7 +6,7 @@
   "allowedInPayloads": false,
   "outlineColor": "004040",
   "outlineRadius": 2,
-  "createScorch": true,
+  "createScorch": false,
   "createWreck": false,
   "lowAltitude": true,
   "useUnitCap": false,
