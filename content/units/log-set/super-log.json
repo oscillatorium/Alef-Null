@@ -3,8 +3,8 @@
   "speed": 0.5,
   "health": 6500,
   "armor": 5,
-  "hitSize": 16,
-  "rotateSpeed": 1.2,
+  "hitSize": 28,
+  "rotateSpeed": 1.5,
   "outlineColor": "004040",
   "trailLength": 40,
   "hovering": true,
@@ -23,14 +23,14 @@
       "radiusTo": 5.0,
       "rotateSpeed": 1.5,
       "x": 0,
-      "y": 12
+      "y": 16
     }
   ]
   "weapons": [
     {
       "name": "superlog-launcher",
       "x": 0,
-      "y": 10,
+      "y": 15,
       "mirror": false,
       "reload": 120,
       "shootSound": "missile",
