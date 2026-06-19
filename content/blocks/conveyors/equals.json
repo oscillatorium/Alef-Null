@@ -9,7 +9,7 @@
   ],
   "category": "distribution",
   "research": {
-    "parent": "divider",
+    "parent": "division",
     "requirements": [
       { "item": "one", "amount": 20 },
       { "item": "zero", "amount": 100 }
