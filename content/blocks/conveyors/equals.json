@@ -1,7 +1,7 @@
 {
   "type": "Unloader",
   "health": 40,
-  "speed": 6,
+  "speed": 10.9090909090909090909,
   "itemCapacity": 10,
   "requirements": [
     { "item": "one", "amount": 2 },
