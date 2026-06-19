@@ -3,7 +3,7 @@
   "speed": 0.5,
   "health": 6500,
   "armor": 5,
-  "hitSize": 28,
+  "hitSize": 20,
   "rotateSpeed": 1.5,
   "outlineColor": "004040",
   "trailLength": 40,
@@ -18,9 +18,9 @@
       "layer": 110,
       "color": "44ffdd",
       "stroke": 2.0,
-      "strokeTo": 2.0,
-      "radius": 3.0,
-      "radiusTo": 5.0,
+      "strokeTo": 3.0,
+      "radius": 4.0,
+      "radiusTo": 6.0,
       "rotateSpeed": 1.5,
       "x": 0,
       "y": 16
@@ -55,7 +55,7 @@
         "type": "BulletType",
         "spawnUnit": "superlog-missile",
         "keepVelocity": false,
-        "collidesAir": false,
+        "collidesAir": true,
         "speed": 0,
         "smokeEffect": "none"
       }
