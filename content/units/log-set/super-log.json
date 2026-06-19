@@ -33,7 +33,7 @@
       "y": 15,
       "mirror": false,
       "reload": 120,
-      "shootSound": "missile",
+      "shootSound": "shootBig",
       "shootCone": 360,
       "shoot": {
         "shots": 3,
