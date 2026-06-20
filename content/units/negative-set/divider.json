@@ -53,7 +53,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 10,
         "speed": 3.0,
         "lifetime": 30,
         "width": 12,
@@ -66,6 +66,7 @@
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
+        "buildingDamageMultiplier": 1.5,
         "fragBullets": 10,
         "fragRandomSpread": 120,
         "fragBullet": {
@@ -86,6 +87,7 @@
           "collidesAir": true,
           "collidesGround": true,
           "collidesTeam": false,
+          "buildingDamageMultiplier": 1.5,
           "status": "fission-energy",
           "statusDuration": 120,
           "hitEffect": {
@@ -146,9 +148,10 @@
       "shootSound": "laser",
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 5,
+        "damage": 10,
         "length": 80,
         "width": 16,
+        "buildingDamageMultiplier": 1.5,
         "status": "negative-energy",
         "statusDuration": 30,
         "colors": ["ff4444", "ff8888", "ffcccc"]
