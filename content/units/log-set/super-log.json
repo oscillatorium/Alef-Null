@@ -16,7 +16,7 @@
       "circle": false,
       "sides": 4,
       "layer": 110,
-      "color": "44ffdd",
+      "color": "4444ff",
       "stroke": 2.0,
       "strokeTo": 3.0,
       "radius": 4.0,
@@ -54,8 +54,8 @@
           "cone": 30,
           "sizeFrom": 3,
           "sizeTo": 0,
-          "colorFrom": "44ffdd",
-          "colorTo": "44ffdd00",
+          "colorFrom": "4444ff",
+          "colorTo": "4444ff00",
           "length": 25
         }
       }
