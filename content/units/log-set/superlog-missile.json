@@ -28,7 +28,7 @@
   "trailLength": 10,
   "engineColor": "4444ff",
   "engineSize": 2.0,
-  "engineOffset": 3.0,
+  "engineOffset": 0,
   "engineLayer": 100,
   "parts": [
     {
@@ -42,18 +42,7 @@
       "strokeTo": 2.0,
       "radius": 4.0,
       "radiusTo": 6.0,
-      "rotateSpeed": 2.5
-    },
-    {
-      "type": "ShapePart",
-      "hollow": false,
-      "circle": false,
-      "sides": 4,
-      "layer": 105,
-      "color": "8888ff44",
-      "radius": 2.0,
-      "radiusTo": 3.5,
-      "rotateSpeed": -2.5
+      "rotateSpeed": 1,5
     }
   ],
   "weapons": [
@@ -91,8 +80,8 @@
           "cone": 360,
           "sizeFrom": 7,
           "sizeTo": 0,
-          "colorFrom": "44ffdd",
-          "colorTo": "44ffdd00"
+          "colorFrom": "4444ff",
+          "colorTo": "4444ff00"
         },
         "despawnEffect": {
           "type": "ParticleEffect",
