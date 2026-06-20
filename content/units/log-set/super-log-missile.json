@@ -29,7 +29,7 @@
   "engineColor": "4444ff",
   "engineSize": 2.0,
   "engineOffset": 0,
-  "engineLayer": 111,
+  "engineLayer": 100,
   "parts": [
     {
       "type": "ShapePart",
