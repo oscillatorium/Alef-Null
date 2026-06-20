@@ -3,7 +3,7 @@
   "speed": 0.6,
   "health": 1200,
   "armor": 6,
-  "hitSize": 120,
+  "hitSize": 15,
   "rotateSpeed": 2.0,
   "outlineColor": "000040",
   "hovering": true,
@@ -21,7 +21,7 @@
       "radius": 3.0,
       "radiusTo": 5.0,
       "rotateSpeed": 1.5,
-      "x": -10,
+      "x": -8,
       "y": 0
     },
     {
@@ -36,14 +36,14 @@
       "radius": 3.0,
       "radiusTo": 5.0,
       "rotateSpeed": 1.5,
-      "x": 10,
+      "x": 8,
       "y": 0
     }
   ],
   "weapons": [
     {
       "name": "log-spray",
-      "x": -10,
+      "x": -8,
       "y": 0,
       "mirror": true,
       "alternate": false,
