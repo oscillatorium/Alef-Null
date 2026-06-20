@@ -71,7 +71,7 @@
         "fragBullet": {
           "type": "BasicBulletType",
           "damage": 5,
-          "speed": 3.0,
+          "speed": 2.0,
           "lifetime": 40,
           "width": 6,
           "height": 8,
@@ -87,7 +87,7 @@
           "collidesGround": true,
           "collidesTeam": false,
           "status": "fission-energy",
-          "statusDuration": 30,
+          "statusDuration": 120,
           "hitEffect": {
             "type": "ParticleEffect",
             "particles": 8,
