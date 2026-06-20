@@ -5,7 +5,7 @@
   "armor": 6,
   "hitSize": 120,
   "rotateSpeed": 2.0,
-  "outlineColor": "004040",
+  "outlineColor": "000040",
   "hovering": true,
   "trailLength": 30,
   "parts": [
@@ -15,7 +15,7 @@
       "circle": false,
       "sides": 4,
       "layer": 110,
-      "color": "44ffdd",
+      "color": "4444ff",
       "stroke": 2.0,
       "strokeTo": 2.0,
       "radius": 3.0,
@@ -30,7 +30,7 @@
       "circle": false,
       "sides": 4,
       "layer": 110,
-      "color": "44ffdd",
+      "color": "4444ff",
       "stroke": 2.0,
       "strokeTo": 2.0,
       "radius": 3.0,
@@ -65,9 +65,9 @@
         "lifetime": 60,
         "width": 5,
         "height": 8,
-        "frontColor": "44ffdd",
-        "backColor": "00ccaa",
-        "trailColor": "44ffdd",
+        "frontColor": "4444ff",
+        "backColor": "0000cc",
+        "trailColor": "4444ff",
         "trailLength": 6,
         "trailWidth": 2,
         "homingPower": 0.1,
@@ -83,8 +83,8 @@
           "cone": 360,
           "sizeFrom": 3,
           "sizeTo": 0,
-          "colorFrom": "44ffdd",
-          "colorTo": "44ffdd00"
+          "colorFrom": "4444ff",
+          "colorTo": "4444ff00"
         },
         "shootEffect": {
           "type": "ParticleEffect",
@@ -93,8 +93,8 @@
           "cone": 20,
           "sizeFrom": 2,
           "sizeTo": 0,
-          "colorFrom": "88ffdd",
-          "colorTo": "44ffdd00"
+          "colorFrom": "8888ff",
+          "colorTo": "4444ff00"
         },
         "despawnEffect": "none"
       }
