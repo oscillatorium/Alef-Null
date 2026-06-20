@@ -29,7 +29,7 @@
   "engineColor": "4444ff",
   "engineSize": 2.0,
   "engineOffset": 0,
-  "engineLayer": 100,
+  "engineLayer": 111,
   "parts": [
     {
       "type": "ShapePart",
@@ -38,8 +38,8 @@
       "sides": 4,
       "layer": 110,
       "color": "4444ff",
-      "stroke": 2.0,
-      "strokeTo": 2.0,
+      "stroke": 3.0,
+      "strokeTo": 3.0,
       "radius": 4.0,
       "radiusTo": 6.0,
       "rotateSpeed": 1.5
