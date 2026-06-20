@@ -4,7 +4,7 @@
   "controller": "MissileAI",
   "playerControllable": false,
   "allowedInPayloads": false,
-  "outlineColor": "00404000",
+  "outlineColor": "00004000",
   "outlineRadius": 2,
   "createScorch": false,
   "createWreck": false,
@@ -24,9 +24,9 @@
   "armor": 0,
   "homingDelay": 3,
   "deathExplosionEffect": "none",
-  "trailColor": "44ffdd",
+  "trailColor": "4444ff",
   "trailLength": 10,
-  "engineColor": "44ffdd",
+  "engineColor": "4444ff",
   "engineSize": 2.0,
   "engineOffset": 3.0,
   "engineLayer": 100,
@@ -37,7 +37,7 @@
       "circle": false,
       "sides": 4,
       "layer": 110,
-      "color": "44ffdd",
+      "color": "4444ff",
       "stroke": 2.0,
       "strokeTo": 2.0,
       "radius": 4.0,
@@ -50,7 +50,7 @@
       "circle": false,
       "sides": 4,
       "layer": 105,
-      "color": "88ffdd44",
+      "color": "8888ff44",
       "radius": 2.0,
       "radiusTo": 3.5,
       "rotateSpeed": -2.5
@@ -81,8 +81,8 @@
           "cone": 360,
           "sizeFrom": 5,
           "sizeTo": 0,
-          "colorFrom": "44ffdd",
-          "colorTo": "44ffdd00"
+          "colorFrom": "4444ff",
+          "colorTo": "4444ff00"
         },
         "hitEffect": {
           "type": "ParticleEffect",
@@ -101,8 +101,8 @@
           "cone": 360,
           "sizeFrom": 5,
           "sizeTo": 0,
-          "colorFrom": "44ffdd",
-          "colorTo": "44ffdd00"
+          "colorFrom": "4444ff",
+          "colorTo": "4444ff00"
         }
       }
     }
