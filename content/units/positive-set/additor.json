@@ -11,15 +11,6 @@
   "itemCapacity": 20,
   "rotateSpeed": 10,
   "outlineColor": "005000",
-  "engineColor": "44ff44",
-  "engineColorInner": "ffffff",
-  "engines": [
-    {
-      "x": 0,
-      "y": 2,
-      "radius": 2.5
-    }
-  ],
   "weapons": [
     {
       "type": "RepairBeamWeapon",
