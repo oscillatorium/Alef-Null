@@ -38,7 +38,7 @@
     }
   ],
   "research": {
-  "parent": "mono-constructo",
+  "parent": "mono-constructor",
   "requirements": [
     {"item": "one", "amount": 250}
   ]
