@@ -28,8 +28,8 @@
       "reload": 50,
       "beamWidth": 0.5,
       "widthSinMag": 0.10,
-      "repairSpeed": 1,
-      "fractionRepairSpeed": 0.1666666667,
+      "repairSpeed": 0.1666666667,
+      "fractionRepairSpeed": 0.01,
       "healColor": "44ff44",
       "laserColor": "44ff44",
       "bullet": {
