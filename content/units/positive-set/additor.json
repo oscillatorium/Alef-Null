@@ -40,7 +40,7 @@
   "research": {
   "parent": "mono-constructo",
   "requirements": [
-    {"item": "one", "amount": 750}
+    {"item": "one", "amount": 250}
   ]
   }
 }
