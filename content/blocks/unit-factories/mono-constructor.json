@@ -16,8 +16,13 @@
     }
   ],
   "requirements": [
-    {"item": "alef-null-one", "amount": 75}
+    {"item": "one", "amount": 75}
   ],
   "category": "units",
-  "research": "core-n"
+  "research": {
+  "parent": "core-n",
+  "requirements": [
+    {"item": "one", "amount": 750}
+  ]
+  }
 }
