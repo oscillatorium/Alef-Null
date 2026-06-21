@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "flying": true,
-  "speed": 0.375,
+  "speed": 3.0,
   "health": 300,
   "hitSize": 8,
   "armor": 0,
@@ -11,30 +11,38 @@
   "itemCapacity": 20,
   "rotateSpeed": 10,
   "outlineColor": "005000",
-  "weapons": [
+  "engineColor": "44ff44",
+  "engineColorInner": "ffffff",
+  "engines": [
     {
-      "name": "heal-beam",
       "x": 0,
       "y": 2,
-      "mirror": false,
+      "radius": 2.5
+    }
+  ],
+  "weapons": [
+    {
+      "type": "RepairBeamWeapon",
+      "mirror": true,
+      "x": 0,
+      "y": 2,
       "rotate": true,
       "rotationLimit": 40,
       "shootCone": 5,
-      "shootSound": "none",
       "controllable": true,
-      "autoTarget": true,
+      "autoTarget": false,
       "targetBuildings": true,
-      "targetUnits": true,
+      "targetUnits": false,
       "continuous": true,
-      "reload": 10,
+      "reload": 50,
+      "beamWidth": 0.8,
+      "widthSinMag": 0.10,
+      "repairSpeed": 1,
+      "fractionRepairSpeed": 0.1666666667,
+      "healColor": "44ff44",
+      "laserColor": "44ff44",
       "bullet": {
-        "type": "LaserBulletType",
-        "damage": 0,
-        "healAmount": 0.1666666667,
-        "length": 40,
-        "width": 4,
-        "colors": ["44ff44", "88ff88", "ccffcc"],
-        "pierce": false
+        "maxRange": 40
       }
     }
   ],
