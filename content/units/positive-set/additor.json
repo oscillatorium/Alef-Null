@@ -7,7 +7,8 @@
   "armor": 0,
   "mineTier": 1,
   "mineSpeed": 1.0,
-  "buildSpeed": 1.0,
+  "mineItems": ["alef-null-one"],
+  "buildSpeed": -1,
   "itemCapacity": 20,
   "rotateSpeed": 10,
   "outlineColor": "005000",
@@ -38,9 +39,9 @@
     }
   ],
   "research": {
-  "parent": "mono-constructor",
-  "requirements": [
-    {"item": "one", "amount": 250}
-  ]
+    "parent": "mono-constructo",
+    "requirements": [
+      {"item": "one", "amount": 50}
+    ]
   }
 }
