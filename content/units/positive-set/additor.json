@@ -1,0 +1,42 @@
+{
+  "type": "flying",
+  "flying": true,
+  "speed": 0.375,
+  "health": 300,
+  "hitSize": 8,
+  "armor": 0,
+  "mineTier": 1,
+  "mineSpeed": 1.0,
+  "buildSpeed": 1.0,
+  "itemCapacity": 20,
+  "rotateSpeed": 10,
+  "outlineColor": "005000",
+  "weapons": [
+    {
+      "name": "heal-beam",
+      "x": 0,
+      "y": 2,
+      "mirror": false,
+      "rotate": true,
+      "rotationLimit": 40,
+      "shootCone": 5,
+      "shootSound": "none",
+      "controllable": true,
+      "autoTarget": true,
+      "targetBuildings": true,
+      "targetUnits": true,
+      "continuous": true,
+      "reload": 10,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 0,
+        "healAmount": 0.1666666667,
+        "length": 40,
+        "width": 4,
+        "colors": ["44ff44", "88ff88", "ccffcc"],
+        "pierce": false
+      }
+    }
+  ],
+  "research": "core-n"
+}
