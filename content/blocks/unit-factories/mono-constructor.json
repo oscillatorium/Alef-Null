@@ -1,0 +1,23 @@
+{
+  "type": "UnitFactory",
+  "size": 1,
+  "itemCapacity": 50,
+  "hasPower": true,
+  "consumes": {
+    "power": 0.4166666667
+  },
+  "plans": [
+    {
+      "unit": "additor",
+      "time": 600,
+      "requirements": [
+        {"item": "one", "amount": 25}
+      ]
+    }
+  ],
+  "requirements": [
+    {"item": "alef-null-one", "amount": 75}
+  ],
+  "category": "units",
+  "research": "core-n"
+}
