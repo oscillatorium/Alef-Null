@@ -11,7 +11,8 @@
       "unit": "additor",
       "time": 600,
       "requirements": [
-        {"item": "one", "amount": 25}
+        {"item": "one", "amount": 10},
+        {"item": "plus", "amount": 25}
       ]
     }
   ],
