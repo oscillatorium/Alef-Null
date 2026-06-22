@@ -1,10 +1,6 @@
 {
   "color": "00ff00",
-  "flammability": 0,
-  "radioactivity": 0,
-  "explosiveness": 0,
   "cost": 1,
   "hardness": 0,
-  "alwaysUnlocked": true,
-  "research": "core-n"
+  "research": "plus"
 }
