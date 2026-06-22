@@ -1,6 +1,6 @@
 {
   "type": "duct",
-  "size": 1,
+  "size": 2,
   "health": 10,
   "speed": 10.9090909090909090909,
   "junctionReplacement": "intersection",
