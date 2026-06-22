@@ -17,13 +17,13 @@
     }
   ],
   "requirements": [
-    {"item": "one", "amount": 75}
+    {"item": "one", "amount": 50}
   ],
   "category": "units",
   "research": {
   "parent": "core-n",
   "requirements": [
-    {"item": "one", "amount": 750}
+    {"item": "one", "amount": 250}
   ]
   }
 }
