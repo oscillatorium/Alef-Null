@@ -1,6 +1,6 @@
 {
   "type": "UnitFactory",
-  "size": 1,
+  "size": 2,
   "itemCapacity": 50,
   "hasPower": true,
   "consumes": {
