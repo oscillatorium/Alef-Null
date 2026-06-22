@@ -1,5 +1,6 @@
 {
   "color": "80ff80",
   "hardness": 0,
-  "cost": 1.0
+  "cost": 1.0,
+  "research": "core-n"
 }
