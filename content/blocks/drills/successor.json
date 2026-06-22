@@ -5,10 +5,7 @@
   "tier": 1,
   "drillTime": 614,
   "itemCapacity": 5,
-  "hasPower": true,
-  "consumes": {
-    "power": 0.1666667
-  },
+  "hasPower": false,
   "requirements": [
     "plus/25"
   ],
