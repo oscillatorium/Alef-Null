@@ -10,13 +10,13 @@
     "power": 0.1666667
   },
   "requirements": [
-    "one/25"
+    "plus/25"
   ],
   "category": "production",
   "research": {
-    "parent": "one",
+    "parent": "plus",
     "requirements": [
-      "one/5"
+      "plus/5"
     ]
   },
   "drillEffect": "none"
