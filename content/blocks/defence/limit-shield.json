@@ -10,13 +10,15 @@
     "power": 0.1666666667
   },
   "requirements": [
-    { "item": "one", "amount": 15 }
+    { "item": "one", "amount": 15 },
+    { "item": "plus", "amount": 20 }
   ],
   "category": "defense",
   "research": {
     "parent": "exponential-progressor",
     "requirements": [
-      { "item": "one", "amount": 150 }
+      { "item": "one", "amount": 30 },
+      { "item": "plus", "amount": 40 }
     ]
   }
 }
