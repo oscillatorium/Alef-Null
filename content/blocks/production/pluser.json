@@ -1,0 +1,24 @@
+{
+  "type": "GenericCrafter",
+  "health": 80,
+  "size": 1,
+  "hasItems": true,
+  "hasPower": false,
+  "craftTime": 12,
+  "consumes": {
+    "items": [
+      "plus/1"
+    ]
+  },
+  "requirements": [
+    "plus/15"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "successor",
+    "requirements": [
+      "plus/50"
+    ]
+  },
+  "outputItem": "one/1"
+}
