@@ -4,14 +4,14 @@
   "speed": 10.9090909090909090909,
   "itemCapacity": 10,
   "requirements": [
-    { "item": "one", "amount": 2 },
+    { "item": "plus", "amount": 2 },
     { "item": "zero", "amount": 10 }
   ],
   "category": "distribution",
   "research": {
     "parent": "division",
     "requirements": [
-      { "item": "one", "amount": 20 },
+      { "item": "plus", "amount": 20 },
       { "item": "zero", "amount": 100 }
     ]
   }
