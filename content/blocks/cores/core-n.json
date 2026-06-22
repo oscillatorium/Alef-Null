@@ -7,7 +7,9 @@
   "unitType": "subitizator",
   "category": "effect",
   "requirements": [
-    { "item": "one", "amount": 500 }
+    "one/250",
+    "plus/250",
+    "zero/1"
   ],
   "alwaysUnlocked": true,
   "research": {
