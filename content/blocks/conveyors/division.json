@@ -1,12 +1,12 @@
 {
   "type": "Router",
-  "requirements": [{ "item": "one", "amount": 3 }],
+  "requirements": [{ "plus": "one", "amount": 3 }],
   "health": 30,
   "category": "distribution",
   "research": {
     "parent": "mono-conveyor",
     "requirements": [
-      { "item": "one", "amount": 30 }
+      { "item": "plus", "amount": 30 }
     ]
   }
 }
