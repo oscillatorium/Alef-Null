@@ -4,13 +4,13 @@
   "speed": 10.9090909090909090909,
   "capacity": 1,
   "requirements": [
-    { "item": "one", "amount": 2 }
+    { "item": "plus", "amount": 2 }
   ],
   "category": "distribution",
   "research": {
     "parent": "mono-conveyor",
     "requirements": [
-      { "item": "one", "amount": 20 }
+      { "item": "plus", "amount": 20 }
     ]
   }
 }
