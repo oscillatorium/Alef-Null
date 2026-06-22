@@ -13,7 +13,7 @@
   "research": {
     "root": true,
     "planet": "arithmetic",
-    "name": "Граф Исследования Арифметики",
+    "name": "arithmetic",
     "icon": "core-n"
   }
 }
