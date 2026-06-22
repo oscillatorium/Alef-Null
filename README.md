@@ -23,7 +23,7 @@
 
 ## связь
 
-[Это Дискорд](https://discord.gg/99CxfHYtFh) (*!I don't speak English!*)
+[Это Дискорд](https://discord.gg/99CxfHYtFh) *(!I don't speak English!)*
 
 ## Автор
 
@@ -31,7 +31,7 @@
 
 ## тапок
 
-*вот он → 🩴*
+вот он → 🩴
 
 
 
