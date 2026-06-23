@@ -26,7 +26,7 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "one",
+    "parent": "additive-turret",
     "requirements": [
       { "item": "plus", "amount": 200 },
       { "item": "one", "amount": 100 },
