@@ -13,8 +13,26 @@
       "lifetime": 30,
       "frontColor": "80ff80",
       "backColor": "40aa40",
-      "hitEffect": "hitEffect",
-      "shootEffect": "shootEffect"
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "particles": 6,
+        "lifetime": 15,
+        "cone": 360,
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "colorFrom": "80ff80",
+        "colorTo": "80ff8000"
+      },
+      "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 4,
+        "lifetime": 10,
+        "cone": 20,
+        "sizeFrom": 2,
+        "sizeTo": 0,
+        "colorFrom": "80ff80",
+        "colorTo": "80ff8000"
+      }
     }
   },
   "requirements": [
@@ -23,7 +41,7 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "plus",
+    "parent": "core-n",
     "requirements": [
       {"item": "plus", "amount": 60},
       {"item": "one", "amount": 20}
