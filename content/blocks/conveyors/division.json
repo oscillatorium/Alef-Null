@@ -1,6 +1,8 @@
 {
   "type": "Router",
-  "requirements": [{ "plus": "one", "amount": 3 }],
+  "requirements": [
+    { "item": "plus", "amount": 3 }
+  ],
   "health": 30,
   "category": "distribution",
   "research": {
