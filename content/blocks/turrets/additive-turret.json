@@ -1,0 +1,32 @@
+{
+  "type": "ItemTurret",
+  "size": 1,
+  "health": 120,
+  "range": 96,
+  "reload": 20,
+  "shootSound": "shoot",
+  "ammoTypes": {
+    "one": {
+      "type": "BasicBulletType",
+      "damage": 20,
+      "speed": 5,
+      "lifetime": 30,
+      "frontColor": "80ff80",
+      "backColor": "40aa40",
+      "hitEffect": "hit",
+      "shootEffect": "shoot"
+    }
+  },
+  "requirements": [
+    {"item": "one", "amount": 10},
+    {"item": "plus", "amount": 30}
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "plus",
+    "requirements": [
+      {"item": "plus", "amount": 60},
+      {"item": "one", "amount": 20}
+    ]
+  }
+}
