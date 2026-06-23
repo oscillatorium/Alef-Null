@@ -26,7 +26,7 @@
         "splashDamage": 300,
         "splashDamageRadius": 28,
         "status": "negative-energy",
-        "statusDuration": 150,
+        "statusDuration": 600,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 40,
