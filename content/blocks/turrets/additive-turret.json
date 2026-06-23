@@ -41,7 +41,7 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "core-n",
+    "parent": "one",
     "requirements": [
       {"item": "plus", "amount": 60},
       {"item": "one", "amount": 20}
