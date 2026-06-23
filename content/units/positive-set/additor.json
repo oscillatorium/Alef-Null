@@ -34,7 +34,7 @@
       "healColor": "44ff44",
       "laserColor": "44ff44",
       "bullet": {
-        "maxRange": 40
+        "maxRange": 56
       }
     }
   ],
