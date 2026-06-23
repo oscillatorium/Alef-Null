@@ -153,7 +153,7 @@
         "width": 16,
         "buildingDamageMultiplier": 1.5,
         "status": "negative-energy",
-        "statusDuration": 30,
+        "statusDuration": 120,
         "colors": ["ff4444", "ff8888", "ffcccc"]
       }
     }
