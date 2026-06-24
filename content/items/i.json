@@ -1,9 +1,7 @@
 {
   "color": "00ffff",
-  "flammability": 0,
   "radioactivity": 1.0,
-  "explosiveness": 0,
   "cost": 2.5,
   "hardness": 0,
-  "alwaysUnlocked": true
+  "research": "anti-one"
 }
