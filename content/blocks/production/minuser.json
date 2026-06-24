@@ -4,7 +4,7 @@
   "size": 1,
   "hasItems": true,
   "hasPower": false,
-  "craftTime": 12,
+  "craftTime": 60,
   "consumes": {
     "items": [
       "minus/1"
