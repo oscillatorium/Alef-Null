@@ -1,0 +1,24 @@
+{
+  "type": "GenericCrafter",
+  "health": 80,
+  "size": 1,
+  "hasItems": true,
+  "hasPower": false,
+  "craftTime": 12,
+  "consumes": {
+    "items": [
+      "minus/1"
+    ]
+  },
+  "requirements": [
+    "minus/15"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "pluser",
+    "requirements": [
+      "minus/50"
+    ]
+  },
+  "outputItem": "anti-one/1"
+}
