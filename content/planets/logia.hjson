@@ -17,7 +17,7 @@ mesh: {
     ffffffff
   ]
 }
-solarSystem: "logia"
+solarSystem: "sun"
 parent: "sun"
 orbitRadius: 13000
 accessible: true
