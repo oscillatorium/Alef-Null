@@ -15,7 +15,8 @@
   },
   "itemDuration": 60,
   "requirements": [
-    { "item": "one", "amount": 750 }
+    { "item": "one", "amount": 100 },
+    { "item": "plus", "amount": 200 }
   ],
   "category": "power",
   "research": {
