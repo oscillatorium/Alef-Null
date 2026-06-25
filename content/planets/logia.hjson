@@ -18,7 +18,6 @@ mesh: {
   ]
 }
 solarSystem: "logia"
-parent: logia
 orbitRadius: 0
 accessible: true
 radius: 4
