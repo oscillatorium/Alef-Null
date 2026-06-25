@@ -14,10 +14,7 @@
   defaultCore: "core-n"
   iconColor: "44ff44"
   orbitRadius: 12
-  hasAtmosphere: true
-  atmosphereRadIn: 0.4
-  atmosphereRadOut: 1.01
-  atmosphereColor: "00FFFF20"
+  hasAtmosphere: false
   drawOrbit: true
   bloom: false
   updateLighting: true
