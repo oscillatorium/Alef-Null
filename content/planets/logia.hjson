@@ -18,7 +18,8 @@ mesh: {
   ]
 }
 solarSystem: "logia"
-orbitRadius: 0
+parent: "sun"
+orbitRadius: 13000
 accessible: true
 radius: 4
 visible: true
