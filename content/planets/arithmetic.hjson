@@ -6,7 +6,7 @@ iconColor: 80ff80
 orbitRadius: 105
 rotateTime: 3500
 orbitSpacing: 5
-solarSystem: "logia"
+solarSystem: "alef-null"
 defaultCore: "core-n"
 startSector: 0
 sectorSize: 3
