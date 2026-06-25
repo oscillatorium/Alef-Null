@@ -1,0 +1,15 @@
+type: Wall
+health: 250
+size: 2
+requirements: [
+one/32
+plus/32
+]
+category: defense
+research: {
+parent: additive-turret
+requirements: [
+one/32
+plus/32
+]
+}
