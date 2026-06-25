@@ -1,6 +1,6 @@
 {
   name: "arithmetic"
-  parent: "sun"
+  parent: "logia"
   radius: 1.0
   generator: "none"
   sectorSize: 1
