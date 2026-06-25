@@ -13,8 +13,8 @@ mesh: {
   mag: 0.9
   seed: 45
 }
-solarSystem: "arithmetic"
-parent: "sun"
+solarSystem: "sun"
+parent: "logia"
 orbitRadius: 13000
 accessible: true
 radius: 1.09
