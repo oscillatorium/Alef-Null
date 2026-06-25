@@ -1,15 +1,15 @@
 type: Wall
-health: 250
+health: 550
 size: 2
 requirements: [
-one/32
-plus/32
+one/25
+plus/10
 ]
 category: defense
 research: {
 parent: additive-turret
 requirements: [
-one/32
-plus/32
+one/55
+plus/50
 ]
 }
