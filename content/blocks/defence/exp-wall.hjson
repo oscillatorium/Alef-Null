@@ -1,15 +1,15 @@
 type: Wall
 health: 512
 size: 2
-  requirements: [
-    one/32
-    plus/16
-  ]
-  category: defense
-  research: {
-    parent: 
-    requirements: [
-        one/64
-        plus/32
-    ]
-  }
+requirements: [
+one/32
+plus/16
+]
+category: defense
+research: {
+parent: additive-turret
+requirements: [
+one/64
+plus/32
+]
+}
