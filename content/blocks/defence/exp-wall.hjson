@@ -2,12 +2,14 @@ type: Wall
 health: 512
 size: 2
   requirements: [
-    one/
+    one/32
+    plus/16
   ]
   category: defense
   research: {
-    parent: exponential-progressor
+    parent: 
     requirements: [
-   
+        one/64
+        plus/32
     ]
   }
