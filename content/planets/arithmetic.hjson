@@ -1,35 +1,30 @@
-{
-  name: "arithmetic"
-  parent: "logia"
-  radius: 1.0
-  generator: "none"
-  sectorSize: 1
-  accessible: true
-  alwaysUnlocked: true
-  startSector: 0
-  allowLaunchToNumbered: false
-  allowSectorInvasion: false
-  defaultCore: "core-n"
-  iconColor: "44ff44"
-  orbitRadius: 12
-  hasAtmosphere: false
-  drawOrbit: true
-  bloom: false
-  updateLighting: true
-  mesh: {
-    type: "NoiseMesh"
-    seed: 86424
-    divisions: 5
-    radius: 1.0
-    color1: "00ff00"
-    color2: "ff0000"
-    colorOct: 4
-    colorPersistence: 0.5
-    colorScale: 0.5
-    colorThreshold: 0.5
-    octaves: 4
-    persistence: 1
-    scale: 0.75
-    mag: 0
-  }
+mesh: {
+  type: SunMesh
+  divisions: 3
+  octaves: 4
+  persistence: 0.6
+  scl: 1
+  pow: 1
+  mag: 0.5
+  colorScale: 1
+  colors: [
+    80ff80ff
+    aaffaaff
+    ffffffff
+    40aa40ff
+    80ff80ff
+    ffffffff
+  ]
 }
+lightColor: 80ff80
+bloom: true
+accessible: false
+parent: sun
+radius: 4
+iconColor: 80ff80
+drawOrbit: false
+orbitRadius: 13000
+tidalLock: true
+orbitSpacing: 8
+solarSystem: logia
+icon: planet
