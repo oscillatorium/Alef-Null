@@ -1,7 +1,5 @@
 {
   name: "arithmetic"
-  localizedName: "Арифметика"
-  description: "Раздел математики, изучающий простейшие действия с числами."
   parent: "sun"
   radius: 1.0
   generator: "none"
