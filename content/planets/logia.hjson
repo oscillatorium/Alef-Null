@@ -23,10 +23,7 @@ orbitRadius: 13000
 accessible: true
 radius: 4
 visible: true
-hasAtmosphere: true
-atmosphereColor: 80ff80
-atmosphereRadIn: 0.02
-atmosphereRadOut: 0.4
+hasAtmosphere: false
 bloom: true
 orbitSpacing: 8
 drawOrbit: false
