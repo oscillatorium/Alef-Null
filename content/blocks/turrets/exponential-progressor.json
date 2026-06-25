@@ -20,17 +20,17 @@
     }
   },
   "requirements": [
-    { "item": "plus", "amount": 100 },
-    { "item": "one", "amount": 50 },
-    { "item": "zero", "amount": 25 }
+    { "item": "plus", "amount": 10000000 },
+    { "item": "one", "amount": 50000000 },
+    { "item": "zero", "amount": 25000000 }
   ],
   "category": "turret",
   "research": {
     "parent": "additive-turret",
     "requirements": [
-      { "item": "plus", "amount": 200 },
-      { "item": "one", "amount": 100 },
-      { "item": "zero", "amount": 50 }
+      { "item": "plus", "amount": 200000000000 },
+      { "item": "one", "amount": 100000000000 },
+      { "item": "zero", "amount": 500000000000 }
     ]
   }
 }
