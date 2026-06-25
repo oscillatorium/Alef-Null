@@ -1,35 +1,59 @@
-{
-  name: "arithmetic"
-  parent: "logia"
-  radius: 1.0
-  generator: "none"
-  sectorSize: 1
-  accessible: true
-  alwaysUnlocked: true
-  startSector: 0
-  allowLaunchToNumbered: false
-  allowSectorInvasion: false
-  defaultCore: "core-n"
-  iconColor: "44ff44"
-  orbitRadius: 12
-  hasAtmosphere: false
-  drawOrbit: true
-  bloom: false
-  updateLighting: true
-  mesh: {
-    type: "NoiseMesh"
-    seed: 86424
+generator: PlanetGenerator
+parent: "logia"
+localizedName: "Арифметика"
+description: "Раздел математики, изучающий простейшие действия с числами."
+iconColor: 80ff80
+orbitRadius: 105
+rotateTime: 3500
+orbitSpacing: 5
+solarSystem: "logia"
+defaultCore: "core-n"
+startSector: 0
+sectorSize: 3
+accessible: true
+visible: true
+alwaysUnlocked: true
+radius: 1.09
+hasAtmosphere: true
+atmosphereColor: 80ff80
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
+mesh: [
+  {
+    type: NoiseMesh
     divisions: 5
-    radius: 1.0
-    color1: "00ff00"
-    color2: "ff0000"
-    colorOct: 4
-    colorPersistence: 0.5
-    colorScale: 0.5
-    colorThreshold: 0.5
-    octaves: 4
-    persistence: 1
-    scale: 0.75
-    mag: 0
+    radius: 1.1
+    color1: 80ff80ff
+    color2: 40aa40
+    octaves: 5
+    persistence: 0.4
+    scale: 2.0
+    mag: 0.9
+    seed: 45
   }
-}
+  {
+    type: NoiseMesh
+    divisions: 5
+    radius: 1.06
+    color1: aaffaaff
+    color2: aaffaaff
+    octaves: 4
+    persistence: 0.5
+    scale: 1.8
+    mag: 0.8
+    seed: 9
+    bloom: false
+  }
+  {
+    type: HexSkyMesh
+    speed: 1
+    divisions: 5
+    radius: 0.15
+    color: 80ff80bb
+    octaves: 4
+    persistence: 0.49
+    scl: 4
+    thresh: 0.50
+    seed: 7
+  }
+]
