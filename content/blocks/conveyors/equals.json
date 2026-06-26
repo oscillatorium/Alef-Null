@@ -11,8 +11,8 @@
   "research": {
     "parent": "division",
     "requirements": [
-      { "item": "plus", "amount": 20 },
-      { "item": "zero", "amount": 100 }
+      { "item": "plus", "amount": 4 },
+      { "item": "zero", "amount": 20 }
     ]
   }
 }
