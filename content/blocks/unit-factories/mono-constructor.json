@@ -17,13 +17,21 @@
     }
   ],
   "requirements": [
-    {"item": "one", "amount": 50}
+    {"item": "one", "amount": 25},
+    {"item": "plus", "amount": 75}
   ],
   "category": "units",
   "research": {
-  "parent": "core-n",
-  "requirements": [
-    {"item": "one", "amount": 250}
-  ]
+    "parent": "core-n",
+    "requirements": [
+      {"item": "one", "amount": 50},
+      {"item": "plus", "amount": 200}
+    ],
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "subitization"
+      }
+    ]
   }
 }
