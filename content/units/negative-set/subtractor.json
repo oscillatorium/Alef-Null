@@ -14,7 +14,7 @@
   "legForwardScl": 0.5,
   "legMoveSpace": 1.2,
   "legExtension": 0,
-  "hovering": false,
+  "hovering": true,
   "itemCapacity": 5,
   "weapons": [
     {
