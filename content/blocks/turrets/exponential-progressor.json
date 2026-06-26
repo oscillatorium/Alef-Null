@@ -26,7 +26,7 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "additive-turret",
+    "parent": "copper",
     "requirements": [
       { "item": "plus", "amount": 200000000000 },
       { "item": "one", "amount": 100000000000 },
