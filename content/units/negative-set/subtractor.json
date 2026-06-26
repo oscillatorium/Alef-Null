@@ -14,7 +14,7 @@
   "legForwardScl": 0.5,
   "legMoveSpace": 1.2,
   "legExtension": 0,
-  "hovering": true,
+  "hovering": false,
   "itemCapacity": 5,
   "weapons": [
     {
@@ -23,14 +23,14 @@
       "bullet": {
         "type": "ExplosionBulletType",
         "damage": 0,
-        "splashDamage": 300,
+        "splashDamage": 200,
         "splashDamageRadius": 28,
         "status": "negative-energy",
         "statusDuration": 600,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 40,
-          "lifetime": 60,
+          "lifetime": 90,
           "cone": 360,
           "sizeFrom": 6,
           "sizeTo": 0,
