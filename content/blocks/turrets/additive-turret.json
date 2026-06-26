@@ -9,14 +9,15 @@
     "one": {
       "type": "BasicBulletType",
       "damage": 20,
+      "ammoMultiplier": 1,
       "speed": 5,
       "lifetime": 30,
       "frontColor": "80ff80",
       "backColor": "40aa40",
       "hitEffect": {
         "type": "ParticleEffect",
-        "particles": 6,
-        "lifetime": 15,
+        "particles": 10,
+        "lifetime": 30,
         "cone": 360,
         "sizeFrom": 3,
         "sizeTo": 0,
@@ -25,8 +26,8 @@
       },
       "shootEffect": {
         "type": "ParticleEffect",
-        "particles": 4,
-        "lifetime": 10,
+        "particles": 5,
+        "lifetime": 15,
         "cone": 20,
         "sizeFrom": 2,
         "sizeTo": 0,
