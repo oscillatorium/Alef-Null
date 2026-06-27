@@ -25,9 +25,13 @@
 
 [Это Дискорд](https://discord.gg/99CxfHYtFh) *(!I don't speak English!)*
 
-## Автор
+## Разработчики
 
-Кселирит (oscillatorium)
+- Кселирит (oscillatorium) — автор. json, почти все спрайты, репозиторий и идея
+
+- Чмоня/выв (dimon112) — кодер js. весь джава скрипт в моде
+
+- Пуня (HamsterHat) — идейный помощник. идеи на будущее, немного json и пару спрайтов
 
 ## тапок
 
@@ -58,9 +62,13 @@ This mod is under active development. There isn't much content yet, but it will 
 
 Or just search for Alef-Null in the in-game Mod Browser — the mod is already there.
 
-## Author
+## Developers
 
-Kselirit (oscillatorium)
+- Xelirit (oscillatorium) — author. json, almost all sprites, repository and idea
+
+- Chmonya/vyv (dimon112) — js coder. all JavaScript in the mod
+
+- Pun (HamsterHat) — idea helper. ideas for the future, a bit of json and a couple of sprites
 
 ## Slipper
 
