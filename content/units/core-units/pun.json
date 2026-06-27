@@ -21,9 +21,9 @@
   "circleTargetRadius": 5,
   "weapons": [
     {
-      "name": "dummy-weapon",
+      "name": "bygygaga",
       "noAttack": true,
-      "reload": 1,
+      "reload": 6000000000000000000000,
       "bullet": {
         "type": "BasicBulletType",
         "damage": 0,
