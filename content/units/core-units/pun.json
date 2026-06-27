@@ -18,5 +18,18 @@
   "legSplashDamage": 25,
   "legSplashRange": 2,
   "circleTarget": true,
-  "circleTargetRadius": 5
+  "circleTargetRadius": 5,
+  "weapons": [
+    {
+      "name": "dummy-weapon",
+      "noAttack": true,
+      "reload": 1,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 0,
+        "speed": 0.1,
+        "lifetime": 1
+      }
+    }
+  ]
 }
