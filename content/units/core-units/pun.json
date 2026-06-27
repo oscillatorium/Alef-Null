@@ -17,5 +17,6 @@
   "hovering": false,
   "legSplashDamage": 25,
   "legSplashRange": 2,
-  "circleTarget": true
+  "circleTarget": true,
+  "circleTargetRadius": 5
 }
