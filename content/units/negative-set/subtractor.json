@@ -44,5 +44,11 @@
       }
     }
   ],
-  "targetFlags": ["turret", "generator"]
+  "targetFlags": ["turret", "generator"],
+  "research": {
+    "parent": "additor",
+    "requirements": [
+      {"item": "anti-one", "amount": 50}
+    ]
+  }
 }
