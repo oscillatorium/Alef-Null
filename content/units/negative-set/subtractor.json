@@ -44,5 +44,6 @@
       }
     }
   ],
-  "targetFlags": ["turret", "generator"]
+  "targetFlags": ["turret", "generator"],
+  "research": "additor"
 }
