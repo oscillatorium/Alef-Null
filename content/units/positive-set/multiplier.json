@@ -23,7 +23,7 @@
       "rotate": false,
       "baseRotation": 0,
       "shootCone": 360,
-      "reload": 80,
+      "reload": 40,
       "shootSound": "laser",
       "shoot": {
         "shots": 1,
@@ -82,7 +82,7 @@
       "rotate": false,
       "baseRotation": 45,
       "shootCone": 360,
-      "reload": 80,
+      "reload": 40,
       "shootSound": "laser",
       "shoot": {
         "shots": 1,
@@ -141,7 +141,7 @@
       "rotate": false,
       "baseRotation": 90,
       "shootCone": 360,
-      "reload": 80,
+      "reload": 40,
       "shootSound": "laser",
       "shoot": {
         "shots": 1,
@@ -200,7 +200,7 @@
       "rotate": false,
       "baseRotation": 135,
       "shootCone": 360,
-      "reload": 80,
+      "reload": 40,
       "shootSound": "laser",
       "shoot": {
         "shots": 1,
@@ -259,7 +259,7 @@
       "rotate": false,
       "baseRotation": 180,
       "shootCone": 360,
-      "reload": 80,
+      "reload": 40,
       "shootSound": "laser",
       "shoot": {
         "shots": 1,
@@ -318,7 +318,7 @@
       "rotate": false,
       "baseRotation": 225,
       "shootCone": 360,
-      "reload": 80,
+      "reload": 40,
       "shootSound": "laser",
       "shoot": {
         "shots": 1,
@@ -377,7 +377,7 @@
       "rotate": false,
       "baseRotation": 270,
       "shootCone": 360,
-      "reload": 80,
+      "reload": 40,
       "shootSound": "laser",
       "shoot": {
         "shots": 1,
@@ -436,7 +436,7 @@
       "rotate": false,
       "baseRotation": 315,
       "shootCone": 360,
-      "reload": 80,
+      "reload": 40,
       "shootSound": "laser",
       "shoot": {
         "shots": 1,
