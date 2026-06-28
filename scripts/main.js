@@ -74,6 +74,7 @@ const ePiBoss = extend(UnitType, "math-boss", {
         this.engineSize = 0;
         this.outlines = false;
         this.engineSize = 0;
+        this.range = 120;
 
         let sw = new Weapon(); 
         sw.x = 0;
