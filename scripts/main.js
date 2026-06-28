@@ -34,7 +34,7 @@ const mathClone = new UnitType("math-clone");
 // Базовые параметры юнита
 mathClone.health = 1500;
 mathClone.speed = 2.5;
-mathClone.hitSize = 14;
+mathClone.hitSize = 4;
 mathClone.flying = true;
 mathClone.drawCell = false;
 mathClone.engineSize = 0;
@@ -65,7 +65,7 @@ const ePiBoss = extend(UnitType, "math-boss", {
 
         this.health = 20000;
         this.speed = 1.4;
-        this.hitSize = 32;
+        this.hitSize = 4;
         this.armor = 6;
         this.flying = true;
         this.drawCell = false;
@@ -99,12 +99,12 @@ ePiBoss.constructor = () => extend(UnitEntity, {
     },
 
     draw() {
-        this.super$draw(); 
+        this.super$draw();
 
         if (this.phase === 5) {
-            Draw.rect(Core.atlas.find("alef-null-math-boss"), this.x, this.y, 0);
-           
-            
+Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss"), this.x, this.y, 0);
+
+            Draw.z(Layer.shields);
             if (this.shieldHealth > 0) {
                 if (this.shieldAlpha > 0.3) this.shieldAlpha -= 0.02;
                 Draw.color(Pal.accent); 
@@ -114,12 +114,21 @@ ePiBoss.constructor = () => extend(UnitEntity, {
             }
         } else {
             let sN = "alef-null-boss-normal";
-            if (this.phase === 4) sN = "alef-null-boss-warp"; 
-            else if (this.phase === 3) sN = "alef-null-boss-minus";
-            else if (this.phase === 2) sN = "alef-null-boss-spawn"; 
-            else if (this.phase === 1) sN = "alef-null-boss-shoot";
-            
-            Draw.rect(Core.atlas.find(sN), this.x, this.y, 0);
+            let currentRotation = 0; 
+
+            if (this.phase === 4) {
+                sN = "alef-null-boss-warp";
+            } else if (this.phase === 3) {
+                sN = "alef-null-boss-minus";
+            } else if (this.phase === 2) {
+                sN = "alef-null-boss-spawn";
+            } else if (this.phase === 1) {
+                sN = "alef-null-boss-shoot";
+                currentRotation = this.rotation;
+            }
+            Draw.z(Layer.flyingUnit);
+            Draw.rect(Core.atlas.find(sN), this.x, this.y, currentRotation);
+            Draw.reset();
         }
     },
 
