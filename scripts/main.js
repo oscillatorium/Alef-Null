@@ -25,14 +25,39 @@ const mathSeriesBullet = extend(ArtilleryBulletType, {
     fragBullet: mathSeriesFrag, fragBullets: 32, fragVelocityMin: 0.6, fragVelocityMax: 1.4,
     hitEffect: Fx.shockwave, despawnEffect: Fx.shockwave
 });
-const mathClone = extend(UnitType, "math-clone", {
-    health: 1500, speed: 2.5, hitSize: 14, flying: true, drawCell: false, engineSize: 0,
-    init() {
-        this.super$init(); let w = new Weapon("");
-        w.rotate = false; w.reload = 20; w.x = 0; w.y = 0; w.mirror = false; w.bullet = mathSeriesFrag;
-        this.weapons.add(w);
-    }
-});
+
+
+
+
+const mathClone = new UnitType("math-clone");
+
+// Базовые параметры юнита
+mathClone.health = 1500;
+mathClone.speed = 2.5;
+mathClone.hitSize = 14;
+mathClone.flying = true;
+mathClone.drawCell = false;
+mathClone.engineSize = 0;
+
+// Создание и настройка оружия
+const w = new Weapon(); // В v6/v7 конструктор вызывается без пустой строки
+w.rotate = false;
+w.reload = 20;
+w.x = 0;
+w.y = 0;
+w.mirror = false;
+
+// Привязка пули (убедитесь, что mathSeriesFrag объявлена выше в коде)
+w.bullet = mathSeriesFrag;
+
+// Добавление оружия юниту
+mathClone.weapons.add(w);
+
+        
+
+
+        
+        
 const ePiBoss = extend(UnitType, "math-boss", {
     health: 20000, speed: 1.4, hitSize: 32, armor: 6, flying: true, drawCell: false, engineSize: 0,
     init() {
