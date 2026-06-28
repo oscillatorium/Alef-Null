@@ -38,6 +38,7 @@ mathClone.hitSize = 4;
 mathClone.flying = true;
 mathClone.drawCell = false;
 mathClone.engineSize = 0;
+mathClone.outlines = false;
 
 // Создание и настройка оружия
 const w = new Weapon(); // В v6/v7 конструктор вызывается без пустой строки
@@ -70,6 +71,7 @@ const ePiBoss = extend(UnitType, "math-boss", {
         this.flying = true;
         this.drawCell = false;
         this.engineSize = 0;
+        this.outlines = false;
 
         let sw = new Weapon(); 
         sw.x = 0;
