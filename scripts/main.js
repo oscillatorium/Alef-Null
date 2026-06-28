@@ -155,7 +155,6 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
         }
 
         if (this.phase === 5) {
-            this.vel.limit(0.7); 
             let dT = this.lastHealth - this.health;
             if (dT > 0 && this.shieldHealth > 0) {
                 this.shieldHealth -= dT; 
