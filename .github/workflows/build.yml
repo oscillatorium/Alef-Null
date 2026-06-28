@@ -20,7 +20,7 @@ jobs:
       - name: Create mod folder
         run: |
           mkdir Alef-Null
-          cp -r content sprites mod.hjson Alef-Null/
+          cp -r content sprites mod.hjson scripts icon.png Alef-Null/
       
       - name: Archive mod
         run: zip -r Alef-Null.zip Alef-Null
