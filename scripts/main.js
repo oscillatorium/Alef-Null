@@ -103,8 +103,7 @@ ePiBoss.constructor = () => extend(UnitEntity, {
 
         if (this.phase === 5) {
             Draw.rect(Core.atlas.find("alef-null-math-boss"), this.x, this.y, 0);
-            Draw.z(Layer.flyingUnit + 0.1); 
-            Draw.rect(Core.atlas.find("boss-normal"), this.x, this.y + 24, 0);
+           
             
             if (this.shieldHealth > 0) {
                 if (this.shieldAlpha > 0.3) this.shieldAlpha -= 0.02;
@@ -116,9 +115,9 @@ ePiBoss.constructor = () => extend(UnitEntity, {
         } else {
             let sN = "alef-null-boss-normal";
             if (this.phase === 4) sN = "alef-null-boss-warp"; 
-            else if (this.phase === 3) sN = "boss-minus";
+            else if (this.phase === 3) sN = "alef-null-boss-minus";
             else if (this.phase === 2) sN = "alef-null-boss-spawn"; 
-            else if (this.phase === 1) sN = "boss-shoot";
+            else if (this.phase === 1) sN = "alef-null-boss-shoot";
             
             Draw.rect(Core.atlas.find(sN), this.x, this.y, 0);
         }
