@@ -106,7 +106,7 @@ ePiBoss.constructor = () => extend(UnitEntity, {
         this.super$draw();
 
         if (this.phase === 5) {
-Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss"), this.x, this.y, 0);
+Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final"), this.x, this.y, 0);
 
             Draw.z(Layer.shields);
             if (this.shieldHealth > 0) {
