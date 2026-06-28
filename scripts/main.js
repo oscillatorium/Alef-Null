@@ -42,14 +42,14 @@ mathClone.outlines = false;
 mathClone.engineSize = 0;
 
 // Создание и настройка оружия
-const w = new Weapon(); // В v6/v7 конструктор вызывается без пустой строки
+const w = new Weapon("");
 w.rotate = false;
 w.reload = 20;
 w.x = 0;
 w.y = 0;
 w.mirror = false;
 
-// Привязка пули (убедитесь, что mathSeriesFrag объявлена выше в коде)
+// Привязка пули
 w.bullet = mathSeriesFrag;
 
 // Добавление оружия юниту
