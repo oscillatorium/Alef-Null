@@ -36,7 +36,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 5,
         "healAmount": 10,
         "speed": 4.0,
         "lifetime": 40,
@@ -95,7 +95,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 5,
         "healAmount": 10,
         "speed": 4.0,
         "lifetime": 40,
@@ -154,7 +154,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 5,
         "healAmount": 10,
         "speed": 4.0,
         "lifetime": 40,
@@ -213,7 +213,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 5,
         "healAmount": 10,
         "speed": 4.0,
         "lifetime": 40,
@@ -272,7 +272,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 5,
         "healAmount": 10,
         "speed": 4.0,
         "lifetime": 40,
@@ -331,7 +331,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 5,
         "healAmount": 10,
         "speed": 4.0,
         "lifetime": 40,
@@ -390,7 +390,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 5,
         "healAmount": 10,
         "speed": 4.0,
         "lifetime": 40,
@@ -449,7 +449,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
+        "damage": 5,
         "healAmount": 10,
         "speed": 4.0,
         "lifetime": 40,
