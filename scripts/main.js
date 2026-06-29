@@ -40,6 +40,7 @@ mathClone.drawCell = false;
 mathClone.engineSize = 0;
 mathClone.outlines = false;
 mathClone.engineSize = 0;
+mathClone.engineOffset = 0;
 
 // Создание и настройка оружия
 const w = new Weapon("");
@@ -74,6 +75,7 @@ const ePiBoss = extend(UnitType, "math-boss", {
         this.engineSize = 0;
         this.outlines = false;
         this.engineSize = 0;
+        this.engineOffset = 0;
         this.range = 120;
 
         let sw = new Weapon(); 
