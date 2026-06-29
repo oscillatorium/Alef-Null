@@ -226,7 +226,10 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
         }
 
         if (this.target != null) { 
-            this.phase = 1; 
+            this.phase = 1;
+            if (this.hasEffect(StatusEffects.disarmed)) {
+                this.unapply(StatusEffects.disarmed);
+            }
         } else { 
             this.phase = 0; 
             this.apply(StatusEffects.disarmed, 2); 
