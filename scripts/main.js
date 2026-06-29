@@ -107,7 +107,8 @@ ePiBoss.constructor = () => extend(UnitEntity, {
 
     draw() {
         this.super$draw();
-        phase = phases.get(this.id);
+        let phase = phases.get(this.id);
+
 
         if (phase == 5) {
 Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final"), this.x, this.y, 0);
