@@ -146,7 +146,7 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
         if (this.cloneCooldown > 0) this.cloneCooldown--; 
         if (this.warpCooldown > 0) this.warpCooldown--;
 
-        if (this.health <= this.maxHealth * 0.25 && this.phase !== 5) {
+        if (this.health <= this.maxHealth * 0.25) {
             if (!this.healed) {
                 this.health = 40000; 
                 this.shieldHealth = this.maxShieldHealth;
@@ -154,11 +154,11 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
                 this.healed = true; 
                 Fx.shockwave.at(this.x, this.y);
             }
-            this.phase = 5; 
+            phases.set(this.id, 5); 
             return;
         }
 
-        if (this.phase === 5) {
+        if (phases.get(this.id) == 5) {
             let dT = this.lastHealth - this.health;
             if (dT > 0 && this.shieldHealth > 0) {
                 this.shieldHealth -= dT; 
@@ -178,7 +178,7 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
             return;
         }
 
-        if (this.phase === 4) {
+        if (phases.get(this.id) == 4) {
             this.warpDuration--; 
             this.apply(StatusEffects.unmoving, 2); 
             this.apply(StatusEffects.disarmed, 2);
@@ -190,7 +190,7 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
         this.lastHealth = this.health;
 
         if ((dT > 400 || (this.target != null && this.dst(this.target.x, this.target.y) < 70)) && this.warpCooldown === 0) {
-            this.phase = 4; 
+            phases.set(this.id, 4);
             this.warpCooldown = 500; 
             this.warpDuration = 12;
             
@@ -210,14 +210,14 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
         }
 
         if (dT > 200) { 
-            this.phase = 3; 
+            phases.set(this.id, 3); 
             this.apply(StatusEffects.fast, 20); 
             this.apply(StatusEffects.disarmed, 2); 
             return; 
         }
 
         if (this.health < this.maxHealth && this.cloneCooldown === 0 && Mathf.chance(0.03)) {
-            this.phase = 2; 
+            phases.set(this.id, 2); 
             this.cloneCooldown = 450;
             for (let i = 0; i < 2; i++) {
                 let a = Mathf.random(360); 
@@ -229,12 +229,12 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
         }
 
         if (this.target != null) { 
-            this.phase = 1;
+            phases.set(this.id, 1);
             if (this.hasEffect(StatusEffects.disarmed)) {
                 this.unapply(StatusEffects.disarmed);
             }
         } else { 
-            this.phase = 0; 
+            phases.set(this.id, 0);
             this.apply(StatusEffects.disarmed, 2); 
         }
     }
