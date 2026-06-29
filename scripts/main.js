@@ -182,8 +182,10 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
             this.warpDuration--; 
             this.apply(StatusEffects.unmoving, 2); 
             this.apply(StatusEffects.disarmed, 2);
-            if (this.warpDuration <= 0) this.phase = 0; 
+            if (this.warpDuration <= 0) {
+phases.set(this.id, 0);
             return;
+}
         }
 
         let dT = this.lastHealth - this.health; 
