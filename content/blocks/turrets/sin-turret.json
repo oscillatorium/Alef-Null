@@ -1,0 +1,63 @@
+{
+  "type": "ItemTurret",
+  "size": 3,
+  "health": 600,
+  "range": 240,
+  "reload": 30,
+  "shootSound": "shoot",
+  "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 4,
+    "lifetime": 10,
+    "cone": 20,
+    "sizeFrom": 2,
+    "sizeTo": 0,
+    "colorFrom": "ffffff",
+    "colorTo": "ffffff00"
+  },
+  "ammoTypes": {
+    "pi": {
+      "type": "BasicBulletType",
+      "damage": 25,
+      "speed": 4.0,
+      "lifetime": 60,
+      "width": 6,
+      "height": 8,
+      "frontColor": "ffffff",
+      "backColor": "dddddd",
+      "trailColor": "ffffff",
+      "trailLength": 20,
+      "trailWidth": 3,
+      "weaveMag": 8.0,
+      "weaveScale": 8.0,
+      "weaveOffset": 228674252691488,
+      "weaveRandom": false,
+      "collidesAir": true,
+      "collidesGround": true,
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "lifetime": 20,
+        "cone": 360,
+        "sizeFrom": 4,
+        "sizeTo": 0,
+        "colorFrom": "ffffff",
+        "colorTo": "ffffff00"
+      },
+      "despawnEffect": {
+        "type": "ParticleEffect",
+        "particles": 8,
+        "lifetime": 15,
+        "cone": 360,
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "colorFrom": "ffffff",
+        "colorTo": "ffffff00"
+      }
+    }
+  },
+  "requirements": [
+    {"item": "variable", "amount": 50}
+  ],
+  "category": "turret"
+}
