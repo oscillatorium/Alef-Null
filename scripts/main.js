@@ -107,7 +107,8 @@ ePiBoss.constructor = () => extend(UnitEntity, {
     },
 
     draw() {
-        let phase = phases.get(this.id);
+        let phase = phases.get(this.id) || 0;
+
 
 
         if (phase == 5) {
