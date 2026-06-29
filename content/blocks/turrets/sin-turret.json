@@ -1,5 +1,5 @@
 {
-  "type": "Turret",
+  "type": "ItemTurret",
   "size": 3,
   "health": 600,
   "range": 240,
@@ -16,7 +16,7 @@
     "colorTo": "ffffff00"
   },
   "ammoTypes": {
-    "one": {
+    "pi": {
       "type": "BasicBulletType",
       "damage": 25,
       "speed": 4.0,
