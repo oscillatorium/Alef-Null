@@ -106,7 +106,6 @@ ePiBoss.constructor = () => extend(UnitEntity, {
     },
 
     draw() {
-        this.super$draw();
         let phase = phases.get(this.id);
 
 
