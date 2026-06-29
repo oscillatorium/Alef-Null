@@ -103,6 +103,7 @@ ePiBoss.constructor = () => extend(UnitEntity, {
         this.shieldHealth = 0;
         this.maxShieldHealth = 15000;
         this.shieldAlpha = 0;
+        this.phaseTimer = 0;
     },
 
     draw() {
@@ -140,13 +141,16 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
         }
     },
 
-    update() {
+        update() {
         this.super$update();
 
         if (this.cloneCooldown > 0) this.cloneCooldown--; 
         if (this.warpCooldown > 0) this.warpCooldown--;
+        if (this.phaseTimer > 0) this.phaseTimer--;
 
-        if (this.health <= this.maxHealth * 0.25) {
+        let currentPhase = phases.get(this.id) || 0;
+
+        if (this.health <= this.maxHealth * 0.25 && currentPhase !== 5) {
             if (!this.healed) {
                 this.health = 40000; 
                 this.shieldHealth = this.maxShieldHealth;
@@ -155,22 +159,27 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
                 Fx.shockwave.at(this.x, this.y);
             }
             phases.set(this.id, 5); 
+            this.phaseTimer = 30; 
             return;
         }
 
-        if (phases.get(this.id) == 5) {
+        if (currentPhase === 5) {
             let dT = this.lastHealth - this.health;
             if (dT > 0 && this.shieldHealth > 0) {
-                this.shieldHealth -= dT; 
-                this.health += dT; 
+                if (dT > this.shieldHealth) {
+                    this.health += this.shieldHealth;
+                    this.shieldHealth = 0;
+                } else {
+                    this.shieldHealth -= dT; 
+                    this.health += dT;
+                }
                 this.shieldAlpha = 0.9;
-                
+
                 let targetX = Vars.player ? Vars.player.x : this.x;
                 let targetY = Vars.player ? Vars.player.y : this.y;
                 mathShieldHitFx.at(this.x, this.y, this.angleTo(targetX, targetY));
-                
+
                 if (this.shieldHealth <= 0) { 
-                    this.shieldHealth = 0; 
                     Fx.shockwave.at(this.x, this.y); 
                 }
             }
@@ -178,34 +187,43 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
             return;
         }
 
-        if (phases.get(this.id) == 4) {
+        if (currentPhase === 4) {
             this.warpDuration--; 
             this.apply(StatusEffects.unmoving, 2); 
             this.apply(StatusEffects.disarmed, 2);
             if (this.warpDuration <= 0) {
-phases.set(this.id, 0);
+                phases.set(this.id, 0); 
+                this.phaseTimer = 30; 
+            }
             return;
-}
+        }
+
+        if (this.phaseTimer > 0) {
+            this.lastHealth = this.health;
+            if (currentPhase !== 1 && currentPhase !== 5) {
+                this.apply(StatusEffects.disarmed, 2);
+            }
+            return; 
         }
 
         let dT = this.lastHealth - this.health; 
         this.lastHealth = this.health;
 
         if ((dT > 400 || (this.target != null && this.dst(this.target.x, this.target.y) < 70)) && this.warpCooldown === 0) {
-            phases.set(this.id, 4);
+            phases.set(this.id, 4); 
             this.warpCooldown = 500; 
             this.warpDuration = 12;
-            
+
             mathWarpFx.at(this.x, this.y); 
             Fx.lightningCharge.at(this.x, this.y);
-            
+
             let wA = Mathf.random(360);
             let tX = this.x + Angles.trnsx(wA, 140); 
             let tY = this.y + Angles.trnsy(wA, 140);
-            
+
             this.x = Mathf.clamp(tX, 0, Vars.world.width() * Vars.tilesize); 
             this.y = Mathf.clamp(tY, 0, Vars.world.height() * Vars.tilesize);
-            
+
             mathWarpFx.at(this.x, this.y); 
             Fx.scatheExplosion.at(this.x, this.y); 
             return;
@@ -213,6 +231,7 @@ phases.set(this.id, 0);
 
         if (dT > 200) { 
             phases.set(this.id, 3); 
+            this.phaseTimer = 30; 
             this.apply(StatusEffects.fast, 20); 
             this.apply(StatusEffects.disarmed, 2); 
             return; 
@@ -220,24 +239,32 @@ phases.set(this.id, 0);
 
         if (this.health < this.maxHealth && this.cloneCooldown === 0 && Mathf.chance(0.03)) {
             phases.set(this.id, 2); 
+            this.phaseTimer = 30; 
             this.cloneCooldown = 450;
+            this.apply(StatusEffects.disarmed, 2); 
             for (let i = 0; i < 2; i++) {
                 let a = Mathf.random(360); 
                 let cx = this.x + Angles.trnsx(a, 50); 
                 let cy = this.y + Angles.trnsy(a, 50);
-                mathClone.spawn(this.team, cx, cy);
+                mathClone.spawn(this.team, cx, cy); 
             }
             return;
         }
 
         if (this.target != null) { 
-            phases.set(this.id, 1);
             if (this.hasEffect(StatusEffects.disarmed)) {
-                this.unapply(StatusEffects.disarmed);
+                this.unapply(StatusEffects.disarmed); 
+            }
+            if (currentPhase !== 1) {
+                phases.set(this.id, 1);
+                this.phaseTimer = 30; 
             }
         } else { 
-            phases.set(this.id, 0);
             this.apply(StatusEffects.disarmed, 2); 
+            if (currentPhase !== 0) {
+                phases.set(this.id, 0); 
+                this.phaseTimer = 30; 
+            }
         }
     }
 });
