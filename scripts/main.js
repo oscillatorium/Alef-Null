@@ -58,7 +58,7 @@ mathClone.weapons.add(w);
 
         
 
-
+const phases = new Map();
         
 
 
