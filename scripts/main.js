@@ -107,8 +107,9 @@ ePiBoss.constructor = () => extend(UnitEntity, {
 
     draw() {
         this.super$draw();
+        phase = phases.get(this.id);
 
-        if (this.phase === 5) {
+        if (phase == 5) {
 Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final"), this.x, this.y, 0);
 
             Draw.z(Layer.shields);
@@ -123,13 +124,13 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
             let sN = "alef-null-boss-normal";
             let currentRotation = 0; 
 
-            if (this.phase === 4) {
+            if (phase == 4) {
                 sN = "alef-null-boss-warp";
-            } else if (this.phase === 3) {
+            } else if (phase == 3) {
                 sN = "alef-null-boss-minus";
-            } else if (this.phase === 2) {
+            } else if (phase == 2) {
                 sN = "alef-null-boss-spawn";
-            } else if (this.phase === 1) {
+            } else if (phase == 1) {
                 sN = "alef-null-boss-shoot";
                 currentRotation = this.rotation;
             }
