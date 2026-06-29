@@ -30,6 +30,8 @@
       "trailWidth": 3,
       "weaveMag": 1.0,
       "weaveScale": 3.14159265,
+      "weaveOffset": 0.0,
+      "weaveRandom": false,
       "collidesAir": true,
       "collidesGround": true,
       "hitEffect": {
