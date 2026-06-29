@@ -16,11 +16,11 @@ const mathShieldHitFx = new Effect(15, e => {
     Angles.randLenVectors(e.id, 5, 2 + e.fin() * 15, e.rotation, 45, (x, y) => { Lines.line(e.x, e.y, e.x + x, e.y + y); });
 });
 const mathSeriesFrag = extend(BasicBulletType, {
-    damage: 80, speed: 4, lifetime: 30, width: 12, height: 12, sprite: "math-bullet-frag",
+    damage: 80, speed: 4, lifetime: 30, width: 12, height: 12, sprite: "alef-null-math-bullet-frag",
     backColor: Pal.accent, frontColor: Color.white, despawnEffect: Fx.none, hitEffect: Fx.hitBulletSmall
 });
 const mathSeriesBullet = extend(ArtilleryBulletType, {
-    damage: 15, speed: 5, lifetime: 60, width: 18, height: 18, sprite: "math-bullet",
+    damage: 15, speed: 5, lifetime: 60, width: 18, height: 18, sprite: "alef-null-math-bullet",
     backColor: Pal.accent, frontColor: Color.white, splashDamage: 2048, splashDamageRadius: 60,
     fragBullet: mathSeriesFrag, fragBullets: 32, fragVelocityMin: 0.6, fragVelocityMax: 1.4,
     hitEffect: Fx.shockwave, despawnEffect: Fx.shockwave
