@@ -11,6 +11,10 @@
   "itemCapacity": 20,
   "rotateSpeed": 10,
   "outlineColor": "005000",
+  "lightColor": "88ff88",
+  "lightRadius": 12,
+  "trailColor": "44ff44",
+  "trailLength": 16,
   "engineColor": "44ff44",
   "engineColorInner": "ffffff",
   "engines": [
