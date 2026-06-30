@@ -19,7 +19,7 @@
   "ammoTypes": {
     "pi": {
       "type": "BulletType",
-      "spawnUnit": "punya-missile",
+      "spawnUnit": "pun-missile",
       "keepVelocity": false,
       "collidesAir": false,
       "speed": 0,
