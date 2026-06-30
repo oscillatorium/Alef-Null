@@ -1,0 +1,45 @@
+{
+  "type": "ItemTurret",
+  "size": 3,
+  "health": 400,
+  "range": 200,
+  "reload": 120,
+  "shootSound": "missile",
+  "shootEffect": {
+    "type": "ParticleEffect",
+    "particles": 12,
+    "lifetime": 20,
+    "cone": 30,
+    "sizeFrom": 3,
+    "sizeTo": 0,
+    "colorFrom": "aaaaaa",
+    "colorTo": "55555500",
+    "length": 25
+  },
+  "ammoTypes": {
+    "pi": {
+      "type": "BulletType",
+      "spawnUnit": "punya-missile",
+      "keepVelocity": false,
+      "collidesAir": false,
+      "speed": 0,
+      "smokeEffect": "none",
+      "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 8,
+        "lifetime": 15,
+        "cone": 20,
+        "sizeFrom": 2,
+        "sizeTo": 0,
+        "colorFrom": "aaaaaa",
+        "colorTo": "44444400",
+        "length": 20
+      }
+    }
+  },
+  "requirements": [
+    {"item": "one", "amount": 50},
+    {"item": "plus", "amount": 30}
+  ],
+  "category": "turret"
+}
