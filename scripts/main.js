@@ -222,7 +222,7 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
         let dT = this.lastHealth - this.health; 
         this.lastHealth = this.health;
 
-        if ((dT > 400 || (this.target != null && this.dst(this.target.x, this.target.y) < 70)) && this.warpCooldown === 0) {
+        if (( dT > 400 || (this.controller && this.controller.target != null && this.dst(this.controller.target.x, this.controller.target.y) < 70)) && this.warpCooldown === 0) {
             phases.set(this.id, 4); 
             this.warpCooldown = 500; 
             this.warpDuration = 12;
@@ -264,7 +264,7 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
             return;
         }
 
-        if (this.target != null) { 
+        if (this.controller && this.controller.target != null) {
             if (this.hasEffect(StatusEffects.disarmed)) {
                 this.unapply(StatusEffects.disarmed); 
             }
