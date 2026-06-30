@@ -50,6 +50,22 @@
         "collidesGround": true,
         "collidesTeam": false
       }
+    },
+    {
+      "name": "bebebebe",
+      "noAttack": true,
+      "reload": 6000000000000000000000,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 0,
+        "firstShotDelay": 999999999999999999999999
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 0,
+        "speed": 0.1,
+        "lifetime": 1
+      }
     }
   ]
 }
