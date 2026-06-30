@@ -212,7 +212,7 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
         }
 
         if (this.phaseTimer > 0) {
-            this.lastHealth = this.health;
+            
             if (currentPhase !== 1 && currentPhase !== 5) {
                 this.apply(StatusEffects.disarmed, 2);
             }
