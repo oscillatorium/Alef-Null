@@ -114,7 +114,7 @@ ePiBoss.constructor = () => extend(UnitEntity, {
         if (phase == 5) {
 Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final"), this.x, this.y, 0);
 
-            Draw.z(Layer.shields);
+            Draw.z(Layer.flyingUnit + 0.1);
             if (this.shieldHealth > 0) {
                 if (this.shieldAlpha > 0.3) this.shieldAlpha -= 0.02;
                 Draw.color(Pal.accent); 
