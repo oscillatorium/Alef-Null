@@ -15,7 +15,7 @@
   "legMoveSpace": 1.0,
   "legExtension": 0,
   "hovering": false,
-  "legSplashDamage": 25,
+  "legSplashDamage": 5,
   "legSplashRange": 2,
   "circleTarget": true,
   "circleTargetRadius": 5,
@@ -38,7 +38,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 20,
+        "damage": 50,
         "speed": 0,
         "lifetime": 1,
         "width": 0,
