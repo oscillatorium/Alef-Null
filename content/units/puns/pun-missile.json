@@ -43,7 +43,7 @@
         "type": "ExplosionBulletType",
         "damage": 150,
         "splashDamage": 150,
-        "splashDamageRadius": 24,
+        "splashDamageRadius": 32,
         "despawnUnit": "pun-ai",
         "despawnUnitCount": 1,
         "despawnUnitRadius": 0,
