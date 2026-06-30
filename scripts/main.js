@@ -264,20 +264,24 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
             return;
         }
 
-        if (this.controller && this.controller.target != null) {
-            if (this.hasEffect(StatusEffects.disarmed)) {
-                this.unapply(StatusEffects.disarmed); 
-            }
-            if (currentPhase !== 1) {
-                phases.set(this.id, 1);
-                this.phaseTimer = 30; 
-            }
-        } else { 
-            this.apply(StatusEffects.disarmed, 2); 
-            if (currentPhase !== 0) {
-                phases.set(this.id, 0); 
-                this.phaseTimer = 30; 
-            }
+        
+if (currentPhase !== 2 && currentPhase !== 3) {
+    if (this.isShooting) {
+        if (this.hasEffect(StatusEffects.disarmed)) {
+            this.unapply(StatusEffects.disarmed);
         }
+        if (currentPhase !== 1) {
+            phases.set(this.id, 1);
+            this.phaseTimer = 30;
+        }
+    } else {
+        this.apply(StatusEffects.disarmed, 2);
+        if (currentPhase !== 0) {
+            phases.set(this.id, 0);
+            this.phaseTimer = 30;
+        }
+    }
+}
+
     }
 });
