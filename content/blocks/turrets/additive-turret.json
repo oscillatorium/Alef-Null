@@ -2,16 +2,16 @@
   "type": "ItemTurret",
   "size": 1,
   "health": 120,
-  "range": 96,
-  "reload": 20,
+  "range": 80,
+  "reload": 60,
   "shootSound": "shoot",
   "ammoTypes": {
     "one": {
       "type": "BasicBulletType",
       "damage": 20,
       "ammoMultiplier": 1,
-      "speed": 5,
-      "lifetime": 30,
+      "speed": 2,
+      "lifetime": 40,
       "frontColor": "80ff80",
       "backColor": "40aa40",
       "hitEffect": {
