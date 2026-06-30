@@ -1,0 +1,74 @@
+{
+  "type": "legs",
+  "speed": 0.5,
+  "health": 500,
+  "armor": 5,
+  "hitSize": 12,
+  "rotateSpeed": 3,
+  "outlineColor": "808080",
+  "legCount": 8,
+  "legGroupSize": 4,
+  "legPairOffset": 0.5,
+  "legLength": 4,
+  "legSpeed": 0.2,
+  "legForwardScl": 0.5,
+  "legMoveSpace": 1.0,
+  "legExtension": 0,
+  "hovering": false,
+  "legSplashDamage": 25,
+  "legSplashRange": 2,
+  "circleTarget": true,
+  "circleTargetRadius": 5,
+  "playerControllable": false,
+  "hidden": true,
+  "aiController": "GroundAI",
+  "weapons": [
+    {
+      "name": "bite-bomb",
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "rotate": false,
+      "shootCone": 360,
+      "reload": 30,
+      "shootSound": "none",
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 0,
+        "firstShotDelay": 0
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 20,
+        "speed": 0,
+        "lifetime": 1,
+        "width": 0,
+        "height": 0,
+        "splashDamage": 20,
+        "splashDamageRadius": 12,
+        "hitEffect": "none",
+        "shootEffect": "none",
+        "despawnEffect": "none",
+        "collidesAir": false,
+        "collidesGround": true,
+        "collidesTeam": false
+      }
+    },
+    {
+      "name": "bebebebe",
+      "noAttack": true,
+      "reload": 6000000000000000000000,
+      "shoot": {
+        "shots": 1,
+        "shotDelay": 0,
+        "firstShotDelay": 999999999999999999999999
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 0,
+        "speed": 0.1,
+        "lifetime": 1
+      }
+    }
+  ]
+}
