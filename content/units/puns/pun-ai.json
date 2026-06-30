@@ -21,7 +21,6 @@
   "circleTargetRadius": 5,
   "playerControllable": false,
   "hidden": true,
-  "aiController": "GroundAI",
   "weapons": [
     {
       "name": "bite-bomb",
