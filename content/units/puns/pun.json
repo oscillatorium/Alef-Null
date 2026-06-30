@@ -21,19 +21,34 @@
   "circleTargetRadius": 5,
   "weapons": [
     {
-      "name": "bebebebe",
-      "noAttack": true,
-      "reload": 6000000000000000000000,
+      "name": "bite-bomb",
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "rotate": false,
+      "shootCone": 360,
+      "reload": 30,
+      "shootSound": "none",
       "shoot": {
         "shots": 1,
         "shotDelay": 0,
-        "firstShotDelay": 999999999999999999999999
+        "firstShotDelay": 0
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 0,
-        "speed": 0.1,
-        "lifetime": 1
+        "damage": 20,
+        "speed": 0,
+        "lifetime": 1,
+        "width": 0,
+        "height": 0,
+        "splashDamage": 20,
+        "splashDamageRadius": 12,
+        "hitEffect": "none",
+        "shootEffect": "none",
+        "despawnEffect": "none",
+        "collidesAir": false,
+        "collidesGround": true,
+        "collidesTeam": false
       }
     }
   ]
