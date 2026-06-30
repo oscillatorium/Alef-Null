@@ -250,7 +250,7 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
             return; 
         }
 
-        if (this.health < this.maxHealth && this.cloneCooldown === 0 && Mathf.chance(0.03)) {
+        if (this.health < this.maxHealth && this.cloneCooldown === 0) {
             phases.set(this.id, 2); 
             this.phaseTimer = 30; 
             this.cloneCooldown = 450;
