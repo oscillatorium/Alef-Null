@@ -119,7 +119,8 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
                 if (this.shieldAlpha > 0.3) this.shieldAlpha -= 0.02;
                 Draw.color(Pal.accent); 
                 Draw.alpha(this.shieldAlpha);
-                Draw.rect(Core.atlas.find("alef-null-boss-shield"), this.x, this.y, 72, 72, 0); 
+                Draw.rect(Core.atlas.find("alef-null-boss-shield"), this.x, this.y, 72, 72, 0);
+ 
                 Draw.reset();
             }
         } else {
