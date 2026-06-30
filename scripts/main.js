@@ -188,6 +188,17 @@ Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final")
             return;
         }
 
+         
+        
+  
+    if (Vars.player != null && Vars.player.unit() === this) {
+        if (currentPhase !== 1) phases.set(this.id, 1);
+        this.lastHealth = this.health;
+        return;
+    }
+        
+
+
         if (currentPhase === 4) {
             this.warpDuration--; 
             this.apply(StatusEffects.unmoving, 2); 
