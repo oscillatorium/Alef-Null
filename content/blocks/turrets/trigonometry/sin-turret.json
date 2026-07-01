@@ -28,7 +28,7 @@
       "trailColor": "ffffff",
       "trailLength": 80,
       "trailWidth": 4,
-      "weaveMag": 8.0,
+      "weaveMag": 2.0,
       "weaveScale": 6.0,
       "weaveOffset": 1,
       "weaveRandom": false,
