@@ -12,8 +12,8 @@
     "cone": 20,
     "sizeFrom": 2,
     "sizeTo": 0,
-    "colorFrom": "ffffff",
-    "colorTo": "ffffff00"
+    "colorFrom": "ffff00",
+    "colorTo": "ffff0000"
   },
   "ammoTypes": {
     "pi": {
@@ -24,13 +24,13 @@
       "sprite": "alef-null-pi",
       "width": 8,
       "height": 8,
-      "frontColor": "ffffff",
-      "backColor": "dddddd",
-      "trailColor": "ffffff",
+      "frontColor": "ffff00",
+      "backColor": "dddd00",
+      "trailColor": "ffff00",
       "trailLength": 20,
       "trailWidth": 3,
       "weaveMag": 3.1415926535,
-      "weaveScale": 8.0,
+      "weaveScale": 3.1415926535,
       "weaveOffset": 1,
       "weaveRandom": false,
       "collidesAir": true,
