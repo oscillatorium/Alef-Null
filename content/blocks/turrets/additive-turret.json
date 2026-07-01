@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "size": 1,
-  "health": 120,
+  "health": 100,
   "range": 80,
   "reload": 60,
   "shootSound": "shoot",
