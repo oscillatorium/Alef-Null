@@ -10,8 +10,8 @@
       "type": "BasicBulletType",
       "damage": 20,
       "ammoMultiplier": 1,
-      "speed": 2,
-      "lifetime": 40,
+      "speed": 2.828427125,
+      "lifetime": 28.28427125,
       "frontColor": "80ff80",
       "backColor": "40aa40",
       "hitEffect": {
