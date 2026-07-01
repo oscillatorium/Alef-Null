@@ -12,7 +12,7 @@
       "ammoMultiplier": 1,
       "speed": 2.828427125,
       "lifetime": 28.28427125,
-      "sprite": "two",
+      "sprite": "alef-null-two",
       "frontColor": "80ff80",
       "backColor": "40aa40",
       "hitEffect": {
