@@ -19,8 +19,8 @@
     "variable": {
       "type": "BasicBulletType",
       "damage": 10,
-      "speed": 8.0,
-      "lifetime": 30,
+      "speed": 2.0,
+      "lifetime": 600,
       "width": 8,
       "height": 8,
       "frontColor": "ffffff",
