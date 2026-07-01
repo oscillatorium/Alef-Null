@@ -13,6 +13,8 @@
       "ammoMultiplier": 1,
       "speed": 4,
       "lifetime": 40,
+      "width": 4,
+      "height": 6,
       "sprite": "alef-null-four",
       "frontColor": "80ff80",
       "backColor": "40aa40",
