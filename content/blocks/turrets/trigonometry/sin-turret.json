@@ -2,7 +2,7 @@
   "type": "ItemTurret",
   "size": 3,
   "health": 600,
-  "range": 200,
+  "range": 224,
   "reload": 30,
   "shootSound": "shoot",
   "shootEffect": {
@@ -19,8 +19,8 @@
     "variable": {
       "type": "BasicBulletType",
       "damage": 10,
-      "speed": 3.0,
-      "lifetime": 600,
+      "speed": 4.0,
+      "lifetime": 60,
       "width": 8,
       "height": 8,
       "frontColor": "ffffff",
@@ -28,7 +28,7 @@
       "trailColor": "ffffff",
       "trailLength": 80,
       "trailWidth": 4,
-      "weaveMag": 5.0,
+      "weaveMag": 8.0,
       "weaveScale": 4.0,
       "weaveOffset": 1,
       "weaveRandom": false,
@@ -47,7 +47,7 @@
       "despawnEffect": {
         "type": "ParticleEffect",
         "particles": 8,
-        "lifetime": 15,
+        "lifetime": 30,
         "cone": 360,
         "sizeFrom": 3,
         "sizeTo": 0,
