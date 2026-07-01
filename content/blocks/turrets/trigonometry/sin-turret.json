@@ -15,13 +15,19 @@
     "colorFrom": "ffffff",
     "colorTo": "ffffff00"
   },
+  "shoot": {
+    "type": "ShootBarrel",
+    "barrels": [
+      [ -4, 12, 0 ],
+      [ 4, 12, 0 ]
+    ]
+  },
   "ammoTypes": {
     "variable": {
       "type": "BasicBulletType",
       "damage": 10,
       "speed": 4.0,
       "lifetime": 60,
-      "angleOffset": -5,
       "width": 8,
       "height": 8,
       "frontColor": "ffffff",
@@ -33,6 +39,7 @@
       "weaveScale": 5.0,
       "weaveOffset": 0,
       "weaveRandom": false,
+      "angleOffset": 0,
       "collidesAir": true,
       "collidesGround": true,
       "hitEffect": {
