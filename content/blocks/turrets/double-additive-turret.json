@@ -1,0 +1,52 @@
+{
+  "type": "ItemTurret",
+  "size": 2,
+  "health": 400,
+  "range": 160,
+  "reload": 30,
+  "shootSound": "shoot",
+  "ammoPerShot": 2,
+  "ammoTypes": {
+    "one": {
+      "type": "BasicBulletType",
+      "damage": 40,
+      "ammoMultiplier": 1,
+      "speed": 4,
+      "lifetime": 80,
+      "frontColor": "80ff80",
+      "backColor": "40aa40",
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "lifetime": 30,
+        "cone": 360,
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "colorFrom": "80ff80",
+        "colorTo": "80ff8000"
+      },
+      "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 5,
+        "lifetime": 15,
+        "cone": 20,
+        "sizeFrom": 2,
+        "sizeTo": 0,
+        "colorFrom": "80ff80",
+        "colorTo": "80ff8000"
+      }
+    }
+  },
+  "requirements": [
+    {"item": "one", "amount": 20},
+    {"item": "plus", "amount": 60}
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "additive-turret",
+    "requirements": [
+      {"item": "plus", "amount": 120},
+      {"item": "one", "amount": 40}
+    ]
+  }
+}
