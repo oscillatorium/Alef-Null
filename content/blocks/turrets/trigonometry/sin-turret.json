@@ -18,8 +18,8 @@
   "shoot": {
     "type": "ShootBarrel",
     "barrels": [
-      [ -4, 12, 0 ],
-      [ 4, 12, 0 ]
+      [-4, 12, 0],
+      [4, 12, 0]
     ]
   },
   "ammoTypes": {
@@ -65,7 +65,10 @@
     }
   },
   "requirements": [
-    {"item": "variable", "amount": 50}
+    {
+      "item": "variable",
+      "amount": 50
+    }
   ],
   "category": "turret"
 }
