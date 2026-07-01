@@ -37,15 +37,15 @@
     }
   },
   "requirements": [
-    {"item": "one", "amount": 10},
-    {"item": "plus", "amount": 30}
+    {"item": "one", "amount": 20},
+    {"item": "plus", "amount": 10}
   ],
   "category": "turret",
   "research": {
     "parent": "one",
     "requirements": [
-      {"item": "plus", "amount": 60},
-      {"item": "one", "amount": 20}
+      {"item": "plus", "amount": 20},
+      {"item": "one", "amount": 40}
     ]
   }
 }
