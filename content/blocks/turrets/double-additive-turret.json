@@ -3,7 +3,7 @@
   "size": 2,
   "health": 400,
   "range": 160,
-  "reload": 30,
+  "reload": 60,
   "shootSound": "shoot",
   "ammoPerShot": 2,
   "ammoTypes": {
@@ -12,7 +12,7 @@
       "damage": 40,
       "ammoMultiplier": 1,
       "speed": 4,
-      "lifetime": 80,
+      "lifetime": 40,
       "frontColor": "80ff80",
       "backColor": "40aa40",
       "hitEffect": {
