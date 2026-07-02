@@ -108,7 +108,6 @@ ePiBoss.constructor = () => extend(UnitEntity, {
         this.healed = false;
         this.shieldHealth = 0;
         this.maxShieldHealth = 15000;
-        this.shieldAlpha = 0;
         this.phaseTimer = 0;
     },
 
@@ -118,17 +117,15 @@ ePiBoss.constructor = () => extend(UnitEntity, {
 
 
         if (phase == 5) {
-Draw.z(Layer.flyingUnit); Draw.rect(Core.atlas.find("alef-null-math-boss-final"), this.x, this.y, 0);
-
-            Draw.z(Layer.flyingUnit + 0.1);
+            Draw.z(Layer.flyingUnit);
+            Draw.rect(Core.atlas.find("alef-null-math-boss-final"), this.x, this.y, 0);
+            
             if (this.shieldHealth > 0) {
-                if (this.shieldAlpha > 0.3) this.shieldAlpha -= 0.02;
-                Draw.color(Pal.accent); 
-                Draw.alpha(this.shieldAlpha);
+                Draw.z(Layer.flyingUnit + 0.1);
                 Draw.rect(Core.atlas.find("alef-null-boss-shield"), this.x, this.y, 72, 72, 0);
- 
-                Draw.reset();
             }
+
+            Draw.reset();
         } else {
             let sN = "alef-null-boss-normal";
             let currentRotation = 0; 
