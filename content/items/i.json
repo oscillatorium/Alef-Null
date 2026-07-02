@@ -1,7 +1,7 @@
 {
   "color": "00ffff",
   "radioactivity": 1.0,
-  "cost": 2.5,
+  "cost": 6,
   "hardness": 0,
   "research": "anti-one"
 }
