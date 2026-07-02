@@ -3,7 +3,7 @@
   "size": 3,
   "health": 350,
   "range": 200,
-  "reload": 120,
+  "reload": 30,
   "shootCone": 20,
   "targetAir": true,
   "targetGround": true,
@@ -16,7 +16,6 @@
       "width": 12,
       "hitEffect": "hitLancer",
       "shootEffect": "shootBig",
-      "shootSound": "agusha",
       "colors": ["77ff77", "44ff44"]
     }
   },
