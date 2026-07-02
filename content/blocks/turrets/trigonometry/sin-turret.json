@@ -61,7 +61,8 @@
     }
   },
   "requirements": [
-    {"item": "variable", "amount": 50}
+    {"item": "variable", "amount": 100},
+    {"item": "pi", "amount": 10}
   ],
   "category": "turret"
 }
