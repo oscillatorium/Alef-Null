@@ -2,7 +2,7 @@ displayName: "[[]#80ff80]Alef-Null[[]]"
 name: "Alef-Null"
 author: "[[]#80ff80]Кселирит[[]]"
 subtitle: "[[]#aaffaa]Мод на добавление математики[[]]"
-description: "Ru\nЭтот мод должен добавлять планету с математикой в качестве блоков, но пока только 1 сектор\n[accent[]]Крутые вывы: chmonya (java script)[[]]\n\nEn\nThis mod is supposed to add a planet with mathematics as blocks, but so far only 1 sector\n[accent[]]Cool thanks: chmonya (java script)[[]]"
+description: "Ru\nЭтот мод должен добавлять планету с математикой в качестве блоков, но пока только 1 сектор\n[accent[]]Особое спасибо: чмоня, пунь, Георг Кантор, Леонард Эйлер[[]]\n\nEn\nThis mod is supposed to add a planet with mathematics as blocks, but so far only 1 sector\n[accent[]]Cool thanks: chmonya, alex (pun), Georg Cantor, Leonard Euler[[]]"
 version: 1.04
 minGameVersion: 146
 java: false
