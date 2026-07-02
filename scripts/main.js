@@ -60,7 +60,8 @@ w.bullet = mathSeriesFrag;
 mathClone.weapons.add(w);
 
 // К О Н С Т Р У К Т О Р
-mathClone.constructor = () => extend(UnitEntity, {});
+mathClone.constructor = () => UnitEntity.create();
+
 
 
 const phases = new Map();
