@@ -20,17 +20,17 @@
     }
   },
   "requirements": [
-    { "item": "plus", "amount": 10000000 },
-    { "item": "one", "amount": 50000000 },
-    { "item": "zero", "amount": 25000000 }
+    { "item": "one", "amount": 100 },
+    { "item": "variable", "amount": 20 },
+    { "item": "approachs-infinity", "amount": 10 }
   ],
   "category": "turret",
   "research": {
     "parent": "copper",
     "requirements": [
-      { "item": "plus", "amount": 200000000000 },
-      { "item": "one", "amount": 100000000000 },
-      { "item": "zero", "amount": 500000000000 }
+    { "item": "one", "amount": 100 },
+    { "item": "variable", "amount": 20 },
+    { "item": "approachs-infinity", "amount": 10 }
     ]
   }
 }
