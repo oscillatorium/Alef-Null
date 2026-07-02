@@ -1,9 +1,5 @@
 {
   "color": "ffffff",
-  "hardness": 0,
-  "cost": 0.1,
-  "flammability": 0,
-  "radioactivity": 0.2,
-  "explosiveness": 0,
+  "cost": 0,
   "research": "one"
 }
