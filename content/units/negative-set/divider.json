@@ -35,7 +35,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 15,
+        "damage": 20,
         "speed": 4.0,
         "lifetime": 40,
         "width": 6,
@@ -94,7 +94,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 15,
+        "damage": 20,
         "speed": 4.0,
         "lifetime": 40,
         "width": 6,
@@ -153,7 +153,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 15,
+        "damage": 20,
         "speed": 4.0,
         "lifetime": 40,
         "width": 6,
@@ -212,7 +212,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 15,
+        "damage": 20,
         "speed": 4.0,
         "lifetime": 40,
         "width": 6,
@@ -271,7 +271,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 15,
+        "damage": 20,
         "speed": 4.0,
         "lifetime": 40,
         "width": 6,
@@ -330,7 +330,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 15,
+        "damage": 20,
         "speed": 4.0,
         "lifetime": 40,
         "width": 6,
@@ -448,7 +448,7 @@
       },
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 15,
+        "damage": 20,
         "speed": 4.0,
         "lifetime": 40,
         "width": 6,
