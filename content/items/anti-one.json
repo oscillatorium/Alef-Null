@@ -2,7 +2,7 @@
   "color": "ff0000",
   "radioactivity": 0.5,
   "explosiveness": 0.5,
-  "cost": 1.5,
+  "cost": 6,
   "hardness": 0,
   "research": "zero"
 }
