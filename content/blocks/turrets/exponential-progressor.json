@@ -22,7 +22,7 @@
   "requirements": [
     { "item": "one", "amount": 100 },
     { "item": "variable", "amount": 20 },
-    { "item": "approachs-infinity", "amount": 10 }
+    { "item": "approaches-infinity", "amount": 10 }
   ],
   "category": "turret",
   "research": {
@@ -30,7 +30,7 @@
     "requirements": [
     { "item": "one", "amount": 100 },
     { "item": "variable", "amount": 20 },
-    { "item": "approachs-infinity", "amount": 10 }
+    { "item": "approaches-infinity", "amount": 10 }
     ]
   }
 }
