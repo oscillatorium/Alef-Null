@@ -16,6 +16,7 @@
   "legExtension": 0,
   "hovering": false,
   "itemCapacity": 10,
+  "targetFlags": ["turret", "generator"],
   "weapons": [
     {
       "name": "divider-gun-0",
@@ -39,6 +40,7 @@
         "lifetime": 40,
         "width": 6,
         "height": 8,
+        "sprite": "alef-null-red-two",
         "frontColor": "ff4444",
         "backColor": "cc2222",
         "trailColor": "ff4444",
@@ -50,8 +52,6 @@
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
-        "targetBuildings": true,
-        "targetUnits": true,
         "status": "division-energy",
         "statusDuration": 30,
         "hitEffect": {
@@ -99,6 +99,7 @@
         "lifetime": 40,
         "width": 6,
         "height": 8,
+        "sprite": "alef-null-red-two",
         "frontColor": "ff4444",
         "backColor": "cc2222",
         "trailColor": "ff4444",
@@ -110,8 +111,6 @@
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
-        "targetBuildings": true,
-        "targetUnits": true,
         "status": "division-energy",
         "statusDuration": 30,
         "hitEffect": {
@@ -159,6 +158,7 @@
         "lifetime": 40,
         "width": 6,
         "height": 8,
+        "sprite": "alef-null-red-two",
         "frontColor": "ff4444",
         "backColor": "cc2222",
         "trailColor": "ff4444",
@@ -170,8 +170,6 @@
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
-        "targetBuildings": true,
-        "targetUnits": true,
         "status": "division-energy",
         "statusDuration": 30,
         "hitEffect": {
@@ -219,6 +217,7 @@
         "lifetime": 40,
         "width": 6,
         "height": 8,
+        "sprite": "alef-null-red-two",
         "frontColor": "ff4444",
         "backColor": "cc2222",
         "trailColor": "ff4444",
@@ -230,8 +229,6 @@
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
-        "targetBuildings": true,
-        "targetUnits": true,
         "status": "division-energy",
         "statusDuration": 30,
         "hitEffect": {
@@ -279,6 +276,7 @@
         "lifetime": 40,
         "width": 6,
         "height": 8,
+        "sprite": "alef-null-red-two",
         "frontColor": "ff4444",
         "backColor": "cc2222",
         "trailColor": "ff4444",
@@ -290,8 +288,6 @@
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
-        "targetBuildings": true,
-        "targetUnits": true,
         "status": "division-energy",
         "statusDuration": 30,
         "hitEffect": {
@@ -339,6 +335,7 @@
         "lifetime": 40,
         "width": 6,
         "height": 8,
+        "sprite": "alef-null-red-two",
         "frontColor": "ff4444",
         "backColor": "cc2222",
         "trailColor": "ff4444",
@@ -350,8 +347,6 @@
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
-        "targetBuildings": true,
-        "targetUnits": true,
         "status": "division-energy",
         "statusDuration": 30,
         "hitEffect": {
@@ -399,6 +394,7 @@
         "lifetime": 40,
         "width": 6,
         "height": 8,
+        "sprite": "alef-null-red-two",
         "frontColor": "ff4444",
         "backColor": "cc2222",
         "trailColor": "ff4444",
@@ -410,8 +406,6 @@
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
-        "targetBuildings": true,
-        "targetUnits": true,
         "status": "division-energy",
         "statusDuration": 30,
         "hitEffect": {
@@ -459,6 +453,7 @@
         "lifetime": 40,
         "width": 6,
         "height": 8,
+        "sprite": "alef-null-red-two",
         "frontColor": "ff4444",
         "backColor": "cc2222",
         "trailColor": "ff4444",
@@ -470,8 +465,6 @@
         "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": false,
-        "targetBuildings": true,
-        "targetUnits": true,
         "status": "division-energy",
         "statusDuration": 30,
         "hitEffect": {
@@ -497,6 +490,5 @@
         "despawnEffect": "none"
       }
     }
-  ],
-  "targetFlags": ["turret", "generator"]
+  ]
 }
