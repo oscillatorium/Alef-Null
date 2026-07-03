@@ -14,7 +14,6 @@
   "outlineColor": "005000",
   "hovering": true,
   "canDrown": false,
-  "engineOffset": -1.75,
   "engineSize": 0,
   "loopSound": "loopHover",
   "loopSoundVolume": 0.8,
@@ -22,10 +21,6 @@
   "drag": 0.03,
   "useEngineElevation": false,
   "shadowElevation": 0.3,
-  "trailColor": "00ff00",
-  "trailLength": 16,
-  "engineColor": "00ff00",
-  "engineColorInner": "aaffaa",
   "lightColor": "aaffaa",
   "lightRadius": 12,
   "parts": [
@@ -35,9 +30,9 @@
       "y": 2,
       "sides": 4,
       "mirror": true,
-      "radius": 4,
+      "radius": 3,
       "phase": 90,
-      "stroke": 2,
+      "stroke": 1,
       "color": "00ff00"
     },
     {
@@ -46,9 +41,9 @@
       "y": -2,
       "sides": 4,
       "mirror": true,
-      "radius": 4,
+      "radius": 3,
       "phase": 90,
-      "stroke": 2,
+      "stroke": 1,
       "color": "00ff00"
     }
   ],
