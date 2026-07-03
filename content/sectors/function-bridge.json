@@ -10,6 +10,7 @@
   "noLighting": true,
   "research": {
     "parent": "subitization",
+    "content": "sector",
     "requirements": [
       {"item": "one", "amount": 100},
       {"item": "plus", "amount": 50}
