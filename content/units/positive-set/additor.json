@@ -35,7 +35,7 @@
       "phase": 90,
       "stroke": 1,
       "color": "00ff00",
-      "layer": 50
+      "layer": 90
     },
     {
       "type": "HoverPart",
@@ -47,7 +47,7 @@
       "phase": 90,
       "stroke": 1,
       "color": "00ff00",
-      "layer": 50
+      "layer": 90
     }
   ],
   "weapons": [
