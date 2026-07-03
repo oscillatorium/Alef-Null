@@ -3,7 +3,7 @@
   planet: "arithmetic"
   name: "subitization"
   sector: 0
-  difficulty: 1
+  difficulty: 4
   captureWave: 10
   alwaysUnlocked: true
   addStartingItems: true
