@@ -18,6 +18,10 @@
   drawOrbit: true
   bloom: false
   updateLighting: true
+  sectors: [
+    "subitization"
+    "function-bridge"
+  ]
   mesh: {
     type: "NoiseMesh"
     seed: 86424
