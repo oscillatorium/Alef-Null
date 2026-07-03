@@ -39,10 +39,8 @@
     }
   },
   "requirements": [
-    {"item": "one", "amount": 228},
-    {"item": "plus", "amount": 67}
+    {"item": "one", "amount": 40},
+    {"item": "plus", "amount": 20}
   ],
   "category": "turret"
-    ]
-  }
 }
