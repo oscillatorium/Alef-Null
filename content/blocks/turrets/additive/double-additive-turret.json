@@ -50,6 +50,12 @@
     "requirements": [
       {"item": "plus", "amount": 20},
       {"item": "one", "amount": 80}
+    ],
+    "objectives": [
+      {
+       "type": "SectorComplete",
+       "preset": "subitization"
+      }
     ]
   }
 }
