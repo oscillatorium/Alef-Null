@@ -4,7 +4,7 @@
   "health": 300,
   "hitSize": 8,
   "armor": 0,
-  "range": 80,
+  "range": 32,
   "mineTier": 1,
   "mineSpeed": 1.0,
   "mineItems": ["alef-null-plus"],
@@ -73,7 +73,7 @@
       "healColor": "44ff44",
       "laserColor": "44ff44",
       "bullet": {
-        "maxRange": 56
+        "maxRange": 32
       }
     }
   ],
