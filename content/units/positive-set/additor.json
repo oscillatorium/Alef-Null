@@ -27,6 +27,18 @@
     {
       "type": "HoverPart",
       "x": 2,
+      "y": 2,
+      "sides": 4,
+      "mirror": true,
+      "radius": 3,
+      "phase": 90,
+      "stroke": 1,
+      "color": "00ff00",
+      "layer": 50
+    },
+    {
+      "type": "HoverPart",
+      "x": 2,
       "y": -2,
       "sides": 4,
       "mirror": true,
