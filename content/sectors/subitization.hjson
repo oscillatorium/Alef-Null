@@ -1,5 +1,6 @@
 {
   planet: "arithmetic"
+  name: "subitization"
   sector: 0
   difficulty: 1
   captureWave: 10
