@@ -1,4 +1,5 @@
 {
+  type: SectorPreset
   planet: "arithmetic"
   name: "subitization"
   sector: 0
@@ -9,12 +10,12 @@
   overrideLaunchDefaults: true
   noLighting: true
   research: {
-  parent: "core-n"
-  objectives: [
-    {
-      type: SectorComplete
-      preset: "groundZero"
-    }
-  ]
-}
+    parent: "core-n"
+    objectives: [
+      {
+        type: SectorComplete
+        preset: "groundZero"
+      }
+    ]
+  }
 }
