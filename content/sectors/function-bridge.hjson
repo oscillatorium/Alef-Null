@@ -2,20 +2,17 @@
   type: SectorPreset
   planet: "arithmetic"
   name: "function-bridge"
-  sector: 1
+  sector: 2
   difficulty: 3
   captureWave: 15
   alwaysUnlocked: false
   addStartingItems: true
   overrideLaunchDefaults: true
+  allowLaunchLoadout: true
   noLighting: true
   research: {
     parent: "subitization"
     content: "sector"
-    requirements: [
-      { item: "one", amount: 100 }
-      { item: "plus", amount: 50 }
-    ]
     objectives: [
       {
         type: SectorComplete
