@@ -11,8 +11,9 @@
   allowLaunchLoadout: true
   noLighting: true
   research: {
-    parent: "subitization"
+    parent: "core-n"
     content: "sector"
+    requiresUnlock: false
     objectives: [
       {
         type: SectorComplete
