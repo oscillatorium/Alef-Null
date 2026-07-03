@@ -1,8 +1,6 @@
 {
   planet: "arithmetic"
   sector: 0
-  name: "Субитизация"
-  description: "Начало математического развития."
   difficulty: 1
   captureWave: 10
   alwaysUnlocked: true
