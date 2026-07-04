@@ -2,6 +2,7 @@
   "type": "CoreBlock",
   "size": 3,
   "health": 1000,
+  "buildTime": 500,
   "armor": 5,
   "itemCapacity": 1000,
   "unitType": "subitizator",
