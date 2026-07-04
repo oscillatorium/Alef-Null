@@ -11,6 +11,8 @@
   startSector: 0
   allowLaunchToNumbered: false
   allowSectorInvasion: false
+  allowLaunchSchematics: false
+  clearSectorOnLose: true
   defaultCore: "core-n"
   iconColor: "44ff44"
   orbitRadius: 12
