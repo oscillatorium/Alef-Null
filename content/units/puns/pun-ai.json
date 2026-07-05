@@ -21,6 +21,7 @@
   "circleTargetRadius": 5,
   "playerControllable": false,
   "hidden": true,
+  "canDrown": false,
   "weapons": [
     {
       "name": "bite-bomb",
