@@ -35,7 +35,7 @@
       "shootCone": 5,
       "reload": 240,
       "shootSound": "alfaShoot",
-      "shootStatus": "exhaust",
+      "shootStatus": "sapped",
       "shootStatusDuration": 120,
       "shootStatusShooter": true,
       "shoot": {
