@@ -8,7 +8,7 @@
   "ammoTypes": {
     "one": {
       "type": "BulletType",
-      "spawnUnit": "punya",
+      "spawnUnit": "pun",
       "keepVelocity": false,
       "collidesAir": false,
       "speed": 0,
