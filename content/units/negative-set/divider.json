@@ -1,6 +1,6 @@
 {
   "type": "legs",
-  "speed": 0.6,
+  "speed": 0.4,
   "health": 1000,
   "armor": 0,
   "hitSize": 16,
