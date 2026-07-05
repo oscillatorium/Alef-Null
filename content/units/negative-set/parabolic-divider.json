@@ -1,11 +1,12 @@
 {
   "type": "legs",
-  "speed": 0.7,
+  "speed": 0.4,
   "health": 1000,
   "armor": 0,
   "hitSize": 12,
   "rotateSpeed": 2,
   "outlineColor": "500000",
+  "lockLegBase": true,
   "legCount": 6,
   "legGroupSize": 3,
   "legPairOffset": 0.5,
