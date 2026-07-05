@@ -17,6 +17,7 @@
   "hovering": false,
   "legSplashDamage": 5,
   "legSplashRange": 2,
+  "canDrown": false,
   "circleTarget": true,
   "circleTargetRadius": 5,
   "weapons": [
