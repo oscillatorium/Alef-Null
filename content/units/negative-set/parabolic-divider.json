@@ -4,7 +4,7 @@
   "health": 1000,
   "armor": 0,
   "hitSize": 12,
-  "rotateSpeed": 4,
+  "rotateSpeed": 2,
   "outlineColor": "500000",
   "legCount": 6,
   "legGroupSize": 3,
