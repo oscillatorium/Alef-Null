@@ -5,6 +5,7 @@
   "range": 16,
   "reload": 1,
   "ammoPerShot": 10,
+  "alwaysShooting": true,
   "ammoTypes": {
     "one": {
       "type": "BulletType",
