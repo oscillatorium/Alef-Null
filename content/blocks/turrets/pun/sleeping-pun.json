@@ -2,7 +2,7 @@
   "type": "ItemTurret",
   "size": 2,
   "health": 500,
-  "range": 420000000,
+  "range": 16,
   "reload": 1,
   "ammoPerShot": 10,
   "ammoTypes": {
