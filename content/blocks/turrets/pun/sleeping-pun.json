@@ -1,0 +1,23 @@
+{
+  "type": "ItemTurret",
+  "size": 2,
+  "health": 500,
+  "range": 0,
+  "reload": 420,
+  "ammoPerShot": 10,
+  "ammoTypes": {
+    "one": {
+      "type": "BulletType",
+      "spawnUnit": "punya",
+      "keepVelocity": false,
+      "collidesAir": false,
+      "speed": 0,
+      "killShooter": true
+    }
+  },
+  "requirements": [
+    {"item": "one", "amount": 50},
+    {"item": "plus", "amount": 30}
+  ],
+  "category": "units"
+}
