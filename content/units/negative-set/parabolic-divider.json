@@ -36,7 +36,7 @@
       "reload": 240,
       "shootSound": "alfaShoot",
       "shootStatus": "sapped",
-      "shootStatusDuration": 120,
+      "shootStatusDuration": 240,
       "shootStatusShooter": true,
       "shoot": {
         "shots": 1,
@@ -50,9 +50,9 @@
         "lifetime": 60,
         "width": 18,
         "height": 18,
-        "frontColor": "ff0000",
+        "frontColor": "ff4444",
         "backColor": "cc0000",
-        "trailColor": "ff0000",
+        "trailColor": "ffaaaa",
         "trailLength": 10,
         "trailWidth": 3,
         "collidesAir": true,
@@ -68,9 +68,9 @@
           "lifetime": 60,
           "width": 6,
           "height": 8,
-          "frontColor": "ff0000",
+          "frontColor": "ff4444",
           "backColor": "cc0000",
-          "trailColor": "ff0000",
+          "trailColor": "ffaaaa",
           "trailLength": 6,
           "trailWidth": 2,
           "homingPower": 0.5,
@@ -86,8 +86,8 @@
             "cone": 360,
             "sizeFrom": 3,
             "sizeTo": 0,
-            "colorFrom": "ff8866",
-            "colorTo": "ff664400"
+            "colorFrom": "ff6666",
+            "colorTo": "ff444400"
           }
         },
         "hitEffect": {
@@ -97,8 +97,8 @@
           "cone": 360,
           "sizeFrom": 5,
           "sizeTo": 0,
-          "colorFrom": "ff6644",
-          "colorTo": "ff664400"
+          "colorFrom": "ff4444",
+          "colorTo": "ff444400"
         },
         "shootEffect": {
           "type": "ParticleEffect",
@@ -107,8 +107,8 @@
           "cone": 20,
           "sizeFrom": 3,
           "sizeTo": 0,
-          "colorFrom": "ffaa88",
-          "colorTo": "ff664400"
+          "colorFrom": "ff8888",
+          "colorTo": "ff444400"
         },
         "despawnEffect": "none"
       }
