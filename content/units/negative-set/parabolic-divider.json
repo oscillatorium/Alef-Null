@@ -15,15 +15,6 @@
   "legMoveSpace": 1.5,
   "legExtension": 0,
   "hovering": false,
-  "parts": [
-    {
-      "type": "RegionPart",
-      "weaponIndex": 0,
-      "suffix": "-datatapok",
-      "layer": 90,
-      "color": "ff0000"
-    }
-  ],
   "weapons": [
     {
       "name": "hyperbolic-shot",
