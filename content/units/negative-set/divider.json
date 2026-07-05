@@ -6,6 +6,7 @@
   "hitSize": 16,
   "rotateSpeed": 4,
   "outlineColor": "500000",
+  "lockLegBase": true,
   "legCount": 6,
   "legGroupSize": 3,
   "legPairOffset": 0.5,
