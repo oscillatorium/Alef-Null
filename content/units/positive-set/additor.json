@@ -49,7 +49,7 @@
       "controllable": true,
       "autoTarget": false,
       "targetBuildings": true,
-      "targetUnits": false,
+      "targetUnits": true,
       "continuous": true,
       "reload": 50,
       "beamWidth": 0.5,
