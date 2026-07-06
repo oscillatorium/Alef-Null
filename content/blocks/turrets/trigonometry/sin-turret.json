@@ -39,7 +39,10 @@
       "collidesAir": true,
       "collidesGround": true,
       "fragBullets": 1,
+      "fragRandomSpread": 1,
       "fragAngle": 180,
+      "fragVelocityMin": 1.0,
+      "fragVelocityMax": 1.0,
       "fragBullet": {
         "type": "BasicBulletType",
         "damage": 10,
