@@ -40,7 +40,7 @@
       "collidesGround": true,
       "fragBullets": 1,
       "fragRandomSpread": 1,
-      "fragAngle": 180,
+      "fragAngle": 200,
       "fragVelocityMin": 1.0,
       "fragVelocityMax": 1.0,
       "fragBullet": {
