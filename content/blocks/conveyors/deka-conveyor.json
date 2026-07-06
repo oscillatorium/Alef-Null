@@ -2,7 +2,7 @@
   "type": "StackConveyor",
   "size": 1,
   "health": 50,
-  "speed": 1,
+  "speed": 0.09166666666666666666666666666666666666666666666666666,
   "itemCapacity": 10,
   "requirements": [
     {"item": "one", "amount": 5},
