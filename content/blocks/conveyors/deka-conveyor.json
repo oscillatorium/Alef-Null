@@ -6,7 +6,9 @@
   "itemCapacity": 10,
   "requirements": [
     {"item": "one", "amount": 5},
-    {"item": "plus", "amount": 10}
+    {"item": "plus", "amount": 10},
+    {"item": "multiplication", "amount": 1},
+    {"item": "divide", "amount": 1}
   ],
   "loadEffect": {
     "type": "ParticleEffect",
@@ -34,8 +36,10 @@
   "research": {
     "parent": "mono-conveyor",
     "requirements": [
-      {"item": "one", "amount": 50},
-      {"item": "plus", "amount": 100}
+      {"item": "one", "amount": 500},
+      {"item": "plus", "amount": 1000},
+      {"item": "multiplication", "amount": 100},
+      {"item": "divide", "amount": 100}
     ]
   },
   "researchCostMultiplier": 1
