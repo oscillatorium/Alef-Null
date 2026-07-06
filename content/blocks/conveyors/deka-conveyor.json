@@ -1,0 +1,42 @@
+{
+  "type": "StackConveyor",
+  "size": 1,
+  "health": 50,
+  "speed": 1,
+  "itemCapacity": 10,
+  "requirements": [
+    {"item": "one", "amount": 5},
+    {"item": "plus", "amount": 10}
+  ],
+  "loadEffect": {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "length": 12,
+    "lifetime": 14,
+    "line": true,
+    "strokeFrom": 2.0,
+    "strokeTo": 0.0,
+    "colorFrom": "44ff44",
+    "colorTo": "44ff4400"
+  },
+  "unloadEffect": {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "length": 12,
+    "lifetime": 14,
+    "line": true,
+    "strokeFrom": 2.0,
+    "strokeTo": 0.0,
+    "colorFrom": "44ff44",
+    "colorTo": "44ff4400"
+  },
+  "category": "distribution",
+  "research": {
+    "parent": "mono-conveyor",
+    "requirements": [
+      {"item": "one", "amount": 50},
+      {"item": "plus", "amount": 100}
+    ]
+  },
+  "researchCostMultiplier": 1
+}
