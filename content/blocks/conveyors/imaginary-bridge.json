@@ -1,0 +1,28 @@
+{
+  "type": "DuctBridge",
+  "category": "distribution",
+  "health": 100,
+  "size": 1,
+  "range": 10,
+  "transportTime": 30,
+  "arrowPeriod": 1.0,
+  "arrowTimeScl": 3.0,
+  "hasPower": true,
+  "pulse": true,
+  "consumes": {
+    "power": 0.25
+  },
+  "requirements": [
+    {"item": "i", "amount": 10},
+    {"item": "multiplication", "amount": 10},
+    {"item": "divide", "amount": 10}
+  ],
+  "research": {
+    "parent": "mono-conveyor",
+    "requirements": [
+      {"item": "i", "amount": 100},
+      {"item": "multiplication", "amount": 100},
+    {"item": "divide", "amount": 100}
+    ]
+  }
+}
