@@ -51,19 +51,6 @@
         "collidesGround": true,
         "collidesTeam": false,
         "lifesteal": 0.5,
-        "shootEffect": {
-          "type": "ParticleEffect",
-          "particles": 3,
-          "length": 60,
-          "baseLength": 15,
-          "lifetime": 45,
-          "colorFrom": "ff6666",
-          "colorTo": "ff4444",
-          "interp": "pow3Out",
-          "sizeFrom": 26,
-          "spin": -2,
-          "region": "alef-null-starred-tetragon"
-        },
         "fragBullets": 10,
         "fragRandomSpread": 120,
         "fragBullet": {
@@ -71,8 +58,10 @@
           "damage": 5,
           "speed": 3.5,
           "lifetime": 60,
-          "width": 6,
-          "height": 8,
+          "width": 12,
+          "height": 12,
+          "sprite": "alef-null-starred-tetragon",
+          "spin": 2.0,
           "frontColor": "ff4444",
           "backColor": "cc0000",
           "trailColor": "ffaaaa",
@@ -103,6 +92,16 @@
           "sizeFrom": 5,
           "sizeTo": 0,
           "colorFrom": "ff4444",
+          "colorTo": "ff444400"
+        },
+        "shootEffect": {
+          "type": "ParticleEffect",
+          "particles": 6,
+          "lifetime": 12,
+          "cone": 20,
+          "sizeFrom": 3,
+          "sizeTo": 0,
+          "colorFrom": "ff8888",
           "colorTo": "ff444400"
         },
         "despawnEffect": "none"
