@@ -85,26 +85,26 @@
               "type": "ParticleEffect",
               "length": 40,
               "baseLength": 15,
-              "lifetime": 60,
+              "lifetime": 180,
               "colorFrom": "ff4444",
               "colorTo": "ff8888",
               "interp": "pow3Out",
-              "sizeFrom": 19,
+              "sizeFrom": 24,
               "particles": 3,
-              "spin": -2,
+              "spin": -3,
               "region": "alef-null-starred-tetragon"
             },
             {
               "type": "ParticleEffect",
               "length": 40,
               "baseLength": 15,
-              "lifetime": 40,
+              "lifetime": 180,
               "colorFrom": "ff4444",
               "colorTo": "ff8888",
               "interp": "pow3Out",
-              "sizeFrom": 19,
+              "sizeFrom": 24,
               "particles": 3,
-              "spin": 2,
+              "spin": -3,
               "region": "alef-null-starred-tetragon"
             }
           ]
