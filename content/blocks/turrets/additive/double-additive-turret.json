@@ -15,7 +15,7 @@
       "lifetime": 40,
       "width": 8,
       "height": 12,
-      "sprite": "alef-null-four",
+      "sprite": "alef-null-bullet-four",
       "frontColor": "80ff80",
       "backColor": "40aa40",
       "hitEffect": {
