@@ -9,7 +9,7 @@
   "rotateSpeed": 2,
   "outlineColor": "500000",
   "legCount": 8,
-  "legGroupSize": 4,
+  "legGroupSize": 1,
   "legPairOffset": 0,
   "legLength": 20,
   "legSpeed": 0.2,
