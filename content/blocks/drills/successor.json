@@ -11,7 +11,7 @@
   ],
   "category": "production",
   "research": {
-    "parent": "plus",
+    "parent": "core-n",
     "requirements": [
       "plus/5"
     ]
