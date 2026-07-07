@@ -9,7 +9,7 @@
   ],
   "category": "distribution",
   "research": {
-    "parent": "plus",
+    "parent": "successor",
     "requirements": [
       {"item": "plus", "amount": 10}
     ]
