@@ -2,7 +2,7 @@
   type: SectorPreset
   planet: "arithmetic"
   name: "function-bridge"
-  sector: 2
+  sector: 1
   difficulty: 5
   captureWave: 15
   alwaysUnlocked: false
@@ -18,6 +18,10 @@
       {
         type: SectorComplete
         preset: "subitization"
+      }
+      {
+        type: Research
+        block: "sum-wall"
       }
     ]
   }
