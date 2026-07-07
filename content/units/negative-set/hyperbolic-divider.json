@@ -28,7 +28,7 @@
       "shootCone": 5,
       "reload": 120,
       "autoTarget": true,
-      "shootSound": "shooAlfa",
+      "shootSound": "shootAlfa",
       "shootStatus": "slow",
       "shootStatusDuration": 240,
       "shootStatusShooter": true,
