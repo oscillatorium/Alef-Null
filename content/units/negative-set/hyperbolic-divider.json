@@ -56,18 +56,13 @@
           "particles": 3,
           "length": 60,
           "baseLength": 15,
-          "lifetime": 40,
+          "lifetime": 45,
           "colorFrom": "ff6666",
           "colorTo": "ff4444",
           "interp": "pow3Out",
-          "sizeFrom": 0,
-          "sizeTo": 35,
-          "sizeInterp": "pow5Out",
+          "sizeFrom": 26,
           "spin": -2,
-          "region": "alef-null-starred-tetragon",
-          "progress": {
-            "type": "life"
-          }
+          "region": "alef-null-starred-tetragon"
         },
         "fragBullets": 10,
         "fragRandomSpread": 120,
