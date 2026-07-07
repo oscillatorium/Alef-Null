@@ -165,14 +165,14 @@
           ]
         },
         "fragBullets": 25,
-        "fragRandomSpread": 360,
+        "fragRandomSpread": 120,
         "fragBullet": {
           "type": "BasicBulletType",
           "damage": 10,
           "speed": 3.5,
           "lifetime": 50,
-          "width": 6,
-          "height": 6,
+          "width": 16,
+          "height": 16,
           "sprite": "alef-null-starred-tetragon",
           "spin": 3.0,
           "status": "division-energy",
