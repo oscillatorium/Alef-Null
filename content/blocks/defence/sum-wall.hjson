@@ -1,16 +1,16 @@
 type: Wall
-health: 550
-buildTime: 25
+health: 1800
+buildTime: 20
 size: 2
 requirements: [
-one/25
-plus/10
+one/36
+plus/30
 ]
 category: defense
 research: {
-parent: additive-turret
+parent: small-sum-wall
 requirements: [
-one/55
-plus/50
+one/360
+plus/300
 ]
 }
