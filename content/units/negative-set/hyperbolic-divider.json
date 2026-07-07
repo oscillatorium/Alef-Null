@@ -25,7 +25,7 @@
       "alternate": false,
       "rotate": false,
       "shootCone": 5,
-      "reload": 240,
+      "reload": 120,
       "shootSound": "alfaShoot",
       "shootStatus": "slow",
       "shootStatusDuration": 240,
