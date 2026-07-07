@@ -18,5 +18,13 @@
     "variable/10"
   ],
   "category": "crafting",
+  "research": {
+    "parent": "minuser",
+    "requirements": [
+      "one/100",
+      "anti-one/100",
+      "zero/40"
+    ]
+  },
   "outputItem": "one/1"
 }
