@@ -53,8 +53,8 @@
     ],
     "objectives": [
       {
-       "type": "SectorComplete",
-       "preset": "subitization"
+       "type": "OnSector",
+       "preset": "function-bridge"
       }
     ]
   }
