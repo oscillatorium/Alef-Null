@@ -166,7 +166,7 @@
           ]
         },
         "fragBullets": 25,
-        "fragRandomSpread": 120,
+        "fragRandomSpread": 180,
         "fragBullet": {
           "type": "BasicBulletType",
           "damage": 10,
@@ -183,8 +183,8 @@
           "trailColor": "ffaaaa",
           "trailLength": 6,
           "trailWidth": 2,
-          "homingPower": 0.5,
-          "homingRange": 80,
+          "homingPower": 0.8,
+          "homingRange": 240,
           "homingDelay": 10,
           "followAimSpeed": 0.5,
           "collidesAir": true,
