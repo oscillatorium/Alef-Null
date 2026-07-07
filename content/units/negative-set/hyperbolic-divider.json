@@ -150,7 +150,64 @@
             "colorFrom": "ff8888",
             "colorTo": "ff444400"
           },
-          "despawnEffect": "none"
+          "despawnEffect": {
+            "type": "MultiEffect",
+            "effects": [
+              {
+                "type": "WaveEffect",
+                "colorFrom": "ff4444",
+                "colorTo": "ff8888",
+                "sizeTo": 30,
+                "strokeFrom": 8,
+                "interp": "pow5Out",
+                "lifetime": 30,
+                "sides": 8
+              },
+              {
+                "type": "ParticleEffect",
+                "length": 40,
+                "line": true,
+                "baseLength": 10,
+                "lifetime": 30,
+                "colorFrom": "ff4444",
+                "colorTo": "ff8888",
+                "interp": "pow3Out",
+                "lenFrom": 12,
+                "lenTo": 6,
+                "strokeFrom": 4,
+                "particles": 10
+              },
+              {
+                "type": "ParticleEffect",
+                "length": 0,
+                "lifetime": 20,
+                "colorFrom": "ff4444",
+                "colorTo": "ff8888",
+                "sizeInterp": "exp5Out",
+                "interp": "linear",
+                "sizeFrom": 0,
+                "sizeTo": 40,
+                "particles": 1,
+                "region": "alef-null-starred-tetragon",
+                "spin": 4
+              },
+              {
+                "type": "ParticleEffect",
+                "startDelay": 15,
+                "length": 0,
+                "lifetime": 20,
+                "colorFrom": "ff8888",
+                "colorTo": "ff4444",
+                "sizeInterp": "exp5In",
+                "interp": "linear",
+                "sizeFrom": 40,
+                "sizeTo": 0,
+                "particles": 1,
+                "region": "alef-null-starred-tetragon",
+                "spin": 4
+              }
+            ]
+          }
         }
       }
     }
