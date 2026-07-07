@@ -19,10 +19,6 @@
         type: SectorComplete
         preset: "subitization"
       }
-      {
-        type: Research
-        block: "sum-wall"
-      }
     ]
   }
 }
