@@ -40,8 +40,8 @@
       "bullet": {
         "type": "BasicBulletType",
         "damage": 250,
-        "speed": 2.0,
-        "lifetime": 60,
+        "speed": 0.5,
+        "lifetime": 180,
         "width": 16,
         "height": 16,
         "frontColor": "ff4444",
