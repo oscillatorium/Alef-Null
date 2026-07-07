@@ -1,0 +1,16 @@
+type: Wall
+health: 450
+buildTime: 27
+size: 1
+requirements: [
+one/9
+plus/6
+]
+category: defense
+research: {
+parent: additive-turret
+requirements: [
+one/90
+plus/60
+]
+  }
