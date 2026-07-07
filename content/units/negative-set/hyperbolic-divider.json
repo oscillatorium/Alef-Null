@@ -75,37 +75,83 @@
           "collidesGround": true,
           "collidesTeam": false,
           "hitEffect": {
+            "type": "MultiEffect",
+            "effects": [
+              {
+                "type": "ParticleEffect",
+                "length": 32,
+                "line": true,
+                "baseLength": 15,
+                "lifetime": 25,
+                "colorFrom": "ff4444",
+                "colorTo": "ff8888",
+                "interp": "pow3Out",
+                "lenFrom": 8,
+                "lenTo": 4,
+                "strokeFrom": 3.5,
+                "particles": 12
+              },
+              {
+                "type": "WaveEffect",
+                "sizeFrom": 0,
+                "sizeTo": 16,
+                "colorFrom": "ff4444",
+                "colorTo": "ff8888",
+                "strokeFrom": 3,
+                "strokeTo": 0,
+                "lifetime": 45,
+                "interp": "pow3Out"
+              },
+              {
+                "type": "ParticleEffect",
+                "length": 40,
+                "baseLength": 15,
+                "lifetime": 40,
+                "colorFrom": "ff4444",
+                "colorTo": "ff8888",
+                "interp": "pow3Out",
+                "sizeFrom": 19,
+                "particles": 3,
+                "spin": -2,
+                "region": "alef-null-starred-tetragon"
+              },
+              {
+                "type": "ParticleEffect",
+                "length": 40,
+                "baseLength": 15,
+                "lifetime": 40,
+                "colorFrom": "ff4444",
+                "colorTo": "ff8888",
+                "interp": "pow3Out",
+                "sizeFrom": 19,
+                "particles": 3,
+                "spin": 2,
+                "region": "alef-null-starred-tetragon"
+              }
+            ]
+          },
+          "hitEffect": {
+            "type": "ParticleEffect",
+            "particles": 10,
+            "lifetime": 30,
+            "cone": 360,
+            "sizeFrom": 5,
+            "sizeTo": 0,
+            "colorFrom": "ff4444",
+            "colorTo": "ff444400"
+          },
+          "shootEffect": {
             "type": "ParticleEffect",
             "particles": 6,
-            "lifetime": 15,
-            "cone": 360,
+            "lifetime": 12,
+            "cone": 20,
             "sizeFrom": 3,
             "sizeTo": 0,
-            "colorFrom": "ff6666",
+            "colorFrom": "ff8888",
             "colorTo": "ff444400"
-          }
-        },
-        "hitEffect": {
-          "type": "ParticleEffect",
-          "particles": 10,
-          "lifetime": 30,
-          "cone": 360,
-          "sizeFrom": 5,
-          "sizeTo": 0,
-          "colorFrom": "ff4444",
-          "colorTo": "ff444400"
-        },
-        "shootEffect": {
-          "type": "ParticleEffect",
-          "particles": 6,
-          "lifetime": 12,
-          "cone": 20,
-          "sizeFrom": 3,
-          "sizeTo": 0,
-          "colorFrom": "ff8888",
-          "colorTo": "ff444400"
-        },
-        "despawnEffect": "none"
+          },
+          "despawnEffect": "none"
+        }
       }
     }
   ]
