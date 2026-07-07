@@ -1,6 +1,6 @@
 type: Wall
 health: 450
-buildTime: 27
+buildTime: 10
 size: 1
 requirements: [
 one/9
