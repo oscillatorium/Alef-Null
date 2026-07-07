@@ -28,7 +28,7 @@
       "shootCone": 5,
       "reload": 120,
       "autoTarget": true,
-      "shootSound": "agusha",
+      "shootSound": "shooAlfa",
       "shootStatus": "slow",
       "shootStatusDuration": 240,
       "shootStatusShooter": true,
@@ -40,6 +40,8 @@
       "bullet": {
         "type": "BasicBulletType",
         "damage": 250,
+        "range": 240,
+        "maxRange": 240,
         "speed": 2.0,
         "lifetime": 60,
         "width": 16,
