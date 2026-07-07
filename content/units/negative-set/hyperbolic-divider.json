@@ -61,6 +61,7 @@
           "height": 12,
           "sprite": "alef-null-starred-tetragon",
           "spin": 2.0,
+          "status": "division-energy",
           "frontColor": "ff4444",
           "backColor": "cc0000",
           "trailColor": "ffaaaa",
