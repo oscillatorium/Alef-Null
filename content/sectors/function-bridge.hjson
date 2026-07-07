@@ -3,7 +3,7 @@
   planet: "arithmetic"
   name: "function-bridge"
   sector: 2
-  difficulty: 3
+  difficulty: 5
   captureWave: 15
   alwaysUnlocked: false
   addStartingItems: true
@@ -11,7 +11,7 @@
   allowLaunchLoadout: true
   noLighting: true
   research: {
-    parent: "core-n"
+    parent: "subitization"
     content: "sector"
     requiresUnlock: false
     objectives: [
