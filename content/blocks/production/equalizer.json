@@ -23,7 +23,7 @@
   ],
   "category": "crafting",
   "research": {
-    "parent": "successor",
+    "parent": "minuser",
     "requirements": [
       "one/100",
       "anti-one/100",
