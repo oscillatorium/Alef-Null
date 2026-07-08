@@ -20,7 +20,7 @@
   ],
   "abilities": [
     {
-      "type": "SuppressionFieldAbility",
+      "type": "StatusFieldAbility",
       "status": "multiplication-energy",
       "range": 80,
       "reload": 120,
