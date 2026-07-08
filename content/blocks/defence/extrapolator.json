@@ -1,0 +1,37 @@
+{
+  "type": "MendProjector",
+  "size": 2,
+  "health": 250,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "consumes": {
+    "power": 0.1666666667,
+    "items": {
+      "items": [
+        {"item": "plus", "amount": 1}
+      ],
+      "optional": false,
+      "booster": false
+    }
+  },
+  "range": 60,
+  "reload": 300,
+  "healPercent": 10,
+  "phaseBoost": 2.0,
+  "phaseRangeBoost": 2.0,
+  "phaseItem": "multiplication",
+  "phaseItemAmount": 0.5,
+  "category": "effect",
+  "research": {
+    "parent": "sum-wall",
+    "requirements": [
+      {"item": "one", "amount": 100},
+      {"item": "plus", "amount": 50}
+    ]
+  },
+  "requirements": [
+    {"item": "one", "amount": 40},
+    {"item": "plus", "amount": 20}
+  ]
+}
