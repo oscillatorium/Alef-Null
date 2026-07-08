@@ -224,30 +224,6 @@
                 "strokeTo": 0,
                 "lifetime": 45,
                 "interp": "pow3Out"
-              },
-              {
-                "type": "ParticleEffect",
-                "length": 0,
-                "lifetime": 80,
-                "colorFrom": "ff4444",
-                "colorTo": "ff8888",
-                "interp": "pow3Out",
-                "sizeFrom": 19,
-                "particles": 1,
-                "spin": -2,
-                "region": "alef-null-starred-tetragon"
-              },
-              {
-                "type": "ParticleEffect",
-                "length": 0,
-                "lifetime": 80,
-                "colorFrom": "ff4444",
-                "colorTo": "ff8888",
-                "interp": "pow3Out",
-                "sizeFrom": 19,
-                "particles": 1,
-                "spin": 2,
-                "region": "alef-null-starred-tetragon"
               }
             ]
           },
@@ -278,30 +254,6 @@
                 "strokeTo": 0,
                 "lifetime": 45,
                 "interp": "pow3Out"
-              },
-              {
-                "type": "ParticleEffect",
-                "length": 0,
-                "lifetime": 80,
-                "colorFrom": "ff4444",
-                "colorTo": "ff8888",
-                "interp": "pow3Out",
-                "sizeFrom": 19,
-                "particles": 1,
-                "spin": -2,
-                "region": "alef-null-starred-tetragon"
-              },
-              {
-                "type": "ParticleEffect",
-                "length": 0,
-                "lifetime": 80,
-                "colorFrom": "ff4444",
-                "colorTo": "ff8888",
-                "interp": "pow3Out",
-                "sizeFrom": 19,
-                "particles": 1,
-                "spin": 2,
-                "region": "alef-null-starred-tetragon"
               }
             ]
           },
