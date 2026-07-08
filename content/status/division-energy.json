@@ -1,4 +1,5 @@
 {
   "color": "ff4444",
-  "healthMultiplier": 0.5
+  "healthMultiplier": 0.5,
+  "opposites": ["multiplication-energy"]
 }
