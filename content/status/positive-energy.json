@@ -1,6 +1,6 @@
 {
   "color": "44ff44",
-  "damage": -5,
+  "intervalDamage": -5,
   "intervalDamageTime": 30.0,
   "opposites": ["negative-energy"],
   "effect": {
