@@ -4,7 +4,7 @@
   name: "function-bridge"
   sector: 1
   difficulty: 5
-  captureWave: 15
+  captureWave: 16
   alwaysUnlocked: false
   addStartingItems: true
   overrideLaunchDefaults: true
