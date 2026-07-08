@@ -18,6 +18,15 @@
       "radius": 3.0
     }
   ],
+  "abilities": [
+    {
+      "type": "StatusFieldAbility",
+      "status": "multiplication-energy",
+      "range": 80,
+      "reload": 120,
+      "duration": 240
+    }
+  ],
   "weapons": [
     {
       "name": "multi-gun-0",
