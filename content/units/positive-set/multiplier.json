@@ -25,7 +25,7 @@
       "range": 80,
       "reload": 120,
       "duration": 240,
-      "effect": "none"
+      "effect": "multiplication-energy"
     }
   ],
   "weapons": [
