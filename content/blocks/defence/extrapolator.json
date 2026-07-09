@@ -7,18 +7,16 @@
   "itemCapacity": 10,
   "range": 60,
   "healPercent": 10,
-  "reload": 300,
   "consumes": {
     "power": 0.1666666667,
     "items": {
       "items": [
-        {"item": "plus", "amount": 1}
+        {"item": "multiplication", "amount": 1}
       ],
-      "optional": false,
-      "booster": false
+      "optional": true,
+      "booster": true
     }
   },
-  "optionalItem": "multiplication",
   "optionalUseTime": 300,
   "optionalMultiplier": 2.0,
   "effect": {
