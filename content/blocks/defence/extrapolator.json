@@ -1,13 +1,13 @@
 {
-  "type": "RegenProjector",
+  "type": "MendProjector",
   "size": 2,
   "health": 250,
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 10,
-  "range": 10,
-  "healPercent": 10,
+  "range": 80,
   "reload": 300,
+  "healPercent": 10,
   "consumes": {
     "power": 0.1666666667,
     "items": {
@@ -21,24 +21,9 @@
   "optionalItem": "multiplication",
   "optionalUseTime": 300,
   "optionalMultiplier": 2.0,
-  "effect": {
-    "type": "ParticleEffect",
-    "colorFrom": "44ff44",
-    "colorTo": "88ff88",
-    "particles": 4,
-    "line": true,
-    "length": 8,
-    "baseLength": 3,
-    "strokeFrom": 0.5,
-    "strokeTo": 1.5,
-    "lifetime": 30,
-    "cone": 360,
-    "interp": "pow2",
-    "sizeInterp": "pow2Out"
-  },
   "category": "effect",
   "research": {
-    "parent": "small-sum-wall",
+    "parent": "core-n",
     "requirements": [
       {"item": "one", "amount": 100},
       {"item": "plus", "amount": 50}
