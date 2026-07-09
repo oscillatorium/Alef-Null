@@ -8,7 +8,7 @@
     {"item": "one", "amount": 5},
     {"item": "plus", "amount": 10},
     {"item": "multiplication", "amount": 1},
-    {"item": "divide", "amount": 1}
+    {"item": "division", "amount": 1}
   ],
   "loadEffect": {
     "type": "ParticleEffect",
@@ -34,12 +34,12 @@
   },
   "category": "distribution",
   "research": {
-    "parent": "mono-conveyor",
+    "parent": "equals",
     "requirements": [
       {"item": "one", "amount": 500},
       {"item": "plus", "amount": 1000},
       {"item": "multiplication", "amount": 100},
-      {"item": "divide", "amount": 100}
+      {"item": "division", "amount": 100}
     ]
   },
   "researchCostMultiplier": 1
