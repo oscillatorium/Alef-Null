@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "size": 3,
-  "health": 350,
+  "health": 100,
   "range": 200,
   "reload": 30,
   "shootCone": 20,
@@ -9,7 +9,7 @@
   "targetGround": true,
   "itemCapacity": 10,
   "ammoTypes": {
-    "one": {
+    "power": {
       "type": "LaserBulletType",
       "damage": 1,
       "length": 200,
@@ -22,15 +22,17 @@
   "requirements": [
     { "item": "one", "amount": 100 },
     { "item": "variable", "amount": 20 },
+    { "item": "power", "amount": 50 },
     { "item": "approaches-infinity", "amount": 10 }
   ],
   "category": "turret",
   "research": {
-    "parent": "copper",
+    "parent": "double-additive-turret",
     "requirements": [
-    { "item": "one", "amount": 100 },
-    { "item": "variable", "amount": 20 },
-    { "item": "approaches-infinity", "amount": 10 }
+    { "item": "one", "amount": 1000 },
+    { "item": "variable", "amount": 200 },
+    { "item": "power", "amount": 500 },
+    { "item": "approaches-infinity", "amount": 100 }
     ]
   }
 }
