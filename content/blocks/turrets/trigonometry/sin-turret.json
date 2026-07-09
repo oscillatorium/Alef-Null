@@ -33,7 +33,6 @@
       "homingDelay": 0,
       "weaveMag": 8.0,
       "weaveScale": 5.0,
-      "weaveOffset": 0,
       "weaveRandom": false,
       "angleOffset": -5,
       "collidesAir": true,
