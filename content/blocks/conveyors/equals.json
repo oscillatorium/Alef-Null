@@ -9,7 +9,7 @@
   ],
   "category": "distribution",
   "research": {
-    "parent": "division",
+    "parent": "division-router",
     "requirements": [
       { "item": "plus", "amount": 4 },
       { "item": "zero", "amount": 20 }
