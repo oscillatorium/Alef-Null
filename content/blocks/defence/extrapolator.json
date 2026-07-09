@@ -6,7 +6,7 @@
   "hasItems": true,
   "itemCapacity": 10,
   "range": 10,
-  "healPercent": 0.1,
+  "healPercent": 0.066666666666666666666666666666666666666666666666666,
   "consumes": {
     "power": 0.1666666667,
     "items": {
@@ -50,7 +50,7 @@
   },
   "category": "effect",
   "research": {
-    "parent": "core-n",
+    "parent": "sum-wall",
     "requirements": [
       {"item": "one", "amount": 500},
       {"item": "plus", "amount": 250}
