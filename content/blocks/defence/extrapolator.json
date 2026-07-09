@@ -5,8 +5,8 @@
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 10,
-  "range": 60,
-  "healPercent": 10,
+  "range": 10,
+  "healPercent": 1,
   "consumes": {
     "power": 0.1666666667,
     "items": {
@@ -17,7 +17,7 @@
       "booster": true
     }
   },
-  "optionalUseTime": 300,
+  "optionalUseTime": 120,
   "optionalMultiplier": 2.0,
   "effect": {
     "type": "ParticleEffect",
