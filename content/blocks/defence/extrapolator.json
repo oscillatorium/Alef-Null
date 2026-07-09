@@ -5,6 +5,7 @@
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 10,
+  "squareSprite"" true,
   "range": 80,
   "reload": 300,
   "healPercent": 10,
@@ -20,6 +21,8 @@
       "booster": true
     }
   },
+  "optionalUseTime": 300,
+  "optionalMultiplier": 2.0,
   "category": "effect",
   "research": {
     "parent": "core-n",
