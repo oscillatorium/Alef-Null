@@ -6,9 +6,7 @@
   "speed": 5.45454545454545454545454545454545454545454545454545454545454545454545454,
   "size": 1,
   "range": 10,
-  "transportTime": 30,
   "hasPower": true,
-  "pulse": true,
   "consumes": {
     "power": 0.25
   },
