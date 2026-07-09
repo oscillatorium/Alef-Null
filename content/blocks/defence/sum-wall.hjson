@@ -21,8 +21,7 @@ despawnHit: true
 fragBullets: 36
 fragBullet: {
       "type": "BasicBulletType"
-      "damage": 20
-      "ammoMultiplier": 1
+      "damage": 1
       "speed": 3
       "lifetime": 11
       "sprite": "alef-null-bullet-two"
