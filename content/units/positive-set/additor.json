@@ -58,8 +58,6 @@
       "fractionRepairSpeed": 0.01,
       "healColor": "44ff44",
       "laserColor": "44ff44",
-      "status": "positive-energy",
-      "statusDuration": 30,
       "bullet": {
         "maxRange": 32
       }
