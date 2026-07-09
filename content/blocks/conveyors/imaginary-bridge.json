@@ -13,14 +13,14 @@
   "requirements": [
     {"item": "i", "amount": 10},
     {"item": "multiplication", "amount": 5},
-    {"item": "divide", "amount": 5}
+    {"item": "division", "amount": 5}
   ],
   "research": {
     "parent": "mono-conveyor",
     "requirements": [
       {"item": "i", "amount": 1000},
       {"item": "multiplication", "amount": 500},
-    {"item": "divide", "amount": 500}
+    {"item": "division", "amount": 500}
     ]
   }
 }
