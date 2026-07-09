@@ -1,5 +1,4 @@
 {
-  type: SectorPreset
   planet: "arithmetic"
   name: "subitization"
   sector: 0
