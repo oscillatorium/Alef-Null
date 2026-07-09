@@ -16,14 +16,10 @@
         {"item": "multiplication", "amount": 1}
       ],
       "optional": true,
-      "optionalUseTime": 300,
-      "optionalMultiplier": 2.0,
       "booster": true
     }
   },
-  "optionalUseTime": 300,
-  "optionalMultiplier": 2.0,
-  "category": "effect",
+  "category": "defence",
   "research": {
     "parent": "core-n",
     "requirements": [
