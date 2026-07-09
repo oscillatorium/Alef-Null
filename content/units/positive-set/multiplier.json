@@ -21,7 +21,6 @@
   "abilities": [
     {
       "type": "StatusFieldAbility",
-      "status": "multiplication-energy",
       "range": 80,
       "reload": 120,
       "duration": 240,
@@ -63,8 +62,6 @@
         "collidesAir": false,
         "collidesGround": true,
         "collidesTeam": true,
-        "targetBuildings": true,
-        "targetUnits": false,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
@@ -122,8 +119,6 @@
         "collidesAir": false,
         "collidesGround": true,
         "collidesTeam": true,
-        "targetBuildings": true,
-        "targetUnits": false,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
@@ -181,8 +176,6 @@
         "collidesAir": false,
         "collidesGround": true,
         "collidesTeam": true,
-        "targetBuildings": true,
-        "targetUnits": false,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
@@ -240,8 +233,6 @@
         "collidesAir": false,
         "collidesGround": true,
         "collidesTeam": true,
-        "targetBuildings": true,
-        "targetUnits": false,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
@@ -299,8 +290,6 @@
         "collidesAir": false,
         "collidesGround": true,
         "collidesTeam": true,
-        "targetBuildings": true,
-        "targetUnits": false,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
@@ -358,8 +347,6 @@
         "collidesAir": false,
         "collidesGround": true,
         "collidesTeam": true,
-        "targetBuildings": true,
-        "targetUnits": false,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
@@ -417,8 +404,6 @@
         "collidesAir": false,
         "collidesGround": true,
         "collidesTeam": true,
-        "targetBuildings": true,
-        "targetUnits": false,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
@@ -476,8 +461,6 @@
         "collidesAir": false,
         "collidesGround": true,
         "collidesTeam": true,
-        "targetBuildings": true,
-        "targetUnits": false,
         "hitEffect": {
           "type": "ParticleEffect",
           "particles": 8,
