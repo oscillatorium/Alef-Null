@@ -14,7 +14,9 @@
       "items": [
         {"item": "multiplication", "amount": 1}
       ],
-      "optional": false,
+      "optional": true,
+      "optionalUseTime": 300,
+      "optionalMultiplier": 2.0,
       "booster": true
     }
   },
