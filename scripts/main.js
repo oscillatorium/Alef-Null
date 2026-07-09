@@ -6,7 +6,7 @@ GeneratorDecay.init();
 ExponentialProgressor.init();
 
 
-
+const invert = Vars.content.getByName(ContentType.status, "alef-null-invert")
 
 const mathWarpFx = new Effect(30, e => {
     Draw.color(Pal.accent, Color.white, e.fin()); Lines.stroke(3 * e.fout());
@@ -26,7 +26,7 @@ const mathSeriesBullet = extend(ArtilleryBulletType, {
     damage: 15, speed: 5, lifetime: 60, width: 18, height: 18, sprite: "alef-null-math-bullet",
     backColor: Pal.accent, frontColor: Color.white, splashDamage: 2048, splashDamageRadius: 60,
     fragBullet: mathSeriesFrag, fragBullets: 32, fragVelocityMin: 0.6, fragVelocityMax: 1.4,
-    hitEffect: Fx.shockwave, despawnEffect: Fx.shockwave
+    hitEffect: Fx.shockwave, despawnEffect: Fx.shockwave, status: invert, statusDuration: 240
 });
 
 
