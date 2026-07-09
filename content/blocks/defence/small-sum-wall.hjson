@@ -24,7 +24,6 @@ fragBullets: 9
 fragBullet: {
       "type": "BasicBulletType"
       "damage": 1
-      "ammoMultiplier": 1
       "speed": 3
       "lifetime": 11
       "sprite": "alef-null-bullet-two"
