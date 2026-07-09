@@ -39,14 +39,14 @@
   },
   "category": "effect",
   "research": {
-    "parent": "core-n",
+    "parent": "small-sum-wall",
     "requirements": [
       {"item": "one", "amount": 100},
       {"item": "plus", "amount": 50}
     ]
   },
   "requirements": [
-    {"item": "one", "amount": 40},
-    {"item": "plus", "amount": 20}
+    {"item": "one", "amount": 50},
+    {"item": "plus", "amount": 25}
   ]
 }
