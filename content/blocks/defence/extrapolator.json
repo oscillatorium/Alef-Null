@@ -19,7 +19,7 @@
       "booster": true
     }
   },
-  "category": "defence",
+  "category": "defense",
   "research": {
     "parent": "core-n",
     "requirements": [
