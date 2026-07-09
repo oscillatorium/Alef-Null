@@ -1,11 +1,11 @@
 {
   "type": "RegenProjector",
-  "size": 1,
+  "size": 2,
   "health": 250,
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 10,
-  "range": 60,
+  "range": 10,
   "healPercent": 10,
   "reload": 300,
   "consumes": {
