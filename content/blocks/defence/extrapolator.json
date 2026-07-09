@@ -18,10 +18,9 @@
       "booster": false
     }
   },
-  "phaseItem": "multiplication",
-  "phaseItemAmount": 1,
-  "phaseBoost": 2.0,
-  "phaseRangeBoost": 2.0,
+  "optionalItem": "multiplication",
+  "optionalUseTime": 300,
+  "optionalMultiplier": 2.0,
   "effect": {
     "type": "ParticleEffect",
     "colorFrom": "44ff44",
