@@ -31,7 +31,6 @@
       "shootSound": "shootAlfa",
       "shootStatus": "slow",
       "shootStatusDuration": 120,
-      "shootStatusShooter": true,
       "shoot": {
         "shots": 1,
         "shotDelay": 0,
@@ -173,7 +172,6 @@
         "fragRandomSpread": 90,
         "fragVelocityMin": 1.0,
         "fragVelocityMax": 1.0,
-        "velocityRnd": 0.0,
         "fragBullet": {
           "type": "BasicBulletType",
           "damage": 10,
