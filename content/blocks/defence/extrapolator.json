@@ -5,7 +5,7 @@
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 10,
-  "squareSprite"" true,
+  "squareSprite" true,
   "range": 80,
   "reload": 300,
   "healPercent": 10,
