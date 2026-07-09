@@ -7,8 +7,6 @@
   "size": 1,
   "range": 10,
   "transportTime": 30,
-  "arrowPeriod": 0.5,
-  "arrowTimeScl": 0.5,
   "hasPower": true,
   "pulse": true,
   "consumes": {
