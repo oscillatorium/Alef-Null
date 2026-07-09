@@ -12,15 +12,12 @@
     "power": 0.1666666667,
     "items": {
       "items": [
-        {"item": "plus", "amount": 2}
+        {"item": "multiplication", "amount": 1}
       ],
       "optional": false,
-      "booster": false
+      "booster": true
     }
   },
-  "optionalItem": "multiplication",
-  "optionalUseTime": 300,
-  "optionalMultiplier": 2.0,
   "category": "effect",
   "research": {
     "parent": "core-n",
