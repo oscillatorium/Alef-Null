@@ -14,3 +14,28 @@ one/360
 plus/300
 ]
 }
+destroyBullet: {
+type: BulletType
+lifetime: 0
+despawnHit: true
+fragBullets: 36
+fragBullet: {
+      "type": "BasicBulletType"
+      "damage": 20
+      "ammoMultiplier": 1
+      "speed": 3
+      "lifetime": 11
+      "sprite": "alef-null-bullet-two"
+      "frontColor": "80ff80"
+      "backColor": "40aa40"
+      "hitEffect": {
+        "type": "ParticleEffect"
+        "particles": 10
+        "lifetime": 30
+        "cone": 360
+        "sizeFrom": 3
+        "sizeTo": 0
+        "colorFrom": "80ff80"
+        colorTo: 80ff8000
+      }
+}
