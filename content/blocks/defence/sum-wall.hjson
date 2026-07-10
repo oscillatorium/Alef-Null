@@ -37,4 +37,5 @@ fragBullet: {
         "colorFrom": "80ff80"
         colorTo: 80ff8000
       }
+   }
 }
