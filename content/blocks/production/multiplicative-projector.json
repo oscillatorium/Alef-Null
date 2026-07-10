@@ -11,6 +11,8 @@
   "useTime": 60,
   "phaseItem": "power",
   "phaseRangeBoost": 80,
+  "baseColor": "44ff44",
+  "phaseColor": "88ff88",
   "consumes": {
     "power": 0.5,
     "items": {
