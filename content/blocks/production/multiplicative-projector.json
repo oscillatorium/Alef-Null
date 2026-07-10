@@ -1,0 +1,38 @@
+{
+  "type": "OverdriveProjector",
+  "size": 3,
+  "health": 500,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 10,
+  "range": 10,
+  "speedBoost": 1.5,
+  "speedBoostPhase": 0.5,
+  "useTime": 60,
+  "phaseItem": "power",
+  "phaseRangeBoost": 10,
+  "consumes": {
+    "power": 0.5,
+    "items": {
+      "items": [
+        {"item": "multiplication", "amount": 1}
+      ],
+      "optional": false,
+      "booster": false
+    }
+  },
+  "category": "effect",
+  "research": {
+    "parent": "extrapolator",
+    "requirements": [
+      {"item": "one", "amount": 500},
+      {"item": "multiplication", "amount": 1000},
+      {"item": "plus", "amount": 750}
+    ]
+  },
+  "requirements": [
+    {"item": "one", "amount": 50},
+    {"item": "multiplication", "amount": 100},
+    {"item": "plus", "amount": 75}
+  ]
+}
