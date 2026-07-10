@@ -5,34 +5,36 @@
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 10,
-  "range": 10,
+  "range": 80,
   "speedBoost": 1.5,
   "speedBoostPhase": 0.5,
   "useTime": 60,
   "phaseItem": "power",
-  "phaseRangeBoost": 10,
+  "phaseRangeBoost": 80,
   "consumes": {
     "power": 0.5,
     "items": {
       "items": [
         {"item": "multiplication", "amount": 1}
       ],
-      "optional": false,
-      "booster": false
+      "optional": true,
+      "booster": true
     }
   },
   "category": "effect",
   "research": {
     "parent": "extrapolator",
     "requirements": [
-      {"item": "one", "amount": 500},
+      {"item": "one", "amount": 250},
       {"item": "multiplication", "amount": 1000},
-      {"item": "plus", "amount": 750}
+      {"item": "plus", "amount": 750},
+      {"item": "power", "amount": 500}
     ]
   },
   "requirements": [
-    {"item": "one", "amount": 50},
+    {"item": "one", "amount": 25},
     {"item": "multiplication", "amount": 100},
-    {"item": "plus", "amount": 75}
+    {"item": "plus", "amount": 75},
+    {"item": "power", "amount": 50}
   ]
 }
