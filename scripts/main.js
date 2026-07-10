@@ -6,12 +6,10 @@ GeneratorDecay.init();
 ExponentialProgressor.init();
 
 
-let invert = Vars.content.getByName(ContentType.status, "alef-null-invert") || null
 
-if (!invert) {
-    invert = new StatusEffect("invert");
-    invert.speedMultiplier = -1;
-}
+
+let invert = new StatusEffect("invert");
+invert.speedMultiplier = -1;
 
 const mathWarpFx = new Effect(30, e => {
     Draw.color(Pal.accent, Color.white, e.fin()); Lines.stroke(3 * e.fout());
