@@ -1,7 +1,7 @@
 {
   "type": "ForceProjector",
   "size": 2,
-  "health": 628,
+  "health": 600,
   "range": 80,
   "sides": 360,
   "shieldHealth": 3141,
@@ -19,11 +19,12 @@
       "booster": true
     }
   },
-  "optionalUseTime": 120,
-  "optionalMultiplier": 2.0,
+  "phaseUseTime": 120,
+  "phaseRadiusBoost": 80,
+  "phaseShieldBoost": 3141,
   "category": "effect",
   "research": {
-    "parent": "core-n",
+    "parent": "extrapolator",
     "requirements": [
       {"item": "pi", "amount": 2000},
       {"item": "plus", "amount": 1000},
