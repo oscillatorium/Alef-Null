@@ -8,7 +8,7 @@
   "ammoTypes": {
     "one": {
       "type": "LaserBulletType",
-      "status: "positive-energy",
+      "status": "positive-energy",
       "damage": 10,
       "length": 120,
       "width": 6,
