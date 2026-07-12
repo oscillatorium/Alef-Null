@@ -16,9 +16,12 @@
   defaultCore: "core-n"
   iconColor: "44ff44"
   orbitRadius: 12
-  hasAtmosphere: false
+  hasAtmosphere: true
+  atmosphereRadIn: 0.4
+  atmosphereRadOut: 1.01
+  atmosphereColor: "00FFFF20"
   drawOrbit: true
-  bloom: false
+  bloom: true
   updateLighting: true
   mesh: {
     type: "NoiseMesh"
