@@ -1,0 +1,30 @@
+{
+  "type": "LaserTurret",
+  "size": 1,
+  "health": 200,
+  "range": 120,
+  "reload": 30,
+  "shootSound": "laser",
+  "ammoTypes": {
+    "one": {
+      "type": "LaserBulletType",
+      "status: "positive-energy",
+      "damage": 10,
+      "length": 120,
+      "width": 6,
+      "colors": ["44ff44", "88ff88", "ccffcc"]
+    }
+  },
+  "requirements": [
+    {"item": "one", "amount": 25},
+    {"item": "plus", "amount": 10}
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "copper",
+    "requirements": [
+      {"item": "one", "amount": 50},
+      {"item": "plus", "amount": 20}
+    ]
+  }
+}
