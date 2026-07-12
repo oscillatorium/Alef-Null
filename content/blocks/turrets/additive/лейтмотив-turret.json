@@ -1,17 +1,19 @@
 {
-  "type": "LaserTurret",
+  "type": "ItemTurret",
   "size": 1,
   "health": 200,
   "range": 120,
   "reload": 30,
   "shootSound": "laser",
-  "shootType": {
-    "type": "LaserBulletType",
-    "damage": 10,
-    "status": "positive-energy",
-    "length": 120,
-    "width": 6,
-    "colors": ["44ff44", "88ff88", "ccffcc"]
+  "ammoTypes": {
+    "one": {
+      "type": "LaserBulletType",
+      "damage": 10,
+      "length": 120,
+      "status": "negative-energy",
+      "width": 6,
+      "colors": ["44ff44", "88ff88", "ccffcc"]
+    }
   },
   "requirements": [
     {"item": "one", "amount": 25},
