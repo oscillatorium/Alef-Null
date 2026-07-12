@@ -1,0 +1,38 @@
+{
+  "type": "ForceProjector",
+  "size": 2,
+  "health": 628,
+  "range": 80,
+  "sides": 360,
+  "shieldHealth": 3141,
+  "shieldRegen": 50,
+  "shieldRegenDelay": 300,
+  "convective": true,
+  "hasPower": true,
+  "consumes": {
+    "power": 2.5,
+    "items": {
+      "items": [
+        {"item": "pi", "amount": 2}
+      ],
+      "optional": true,
+      "booster": true
+    }
+  },
+  "optionalUseTime": 120,
+  "optionalMultiplier": 2.0,
+  "category": "effect",
+  "research": {
+    "parent": "core-n",
+    "requirements": [
+      {"item": "pi", "amount": 2000},
+      {"item": "plus", "amount": 1000},
+      {"item": "multiplication", "amount": 1000}
+    ]
+  },
+  "requirements": [
+    {"item": "pi", "amount": 200},
+    {"item": "plus", "amount": 100},
+    {"item": "multiplication", "amount": 100}
+  ]
+}
