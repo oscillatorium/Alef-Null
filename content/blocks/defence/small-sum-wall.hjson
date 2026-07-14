@@ -14,8 +14,7 @@ one/90
 plus/60
 ]
   }
-
-// тапкочек тута🩴
+// тапочек тута 🩴
 destroyBullet: {
 type: BulletType
 lifetime: 0
@@ -23,10 +22,10 @@ despawnHit: true
 fragBullets: 9
 fragBullet: {
       "type": "BasicBulletType"
-      "damage": 1
+      "damage": 10
       "speed": 3
-      "lifetime": 11
-      "sprite": "alef-null-bullet-two"
+      "lifetime": 12
+      "sprite": "alef-null-bullet-one"
       "frontColor": "80ff80"
       "backColor": "40aa40"
       "hitEffect": {
