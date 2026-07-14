@@ -23,7 +23,7 @@ fragBullet: {
       "type": "BasicBulletType"
       "damage": 10
       "speed": 3
-      "lifetime": 11
+      "lifetime": 12
       "sprite": "alef-null-bullet-one"
       "frontColor": "80ff80"
       "backColor": "40aa40"
