@@ -21,10 +21,10 @@ despawnHit: true
 fragBullets: 36
 fragBullet: {
       "type": "BasicBulletType"
-      "damage": 1
+      "damage": 10
       "speed": 3
       "lifetime": 11
-      "sprite": "alef-null-bullet-two"
+      "sprite": "alef-null-bullet-one"
       "frontColor": "80ff80"
       "backColor": "40aa40"
       "hitEffect": {
