@@ -37,7 +37,8 @@
         "sizeTo": 0,
         "colorFrom": "80ff80",
         "colorTo": "80ff8000"
-      }
+      },
+      "despawnEffect": "none"
     }
   }
 }
