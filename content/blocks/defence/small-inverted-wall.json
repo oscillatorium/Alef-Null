@@ -2,7 +2,7 @@
   "type": "Wall",
   "health": 450,
   "buildTime": 10,
-  "chanceDeflect": 0.5,
+  "chanceDeflect": 50,
   "size": 1,
   "requirements": [
     "anti-one/9",
