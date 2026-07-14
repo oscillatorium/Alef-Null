@@ -1,0 +1,43 @@
+{
+  "type": "Wall",
+  "health": 450,
+  "buildTime": 10,
+  "size": 1,
+  "requirements": [
+    "one/9",
+    "plus/6"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "additive-turret",
+    "requirements": [
+      "one/90",
+      "plus/60"
+    ]
+  },
+  "destroyBullet": {
+    "type": "BulletType",
+    "lifetime": 0,
+    "despawnHit": true,
+    "fragBullets": 9,
+    "fragBullet": {
+      "type": "BasicBulletType",
+      "damage": 10,
+      "speed": 3,
+      "lifetime": 12,
+      "sprite": "alef-null-bullet-one",
+      "frontColor": "80ff80",
+      "backColor": "40aa40",
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "lifetime": 30,
+        "cone": 360,
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "colorFrom": "80ff80",
+        "colorTo": "80ff8000"
+      }
+    }
+  }
+}
