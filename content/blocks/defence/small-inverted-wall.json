@@ -1,0 +1,46 @@
+{
+  "type": "Wall",
+  "health": 450,
+  "buildTime": 10,
+  "chanceDeflect": 0.5,
+  "size": 1,
+  "requirements": [
+    "anti-one/9",
+    "minus/6"
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "small-sum-wall",
+    "requirements": [
+      "anti-one/90",
+      "minus/60"
+    ]
+  },
+  "destroyBullet": {
+    "type": "BulletType",
+    "lifetime": 0,
+    "despawnHit": true,
+    "fragBullets": 9,
+    "fragBullet": {
+      "type": "BasicBulletType",
+      "damage": 10,
+      "speed": 3,
+      "lifetime": 12,
+      "sprite": "alef-null-bullet-one",
+      "frontColor": "ff8080",
+      "backColor": "aa4040",
+      "status": "negative-energy",
+      "statusDuration": 60,
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "lifetime": 30,
+        "cone": 360,
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "colorFrom": "ff8080",
+        "colorTo": "ff808000"
+      }
+    }
+  }
+}
