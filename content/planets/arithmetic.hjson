@@ -17,9 +17,9 @@
   iconColor: "44ff44"
   orbitRadius: 12
   hasAtmosphere: true
-  atmosphereRadIn: 0.4
-  atmosphereRadOut: 1.01
-  atmosphereColor: "00FFFF20"
+  atmosphereRadIn: 0.1
+  atmosphereRadOut: 0.5
+  atmosphereColor: "ff0000"
   drawOrbit: true
   bloom: true
   updateLighting: true
