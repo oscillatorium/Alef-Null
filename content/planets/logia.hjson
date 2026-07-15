@@ -1,35 +1,34 @@
-name: "logia"
-localizedName: "Логия"
-description: "Центр всех наук."
-parent: "sun"
-radius: 4.0
-generator: "none"
-solarSystem: "logia"
-accessible: false
-alwaysUnlocked: true
-iconColor: "80ff80"
-orbitRadius: 0
-hasAtmosphere: true
-atmosphereColor: "80ff80"
-drawOrbit: false
-orbitRadius: 250
-bloom: true
-updateLighting: true
-mesh: {
-  type: "SunMesh"
-  divisions: 3
-  octaves: 4
-  persistence: 0.6
-  scl: 1
-  pow: 1
-  mag: 0.5
-  colorScale: 1
-  colors: [
-    80ff80ff
-    aaffaaff
-    ffffffff
-    40aa40ff
-    80ff80ff
-    ffffffff
-  ]
+{
+  "name": "logia",
+  "localizedName": "Логия",
+  "description": "Центр всех наук.",
+  "parent": "sun",
+  "radius": 4.0,
+  "generator": "PlanetGenerator",
+  "solarSystem": "logia",
+  "accessible": false,
+  "alwaysUnlocked": true,
+  "iconColor": "80ff80",
+  "orbitRadius": 110,
+  "drawOrbit": false,
+  "bloom": true,
+  "updateLighting": true,
+  "mesh": {
+    "type": "SunMesh",
+    "planet": "logia",
+    "divisions": 5,
+    "octaves": 3,
+    "persistence": 0.8,
+    "scl": 1,
+    "pow": 1,
+    "mag": 0.5,
+    "colorScale": 1.15,
+    "colors": [
+      "80ff80",
+      "aaffa2",
+      "ffffff",
+      "40aa40",
+      "228b22"
+    ]
+  }
 }
