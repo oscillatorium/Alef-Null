@@ -16,7 +16,7 @@
   clearSectorOnLose: true
   defaultCore: "core-n"
   iconColor: "44ff44"
-  orbitRadius: 10
+  orbitRadius: 50
   hasAtmosphere: true
   atmosphereRadIn: 0.1
   atmosphereRadOut: 0.5
