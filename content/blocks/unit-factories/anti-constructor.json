@@ -1,0 +1,31 @@
+{
+  "type": "UnitAssembler",
+  "size": 3,
+  "health": 500,
+  "hasPower": true,
+  "consumes": {
+    "power": 0.83333333333
+  },
+  "plans": [
+    {
+      "unit": "subtractor",
+      "time": 300,
+      "requirements": [
+        "additor/1",
+        "small-inverted-wall/1"
+      ]
+    }
+  ],
+  "requirements": [
+    "minus/100",
+    "anti-one/50"
+  ],
+  "category": "units",
+  "research": {
+    "parent": "mono-constructor",
+    "requirements": [
+      "anti-one/200",
+      "minus/100"
+    ]
+  }
+}
