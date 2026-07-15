@@ -5,7 +5,7 @@ parent: sun
 radius: 4.0
 generator: "none"
 solarSystem: "logia"
-accessible: true
+accessible: false
 alwaysUnlocked: true
 iconColor: "80ff80"
 orbitRadius: 250
