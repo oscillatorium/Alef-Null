@@ -1,0 +1,34 @@
+name: "logia"
+localizedName: "Логия"
+description: "Центр всех наук."
+parent: sun
+radius: 4.0
+generator: "none"
+solarSystem: "logia"
+accessible: true
+alwaysUnlocked: true
+iconColor: "80ff80"
+orbitRadius: 250
+hasAtmosphere: true
+atmosphereColor: "80ff80"
+drawOrbit: false
+bloom: true
+updateLighting: true
+mesh: {
+  type: "SunMesh"
+  divisions: 3
+  octaves: 4
+  persistence: 0.6
+  scl: 1
+  pow: 1
+  mag: 0.5
+  colorScale: 1
+  colors: [
+    80ff80ff
+    aaffaaff
+    ffffffff
+    40aa40ff
+    80ff80ff
+    ffffffff
+  ]
+}
