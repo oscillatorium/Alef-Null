@@ -1,7 +1,7 @@
 name: "logia"
 localizedName: "Логия"
 description: "Центр всех наук."
-parent: "none"
+parent: "logia"
 radius: 4.0
 generator: "none"
 solarSystem: "logia"
