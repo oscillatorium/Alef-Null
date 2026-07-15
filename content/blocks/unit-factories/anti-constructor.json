@@ -11,8 +11,9 @@
       "unit": "subtractor",
       "time": 300,
       "requirements": [
-        "additor/1",
-        "small-inverted-wall/1"
+        "alef-null-additor/1",
+        "alef-null-small-inverted-wall/1",
+        "alef-null-minus/25"
       ]
     }
   ],
