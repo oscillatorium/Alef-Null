@@ -3,6 +3,8 @@
   "size": 3,
   "health": 500,
   "hasPower": true,
+  "areaSize": 5,
+  "dronesCreated": 3,
   "consumes": {
     "power": 0.83333333333
   },
