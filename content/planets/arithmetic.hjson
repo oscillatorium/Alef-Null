@@ -2,7 +2,8 @@
   name: "arithmetic"
   localizedName: "Арифметика"
   description: "Место, где числа обретают форму."
-  parent: "sun"
+  parent: "logia"
+  solarSystem: "logia"
   radius: 1.0
   generator: "none"
   sectorSize: 1
