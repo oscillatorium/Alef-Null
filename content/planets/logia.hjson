@@ -8,7 +8,7 @@ solarSystem: "logia"
 accessible: false
 alwaysUnlocked: true
 iconColor: "80ff80"
-orbitRadius: 250
+orbitRadius: 100
 hasAtmosphere: true
 atmosphereColor: "80ff80"
 drawOrbit: false
