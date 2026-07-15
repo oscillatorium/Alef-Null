@@ -1,14 +1,14 @@
 name: "logia"
 localizedName: "Логия"
 description: "Центр всех наук."
-parent: sun
+parent: "none"
 radius: 4.0
 generator: "none"
 solarSystem: "logia"
 accessible: false
 alwaysUnlocked: true
 iconColor: "80ff80"
-orbitRadius: 100
+orbitRadius: 0
 hasAtmosphere: true
 atmosphereColor: "80ff80"
 drawOrbit: false
