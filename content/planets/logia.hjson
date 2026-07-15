@@ -1,7 +1,7 @@
 name: "logia"
 localizedName: "Логия"
 description: "Центр всех наук."
-parent: "logia"
+parent: "sun"
 radius: 4.0
 generator: "none"
 solarSystem: "logia"
@@ -12,6 +12,7 @@ orbitRadius: 0
 hasAtmosphere: true
 atmosphereColor: "80ff80"
 drawOrbit: false
+orbitRadius: 250
 bloom: true
 updateLighting: true
 mesh: {
