@@ -3,8 +3,8 @@
   "size": 3,
   "health": 500,
   "hasPower": true,
-  "areaSize": 25,
-  "dronesCreated": 25,
+  "areaSize": 5,
+  "dronesCreated": 4,
   "consumes": {
     "power": 0.83333333333
   },
@@ -22,7 +22,7 @@
       "time": 300,
       "requirements": [
         "alef-null-multiplier/1",
-        "alef-null-inverted-wall/1",
+        "alef-null-small-inverted-wall/3",
       ]
     }
   ],
