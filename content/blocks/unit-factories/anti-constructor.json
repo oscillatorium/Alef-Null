@@ -16,6 +16,14 @@
         "alef-null-additor/1",
         "alef-null-small-inverted-wall/1",
       ]
+    },
+    {
+      "unit": "divider",
+      "time": 300,
+      "requirements": [
+        "alef-null-multiplier/1",
+        "alef-null-inverted-wall/1",
+      ]
     }
   ],
   "requirements": [
