@@ -1,0 +1,29 @@
+name: "math"
+parent: sun
+solarSystem: "math"
+orbitRadius: 0
+drawOrbit: false
+tidalLock: true
+accessible: false
+visible: true
+hidden: true
+hasAtmosphere: false
+bloom: true
+mesh: {
+  type: SunMesh
+  divisions: 3
+  octaves: 4
+  persistence: 0.6
+  scl: 1
+  pow: 1
+  mag: 0.5
+  colorScale: 1
+  colors: [
+    80ff80ff
+    aaffaaff
+    ffffffff
+    40aa40ff
+    80ff80ff
+    ffffffff
+  ]
+}
