@@ -1,6 +1,6 @@
 name: "placeholder"
-parent: "arithmetic"
-solarSystem: "arithmetic"
+parent: "math"
+solarSystem: "math"
 radius: 0.3
 sectorSize: 0
 accessible: false
