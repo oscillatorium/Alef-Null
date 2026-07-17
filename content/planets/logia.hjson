@@ -7,7 +7,7 @@ orbitRadius: 0
 drawOrbit: false
 tidalLock: true
 accessible: false
-visible: false
+visible: true
 hasAtmosphere: false
 hidden: true
 bloom: true
