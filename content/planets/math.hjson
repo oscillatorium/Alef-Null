@@ -3,7 +3,6 @@ parent: sun
 solarSystem: "math"
 orbitRadius: 0
 drawOrbit: false
-tidalLock: true
 accessible: false
 visible: true
 hasAtmosphere: false
