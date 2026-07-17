@@ -3,6 +3,7 @@ localizedName: "Логия"
 description: "Центр всех наук."
 parent: sun
 solarSystem: "logia"
+radius: 7
 orbitRadius: 0
 drawOrbit: false
 tidalLock: true
