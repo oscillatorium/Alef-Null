@@ -7,8 +7,9 @@ orbitRadius: 0
 drawOrbit: false
 tidalLock: true
 accessible: false
-visible: true
+visible: false
 hasAtmosphere: false
+hidden: true
 bloom: true
 iconColor: "80ff80"
 mesh: {
