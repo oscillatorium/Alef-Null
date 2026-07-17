@@ -1,44 +1,73 @@
-{
-  name: "arithmetic"
-  localizedName: "Арифметика"
-  description: "Место, где числа обретают форму."
-  parent: "logia"
-  solarSystem: "logia"
+name: "arithmetic"
+localizedName: "Арифметика"
+description: "Место, где числа обретают форму."
+parent: "logia"
+solarSystem: "logia"
+radius: 1.0
+sectorSize: 1
+accessible: true
+alwaysUnlocked: true
+startSector: 0
+allowLaunchToNumbered: false
+allowSectorInvasion: false
+allowLaunchSchematics: false
+clearSectorOnLose: true
+defaultCore: "core-n"
+iconColor: "44ff44"
+orbitRadius: 55
+orbitSpacing: 8
+hasAtmosphere: true
+atmosphereRadIn: 0.1
+atmosphereRadOut: 0.5
+atmosphereColor: "00ff00"
+drawOrbit: true
+bloom: true
+updateLighting: true
+minZoom: 0.5
+sectorSeed: 228
+allowWaveSimulation: true
+allowWaves: true
+generator: {
+  min: 1
+  max: 1
+  octaves: 2
+  persistence: 0.4
+  scale: 30
+  mag: 0.4
+  thresh: 1
+  foct: 3
+  fmag: 0.5
+  fscl: 50
+  fper: 0.6
+  radMin: 600
+  radMax: 600
+  stoneChance: 0
+  iceChance: 0
+  carbonChance: 0
+  berylChance: 0
+  ferricChance: 0
+}
+mesh: {
+  type: NoiseMesh
+  seed: 86424
+  divisions: 5
   radius: 1.0
-  generator: "none"
-  sectorSize: 1
-  accessible: true
-  alwaysUnlocked: true
-  startSector: 0
-  allowLaunchToNumbered: false
-  allowSectorInvasion: false
-  allowLaunchSchematics: false
-  clearSectorOnLose: true
-  defaultCore: "core-n"
-  iconColor: "44ff44"
-  orbitRadius: 55
-  orbitSpacing: 5
-  hasAtmosphere: true
-  atmosphereRadIn: 0.1
-  atmosphereRadOut: 0.5
-  atmosphereColor: "00ff00"
-  drawOrbit: true
-  bloom: true
-  updateLighting: true
-  mesh: {
-    type: "NoiseMesh"
-    seed: 86424
-    divisions: 5
-    radius: 1.0
-    color1: "00ff00"
-    color2: "ff0000"
-    colorOct: 4
-    colorPersistence: 0.5
-    colorScale: 0.5
-    colorThreshold: 0.5
-    octaves: 4
-    persistence: 1
-    scale: 0.75
-    mag: 0
-  }
+  color1: "00ff00"
+  color2: "ff0000"
+  octaves: 4
+  persistence: 1
+  scale: 0.75
+  mag: 1
+}
+cloudMesh: {
+  type: HexSkyMesh
+  seed: 42
+  speed: 0.5
+  radius: 0.05
+  divisions: 3
+  color: "00ff0040"
+  octaves: 3
+  persistence: 0.7
+  scl: 1
+  thresh: 0.4
 }
