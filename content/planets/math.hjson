@@ -6,7 +6,6 @@ drawOrbit: false
 tidalLock: true
 accessible: false
 visible: true
-hidden: true
 hasAtmosphere: false
 bloom: true
 mesh: {
