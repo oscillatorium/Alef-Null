@@ -2,6 +2,5 @@
   "type": "OreBlock",
   "itemDrop": "minus",
   "mapColor": "ff0000",
-  "variants": 2,
-  "tier": 2
+  "variants": 2
 }
