@@ -7,6 +7,7 @@
   "liquidCapacity": 50,
   "areaSize": 5,
   "dronesCreated": 4,
+  "droneType": "alef-null-inverter"
   "consumes": {
     "power": 0.83333333333,
     "liquid": {
