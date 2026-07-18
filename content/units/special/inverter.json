@@ -1,0 +1,27 @@
+{
+  "type": "flying",
+  "flying": true,
+  "hidden": true,
+  "playerControllable": false,
+  "logicControllable": false,
+  "speed": 1,
+  "health": 100,
+  "hitSize": 3,
+  "armor": 0,
+  "mineTier": 0,
+  "mineSpeed": 0,
+  "buildSpeed": 0,
+  "itemCapacity": 0,
+  "rotateSpeed": 10,
+  "outlineColor": "444444",
+  "engineColor": "ff00ff",
+  "engineColorInner": "ff88ff",
+  "engines": [
+    {
+      "x": 0,
+      "y": -3,
+      "radius": 2.5
+    }
+  ],
+  "weapons": []
+}
