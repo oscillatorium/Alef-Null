@@ -14,14 +14,14 @@
   "buildSpeed": 0,
   "itemCapacity": 0,
   "rotateSpeed": 10,
-  "outlineColor": "444444",
-  "engineColor": "ff00ff",
-  "engineColorInner": "ff88ff",
+  "outlineColor": "440000",
+  "engineColor": "ff0000",
+  "engineColorInner": "ff8888",
   "engines": [
     {
       "x": 0,
       "y": -3,
-      "radius": 2.5
+      "radius": 2
     }
   ],
   "weapons": []
