@@ -3,7 +3,7 @@
   "controller": "AssemblerAI",
   "hidden": true,
   "flying": true,
-  "playerControllable": false,
+  "playerControllable": true,
   "logicControllable": false,
   "health": 150,
   "hitSize": 2.5,
@@ -16,12 +16,5 @@
   "outlineColor": "440000",
   "engineColor": "ff0000",
   "engineColorInner": "ff8888",
-  "engines": [
-    {
-      "x": 0,
-      "y": -3,
-      "radius": 2
-    }
-  ],
   "weapons": []
 }
