@@ -12,7 +12,7 @@
     "power": 0.83333333333,
     "liquid": {
       "liquid": "inversion",
-      "amount": 1.0,
+      "amount": 0.083333333333,
       "optional": false,
       "booster": false
     }
