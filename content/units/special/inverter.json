@@ -3,7 +3,7 @@
   "controller": "AssemblerAI",
   "hidden": true,
   "flying": true,
-  "playerControllable": true,
+  "playerControllable": false,
   "logicControllable": false,
   "health": 150,
   "hitSize": 2.5,
