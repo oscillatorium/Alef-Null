@@ -3,39 +3,45 @@
   "size": 3,
   "health": 500,
   "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 50,
   "areaSize": 5,
   "dronesCreated": 4,
   "consumes": {
-    "power": 0.83333333333
+    "power": 0.83333333333,
+    "liquid": {
+      "liquid": "inversion",
+      "amount": 1.0,
+      "optional": false,
+      "booster": false
+    }
   },
   "plans": [
     {
       "unit": "subtractor",
       "time": 300,
       "requirements": [
-        "alef-null-additor/1",
-        "alef-null-minuser/1",
+        "alef-null-additor/1"
       ]
     },
     {
       "unit": "divider",
       "time": 300,
       "requirements": [
-        "alef-null-multiplier/1",
-        "alef-null-minuser/3",
+        "alef-null-multiplier/1"
       ]
     }
   ],
   "requirements": [
-    "minus/100",
-    "anti-one/50"
+    {"item": "minus", "amount": 100},
+    {"item": "anti-one", "amount": 50}
   ],
   "category": "units",
   "research": {
     "parent": "mono-constructor",
     "requirements": [
-      "anti-one/200",
-      "minus/100"
+      {"item": "anti-one", "amount": 200},
+      {"item": "minus", "amount": 100}
     ]
   }
 }
