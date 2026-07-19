@@ -1,6 +1,7 @@
 {
   "type": "tether",
   "controller": "AssemblerAI",
+  "useUnitCap": false,
   "hidden": true,
   "flying": true,
   "playerControllable": false,
