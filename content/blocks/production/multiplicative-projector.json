@@ -9,12 +9,11 @@
   "speedBoost": 1.5,
   "speedBoostPhase": 0.5,
   "useTime": 60,
-  "phaseItem": "power",
   "phaseRangeBoost": 80,
   "baseColor": "44ff44",
   "phaseColor": "88ff88",
   "consumes": {
-    "power": 0.5,
+    "power": 1.25,
     "items": {
       "items": [
         {"item": "multiplication", "amount": 1}
