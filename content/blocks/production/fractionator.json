@@ -1,0 +1,31 @@
+{
+  "type": "GenericCrafter",
+  "size": 2,
+  "health": 200,
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "craftTime": 30,
+  "consumes": {
+    "power": 0.08333333333333,
+    "items": [
+      {"item": "one", "amount": 2},
+      {"item": "division", "amount": 1}
+    ]
+  },
+  "requirements": [
+    {"item": "one", "amount": 20},
+    {"item": "division", "amount": 10},
+    {"item": "multiplication", "amount": 10}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "minuser",
+    "requirements": [
+      {"item": "one", "amount": 1500},
+      {"item": "division", "amount": 1000},
+    {"item": "multiplication", "amount": 1000}
+    ]
+  },
+  "outputItem": {"item": "fraction", "amount": 1}
+}
