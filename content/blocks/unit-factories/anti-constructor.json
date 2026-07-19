@@ -1,11 +1,11 @@
 {
   "type": "UnitAssembler",
-  "size": 3,
+  "size": 4,
   "health": 500,
   "hasPower": true,
   "hasLiquids": true,
   "liquidCapacity": 50,
-  "areaSize": 5,
+  "areaSize": 6,
   "dronesCreated": 4,
   "droneType": "alef-null-inverter"
   "consumes": {
@@ -27,22 +27,22 @@
     },
     {
       "unit": "divider",
-      "time": 300,
+      "time": 600,
       "requirements": [
         "alef-null-multiplier/1"
       ]
     }
   ],
   "requirements": [
-    {"item": "minus", "amount": 100},
+    {"item": "minus", "amount": 150},
     {"item": "anti-one", "amount": 50}
   ],
   "category": "units",
   "research": {
     "parent": "mono-constructor",
     "requirements": [
-      {"item": "anti-one", "amount": 200},
-      {"item": "minus", "amount": 100}
+      {"item": "anti-one", "amount": 500},
+      {"item": "minus", "amount": 750}
     ]
   }
 }
