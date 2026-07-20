@@ -181,7 +181,6 @@
           "sprite": "alef-null-starred-tetragon",
           "spin": 3.0,
           "status": "division-energy",
-          "lifesteal": 0.25,
           "frontColor": "ff4444",
           "backColor": "cc0000",
           "trailColor": "ffaaaa",
