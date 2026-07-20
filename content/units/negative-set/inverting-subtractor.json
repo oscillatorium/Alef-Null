@@ -27,7 +27,7 @@
       "cooldown": 300,
       "sides": 4,
       "rotation": 0
-      "chanceReflect": 10.0
+      "chanceDeflect": 10.0
     }
   ],
   "weapons": [],
