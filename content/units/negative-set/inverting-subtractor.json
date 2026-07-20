@@ -37,8 +37,6 @@
       "y": 0,
       "rotate": false,
       "noAttack": true,
-      "range": 400,
-      "maxRange": 400,
       "reload": 1,
       "shoot": {
         "shots": 1,
@@ -47,7 +45,9 @@
       "bullet": {
         "type": "BasicBulletType",
         "damage": 0,
-        "speed": 0,
+        "range": 400,
+        "maxRange": 400,
+        "speed": 400,
         "lifetime": 1
       }
     }
