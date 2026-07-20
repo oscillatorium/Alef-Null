@@ -21,11 +21,11 @@
   "abilities": [
     {
       "type": "ShieldArcAbility",
-      "radius": 10,
+      "radius": 16,
       "regen": 0.1,
       "max": 250,
       "cooldown": 300,
-      "angle": 90,
+      "angle": 360,
       "chanceDeflect": 1,
       "whenShooting": false
     }
