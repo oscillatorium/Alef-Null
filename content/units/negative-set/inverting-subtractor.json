@@ -1,7 +1,7 @@
 {
   "type": "legs",
   "speed": 0.7,
-  "health": 50,
+  "health": 300,
   "armor": 0,
   "range": 160,
   "maxRange": 160,
@@ -20,17 +20,16 @@
   "itemCapacity": 5,
   "abilities": [
     {
-      "type": "ShieldArcAbility",
+      "type": "ForceFieldAbility",
       "radius": 16,
-      "regen": 0.1,
-      "max": 250,
+      "regen": 0.833333333333333333333333,
+      "max": 300,
       "cooldown": 300,
-      "angle": 360,
-      "chanceDeflect": 1,
-      "whenShooting": false
+      "sides": 4,
+      "rotation": 45
     }
   ],
-  "weapons": []
+  "weapons": [],
   "research": {
     "parent": "subtractor",
     "requirements": [
