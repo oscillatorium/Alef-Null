@@ -3,8 +3,8 @@
   "speed": 0.7,
   "health": 50,
   "armor": 0,
-  "range": 400,
-  "maxRange": 400,
+  "range": 160,
+  "maxRange": 160,
   "hitSize": 8,
   "rotateSpeed": 5,
   "outlineColor": "500000",
@@ -27,32 +27,10 @@
       "cooldown": 300,
       "angle": 90,
       "chanceDeflect": 1,
-      "whenShooting": true
+      "whenShooting": false
     }
   ],
-  "weapons": [
-    {
-      "name": "fake-weapon",
-      "x": 0,
-      "y": 0,
-      "rotate": false,
-      "noAttack": true,
-      "reload": 1,
-      "shoot": {
-        "shots": 1,
-        "firstShotDelay": 99999999999999999
-      },
-      "bullet": {
-        "type": "BasicBulletType",
-        "damage": 0,
-        "range": 400,
-        "maxRange": 400,
-        "speed": 400,
-        "lifetime": 1
-      }
-    }
-  ],
-  "targetFlags": ["turret", "generator"],
+  "weapons": []
   "research": {
     "parent": "subtractor",
     "requirements": [
