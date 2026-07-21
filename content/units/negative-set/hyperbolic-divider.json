@@ -178,7 +178,7 @@
           "lifetime": 90,
           "width": 16,
           "height": 16,
-          "sprite": "alef-null-starred-tetragon",
+          "sprite": "alef-null-starred-bullet-one",
           "spin": 3.0,
           "status": "division-energy",
           "frontColor": "ff4444",
