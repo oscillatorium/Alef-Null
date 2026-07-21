@@ -2,7 +2,7 @@
   planet: "arithmetic"
   name: "function-bridge"
   sector: 1
-  difficulty: 5
+  difficulty: 7
   captureWave: 16
   alwaysUnlocked: false
   addStartingItems: true
