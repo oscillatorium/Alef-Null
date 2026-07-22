@@ -1,6 +1,6 @@
 {
   "type": "legs",
-  "speed": 0.405,
+  "speed": 0.45,
   "health": 300,
   "armor": 0,
   "range": 160,
@@ -21,8 +21,8 @@
   "abilities": [
     {
       "type": "ForceFieldAbility",
-      "radius": 24,
-      "regen": 0.833333333333333333333333,
+      "radius": 32,
+      "regen": 0.0833333333333333333333333,
       "max": 300,
       "cooldown": 300,
       "sides": 4,
