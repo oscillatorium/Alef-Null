@@ -59,15 +59,3 @@ mesh: {
   scale: 0.75
   mag: 1
 }
-cloudMesh: {
-  type: HexSkyMesh
-  seed: 42
-  speed: 0.5
-  radius: 0.05
-  divisions: 3
-  color: "00ff0040"
-  octaves: 3
-  persistence: 0.7
-  scl: 1
-  thresh: 0.4
-}
