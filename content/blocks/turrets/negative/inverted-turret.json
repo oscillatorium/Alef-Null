@@ -18,6 +18,7 @@
       {"item": "minus", "amount": 400},
       {"item": "anti-one", "amount": 200}
     ]
+  },
   "smokeEffect": {
     "type": "ParticleEffect",
     "colorFrom": "ff444480",
