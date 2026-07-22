@@ -1,0 +1,53 @@
+{
+  "type": "LiquidTurret",
+  "health": 250,
+  "size": 2,
+  "reload": 2,
+  "inaccuracy": 15,
+  "hasLiquids": true,
+  "liquidCapacity": 30,
+  "category": "turret",
+  "range": 175,
+  "requirements": [
+    {"item": "minus", "amount": 40},
+    {"item": "anti-one", "amount": 20}
+  ],
+  "research": {
+    "parent": "double-additive-turret",
+    "requirements": [
+      {"item": "minus", "amount": 400},
+      {"item": "anti-one", "amount": 200}
+    ]
+  "smokeEffect": {
+    "type": "ParticleEffect",
+    "colorFrom": "ff444480",
+    "colorTo": "ff000000",
+    "particles": 5,
+    "cone": 15,
+    "lifetime": 60,
+    "length": 130,
+    "interp": "pow4Out",
+    "sizeInterp": "pow2In",
+    "sizeFrom": 3,
+    "sizeTo": 5
+  },
+  "ammoTypes": {
+    "inversion": {
+      "type": "LiquidBulletType",
+      "liquid": "inversion",
+      "speed": 2,
+      "lifetime": 70,
+      "knockback": 0.5,
+      "status": "invert",
+      "statusDuration": 80,
+      "damage": 5,
+      "puddleSize": 18,
+      "despawnHit": true,
+      "despawnSound": "splash",
+      "splashDamage": 3,
+      "splashDamageRadius": 4,
+      "hitEffect": "none",
+      "collidesAir": true
+    }
+  }
+}
