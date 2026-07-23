@@ -8,7 +8,6 @@
   "hasLiquids": true,
   "liquidCapacity": 30,
   "category": "turret",
-  "range": 175,
   "requirements": [
     {"item": "minus", "amount": 40},
     {"item": "anti-one", "amount": 20}
