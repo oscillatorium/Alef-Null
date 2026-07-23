@@ -3,7 +3,7 @@
   "health": 250,
   "size": 2,
   "reload": 2,
-  "inaccuracy": 15,
+  "inaccuracy": 5,
   "hasLiquids": true,
   "liquidCapacity": 30,
   "category": "turret",
@@ -36,11 +36,11 @@
     "inversion": {
       "type": "LiquidBulletType",
       "liquid": "inversion",
-      "speed": 2,
+      "speed": 3.5,
       "lifetime": 70,
-      "knockback": 0.5,
+      "knockback": 1,
       "status": "invert",
-      "statusDuration": 80,
+      "statusDuration": 60,
       "damage": 5,
       "puddleSize": 18,
       "despawnHit": true,
@@ -50,5 +50,28 @@
       "hitEffect": "none",
       "collidesAir": true
     }
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-left",
+        "x": 0,
+        "y": 0,
+        "moveX": 1,
+        "moveY": 2,
+        "progress": "warmup"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-right",
+        "x": 0,
+        "y": 0,
+        "moveX": -1,
+        "moveY": 2,
+        "progress": "warmup"
+      }
+    ]
   }
 }
