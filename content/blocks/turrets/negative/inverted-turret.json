@@ -2,6 +2,7 @@
   "type": "LiquidTurret",
   "health": 250,
   "size": 2,
+  "range": 200,
   "outlineColor": "400000",
   "reload": 2.5,
   "inaccuracy": 2,
