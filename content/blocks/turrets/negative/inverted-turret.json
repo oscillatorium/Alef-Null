@@ -10,13 +10,15 @@
   "category": "turret",
   "requirements": [
     {"item": "minus", "amount": 40},
-    {"item": "anti-one", "amount": 20}
+    {"item": "anti-one", "amount": 20},
+    {"item": "multiplication", "amount": 10}
   ],
   "research": {
     "parent": "double-additive-turret",
     "requirements": [
       {"item": "minus", "amount": 400},
-      {"item": "anti-one", "amount": 200}
+      {"item": "anti-one", "amount": 200},
+      {"item": "multiplication", "amount": 100}
     ]
   },
   "smokeEffect": {
