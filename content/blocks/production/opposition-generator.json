@@ -28,5 +28,19 @@
       {"item": "one", "amount": 100}
     ]
   },
-  "outputLiquid": {"liquid": "inversion", "amount": 10}
+  "outputLiquid": {"liquid": "inversion", "amount": 10},
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawPlasma",
+        "suffix": "-plasma",
+        "plasma1": "ff6767",
+        "plasma2": "ff4242"
+      }
+    ]
+  }
 }
