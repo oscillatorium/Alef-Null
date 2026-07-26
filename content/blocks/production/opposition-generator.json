@@ -28,7 +28,7 @@
       {"item": "one", "amount": 100}
     ]
   },
-  "outputLiquid": {"liquid": "inversion", "amount": 10},
+  "outputLiquid": {"liquid": "inversion", "amount": 0.5},
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
