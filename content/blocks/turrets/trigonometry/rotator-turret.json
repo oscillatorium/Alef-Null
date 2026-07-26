@@ -58,7 +58,7 @@
           "colors": ["ffdd44", "ffdd88", "ffffff"]
         }
       },
-      "fragBullet2": {
+      "fragBullet2 ": {
         "type": "BasicBulletType",
         "damage": 0,
         "speed": 3.5,
