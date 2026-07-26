@@ -32,14 +32,18 @@
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
-      {
-        "type": "DrawDefault"
-      },
-      {
-        "type": "DrawPlasma",
-        "suffix": "-plasma",
-        "plasma1": "ff6767",
-        "plasma2": "ff4242"
+    {
+      "type": "DrawDefault"
+    },
+    {
+      "type": "DrawPlasma",
+      "suffix": "-plasma",
+      "plasma1": "ff6767",
+      "plasma2": "ff4242"
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-top"
       }
     ]
   }
