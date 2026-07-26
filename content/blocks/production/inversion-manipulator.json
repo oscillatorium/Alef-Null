@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "size": 2,
+  "health": 200,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": false,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "craftTime": 60,
+  "consumes": {
+    "items": [
+      {"item": "multiplication", "amount": 1},
+      {"item": "minus", "amount": 1}
+    ]
+  },
+  "requirements": [
+    {"item": "minus", "amount": 25},
+    {"item": "multiplication", "amount": 10},
+    {"item": "one", "amount": 10}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "minuser",
+    "requirements": [
+      {"item": "minus", "amount": 250},
+      {"item": "multiplication", "amount": 100},
+      {"item": "one", "amount": 100}
+    ]
+  },
+  "outputLiquid": {"liquid": "inversion", "amount": 10},
+  "drawer": {
+    "type": "DrawPlasma",
+    "suffix": "-plasma",
+    "plasma1": "ff6767",
+    "plasma2": "ff4242"
+  }
+}
