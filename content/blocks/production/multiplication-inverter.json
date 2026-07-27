@@ -13,7 +13,7 @@
       {"item": "multiplication", "amount": 1}
     ],
     "liquids": [
-      {"liquid": "inversion", "amount": 5}
+      {"liquid": "inversion", "amount": 0.0833333333}
     ]
   },
   "requirements": [
