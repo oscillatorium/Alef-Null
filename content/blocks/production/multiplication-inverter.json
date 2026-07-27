@@ -1,0 +1,34 @@
+{
+  "type": "GenericCrafter",
+  "size": 2,
+  "health": 200,
+  "hasItems": true,
+  "hasLiquids": true,
+  "hasPower": false,
+  "itemCapacity": 20,
+  "liquidCapacity": 30,
+  "craftTime": 60,
+  "consumes": {
+    "items": [
+      {"item": "multiplication", "amount": 1}
+    ],
+    "liquids": [
+      {"liquid": "inversion", "amount": 5}
+    ]
+  },
+  "requirements": [
+    {"item": "minus", "amount": 30},
+    {"item": "multiplication", "amount": 15},
+    {"item": "one", "amount": 15}
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "multiplication-combiner",
+    "requirements": [
+      {"item": "minus", "amount": 600},
+      {"item": "multiplication", "amount": 300},
+      {"item": "one", "amount": 300}
+    ]
+  },
+  "outputItem": {"item": "division", "amount": 1}
+}
