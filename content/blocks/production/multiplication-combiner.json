@@ -1,0 +1,26 @@
+{
+  "type": "GenericCrafter",
+  "health": 250,
+  "size": 2,
+  "hasItems": true,
+  "hasPower": false,
+  "craftTime": 60,
+  "consumes": {
+    "items": [
+      "plus/2"
+    ]
+  },
+  "requirements": [
+    "plus/50",
+    "one/25"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "pluser",
+    "requirements": [
+      "plus/250",
+      "one/50"
+    ]
+  },
+  "outputItem": "multiplication/1"
+}
