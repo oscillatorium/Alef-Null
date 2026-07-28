@@ -5,7 +5,7 @@
   "hasPower": false,
   "category": "units",
   "research": {
-    "parent": "copper",
+    "parent": "mono-constructor",
     "requirements": [
       {"item": "multiplication", "amount": 1000},
       {"item": "division", "amount": 1000},
