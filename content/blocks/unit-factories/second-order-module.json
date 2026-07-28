@@ -1,0 +1,22 @@
+{
+  "type": "UnitAssemblerModule",
+  "size": 2,
+  "health": 200,
+  "hasPower": false,
+  "category": "units",
+  "research": {
+    "parent": "copper",
+    "requirements": [
+      {"item": "multiplication", "amount": 1000},
+      {"item": "division", "amount": 1000},
+      {"item": "plus", "amount": 1000},
+      {"item": "minus", "amount": 1000}
+    ]
+  },
+  "requirements": [
+    {"item": "multiplication", "amount": 100},
+    {"item": "division", "amount": 100},
+    {"item": "plus", "amount": 100},
+    {"item": "minus", "amount": 100}
+  ]
+}
