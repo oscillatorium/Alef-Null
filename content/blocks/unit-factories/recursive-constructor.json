@@ -35,14 +35,16 @@
   ],
   "requirements": [
     {"item": "plus", "amount": 150},
-    {"item": "one", "amount": 50}
+    {"item": "one", "amount": 50},
+    {"item": "multiplication", "amount": 50}
   ],
   "category": "units",
   "research": {
     "parent": "mono-constructor",
     "requirements": [
       {"item": "one", "amount": 500},
-      {"item": "plus", "amount": 750}
+      {"item": "plus", "amount": 750},
+      {"item": "multiplication", "amount": 250}
     ]
   }
 }
