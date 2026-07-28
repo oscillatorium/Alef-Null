@@ -7,5 +7,6 @@
   "flammability": 0.0,
   "explosiveness": 0.0,
   "coolant": false,
-  "gas": false
+  "gas": false,
+  "parent": "anti-one"
 }
