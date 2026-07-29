@@ -1,5 +1,4 @@
-//большое спасибо Chmonya за код
-//паровозик сильнее
+/*
 const ExponentialProgressor = {
   pattern: [2, 4, 8, 16, 32, 64, 128, 256, 512],
   cooldownTicks: 120,
@@ -89,3 +88,4 @@ const ExponentialProgressor = {
 };
 
 module.exports = ExponentialProgressor;
+*/
