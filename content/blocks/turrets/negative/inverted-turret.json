@@ -27,7 +27,7 @@
     "colorFrom": "ff444480",
     "colorTo": "ff000000",
     "particles": 5,
-    "cone": 15,
+    "cone": 5,
     "lifetime": 60,
     "length": 130,
     "interp": "pow4Out",
@@ -47,7 +47,6 @@
       "damage": 1,
       "puddleSize": 5,
       "despawnHit": true,
-      "despawnSound": "splash",
       "hitEffect": "none",
       "collidesAir": true
     }
