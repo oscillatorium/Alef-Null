@@ -1,9 +1,9 @@
 // тут по идее должен быть триггер на здоровье и активацию чего то, но после половины хп у него ломается спрайт и ни шиша не происходит. ну а так годно
 const GeneratorDecay = require("GeneratorDecay");
-const ExponentialProgressor = require("ExponentialProgressor");
+// const ExponentialProgressor = require("ExponentialProgressor");
 
 GeneratorDecay.init();
-ExponentialProgressor.init();
+// ExponentialProgressor.init();
 
 
 
