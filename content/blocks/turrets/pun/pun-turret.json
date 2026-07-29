@@ -4,7 +4,6 @@
   "health": 400,
   "range": 400,
   "reload": 120,
-  "shootSound": "missile",
   "shootEffect": {
     "type": "ParticleEffect",
     "particles": 12,
