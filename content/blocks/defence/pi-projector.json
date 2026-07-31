@@ -1,13 +1,11 @@
 {
   "type": "ForceProjector",
-  "size": 2,
-  "health": 600,
+  "size": 1,
+  "health": 200,
   "range": 80,
   "sides": 360,
-  "shieldHealth": 3000,
+  "shieldHealth": 1000,
   "shieldRegen": 50,
-  "shieldRegenDelay": 300,
-  "convective": true,
   "hasPower": true,
   "consumes": {
     "power": 2.5
@@ -22,7 +20,7 @@
     ]
   },
   "requirements": [
-    {"item": "pi", "amount": 200},
+    {"item": "pi", "amount": 50},
     {"item": "plus", "amount": 100},
     {"item": "multiplication", "amount": 100}
   ]
