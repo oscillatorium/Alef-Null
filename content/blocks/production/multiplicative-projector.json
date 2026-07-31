@@ -1,7 +1,7 @@
 {
   "type": "OverdriveProjector",
-  "size": 3,
-  "health": 500,
+  "size": 2,
+  "health": 250,
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 10,
