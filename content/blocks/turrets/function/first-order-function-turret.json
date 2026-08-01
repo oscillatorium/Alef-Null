@@ -3,9 +3,10 @@
   "size": 2,
   "health": 400,
   "range": 120,
-  "reload": 20,
+  "reload": 10,
   "shootSound": "laser",
   "shootCone": 360,
+  "rotateSpeed": 0,
   "rotate": false,
   "targetAir": true,
   "targetGround": true,
@@ -17,7 +18,10 @@
       "width": 8,
       "colors": ["44ff44", "88ff88", "ccffcc"],
       "status": "positive-energy",
-      "statusDuration": 60
+      "statusDuration": 60,
+      "lifetime": 999999,
+      "collidesAir": true,
+      "collidesGround": true
     },
     "minus": {
       "type": "ContinuousLaserBulletType",
@@ -26,7 +30,10 @@
       "width": 8,
       "colors": ["ff4444", "ff8888", "ffcccc"],
       "status": "negative-energy",
-      "statusDuration": 60
+      "statusDuration": 60,
+      "lifetime": 999999,
+      "collidesAir": true,
+      "collidesGround": true
     }
   },
   "shoot": {
@@ -41,15 +48,17 @@
     ]
   },
   "requirements": [
-    {"item": "one", "amount": 50},
-    {"item": "plus", "amount": 40}
+    {"item": "one", "amount": 100},
+    {"item": "plus", "amount": 40},
+    {"item": "minus", "amount": 40}
   ],
   "category": "turret",
   "research": {
     "parent": "additive-turret",
     "requirements": [
-      {"item": "one", "amount": 100},
-      {"item": "plus", "amount": 80}
+      {"item": "one", "amount": 1000},
+      {"item": "plus", "amount": 400},
+      {"item": "minus", "amount": 400}
     ]
   }
 }
