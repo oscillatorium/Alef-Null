@@ -1,0 +1,59 @@
+{
+  "type": "ItemTurret",
+  "size": 3,
+  "health": 400,
+  "range": 150,
+  "reload": 20,
+  "shootSound": "laser",
+  "shootCone": 360,
+  "rotate": false,
+  "targetAir": true,
+  "targetGround": true,
+  "ammoTypes": {
+    "plus": {
+      "type": "LaserBulletType",
+      "damage": 20,
+      "length": 150,
+      "width": 8,
+      "colors": ["44ff44", "88ff88", "ccffcc"],
+      "collidesAir": true,
+      "collidesGround": true
+    },
+    "minus": {
+      "type": "LaserBulletType",
+      "damage": 20,
+      "length": 150,
+      "width": 8,
+      "colors": ["ff4444", "ff8888", "ffcccc"],
+      "status": "negative-energy",
+      "statusDuration": 60,
+      "collidesAir": true,
+      "collidesGround": true
+    }
+  },
+  "shoot": {
+    "type": "ShootBarrel",
+    "shots": 4,
+    "shotDelay": 0,
+    "barrels": [
+      [0, 0, 45],
+      [0, 0, 135],
+      [0, 0, 225],
+      [0, 0, 315]
+    ]
+  },
+  "requirements": [
+    {"item": "one", "amount": 50},
+    {"item": "plus", "amount": 40},
+    {"item": "minus", "amount": 40}
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "additive-turret",
+    "requirements": [
+      {"item": "one", "amount": 100},
+      {"item": "plus", "amount": 80},
+      {"item": "minus", "amount": 80}
+    ]
+  }
+}
