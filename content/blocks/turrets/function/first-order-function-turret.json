@@ -1,12 +1,12 @@
 {
-  "type": "ContinuousTurret",
-  "size": 3,
+  "type": "ItemTurret",
+  "size": 2,
   "health": 400,
   "range": 120,
   "reload": 20,
   "shootSound": "laser",
   "shootCone": 360,
-  "rotateSpeed": 0,
+  "rotate": false,
   "targetAir": true,
   "targetGround": true,
   "ammoTypes": {
@@ -17,9 +17,7 @@
       "width": 8,
       "colors": ["44ff44", "88ff88", "ccffcc"],
       "status": "positive-energy",
-      "statusDuration": 60,
-      "collidesAir": true,
-      "collidesGround": true
+      "statusDuration": 60
     },
     "minus": {
       "type": "ContinuousLaserBulletType",
@@ -28,9 +26,7 @@
       "width": 8,
       "colors": ["ff4444", "ff8888", "ffcccc"],
       "status": "negative-energy",
-      "statusDuration": 60,
-      "collidesAir": true,
-      "collidesGround": true
+      "statusDuration": 60
     }
   },
   "shoot": {
