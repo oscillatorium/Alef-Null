@@ -3,43 +3,98 @@
   "size": 2,
   "health": 400,
   "range": 120,
-  "reload": 10,
+  "reload": 60,
   "shootSound": "laser",
   "shootCone": 360,
-  "rotateSpeed": 0,
   "rotate": false,
   "targetAir": true,
   "targetGround": true,
+  "shootWarmupSpeed": 0.08,
+  "minWarmup": 0.9,
+  "warmupMaintainTime": 120,
+  "chargeSound": "short-laser-charge",
+  "loopSound": "beamLustre",
+  "loopSoundVolume": 0.8,
+  "recoil": 0,
+  "shootEffect": "shootBig",
+  "chargeEffect": {
+    "type": "MultiEffect",
+    "followParent": true,
+    "effects": [
+      {
+        "type": "ParticleEffect",
+        "particles": 9,
+        "length": 20,
+        "baseLength": 9,
+        "sizeFrom": 3,
+        "sizeTo": 0.1,
+        "interp": "pow2In",
+        "sizeInterp": "pow2",
+        "lifetime": 40
+      },
+      {
+        "type": "WaveEffect",
+        "sizeFrom": 25,
+        "sizeTo": 0.1,
+        "strokeFrom": 1.8,
+        "strokeTo": 0.9,
+        "interp": "pow2In",
+        "lifetime": 50
+      },
+      {
+        "type": "ParticleEffect",
+        "particles": 9,
+        "length": 15,
+        "baseLength": 5,
+        "sizeFrom": 3,
+        "sizeTo": 0.1,
+        "interp": "pow2In",
+        "sizeInterp": "pow2",
+        "lifetime": 50
+      },
+      {
+        "type": "WaveEffect",
+        "sizeFrom": 19,
+        "sizeTo": 0.1,
+        "strokeFrom": 1.6,
+        "strokeTo": 0.8,
+        "interp": "pow2In",
+        "lifetime": 60
+      }
+    ]
+  },
   "ammoTypes": {
     "plus": {
       "type": "ContinuousLaserBulletType",
-      "damage": 20,
+      "ammoMultiplier": 1,
+      "shake": 0.2,
+      "damageInterval": 5,
+      "damage": 25,
       "length": 120,
       "width": 8,
-      "colors": ["44ff44", "88ff88", "ccffcc"],
       "status": "positive-energy",
       "statusDuration": 60,
-      "lifetime": 999999,
-      "collidesAir": true,
-      "collidesGround": true
+      "hitEffect": "hitBulletColor",
+      "colors": ["44ff4455", "44ff44aa", "88ff88", "ccffcc"]
     },
     "minus": {
       "type": "ContinuousLaserBulletType",
-      "damage": 20,
+      "ammoMultiplier": 1,
+      "shake": 0.2,
+      "damageInterval": 5,
+      "damage": 25,
       "length": 120,
       "width": 8,
-      "colors": ["ff4444", "ff8888", "ffcccc"],
       "status": "negative-energy",
       "statusDuration": 60,
-      "lifetime": 999999,
-      "collidesAir": true,
-      "collidesGround": true
+      "hitEffect": "hitBulletColor",
+      "colors": ["ff444455", "ff4444aa", "ff8888", "ffcccc"]
     }
   },
   "shoot": {
     "type": "ShootBarrel",
     "shots": 4,
-    "shotDelay": 0,
+    "shotDelay": 3,
     "barrels": [
       0, 0, 45,
       0, 0, 135,
@@ -48,17 +103,15 @@
     ]
   },
   "requirements": [
-    {"item": "one", "amount": 100},
-    {"item": "plus", "amount": 40},
-    {"item": "minus", "amount": 40}
+    {"item": "one", "amount": 50},
+    {"item": "plus", "amount": 40}
   ],
   "category": "turret",
   "research": {
     "parent": "additive-turret",
     "requirements": [
-      {"item": "one", "amount": 1000},
-      {"item": "plus", "amount": 400},
-      {"item": "minus", "amount": 400}
+      {"item": "one", "amount": 100},
+      {"item": "plus", "amount": 80}
     ]
   }
 }
