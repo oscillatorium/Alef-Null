@@ -18,6 +18,7 @@
   "loopSoundVolume": 0.8,
   "recoil": 0,
   "shootEffect": "shootBig",
+  "shootY": 0,
   "chargeEffect": {
     "type": "MultiEffect",
     "followParent": true,
