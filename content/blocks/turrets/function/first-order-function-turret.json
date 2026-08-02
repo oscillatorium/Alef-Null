@@ -70,12 +70,9 @@
       "type": "ContinuousLaserBulletType",
       "ammoMultiplier": 1,
       "shake": 0.2,
-      "damageInterval": 5,
-      "damage": 4,
+      "damage": 1,
       "length": 120,
-      "width": 8,
-      "status": "positive-energy",
-      "statusDuration": 60,
+      "width": 4,
       "hitEffect": "hitBulletColor",
       "colors": ["44ff4455", "44ff44aa", "88ff88", "ccffcc"]
     },
@@ -83,10 +80,9 @@
       "type": "ContinuousLaserBulletType",
       "ammoMultiplier": 1,
       "shake": 0.2,
-      "damageInterval": 5,
-      "damage": 4,
+      "damage": 1,
       "length": 120,
-      "width": 8,
+      "width": 4,
       "status": "negative-energy",
       "statusDuration": 60,
       "hitEffect": "hitBulletColor",
@@ -110,7 +106,7 @@
   ],
   "category": "turret",
   "research": {
-    "parent": "additive-turret",
+    "parent": "router",
     "requirements": [
       {"item": "one", "amount": 100},
       {"item": "plus", "amount": 80}
