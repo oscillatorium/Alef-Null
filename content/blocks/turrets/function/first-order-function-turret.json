@@ -1,5 +1,6 @@
 {
   "type": "ItemTurret",
+  "name": "тапколазер х4 но алгебра",
   "size": 2,
   "health": 400,
   "range": 120,
