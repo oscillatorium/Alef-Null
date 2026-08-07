@@ -1,0 +1,46 @@
+type: GenericCrafter
+size: 2
+health: 200
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+liquidCapacity: 30
+craftTime: 60
+consumes: {
+  items: [
+    multiplication/1
+    plus/1
+  ]
+}
+requirements: [
+  plus/25
+  multiplication/10
+  one/10
+]
+category: crafting
+research: {
+  parent: pluser
+  requirements: [
+    plus/250
+    multiplication/100
+    one/100
+  ]
+}
+outputLiquid: recursion/0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    DrawDefault
+    {
+      type: DrawPlasma
+      suffix: -plasma
+      plasma1: 66ff66
+      plasma2: 22c55e
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
