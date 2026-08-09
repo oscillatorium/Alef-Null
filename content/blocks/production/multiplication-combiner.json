@@ -16,7 +16,7 @@
   ],
   "category": "crafting",
   "research": {
-    "parent": "pluser",
+    "parent": "router",
     "requirements": [
       "plus/250",
       "one/50"
