@@ -1,0 +1,11 @@
+type: BaseShield
+size: 3
+health: 754260120
+
+requirements: []
+buildVisibility: sandboxOnly
+category: effect
+radius: 314
+sides: 360
+shieldColor: 00ffff
+
