@@ -15,7 +15,7 @@ allowLaunchSchematics: false
 clearSectorOnLose: true
 defaultCore: "core-n"
 iconColor: "44ff44"
-orbitRadius: 15
+orbitRadius: 16
 hasAtmosphere: true
 atmosphereRadIn: 0.1
 atmosphereRadOut: 0.5
