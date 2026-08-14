@@ -7,7 +7,7 @@ radius: 1.0
 sectorSize: 0
 accessible: false
 alwaysUnlocked: true
-orbitRadius: 0
+orbitRadius: 14
 hasAtmosphere: true
 atmosphereRadIn: 0.1
 atmosphereRadOut: 0.5
