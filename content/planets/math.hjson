@@ -23,9 +23,7 @@ atmosphereColor: "00ff00"
 drawOrbit: true
 bloom: true
 updateLighting: true
-minZoom: 0.5
-sectorSeed: 228
-allowWaveSimulation: true
+tidalLock: true
 allowWaves: true
 generator: {
   min: 1
