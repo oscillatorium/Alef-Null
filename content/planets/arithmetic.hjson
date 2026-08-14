@@ -4,8 +4,8 @@ description: "Место, где числа обретают форму."
 parent: "math"
 solarSystem: "math"
 visible: true
-radius: 0.5
-sectorSize: 2
+radius: 1
+sectorSize: 1
 accessible: true
 alwaysUnlocked: true
 startSector: 0
