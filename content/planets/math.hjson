@@ -6,7 +6,7 @@ solarSystem: "math"
 radius: 1.0
 sectorSize: 1
 accessible: false
-alwaysUnlocked: false
+alwaysUnlocked: true
 startSector: 0
 allowLaunchToNumbered: false
 allowSectorInvasion: false
