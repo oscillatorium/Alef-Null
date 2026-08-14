@@ -1,27 +1,61 @@
 name: "math"
-parent: sun
+localizedName: "Математика"
+description: "как эту фигню запрогать???"
+parent: "sun"
 solarSystem: "math"
-orbitRadius: 0
-drawOrbit: false
+radius: 1.0
+sectorSize: 1
 accessible: false
-visible: true
-hasAtmosphere: false
+alwaysUnlocked: false
+startSector: 0
+allowLaunchToNumbered: false
+allowSectorInvasion: false
+allowLaunchSchematics: false
+clearSectorOnLose: true
+defaultCore: "core-n"
+iconColor: "44ff44"
+orbitRadius: 0
+orbitSpacing: 5
+hasAtmosphere: true
+atmosphereRadIn: 0.1
+atmosphereRadOut: 0.5
+atmosphereColor: "00ff00"
+drawOrbit: true
 bloom: true
+updateLighting: true
+minZoom: 0.5
+sectorSeed: 228
+allowWaveSimulation: true
+allowWaves: true
+generator: {
+  min: 1
+  max: 1
+  octaves: 2
+  persistence: 0.4
+  scale: 30
+  mag: 0.4
+  thresh: 1
+  foct: 3
+  fmag: 0.5
+  fscl: 50
+  fper: 0.6
+  radMin: 600
+  radMax: 600
+  stoneChance: 0
+  iceChance: 0
+  carbonChance: 0
+  berylChance: 0
+  ferricChance: 0
+}
 mesh: {
-  type: SunMesh
-  divisions: 3
+  type: NoiseMesh
+  seed: 86424
+  divisions: 5
+  radius: 1.0
+  color1: "eeffee"
+  color2: "ffffff"
   octaves: 4
-  persistence: 0.6
-  scl: 1
-  pow: 1
-  mag: 0.5
-  colorScale: 1
-  colors: [
-    80ff80ff
-    aaffaaff
-    ffffffff
-    40aa40ff
-    80ff80ff
-    ffffffff
-  ]
+  persistence: 1
+  scale: 0.75
+  mag: 1
 }
