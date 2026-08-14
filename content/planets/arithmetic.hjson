@@ -1,8 +1,8 @@
 name: "arithmetic"
 localizedName: "Арифметика"
 description: "Место, где числа обретают форму."
-parent: "sun"
-solarSystem: "arithmetic"
+parent: "math"
+solarSystem: "math"
 radius: 1.0
 sectorSize: 1
 accessible: true
@@ -14,7 +14,7 @@ allowLaunchSchematics: false
 clearSectorOnLose: true
 defaultCore: "core-n"
 iconColor: "44ff44"
-orbitRadius: 0
+orbitRadius: 5
 orbitSpacing: 5
 hasAtmosphere: true
 atmosphereRadIn: 0.1
