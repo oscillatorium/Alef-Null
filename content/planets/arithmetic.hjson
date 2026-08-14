@@ -14,8 +14,7 @@ allowLaunchSchematics: false
 clearSectorOnLose: true
 defaultCore: "core-n"
 iconColor: "44ff44"
-orbitRadius: 5
-orbitSpacing: 5
+orbitRadius: 15
 hasAtmosphere: true
 atmosphereRadIn: 0.1
 atmosphereRadOut: 0.5
@@ -23,9 +22,7 @@ atmosphereColor: "00ff00"
 drawOrbit: true
 bloom: true
 updateLighting: true
-minZoom: 0.5
 sectorSeed: 228
-allowWaveSimulation: true
 allowWaves: true
 generator: {
   min: 1
