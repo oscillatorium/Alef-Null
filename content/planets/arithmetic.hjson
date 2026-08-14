@@ -3,6 +3,7 @@ localizedName: "Арифметика"
 description: "Место, где числа обретают форму."
 parent: "math"
 solarSystem: "math"
+visible: true
 radius: 1.0
 sectorSize: 1
 accessible: true
