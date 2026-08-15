@@ -28,26 +28,27 @@ generator: "PlanetGenerator"
 mesh: [
   {
     type: NoiseMesh
-    seed: 86424
-    divisions: 5.7
-    radius: 0.732
+    bloom: true
+    seed: 125
     color1: "00ff00"
     color2: "44ff44"
-    octaves: 4.4
+    divisions: 5.7
+    radius: 0.892
+    octaves: 3
     persistence: 0.9
-    scale: 0.42
-    mag: 3.1
-    coct: 4.5
-    cper: 4
-    cscl: 6.6
-    cthresh: 125
+    scale: 0.0001
+    mag: 1
+    coct: 1
+    cper: 1
+    cscl: 1
+    cthresh: 8
   }
   {
     type: NoiseMesh
-    bloom: false
+    bloom: true
     seed: 125
-    color1: "ff000090"
-    color2: "ff444460"
+    color1: "ff0000"
+    color2: "ff4444"
     divisions: 5.7
     radius: 0.892
     octaves: 3
