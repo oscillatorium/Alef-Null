@@ -7,12 +7,12 @@ radius: 1.0
 sectorSize: 0
 accessible: false
 alwaysUnlocked: true
-orbitRadius: 14
+orbitRadius: 0
 hasAtmosphere: true
 atmosphereRadIn: 0.1
 atmosphereRadOut: 0.5
 atmosphereColor: "00ff00"
-drawOrbit: true
+drawOrbit: false
 bloom: true
 updateLighting: true
 tidalLock: true
