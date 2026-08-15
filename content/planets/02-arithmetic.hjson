@@ -1,8 +1,8 @@
 name: "arithmetic"
 localizedName: "Арифметика"
 description: "Место, где числа обретают форму."
-parent: "math"
-solarSystem: "math"
+parent: "01-math"
+solarSystem: "01-math"
 visible: true
 radius: 1
 sectorSize: 1
