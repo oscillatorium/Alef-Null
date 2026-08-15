@@ -15,7 +15,7 @@
   "alwaysUnlocked": true,
   "research": {
     "root": true,
-    "planet": "arithmetic",
+    "planet": "02-arithmetic",
     "name": "arithmetic",
     "icon": "core-n"
   }
