@@ -2,7 +2,7 @@ name: "math"
 localizedName: "Математика"
 description: "как эту фигню запрогать???"
 parent: "sun"
-solarSystem: "math"
+solarSystem: "01-math"
 radius: 1.0
 sectorSize: 0
 accessible: false
