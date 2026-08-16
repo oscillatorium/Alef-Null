@@ -1,6 +1,6 @@
 name: "geometry"
 localizedName: "Геометрия"
-description: "Место, где форма обретает числа."
+description: "Место, где тапки."
 parent: "01-math"
 solarSystem: "01-math"
 visible: true
