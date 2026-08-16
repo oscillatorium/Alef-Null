@@ -45,7 +45,7 @@ mesh: [
   }
   {
     type: NoiseMesh
-    bloom: true
+    bloom: false
     seed: 125
     color1: "ff0000"
     color2: "ff4444"
