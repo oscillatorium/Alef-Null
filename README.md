@@ -28,7 +28,7 @@
 ## связь
 
 </div>
-[Это Дискорд](https://discord.gg/99CxfHYtFh) (I don't speak English)
+<a href = "https://discord.gg/99CxfHYtFh">Это Дискорд</a>(I don't speak English)
 
 <div align="center">
 
