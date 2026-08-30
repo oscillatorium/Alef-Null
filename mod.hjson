@@ -8,3 +8,4 @@ minGameVersion: 146
 java: false
 hidden: false
 repo: "oscillatorium/Alef-Null"
+dependencies: ["hjsonpp"]
