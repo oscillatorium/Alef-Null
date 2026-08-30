@@ -3,7 +3,13 @@
   "health": 80,
   "size": 1,
   "hasItems": true,
-  "hasPower": false,
+  "hasPower": true,
+  "outputsPower": true,
+  "conductivePower": true,
+  "consumes": {
+    "powerBuffered": 10…
+    "power": 0.0833333333333333333333333333
+  },
   "craftTime": 60,
   "consumes": {
     "items": [
