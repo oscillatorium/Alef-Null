@@ -6,15 +6,12 @@
   "hasPower": true,
   "outputsPower": true,
   "conductivePower": true,
-  "consumes": {
-    "powerBuffered": 10,
-    "power": 0.0833333333333333333333333333
-  },
   "craftTime": 60,
   "consumes": {
     "items": [
       "plus/1"
-    ]
+    ],
+    "power": 0.083333333333
   },
   "requirements": [
     "plus/15"
