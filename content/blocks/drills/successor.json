@@ -10,7 +10,7 @@
   "conductivePower": true,
   "consumes": {
     "powerBuffered": 25,
-    "power": 0.41666666666666666666666666666666666666666666666666666
+    "power": 0.08333333333333333333333333
   },
   "requirements": [
     "plus/25"
