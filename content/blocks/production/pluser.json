@@ -7,7 +7,7 @@
   "outputsPower": true,
   "conductivePower": true,
   "consumes": {
-    "powerBuffered": 10…
+    "powerBuffered": 10,
     "power": 0.0833333333333333333333333333
   },
   "craftTime": 60,
