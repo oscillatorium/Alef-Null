@@ -5,7 +5,13 @@
   "tier": 1,
   "drillTime": 614,
   "itemCapacity": 5,
-  "hasPower": false,
+  "hasPower": true,
+  "outputsPower": true,
+  "conductivePower": true,
+  "consumes": {
+    "powerBuffered": 25,
+    "power": 25
+  },
   "requirements": [
     "plus/25"
   ],
