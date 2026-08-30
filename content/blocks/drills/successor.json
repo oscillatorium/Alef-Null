@@ -1,7 +1,7 @@
 {
   "type": "Drill",
   "size": 2,
-  "health": 300,
+  "health": 250,
   "tier": 1,
   "drillTime": 614,
   "itemCapacity": 5,
@@ -10,7 +10,7 @@
   "conductivePower": true,
   "consumes": {
     "powerBuffered": 25,
-    "power": 25
+    "power": 0.41666666666666666666666666666666666666666666666666666
   },
   "requirements": [
     "plus/25"
