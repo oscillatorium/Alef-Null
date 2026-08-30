@@ -8,6 +8,12 @@
     {"item": "plus", "amount": 1}
   ],
   "category": "distribution",
+  "hasPower": true,
+  "outputsPower": true,
+  "conductivePower": true,
+  "consumes": {
+    "powerBuffered": 10
+  },
   "research": {
     "parent": "successor",
     "requirements": [
