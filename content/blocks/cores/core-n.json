@@ -1,5 +1,6 @@
 {
-  "type": "CoreBlock",
+  "type": "GeneratorCoreBlock",
+  "powerProduction": 8.333333333,
   "size": 3,
   "health": 1000,
   "buildTime": 1800,
