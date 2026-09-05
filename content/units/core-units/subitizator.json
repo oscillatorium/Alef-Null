@@ -36,8 +36,8 @@
       "stroke": 0,
       "strokeTo": 2,
       "rotateSpeed": -2.0,
-      "x": 7,
-      "y": 6
+      "x": 8,
+      "y": 8
     },
     {
       "type": "ShapePart",
@@ -50,8 +50,8 @@
       "stroke": 0,
       "strokeTo": 2,
       "rotateSpeed": 2.0,
-      "x": -7,
-      "y": 6
+      "x": -8,
+      "y": 8
     }
   ],
   "abilities": [
@@ -68,7 +68,7 @@
     {
       "type": "RepairBeamWeapon",
       "mirror": true,
-      "x": 7,
+      "x": 8,
       "y": 6,
       "rotate":  true,
       "rotationLimit": 40,
