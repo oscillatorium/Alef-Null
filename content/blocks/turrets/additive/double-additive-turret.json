@@ -4,7 +4,8 @@
   "health": 400,
   "range": 160,
   "reload": 60,
-  "shootSound": "shoot",
+  "shootSound": "mechshoot",
+  "outlineColor": "004000",
   "ammoPerShot": 2,
   "ammoTypes": {
     "one": {
@@ -19,6 +20,16 @@
       "frontColor": "80ff80",
       "backColor": "40aa40",
       "hitEffect": {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "lifetime": 30,
+        "cone": 360,
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "colorFrom": "80ff80",
+        "colorTo": "80ff8000"
+      },
+      "despawnEffect": {
         "type": "ParticleEffect",
         "particles": 10,
         "lifetime": 30,
@@ -48,8 +59,8 @@
   "research": {
     "parent": "additive-turret",
     "requirements": [
-      {"item": "plus", "amount": 20},
-      {"item": "one", "amount": 80}
+      {"item": "one", "amount": 80},
+      {"item": "plus", "amount": 20}
     ],
     "objectives": [
       {
