@@ -4,7 +4,8 @@
   "health": 100,
   "range": 120,
   "reload": 60,
-  "shootSound": "shoot",
+  "shootSound": "mechshoot",
+  "outlineColor": "004000",
   "ammoTypes": {
     "one": {
       "type": "BasicBulletType",
@@ -16,6 +17,16 @@
       "frontColor": "80ff80",
       "backColor": "40aa40",
       "hitEffect": {
+        "type": "ParticleEffect",
+        "particles": 10,
+        "lifetime": 30,
+        "cone": 360,
+        "sizeFrom": 3,
+        "sizeTo": 0,
+        "colorFrom": "80ff80",
+        "colorTo": "80ff8000"
+      },
+      "despawnEffect": {
         "type": "ParticleEffect",
         "particles": 10,
         "lifetime": 30,
