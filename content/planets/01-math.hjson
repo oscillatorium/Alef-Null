@@ -1,13 +1,13 @@
 name: "math"
 localizedName: "Математика"
-description: "как эту фигню запрогать???"
+description: "Обрыгишь"
 parent: "sun"
 solarSystem: "01-math"
-radius: 1.0
+radius: 3.0
 sectorSize: 0
 accessible: false
 alwaysUnlocked: false
-orbitRadius: 0
+orbitRadius: 420
 hasAtmosphere: true
 atmosphereRadIn: 0.1
 atmosphereRadOut: 0.5
@@ -41,7 +41,7 @@ mesh: {
   type: NoiseMesh
   seed: 86424
   divisions: 5
-  radius: 1.0
+  radius: 3.0
   color1: "eeffee"
   color2: "ffffff"
   octaves: 4
