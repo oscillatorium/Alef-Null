@@ -6,7 +6,7 @@ solarSystem: "01-math"
 radius: 1.0
 sectorSize: 0
 accessible: false
-alwaysUnlocked: true
+alwaysUnlocked: false
 orbitRadius: 0
 hasAtmosphere: true
 atmosphereRadIn: 0.1
@@ -16,7 +16,7 @@ drawOrbit: false
 bloom: true
 updateLighting: true
 tidalLock: true
-allowWaves: true
+allowWaves: false
 generator: {
   min: 1
   max: 1
