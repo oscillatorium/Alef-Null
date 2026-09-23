@@ -27,10 +27,10 @@
   "abilities": [
     {
       "type": "StatusFieldAbility",
-      "range": 80,
+      "range": 40,
       "reload": 120,
       "duration": 240,
-      "effect": "multiplication-energy"
+      "effect": "positive-energy"
     }
   ],
   "weapons": [
@@ -46,6 +46,8 @@
       "y": 4,
       "range": 80,
       "shootSound": "shootAvert",
+      "shootX": 0,
+      "shootY": 0,
       "bullet": {
         "type": "BasicBulletType",
         "damage": 5,
