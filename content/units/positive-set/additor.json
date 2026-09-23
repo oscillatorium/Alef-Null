@@ -12,7 +12,7 @@
   "buildSpeed": -1,
   "itemCapacity": 20,
   "rotateSpeed": 10,
-  "outlineColor": "005000",
+  "outlineColor": "00500000",
   "hovering": true,
   "canDrown": false,
   "engineSize": 0,
@@ -45,22 +45,24 @@
       "alternate": true,
       "reload": 30,
       "rotate": false,
-      "baseRotation": -45,
+      "baseRotation": 45,
+      "shootCone": 360,
       "x": -2.75,
       "y": 2.75,
       "range": 80,
       "shootSound": "shoot",
-      "followAimSpeed": 0.5,
+      "followAimSpeed": 5,
       "bullet": {
         "type": "BasicBulletType",
         "lifetime": 40,
         "speed": 2.5,
         "damage": 5,
         "healAmount": 10,
-        "hitEffect": "greenBomb",
-        "despawnEffect": "greenBomb",
+        "hitEffect": "greenCloud",
+        "despawnEffect": "greenCloud",
         "frontColor": "00ff00",
-        "backColor": "40a040"
+        "backColor": "40a040",
+        "sprite": "alef-null-bullet-one"
       }
     }
   ],
