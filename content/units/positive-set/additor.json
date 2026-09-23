@@ -12,7 +12,7 @@
   "buildSpeed": -1,
   "itemCapacity": 20,
   "rotateSpeed": 10,
-  "outlineColor": "00500000",
+  "outlineColor": "005000",
   "hovering": true,
   "canDrown": false,
   "engineSize": 0,
@@ -24,6 +24,15 @@
   "shadowElevation": 0.3,
   "lightColor": "aaffaa",
   "lightRadius": 12,
+  "abilities": [
+    {
+      "type": "StatusFieldAbility",
+      "range": 80,
+      "reload": 120,
+      "duration": 240,
+      "effect": "multiplication-energy"
+    }
+  ],
   "weapons": [
     {
       "name": "additor-gun",
@@ -37,7 +46,6 @@
       "y": 4,
       "range": 80,
       "shootSound": "shootAvert",
-      "followAimSpeed": 5,
       "bullet": {
         "type": "BasicBulletType",
         "damage": 5,
@@ -51,10 +59,10 @@
         "trailColor": "44ff44",
         "trailLength": 6,
         "trailWidth": 2,
-        "homingPower": 0.2,
+        "homingPower": 0.5,
         "homingRange": 40,
         "homingDelay": 5,
-        "followAimSpeed": 3,
+        "followAimSpeed": 5,
         "collidesAir": false,
         "collidesGround": true,
         "collidesTeam": true,
