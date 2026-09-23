@@ -5,7 +5,7 @@
   "health": 300,
   "hitSize": 8,
   "armor": 0,
-  "range": 80,
+  "range": 160,
   "mineTier": 1,
   "mineSpeed": 1.0,
   "mineItems": ["alef-null-plus"],
@@ -27,7 +27,7 @@
   "abilities": [
     {
       "type": "StatusFieldAbility",
-      "range": 40,
+      "range": 60,
       "reload": 120,
       "duration": 240,
       "effect": "positive-energy"
@@ -44,10 +44,11 @@
       "shootCone": 180,
       "x": -4,
       "y": 4,
-      "range": 80,
+      "range": 160,
       "shootSound": "shootAvert",
       "shootX": 0,
       "shootY": 0,
+      "top": false,
       "bullet": {
         "type": "BasicBulletType",
         "damage": 5,
@@ -65,7 +66,7 @@
         "homingRange": 40,
         "homingDelay": 5,
         "followAimSpeed": 5,
-        "collidesAir": false,
+        "collidesAir": true,
         "collidesGround": true,
         "collidesTeam": true,
         "hitEffect": "greenCloud",
