@@ -37,7 +37,7 @@
     {
       "name": "additor-gun",
       "mirror": true,
-      "alternate": true,
+      "alternate": false,
       "reload": 30,
       "rotate": false,
       "baseRotation": 45,
@@ -48,6 +48,7 @@
       "shootSound": "shootAvert",
       "shootX": 0,
       "shootY": 0,
+      "recoil": 0.001,
       "top": false,
       "bullet": {
         "type": "BasicBulletType",
