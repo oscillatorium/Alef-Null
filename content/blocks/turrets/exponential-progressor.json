@@ -25,14 +25,5 @@
     { "item": "power", "amount": 50 },
     { "item": "approaches-infinity", "amount": 10 }
   ],
-  "category": "turret",
-  "research": {
-    "parent": "double-additive-turret",
-    "requirements": [
-    { "item": "one", "amount": 1000 },
-    { "item": "variable", "amount": 200 },
-    { "item": "power", "amount": 500 },
-    { "item": "approaches-infinity", "amount": 100 }
-    ]
-  }
+  "category": "turret"
 }
