@@ -139,10 +139,10 @@
         "trailColor": "88ff88",
         "trailWidth": 1.5,
         "trailLength": 12,
-        "homingPower": 0.05,
+        "homingPower": 0.25,
         "homingRange": 120,
         "homingDelay": 10,
-        "followAimSpeed": 5.0,
+        "followAimSpeed": 50.0,
         "hitEffect": "greenCloud",
         "despawnEffect": "greenCloud"
       }
