@@ -115,11 +115,11 @@
         }
       ],
       "intervalDelay": 60,
-      "bulletInterval": 12,
+      "bulletInterval": 18,
       "intervalRandomSpread": 0,
-      "intervalBullets": 2,
-      "intervalAngle": 20,
-      "intervalSpread": 0,
+      "intervalBullets": 3,
+      "intervalAngle": 0,
+      "intervalSpread": 45,
       "intervalBullet": {
         "type": "BasicBulletType",
         "speed": 3,
