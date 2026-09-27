@@ -116,7 +116,7 @@
       "intervalDelay": 60,
       "bulletInterval": 6,
       "intervalRandomSpread": 0,
-      "intervalBullets": 42,
+      "intervalBullets": 2,
       "intervalAngle": 90,
       "intervalSpread": 90,
       "intervalBullet": {
@@ -151,7 +151,7 @@
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",
-    "basePrefix": "alef-null-",
+    "basePrefix": "alef-null-green-",
     "parts": [
       {
         "type": "RegionPart",
