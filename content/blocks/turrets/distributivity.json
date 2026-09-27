@@ -1,0 +1,167 @@
+{
+  "type": "ItemTurret",
+  "name": "Дристибутивносьььь",
+  "description": "ды.",
+  "details": "тут должна быть умная вещь, но шиш тебе",
+  "size": 3,
+  "health": 500,
+  "range": 200,
+  "reload": 300,
+  "shootCone": 30,
+  "rotateSpeed": 8,
+  "targetGround": true,
+  "targetAir": true,
+  "shootSound": "shootBig",
+  "ammoPerShot": 1,
+  "maxAmmo": 30,
+  "requirements": [
+    {"item": "one", "amount": 100},
+    {"item": "plus", "amount": 80},
+    {"item": "multiplication", "amount": 60}
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "core-n",
+    "requirements": [
+      {"item": "one", "amount": 800},
+      {"item": "plus", "amount": 600},
+      {"item": "multiplication", "amount": 400}
+    ]
+  },
+  "ammoTypes": {
+    "multiplication": {
+      "type": "BasicBulletType",
+      "collides": false,
+      "damage": 0,
+      "speed": 4,
+      "drag": 0.03,
+      "shrinkY": 0,
+      "shrinkX": 0,
+      "width": 25,
+      "height": 25,
+      "lifetime": 180,
+      "sprite": "alef-null-vozduhan",
+      "frontColor": "00ff00",
+      "backColor": "44ff44",
+      "trailColor": "88ff88",
+      "trailWidth": 6,
+      "trailLength": 5,
+      "trailChance": 0.35,
+      "trailEffect": [
+        {
+          "type": "RadialEffect",
+          "rotationSpacing": 90,
+          "effect": {
+            "type": "ParticleEffect",
+            "colorFrom": "00ff00",
+            "colorTo": "44ff44",
+            "particles": 5,
+            "cone": 360,
+            "length": 25,
+            "baseLength": 0,
+            "lightScl": 3,
+            "lightOpacity": 2,
+            "spin": 0,
+            "sizeFrom": 3,
+            "sizeTo": 0,
+            "layer": 99
+          }
+        }
+      ],
+      "parts": [
+        {
+          "type": "HaloPart",
+          "radius": 9,
+          "tri": true,
+          "layer": 110,
+          "color": "00ff00",
+          "haloRotateSpeed": 2,
+          "haloRadius": 3,
+          "haloRadiusTo": 3,
+          "stroke": 10,
+          "strokeTo": 10,
+          "shapes": 4,
+          "triLengthTo": 17,
+          "triLength": 17
+        }
+      ],
+      "parts": [
+        {
+          "type": "FlarePart",
+          "color2": "ffffff",
+          "color1": "00ff00",
+          "radius": 18,
+          "radiusTo": 18,
+          "stroke": 8,
+          "layer": 110,
+          "spinSpeed": 5
+        }
+      ],
+      "despawnEffect": [
+        {
+          "type": "WaveEffect",
+          "colorFrom": "00ff00",
+          "colorTo": "44ff44",
+          "sizeFrom": 0,
+          "sizeTo": 40,
+          "lightScl": 3,
+          "lightOpacity": 1,
+          "sides": 0,
+          "lifetime": 70,
+          "rotation": 0,
+          "strokeFrom": 6,
+          "strokeTo": 0
+        }
+      ],
+      "intervalDelay": 40,
+      "bulletInterval": 4,
+      "intervalRandomSpread": 0,
+      "intervalBullets": 20,
+      "intervalAngle": 180,
+      "intervalSpread": 180,
+      "intervalBullet": {
+        "type": "BasicBulletType",
+        "speed": 7,
+        "damage": 0,
+        "splashDamage": 5,
+        "splashDamageRadius": 80,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 20,
+        "height": 20,
+        "lifetime": 60,
+        "sprite": "alef-null-multiplication",
+        "weaveRandom": true,
+        "weaveScale": 5,
+        "weaveMag": 0.8,
+        "frontColor": "00ff00",
+        "backColor": "44ff44",
+        "trailColor": "88ff88",
+        "trailWidth": 1.5,
+        "trailLength": 12,
+        "homingPower": 0.01,
+        "homingRange": 120,
+        "homingDelay": 10,
+        "hitEffect": "greenCloud",
+        "despawnEffect": "greenCloud"
+      }
+    }
+  },
+  "squareSprite": false,
+  "drawer": {
+    "type": "DrawTurret",
+    "basePrefix": "alef-null-",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-ti-tapok",
+        "x": 0.67,
+        "y": -6.7,
+        "moveX": 0,
+        "moveY": 6.7,
+        "progress": "recoil",
+        "under": false
+      }
+    ]
+  }
+}
