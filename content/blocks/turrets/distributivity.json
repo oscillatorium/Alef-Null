@@ -30,6 +30,7 @@
   },
   "ammoTypes": {
     "multiplication": {
+      "ammoMultiplier": 1,
       "type": "BasicBulletType",
       "collides": false,
       "damage": 0,
@@ -114,10 +115,10 @@
         }
       ],
       "intervalDelay": 60,
-      "bulletInterval": 6,
+      "bulletInterval": 12,
       "intervalRandomSpread": 0,
-      "intervalBullets": 1,
-      "intervalAngle": 180,
+      "intervalBullets": 2,
+      "intervalAngle": 20,
       "intervalSpread": 0,
       "intervalBullet": {
         "type": "BasicBulletType",
