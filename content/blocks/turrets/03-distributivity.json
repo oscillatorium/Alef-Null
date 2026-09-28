@@ -158,7 +158,7 @@
     "radius": 0,
     "radiusTo": 30,
     "stroke": 24,
-    "y": -0.1,
+    "y": 0,
     "progress": "charge",
     "layer": 101
     },
@@ -166,11 +166,11 @@
     "type": "FlarePart",
     "sides": 2,
     "color1": "00ff00bb",
-    "radius": 4,
-    "radiusTo": 60,
+    "radius": 0,
+    "radiusTo": 10,
     "stroke": 7,
     "innerRadScl": 0.70,
-    "y": -0.1,
+    "y": 0,
     "progress": "charge",
     "layer": 101
       }
