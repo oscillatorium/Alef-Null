@@ -122,7 +122,7 @@
         "speed": 3,
         "damage": 0,
         "splashDamage": 10,
-        "splashDamageRadius": 40,
+        "splashDamageRadius": 20,
         "shrinkY": 0,
         "shrinkX": 0,
         "width": 8,
@@ -149,17 +149,37 @@
   "squareSprite": false,
   "drawer": {
     "type": "DrawTurret",
-    "basePrefix": "alef-null-green-",
+    "basePrefix": "alef-null-",
     "parts": [
       {
-        "type": "RegionPart",
-        "suffix": "-ti-tapok",
-        "x": 0,
-        "y": -6.7,
-        "moveX": 0,
-        "moveY": 6.7,
-        "progress": "recoil",
-        "under": false
+      "type": "RegionPart",
+      "name": "alef-null-starred-digon",
+      "blending": "additive",
+      "outline": false,
+      "under": false,
+      "layer": 110,
+      "color": "00ff00",
+      "progress": "charge",
+      "xScl": 0.1,
+      "yScl": 0.1,
+      "growX": 0.4,
+      "growY": 0,
+      "y": 10
+      },
+      {
+      "type": "RegionPart",
+      "name": "alef-null-starred-digon",
+      "blending": "additive",
+      "outline": false,
+      "under": false,
+      "layer": 110,
+      "color": "ffffff",
+      "progress": "charge",
+      "xScl": 0.05,
+      "yScl": 0.05,
+      "growX": 0.2,
+      "growY": 0,
+      "y": 10
       }
     ]
   }
