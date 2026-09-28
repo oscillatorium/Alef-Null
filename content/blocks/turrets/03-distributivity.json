@@ -51,7 +51,7 @@
       "name": "(a + b) × c",
       "path": "alef-null-",
       "barColor": "00ff00",
-      "basicStats": true,
+      "basicStats": false,
       "modeAmmoTypes": {
         "multiplication": {
           "type": "BlackHoleBulletType",
@@ -84,7 +84,7 @@
       "name": "a×b + a×c",
       "path": "alef-null-",
       "barColor": "44ff44",
-      "basicStats": true,
+      "basicStats": false,
       "reloadMultiplier": 0.3,
       "modePattern": {
         "type": "ShootBarrel",
