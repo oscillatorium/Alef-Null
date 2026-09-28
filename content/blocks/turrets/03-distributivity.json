@@ -53,8 +53,8 @@
       "drag": 0.05,
       "lifetime": 120,
       "damage": 0,
-      "damageInterval": 999,
-      "factorRadius": 100,
+      "damageInterval": 2,
+      "factorRadius": 8,
       "pullStrength": 8,
       "accretionDiskColor": "00ff00",
       "shrinkTime": 40,
@@ -67,27 +67,27 @@
         "damage": 80,
         "splashDamage": 120,
         "splashDamageRadius": 60,
-        "hitEffect": "greenCloud",
-        "despawnEffect": "greenCloud"
+        "hitEffect": "greenBomb",
+        "despawnEffect": "greenBomb"
       },
       "info": "Крутой газон"
     }
   },
   "turretModes": [
     {
-      "name": "(a + b) × c",
+      "name": "(a+b)×c",
       "path": "alef-null-",
       "barColor": "00ff00",
       "basicStats": true,
       "modeAmmoTypes": {
         "multiplication": {
           "type": "BlackHoleBulletType",
-          "speed": 3,
+          "speed": 5.5,
           "drag": 0.05,
           "lifetime": 120,
           "damage": 0,
-          "damageInterval": 999,
-          "factorRadius": 100,
+          "damageInterval": 2,
+          "factorRadius": 8,
           "pullStrength": 8,
           "accretionDiskColor": "00ff00",
           "shrinkTime": 40,
@@ -100,19 +100,19 @@
             "damage": 80,
             "splashDamage": 120,
             "splashDamageRadius": 60,
-            "hitEffect": "greenCloud",
-            "despawnEffect": "greenCloud"
+            "hitEffect": "greenBomb",
+            "despawnEffect": "greenBomb"
           },
           "info": "Крутой газон"
         }
       }
     },
     {
-      "name": "a×b + a×c",
+      "name": "a×b+a×c",
       "path": "alef-null-",
       "barColor": "44ff44",
       "basicStats": false,
-      "reloadMultiplier": 0.3,
+      "reloadMultiplier": 10.0,
       "modePattern": {
         "type": "ShootBarrel",
         "shots": 1,
