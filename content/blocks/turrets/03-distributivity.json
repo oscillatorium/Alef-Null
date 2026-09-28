@@ -55,9 +55,9 @@
       "drag": 0.03,
       "shrinkY": 0,
       "shrinkX": 0,
-      "width": 25,
-      "height": 25,
-      "lifetime": 180,
+      "width": 1,
+      "height": 1,
+      "lifetime": 150,
       "sprite": "alef-null-vozduhan",
       "frontColor": "00ff00",
       "backColor": "44ff44",
@@ -115,22 +115,22 @@
           "spinSpeed": 5
         }
       ],
-      "splashDamage": 60,
-      "splashDamageRadius": 60,
+      "splashDamage": 500,
+      "splashDamageRadius": 80,
       "despawnEffect": [
         {
           "type": "WaveEffect",
           "colorFrom": "00ff00",
           "colorTo": "44ff44",
           "sizeFrom": 0,
-          "sizeTo": 120,
-          "lightScl": 3,
-          "lightOpacity": 1,
+          "sizeTo": 80,
+          "lightScl": 10,
+          "lightOpacity": 10,
           "sides": 0,
           "lifetime": 120,
           "rotation": 0,
           "strokeFrom": 10,
-          "strokeTo": 0,
+          "strokeTo": 2,
           "interp": "pow3Out"
         },
         {
@@ -140,12 +140,12 @@
           "particles": 8,
           "cone": 360,
           "length": 40,
-          "baseLength": 0,
+          "baseLength": 5,
           "lightScl": 2,
           "lightOpacity": 1,
           "spin": 0,
-          "sizeFrom": 60,
-          "sizeTo": 60,
+          "sizeFrom": 20,
+          "sizeTo": 10,
           "lifetime": 180,
           "layer": 99
         }
@@ -156,7 +156,7 @@
   },
   "turretModes": [
     {
-      "name": "(a + b) × c",
+      "name": "(a+b)×c",
       "path": "alef-null-",
       "barColor": "00ff00",
       "basicStats": true,
@@ -270,11 +270,11 @@
       }
     },
     {
-      "name": "a×b + a×c",
+      "name": "a×b+a×c",
       "path": "alef-null-",
       "barColor": "44ff44",
       "basicStats": false,
-      "reloadMultiplier": 0.3,
+      "reloadMultiplier": 20.0,
       "modePattern": {
         "type": "ShootBarrel",
         "shots": 1,
