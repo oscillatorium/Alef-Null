@@ -25,6 +25,13 @@
       {"item": "multiplication", "amount": 400}
     ]
   },
+  "shoot": {
+    "type": "ShootSpread",
+    "firstShotDelay": 30,
+    "shotDelay": 0,
+    "spread": 0,
+    "shots": 1
+  },
   "ammoTypes": {
     "multiplication": {
       "ammoMultiplier": 1,
@@ -138,8 +145,8 @@
         "trailWidth": 1.5,
         "trailLength": 12,
         "homingPower": 0.25,
-        "homingRange": 200,
-        "homingDelay": 10,
+        "homingRange": 250,
+        "homingDelay": 15,
         "followAimSpeed": 500000.0,
         "hitEffect": "greenCloud",
         "despawnEffect": "greenCloud"
@@ -160,7 +167,7 @@
     "stroke": 7,
     "innerRadScl": 0.70,
     "y": 0,
-    "progress": "recoil",
+    "progress": "charge",
     "layer": 101
       }
     ]
