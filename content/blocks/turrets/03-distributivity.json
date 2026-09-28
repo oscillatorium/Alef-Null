@@ -151,35 +151,28 @@
     "type": "DrawTurret",
     "basePrefix": "alef-null-",
     "parts": [
-      {
-      "type": "RegionPart",
-      "name": "alef-null-starred-digon",
-      "blending": "additive",
-      "outline": false,
-      "under": false,
-      "layer": 110,
-      "color": "00ff00",
-      "progress": "charge",
-      "xScl": 0.1,
-      "yScl": 0.1,
-      "growX": 0.4,
-      "growY": 0,
-      "y": 10
-      },
-      {
-      "type": "RegionPart",
-      "name": "alef-null-starred-digon",
-      "blending": "additive",
-      "outline": false,
-      "under": false,
-      "layer": 110,
-      "color": "ffffff",
-      "progress": "charge",
-      "xScl": 0.05,
-      "yScl": 0.05,
-      "growX": 0.2,
-      "growY": 0,
-      "y": 10
+    {
+    "type": "FlarePart",
+    "sides": 2,
+    "color1": "00ff0000",
+    "radius": 0,
+    "radiusTo": 30,
+    "stroke": 24,
+    "y": -0.1,
+    "progress": "charge",
+    "layer": 101
+    },
+    {
+    "type": "FlarePart",
+    "sides": 2,
+    "color1": "00ff00bb",
+    "radius": 4,
+    "radiusTo": 60,
+    "stroke": 7,
+    "innerRadScl": 0.70,
+    "y": -0.1,
+    "progress": "charge",
+    "layer": 101
       }
     ]
   }
