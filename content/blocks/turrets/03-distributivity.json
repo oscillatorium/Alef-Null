@@ -1,8 +1,8 @@
 {
   "type": "ModeTurret",
   "name": "Д",
-  "description": "Дегенеративные способности мозга не остановить!",
-  "details": "ton 618 - gd reference???",
+  "description": "Мегабезмозглость",
+  "details": "???абобіш???",
   "size": 3,
   "health": 1500,
   "range": 360,
@@ -48,71 +48,233 @@
   },
   "ammoTypes": {
     "multiplication": {
-      "type": "BlackHoleBulletType",
-      "speed": 3,
-      "drag": 0.05,
-      "lifetime": 120,
+      "type": "BasicBulletType",
+      "collides": false,
       "damage": 0,
-      "damageInterval": 2,
-      "factorRadius": 8,
-      "pullStrength": 8,
-      "accretionDiskColor": "00ff00",
-      "shrinkTime": 40,
-      "growTime": 20,
-      "updateEffect": "greenCloud",
-      "fragBullets": 1,
-      "fragOnDespawn": true,
-      "fragBullet": {
-        "type": "ExplosionBulletType",
-        "damage": 80,
-        "splashDamage": 120,
-        "splashDamageRadius": 60,
-        "hitEffect": "greenBomb",
-        "despawnEffect": "greenBomb"
-      },
-      "info": "Крутой газон"
+      "speed": 4,
+      "drag": 0.03,
+      "shrinkY": 0,
+      "shrinkX": 0,
+      "width": 25,
+      "height": 25,
+      "lifetime": 180,
+      "sprite": "alef-null-vozduhan",
+      "frontColor": "00ff00",
+      "backColor": "44ff44",
+      "trailColor": "88ff88",
+      "trailWidth": 6,
+      "trailLength": 5,
+      "trailChance": 0.35,
+      "trailEffect": [
+        {
+          "type": "RadialEffect",
+          "rotationSpacing": 90,
+          "effect": {
+            "type": "ParticleEffect",
+            "colorFrom": "00ff00",
+            "colorTo": "44ff44",
+            "particles": 5,
+            "cone": 360,
+            "length": 25,
+            "baseLength": 0,
+            "lightScl": 3,
+            "lightOpacity": 2,
+            "spin": 0,
+            "sizeFrom": 3,
+            "sizeTo": 0,
+            "layer": 99
+          }
+        }
+      ],
+      "parts": [
+        {
+          "type": "HaloPart",
+          "radius": 9,
+          "tri": true,
+          "layer": 110,
+          "color": "00ff00",
+          "haloRotateSpeed": 2,
+          "haloRadius": 3,
+          "haloRadiusTo": 3,
+          "stroke": 10,
+          "strokeTo": 10,
+          "shapes": 4,
+          "triLengthTo": 17,
+          "triLength": 17
+        }
+      ],
+      "parts": [
+        {
+          "type": "FlarePart",
+          "color2": "ffffff",
+          "color1": "00ff00",
+          "radius": 18,
+          "radiusTo": 18,
+          "stroke": 8,
+          "layer": 110,
+          "spinSpeed": 5
+        }
+      ],
+      "splashDamage": 60,
+      "splashDamageRadius": 60,
+      "despawnEffect": [
+        {
+          "type": "WaveEffect",
+          "colorFrom": "00ff00",
+          "colorTo": "44ff44",
+          "sizeFrom": 0,
+          "sizeTo": 120,
+          "lightScl": 3,
+          "lightOpacity": 1,
+          "sides": 0,
+          "lifetime": 120,
+          "rotation": 0,
+          "strokeFrom": 10,
+          "strokeTo": 0,
+          "interp": "pow3Out"
+        },
+        {
+          "type": "ParticleEffect",
+          "colorFrom": "00ff0066",
+          "colorTo": "00ff0000",
+          "particles": 8,
+          "cone": 360,
+          "length": 40,
+          "baseLength": 0,
+          "lightScl": 2,
+          "lightOpacity": 1,
+          "spin": 0,
+          "sizeFrom": 60,
+          "sizeTo": 60,
+          "lifetime": 180,
+          "layer": 99
+        }
+      ],
+      "hitEffect": "greenCloud",
+      "info": "До."
     }
   },
   "turretModes": [
     {
-      "name": "(a+b)×c",
+      "name": "(a + b) × c",
       "path": "alef-null-",
       "barColor": "00ff00",
       "basicStats": true,
       "modeAmmoTypes": {
         "multiplication": {
-          "type": "BlackHoleBulletType",
-          "speed": 5.5,
-          "drag": 0.05,
-          "lifetime": 120,
+          "type": "BasicBulletType",
+          "collides": false,
           "damage": 0,
-          "damageInterval": 2,
-          "factorRadius": 8,
-          "pullStrength": 8,
-          "accretionDiskColor": "00ff00",
-          "shrinkTime": 40,
-          "growTime": 20,
-          "updateEffect": "greenCloud",
-          "fragBullets": 1,
-          "fragOnDespawn": true,
-          "fragBullet": {
-            "type": "ExplosionBulletType",
-            "damage": 80,
-            "splashDamage": 120,
-            "splashDamageRadius": 60,
-            "hitEffect": "greenBomb",
-            "despawnEffect": "greenBomb"
-          },
-          "info": "Крутой газон"
+          "speed": 4,
+          "drag": 0.03,
+          "shrinkY": 0,
+          "shrinkX": 0,
+          "width": 25,
+          "height": 25,
+          "lifetime": 180,
+          "sprite": "alef-null-vozduhan",
+          "frontColor": "00ff00",
+          "backColor": "44ff44",
+          "trailColor": "88ff88",
+          "trailWidth": 6,
+          "trailLength": 5,
+          "trailChance": 0.35,
+          "trailEffect": [
+            {
+              "type": "RadialEffect",
+              "rotationSpacing": 90,
+              "effect": {
+                "type": "ParticleEffect",
+                "colorFrom": "00ff00",
+                "colorTo": "44ff44",
+                "particles": 5,
+                "cone": 360,
+                "length": 25,
+                "baseLength": 0,
+                "lightScl": 3,
+                "lightOpacity": 2,
+                "spin": 0,
+                "sizeFrom": 3,
+                "sizeTo": 0,
+                "layer": 99
+              }
+            }
+          ],
+          "parts": [
+            {
+              "type": "HaloPart",
+              "radius": 9,
+              "tri": true,
+              "layer": 110,
+              "color": "00ff00",
+              "haloRotateSpeed": 2,
+              "haloRadius": 3,
+              "haloRadiusTo": 3,
+              "stroke": 10,
+              "strokeTo": 10,
+              "shapes": 4,
+              "triLengthTo": 17,
+              "triLength": 17
+            }
+          ],
+          "parts": [
+            {
+              "type": "FlarePart",
+              "color2": "ffffff",
+              "color1": "00ff00",
+              "radius": 18,
+              "radiusTo": 18,
+              "stroke": 8,
+              "layer": 110,
+              "spinSpeed": 5
+            }
+          ],
+          "splashDamage": 60,
+          "splashDamageRadius": 60,
+          "despawnEffect": [
+            {
+              "type": "WaveEffect",
+              "colorFrom": "00ff00",
+              "colorTo": "44ff44",
+              "sizeFrom": 0,
+              "sizeTo": 120,
+              "lightScl": 3,
+              "lightOpacity": 1,
+              "sides": 0,
+              "lifetime": 120,
+              "rotation": 0,
+              "strokeFrom": 10,
+              "strokeTo": 0,
+              "interp": "pow3Out"
+            },
+            {
+              "type": "ParticleEffect",
+              "colorFrom": "00ff0066",
+              "colorTo": "00ff0000",
+              "particles": 8,
+              "cone": 360,
+              "length": 40,
+              "baseLength": 0,
+              "lightScl": 2,
+              "lightOpacity": 1,
+              "spin": 0,
+              "sizeFrom": 60,
+              "sizeTo": 60,
+              "lifetime": 180,
+              "layer": 99
+            }
+          ],
+          "hitEffect": "greenCloud",
+          "info": "До."
         }
       }
     },
     {
-      "name": "a×b+a×c",
+      "name": "a×b + a×c",
       "path": "alef-null-",
       "barColor": "44ff44",
       "basicStats": false,
-      "reloadMultiplier": 10.0,
+      "reloadMultiplier": 0.3,
       "modePattern": {
         "type": "ShootBarrel",
         "shots": 1,
@@ -153,7 +315,7 @@
           "followAimSpeed": 500000.0,
           "hitEffect": "greenCloud",
           "despawnEffect": "greenCloud",
-          "info": "Много газонов (примечание: не базонов Хиггса или как их там)."
+          "info": "Много газонов."
         }
       }
     }
