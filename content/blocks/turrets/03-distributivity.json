@@ -160,114 +160,7 @@
       "path": "alef-null-",
       "barColor": "00ff00",
       "basicStats": true,
-      "modeAmmoTypes": {
-        "multiplication": {
-          "type": "BasicBulletType",
-          "collides": false,
-          "damage": 0,
-          "speed": 4,
-          "drag": 0.03,
-          "shrinkY": 0,
-          "shrinkX": 0,
-          "width": 25,
-          "height": 25,
-          "lifetime": 180,
-          "sprite": "alef-null-vozduhan",
-          "frontColor": "00ff00",
-          "backColor": "44ff44",
-          "trailColor": "88ff88",
-          "trailWidth": 6,
-          "trailLength": 5,
-          "trailChance": 0.35,
-          "trailEffect": [
-            {
-              "type": "RadialEffect",
-              "rotationSpacing": 90,
-              "effect": {
-                "type": "ParticleEffect",
-                "colorFrom": "00ff00",
-                "colorTo": "44ff44",
-                "particles": 5,
-                "cone": 360,
-                "length": 25,
-                "baseLength": 0,
-                "lightScl": 3,
-                "lightOpacity": 2,
-                "spin": 0,
-                "sizeFrom": 3,
-                "sizeTo": 0,
-                "layer": 99
-              }
-            }
-          ],
-          "parts": [
-            {
-              "type": "HaloPart",
-              "radius": 9,
-              "tri": true,
-              "layer": 110,
-              "color": "00ff00",
-              "haloRotateSpeed": 2,
-              "haloRadius": 3,
-              "haloRadiusTo": 3,
-              "stroke": 10,
-              "strokeTo": 10,
-              "shapes": 4,
-              "triLengthTo": 17,
-              "triLength": 17
-            }
-          ],
-          "parts": [
-            {
-              "type": "FlarePart",
-              "color2": "ffffff",
-              "color1": "00ff00",
-              "radius": 18,
-              "radiusTo": 18,
-              "stroke": 8,
-              "layer": 110,
-              "spinSpeed": 5
-            }
-          ],
-          "splashDamage": 60,
-          "splashDamageRadius": 60,
-          "despawnEffect": [
-            {
-              "type": "WaveEffect",
-              "colorFrom": "00ff00",
-              "colorTo": "44ff44",
-              "sizeFrom": 0,
-              "sizeTo": 120,
-              "lightScl": 3,
-              "lightOpacity": 1,
-              "sides": 0,
-              "lifetime": 120,
-              "rotation": 0,
-              "strokeFrom": 10,
-              "strokeTo": 0,
-              "interp": "pow3Out"
-            },
-            {
-              "type": "ParticleEffect",
-              "colorFrom": "00ff0066",
-              "colorTo": "00ff0000",
-              "particles": 8,
-              "cone": 360,
-              "length": 40,
-              "baseLength": 0,
-              "lightScl": 2,
-              "lightOpacity": 1,
-              "spin": 0,
-              "sizeFrom": 60,
-              "sizeTo": 60,
-              "lifetime": 180,
-              "layer": 99
-            }
-          ],
-          "hitEffect": "greenCloud",
-          "info": "До."
-        }
-      }
+      "modeAmmoTypes": {}
     },
     {
       "name": "a×b+a×c",
@@ -280,8 +173,8 @@
         "shots": 2,
         "shotDelay": 0,
         "barrels": [
-          -4, 8, -30,
-          4, 8, 30
+          -4, 0, 30,
+          4, 0, -30,
         ]
       },
       "modeAmmoTypes": {
