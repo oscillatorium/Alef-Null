@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "size": 3,
-  "health": 500,
+  "health": 1500,
   "range": 360,
   "reload": 300,
   "shootCone": 30,
@@ -27,7 +27,7 @@
   },
   "shoot": {
     "type": "ShootSpread",
-    "firstShotDelay": 30,
+    "firstShotDelay": 60,
     "shotDelay": 0,
     "spread": 0,
     "shots": 1
