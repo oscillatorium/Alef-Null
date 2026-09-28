@@ -154,24 +154,13 @@
     {
     "type": "FlarePart",
     "sides": 2,
-    "color1": "00ff0000",
-    "radius": 0,
-    "radiusTo": 30,
-    "stroke": 24,
-    "y": 0,
-    "progress": "charge",
-    "layer": 101
-    },
-    {
-    "type": "FlarePart",
-    "sides": 2,
-    "color1": "00ff00bb",
+    "color1": "00ff00",
     "radius": 0,
     "radiusTo": 10,
     "stroke": 7,
     "innerRadScl": 0.70,
     "y": 0,
-    "progress": "charge",
+    "progress": "reload",
     "layer": 101
       }
     ]
