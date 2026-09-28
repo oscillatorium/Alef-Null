@@ -46,12 +46,39 @@
       }
     ]
   },
+  "ammoTypes": {
+    "multiplication": {
+      "type": "BlackHoleBulletType",
+      "speed": 3,
+      "drag": 0.05,
+      "lifetime": 120,
+      "damage": 0,
+      "damageInterval": 999,
+      "factorRadius": 100,
+      "pullStrength": 8,
+      "accretionDiskColor": "00ff00",
+      "shrinkTime": 40,
+      "growTime": 20,
+      "updateEffect": "greenCloud",
+      "fragBullets": 1,
+      "fragOnDespawn": true,
+      "fragBullet": {
+        "type": "ExplosionBulletType",
+        "damage": 80,
+        "splashDamage": 120,
+        "splashDamageRadius": 60,
+        "hitEffect": "greenCloud",
+        "despawnEffect": "greenCloud"
+      },
+      "info": "Крутой газон"
+    }
+  },
   "turretModes": [
     {
       "name": "(a + b) × c",
       "path": "alef-null-",
       "barColor": "00ff00",
-      "basicStats": false,
+      "basicStats": true,
       "modeAmmoTypes": {
         "multiplication": {
           "type": "BlackHoleBulletType",
