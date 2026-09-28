@@ -65,6 +65,7 @@
           "accretionDiskColor": "00ff00",
           "shrinkTime": 40,
           "growTime": 20,
+          "updateEffect": "greenCloud",
           "fragBullets": 1,
           "fragOnDespawn": true,
           "fragBullet": {
