@@ -148,7 +148,7 @@
       "path": "alef-null-",
       "barColor": "00ff00",
       "basicStats": true,
-      "modeAmmoTypes": {}
+      "modeAmmoTypes": {},
       "modePattern": {
         "type": "ShootSpread",
         "firstShotDelay": 60,
@@ -169,7 +169,7 @@
         "shotDelay": 0,
         "barrels": [
           -4, 0, 30,
-          4, 0, -30,
+          4, 0, -30
         ]
       },
       "modeAmmoTypes": {
