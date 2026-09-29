@@ -51,41 +51,19 @@
       "type": "BasicBulletType",
       "collides": false,
       "damage": 0,
-      "speed": 4,
-      "drag": 0.03,
+      "speed": 5,
+      "drag": 0.04,
       "shrinkY": 0,
       "shrinkX": 0,
       "width": 1,
       "height": 1,
-      "lifetime": 150,
+      "lifetime": 120,
       "sprite": "alef-null-vozduhan",
       "frontColor": "00ff00",
       "backColor": "44ff44",
       "trailColor": "88ff88",
-      "trailWidth": 6,
-      "trailLength": 5,
-      "trailChance": 0.35,
-      "trailEffect": [
-        {
-          "type": "RadialEffect",
-          "rotationSpacing": 90,
-          "effect": {
-            "type": "ParticleEffect",
-            "colorFrom": "00ff00",
-            "colorTo": "44ff44",
-            "particles": 5,
-            "cone": 360,
-            "length": 25,
-            "baseLength": 0,
-            "lightScl": 3,
-            "lightOpacity": 2,
-            "spin": 0,
-            "sizeFrom": 3,
-            "sizeTo": 0,
-            "layer": 99
-          }
-        }
-      ],
+      "trailWidth": 4,
+      "trailLength": 8,
       "parts": [
         {
           "type": "HaloPart",
@@ -113,6 +91,16 @@
           "stroke": 8,
           "layer": 110,
           "spinSpeed": 5
+        },
+        {
+          "type": "FlarePart",
+          "color2": "00ff00",
+          "color1": "00ff00",
+          "radius": 12,
+          "radiusTo": 12,
+          "stroke": 6,
+          "layer": 109,
+          "spinSpeed": -5
         }
       ],
       "splashDamage": 500,
@@ -135,11 +123,11 @@
         },
         {
           "type": "ParticleEffect",
-          "colorFrom": "00ff0066",
-          "colorTo": "00ff0000",
+          "colorFrom": "88ff8866",
+          "colorTo": "88ff8800",
           "particles": 8,
           "cone": 360,
-          "length": 40,
+          "length": 20,
           "baseLength": 5,
           "lightScl": 2,
           "lightOpacity": 1,
@@ -161,11 +149,18 @@
       "barColor": "00ff00",
       "basicStats": true,
       "modeAmmoTypes": {}
+      "modePattern": {
+        "type": "ShootSpread",
+        "firstShotDelay": 60,
+        "shotDelay": 0,
+        "spread": 0,
+        "shots": 1
+      }
     },
     {
       "name": "a×b+a×c",
       "path": "alef-null-",
-      "barColor": "44ff44",
+      "barColor": "00ff00",
       "basicStats": false,
       "reloadMultiplier": 25.0,
       "modePattern": {
