@@ -49,15 +49,15 @@
   "ammoTypes": {
     "multiplication": {
       "type": "BasicBulletType",
-      "collides": false,
+      "collides": true,
       "damage": 0,
-      "speed": 5,
-      "drag": 0.04,
+      "speed": 6,
+      "drag": 0.01,
       "shrinkY": 0,
       "shrinkX": 0,
       "width": 1,
       "height": 1,
-      "lifetime": 120,
+      "lifetime": 60,
       "sprite": "alef-null-vozduhan",
       "frontColor": "00ff00",
       "backColor": "44ff44",
@@ -86,7 +86,7 @@
           "type": "FlarePart",
           "color2": "ffffff",
           "color1": "00ff00",
-          "radius": 18,
+          "radius": 12,
           "radiusTo": 18,
           "stroke": 8,
           "layer": 110,
@@ -97,8 +97,8 @@
           "color2": "00ff00",
           "color1": "00ff00",
           "radius": 12,
-          "radiusTo": 12,
-          "stroke": 6,
+          "radiusTo": 18,
+          "stroke": 8,
           "layer": 109,
           "spinSpeed": -5
         }
@@ -112,11 +112,11 @@
           "colorTo": "44ff44",
           "sizeFrom": 0,
           "sizeTo": 80,
-          "lightScl": 10,
-          "lightOpacity": 10,
-          "sides": 0,
+          "lightScl": 5,
+          "lightOpacity": 5,
+          "sides": 4,
           "lifetime": 120,
-          "rotation": 0,
+          "rotation": 45,
           "strokeFrom": 10,
           "strokeTo": 2,
           "interp": "pow3Out"
@@ -127,7 +127,7 @@
           "colorTo": "88ff8800",
           "particles": 8,
           "cone": 360,
-          "length": 20,
+          "length": 70,
           "baseLength": 5,
           "lightScl": 2,
           "lightOpacity": 1,
@@ -168,8 +168,8 @@
         "shots": 2,
         "shotDelay": 0,
         "barrels": [
-          -4, 0, 30,
-          4, 0, -30
+          -4, -12, 30,
+          4, -12, -30
         ]
       },
       "modeAmmoTypes": {
