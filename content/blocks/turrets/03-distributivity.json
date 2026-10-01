@@ -1,7 +1,7 @@
 {
   "type": "ModeTurret",
-  "name": "Д",
-  "description": "Мегабезмозглость",
+  "name": "Драйвера здесь нет...",
+  "description": "Мозга тоже",
   "details": "???абобіш???",
   "size": 3,
   "health": 1500,
@@ -49,6 +49,7 @@
   "ammoTypes": {
     "multiplication": {
       "type": "BasicBulletType",
+      "ammoMultiplier": 1,
       "collides": true,
       "damage": 0,
       "speed": 6,
@@ -108,18 +109,18 @@
       "despawnEffect": [
         {
           "type": "WaveEffect",
-          "colorFrom": "00ff00",
-          "colorTo": "44ff44",
+          "colorFrom": "aaffaa",
+          "colorTo": "00ff00",
           "sizeFrom": 0,
           "sizeTo": 80,
           "lightScl": 5,
           "lightOpacity": 5,
           "sides": 4,
           "lifetime": 120,
-          "rotation": 45,
+          "rotation": 0,
           "strokeFrom": 10,
           "strokeTo": 2,
-          "interp": "pow3Out"
+          "followParent": false
         },
         {
           "type": "ParticleEffect",
@@ -138,8 +139,39 @@
           "layer": 99
         }
       ],
-      "hitEffect": "greenCloud",
-      "info": "До."
+      "hitEffect": [
+        {
+          "type": "WaveEffect",
+          "colorFrom": "00ff00",
+          "colorTo": "44ff44",
+          "sizeFrom": 0,
+          "sizeTo": 80,
+          "lightScl": 5,
+          "lightOpacity": 5,
+          "sides": 4,
+          "lifetime": 120,
+          "rotation": 0,
+          "strokeFrom": 10,
+          "strokeTo": 2,
+          "followParent": false
+        },
+        {
+          "type": "ParticleEffect",
+          "colorFrom": "88ff8866",
+          "colorTo": "88ff8800",
+          "particles": 8,
+          "cone": 360,
+          "length": 70,
+          "baseLength": 5,
+          "lightScl": 2,
+          "lightOpacity": 1,
+          "spin": 0,
+          "sizeFrom": 20,
+          "sizeTo": 10,
+          "lifetime": 180,
+          "layer": 99
+        }
+      ]
     }
   },
   "turretModes": [
@@ -168,20 +200,21 @@
         "shots": 2,
         "shotDelay": 0,
         "barrels": [
-          -4, -12, 30,
-          4, -12, -30
+          -4, -12, 45,
+          4, -12, -45
         ]
       },
       "modeAmmoTypes": {
         "multiplication": {
           "type": "BasicBulletType",
+          "ammoMultiplier": 25,
           "speed": 3,
           "damage": 10,
           "shrinkY": 0,
           "shrinkX": 0,
           "width": 8,
           "height": 8,
-          "lifetime": 90,
+          "lifetime": 100,
           "sprite": "alef-null-multiplication",
           "weaveRandom": true,
           "weaveScale": 5,
@@ -191,13 +224,11 @@
           "trailColor": "88ff88",
           "trailWidth": 1.5,
           "trailLength": 12,
-          "homingPower": 0.25,
+          "homingPower": 0.05,
           "homingRange": 250,
           "homingDelay": 15,
-          "followAimSpeed": 500000.0,
           "hitEffect": "greenCloud",
           "despawnEffect": "greenCloud",
-          "info": "Много газонов."
         }
       }
     }
