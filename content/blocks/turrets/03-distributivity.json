@@ -67,23 +67,6 @@
       "trailLength": 8,
       "parts": [
         {
-          "type": "HaloPart",
-          "radius": 9,
-          "tri": true,
-          "layer": 110,
-          "color": "00ff00",
-          "haloRotateSpeed": 2,
-          "haloRadius": 3,
-          "haloRadiusTo": 3,
-          "stroke": 10,
-          "strokeTo": 10,
-          "shapes": 4,
-          "triLengthTo": 17,
-          "triLength": 17
-        }
-      ],
-      "parts": [
-        {
           "type": "FlarePart",
           "color2": "ffffff",
           "color1": "00ff00",
@@ -102,6 +85,21 @@
           "stroke": 8,
           "layer": 109,
           "spinSpeed": -5
+        },
+        {
+          "type": "HaloPart",
+          "radius": 9,
+          "tri": true,
+          "layer": 110,
+          "color": "00ff00",
+          "haloRotateSpeed": 2,
+          "haloRadius": 3,
+          "haloRadiusTo": 3,
+          "stroke": 10,
+          "strokeTo": 10,
+          "shapes": 4,
+          "triLengthTo": 17,
+          "triLength": 17
         }
       ],
       "splashDamage": 500,
@@ -195,13 +193,14 @@
       "barColor": "00ff00",
       "basicStats": false,
       "reloadMultiplier": 25.0,
+      "ammoMultiplier": 25,
       "modePattern": {
         "type": "ShootBarrel",
         "shots": 2,
         "shotDelay": 0,
         "barrels": [
-          -4, -12, 45,
-          4, -12, -45
+          -6, -13, 45,
+          6, -13, -45
         ]
       },
       "modeAmmoTypes": {
@@ -228,7 +227,7 @@
           "homingRange": 250,
           "homingDelay": 15,
           "hitEffect": "greenCloud",
-          "despawnEffect": "greenCloud",
+          "despawnEffect": "greenCloud"
         }
       }
     }
