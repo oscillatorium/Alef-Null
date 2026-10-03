@@ -7,6 +7,8 @@
   "health": 1500,
   "range": 360,
   "reload": 300,
+  "recoil": 0,
+  "outlineColor": "004400",
   "shootCone": 30,
   "rotateSpeed": 3,
   "targetGround": true,
