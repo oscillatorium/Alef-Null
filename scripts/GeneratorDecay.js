@@ -1,3 +1,4 @@
+/*
 const GeneratorDecay = {
 
   ticksPerItem: 60,
@@ -49,3 +50,4 @@ const GeneratorDecay = {
 };
 
 module.exports = GeneratorDecay;
+*/
