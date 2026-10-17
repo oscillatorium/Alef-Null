@@ -3,21 +3,21 @@
   "size": 1,
   "health": 10,
   "speed": 10.9090909090909090909090909,
-  "junctionReplacement": "intersection",
+  "junctionReplacement": "log-010-intersection",
   "requirements": [
-    {"item": "plus", "amount": 1}
+    {"item": "item-opr-000-plus", "amount": 1}
   ],
   "category": "distribution",
   "hasPower": true,
   "outputsPower": true,
   "conductivePower": true,
   "consumes": {
-    "powerBuffered": 10
+    "powerBuffered": 1
   },
   "research": {
-    "parent": "successor",
+    "parent": "drl-000-successor",
     "requirements": [
-      {"item": "plus", "amount": 10}
+      {"item": "item-opr-000-plus", "amount": 10}
     ]
   }
 }
