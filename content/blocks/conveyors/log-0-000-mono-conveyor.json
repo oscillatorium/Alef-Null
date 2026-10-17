@@ -3,7 +3,7 @@
   "size": 1,
   "health": 10,
   "speed": 10.9090909090909090909090909,
-  "junctionReplacement": "log-010-intersection",
+  "junctionReplacement": "log-1-000-intersection",
   "requirements": [
     {"item": "item-opr-000-plus", "amount": 1}
   ],
