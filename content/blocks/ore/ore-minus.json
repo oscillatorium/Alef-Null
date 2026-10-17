@@ -1,6 +1,6 @@
 {
   "type": "OreBlock",
-  "itemDrop": "minus",
+  "itemDrop": "item-opr-010-minus",
   "mapColor": "ff0000",
   "variants": 2
 }
