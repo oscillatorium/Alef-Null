@@ -5,10 +5,10 @@
   "speed": 0.09166666666666666666666666666666666666666666666666666,
   "itemCapacity": 10,
   "requirements": [
-    {"item": "one", "amount": 5},
-    {"item": "plus", "amount": 10},
-    {"item": "multiplication", "amount": 1},
-    {"item": "division", "amount": 1}
+    {"item": "item-set-000-element", "amount": 5},
+    {"item": "item-opr-000-plus", "amount": 10},
+    {"item": "item-opr-020-multiplication", "amount": 1},
+    {"item": "item-opr-030-division", "amount": 1}
   ],
   "loadEffect": {
     "type": "ParticleEffect",
@@ -34,13 +34,12 @@
   },
   "category": "distribution",
   "research": {
-    "parent": "equals",
+    "parent": "log-0-000-mono-conveyor",
     "requirements": [
-      {"item": "one", "amount": 500},
-      {"item": "plus", "amount": 1000},
-      {"item": "multiplication", "amount": 100},
-      {"item": "division", "amount": 100}
+      {"item": "item-set-000-element", "amount": 500},
+      {"item": "item-opr-000-plus", "amount": 1000},
+      {"item": "item-opr-020-multiplication", "amount": 100},
+      {"item": "item-opr-030-division", "amount": 100}
     ]
-  },
-  "researchCostMultiplier": 1
+  }
 }
