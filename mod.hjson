@@ -8,4 +8,16 @@ minGameVersion: 160
 java: false
 hidden: false
 repo: "oscillatorium/Alef-Null"
-contentOrder: []
+contentOrder: [
+zero
+one
+anti-one
+i
+fraction
+plus
+minus
+multiplication
+division
+power
+root
+]
