@@ -6,7 +6,7 @@
   "armor": 0,
   "mineTier": 1,
   "mineSpeed": 2.0,
-  "mineItems": ["alef-null-plus","alef-null-item-opr-010-minus"],
+  "mineItems": ["alef-null-plus","alef-null-minus"],
   "buildSpeed": 0.5,
   "hitSize": 16,
   "rotateSpeed": 4,
