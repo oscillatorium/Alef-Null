@@ -1,10 +1,11 @@
 displayName: "[[]#80ff80]Alef-Null[[]]"
 name: "alef-null"
 author: "[[]#80ff80]Кселирит[[]]"
-subtitle: "[[]#ff0000]Мод не будет работать вообще[[]]"
-description: "[[]#ff0000]Автор заплыл жиром и мод пока не работает/The author is fat and the mod doesn't work yet.[[]]"
+subtitle: "ленивост"
+description: "Ну типо математический мод на звёздную систему по математике и типо там контент это математика типо крутость"
 version: 1.04
-minGameVersion: 993
+minGameVersion: 160
 java: false
 hidden: false
 repo: "oscillatorium/Alef-Null"
+contentOrder: []
