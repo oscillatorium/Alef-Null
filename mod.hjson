@@ -14,10 +14,16 @@ one
 anti-one
 i
 fraction
+variable
+pi
+e
 plus
 minus
 multiplication
 division
 power
 root
+logarithm
+core-n
+subitizator
 ]
