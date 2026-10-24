@@ -5,13 +5,13 @@
   "buildTime": 1800,
   "armor": 5,
   "itemCapacity": 1000,
-  "unitType": "unit-0-000-subitizator",
+  "unitType": "subitizator",
   "category": "effect",
   "requirements": [
-    "item-num-000-zero/1",
-    "item-num-010-one/250",
-    "item-opr-000-plus/250",
-    "item-set-000-element/250"
+    "zero/1",
+    "one/250",
+    "plus/250",
+    "element/250"
   ],
   "alwaysUnlocked": true,
   "research": {
