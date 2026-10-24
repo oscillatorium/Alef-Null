@@ -6,7 +6,7 @@
   "armor": 0,
   "mineTier": 1,
   "mineSpeed": 2.0,
-  "mineItems": ["alef-null-plus"],
+  "mineItems": ["alef-null-item-opr-000-plus","alef-null-item-opr-010-minus"],
   "buildSpeed": 0.5,
   "hitSize": 16,
   "rotateSpeed": 4,
@@ -24,7 +24,7 @@
       "range": 80,
       "reload": 120,
       "duration": 240,
-      "effect": "multiplication-energy"
+      "effect": "sts-030-multiplication-energy"
     }
   ],
   "weapons": [
@@ -485,5 +485,10 @@
       }
     }
   ],
-  "research": "additor"
+  "research": {
+    "parent": "uf-0-mono-constructor",
+    "requirements": [
+      {"item": "item-opr-020-multiplication", "amount": 500}
+    ]
+  }
 }
