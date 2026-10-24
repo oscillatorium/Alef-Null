@@ -3,9 +3,9 @@
   "size": 1,
   "health": 10,
   "speed": 10.9090909090909090909090909,
-  "junctionReplacement": "log-1-000-intersection",
+  "junctionReplacement": "intersection",
   "requirements": [
-    {"item": "item-opr-000-plus", "amount": 1}
+    {"item": "plus", "amount": 1}
   ],
   "category": "distribution",
   "hasPower": true,
@@ -15,9 +15,9 @@
     "powerBuffered": 1
   },
   "research": {
-    "parent": "drl-000-successor",
+    "parent": "successor",
     "requirements": [
-      {"item": "item-opr-000-plus", "amount": 10}
+      {"item": "plus", "amount": 10}
     ]
   }
 }
