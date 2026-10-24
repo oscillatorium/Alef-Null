@@ -8,7 +8,7 @@
   "range": 160,
   "mineTier": 1,
   "mineSpeed": 1.0,
-  "mineItems": ["alef-null-item-opr-000-plus"],
+  "mineItems": ["alef-null-plus"],
   "buildSpeed": -1,
   "itemCapacity": 20,
   "rotateSpeed": 10,
@@ -79,9 +79,9 @@
     }
   ],
   "research": {
-    "parent": "uf-0-mono-constructor",
+    "parent": "mono-constructor",
     "requirements": [
-      {"item": "item-opr-000-plus", "amount": 50}
+      {"item": "plus", "amount": 50}
     ]
   }
 }
