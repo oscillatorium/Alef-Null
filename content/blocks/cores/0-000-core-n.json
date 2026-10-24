@@ -1,17 +1,17 @@
 {
-  "type": "GeneratorCoreBlock",
-  "powerProduction": 8.333333333,
+  "type": "CoreBlock",
   "size": 3,
   "health": 1000,
   "buildTime": 1800,
   "armor": 5,
   "itemCapacity": 1000,
-  "unitType": "subitizator",
+  "unitType": "unit-0-000-subitizator",
   "category": "effect",
   "requirements": [
-    "one/250",
-    "plus/250",
-    "zero/1"
+    "item-num-000-zero/1",
+    "item-num-010-one/250",
+    "item-opr-000-plus/250",
+    "item-set-000-element/250"
   ],
   "alwaysUnlocked": true,
   "research": {
