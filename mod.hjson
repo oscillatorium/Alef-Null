@@ -2,7 +2,7 @@ displayName: "[[]#80ff80]Alef-Null[[]]"
 name: "alef-null"
 author: "[[]#80ff80]Кселирит[[]]"
 subtitle: "ленивост"
-description: "Ну типо математический мод на звёздную систему по математике и типо там контент это математика типо крутость"
+description: "Ну типо математический мод на звёздную систему по математике и типо там контент это математика типо крутость, но мод пока в раннем доступе т.к. планета не играбельна"
 version: 1.04
 minGameVersion: 160
 java: false
@@ -25,5 +25,11 @@ power
 root
 logarithm
 core-n
+mono-conveyor
+deka-conveyor
+intersection
+division-router
+equals
+imaginary-bridge
 subitizator
 ]
